@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #DBDFE7;
+}
+/* App.css */
+h1, h2, h3 {
+  font-family: 'Dancing Script', cursive; /* Fanky font for headers */
+}
+
+body, p {
+  font-family: 'Roboto', sans-serif; /* Regular font for body text */
+  line-height: 1.6; /* Öka radavståndet för bättre läsbarhet */
+  color: #343a40; /* Färg för text */
+}
