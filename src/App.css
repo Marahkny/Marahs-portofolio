@@ -1,11 +1,6 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,16 +31,14 @@
     transform: rotate(360deg);
   }
 }
-body {
-  background-color: #DBDFE7;
-}
+
 /* App.css */
-h1, h2, h3 {
-  font-family: 'Dancing Script', cursive; /* Fanky font for headers */
+h1, h2, h3, h4, h5 {
+  font-family: 'Patrick Hand, cursive';
 }
 
 body, p {
-  font-family: 'Roboto', sans-serif; /* Regular font for body text */
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6; /* Öka radavståndet för bättre läsbarhet */
-  color: #000000; /* Färg för text */
+ 
 }

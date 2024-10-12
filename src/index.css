@@ -1,13 +1,13 @@
+/* Allmänt stil för kroppen */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif; /* Standard font för text */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Specifika stilar för rubriker */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Patrick Hand', cursive; /* Rubriker får Patrick Hand font */
 }
+

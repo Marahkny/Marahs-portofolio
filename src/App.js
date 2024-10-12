@@ -4,6 +4,8 @@ import Work from './work';
 import About from './about';
 import Techcity from './tech/teachcity'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css'; // Se till att denna rad finns
+
 
 function App() {
   return (

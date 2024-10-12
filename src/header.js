@@ -21,7 +21,14 @@ const Header = () => {
             <Nav className="ms-auto"> {/* Flytta navigationslänkarna till höger */}
               <Nav.Link href="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize:'20px'}}>About</Nav.Link>
               <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive',fontSize:'20px' }}>Work</Nav.Link>
-              <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive',fontSize:'20px' }}>Resume</Nav.Link>
+              <Nav.Link 
+ 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}
+>
+  Resume
+</Nav.Link>
 
             </Nav>
             <Nav className="d-flex align-items-center"> {/* Extra ikonsektion */}
