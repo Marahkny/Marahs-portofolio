@@ -12,8 +12,8 @@ const Herobild = () => {
   Hello! I’m
 </h1>
 
-              <h2 className="display-1" style={{color:'#e46698' }}>Marah Kn</h2>
-              <p className="lead" style={{fontSize:'20px'}}>
+              <h2 className="display-1" style={{color:'#e46698', fontFamily: 'Patrick Hand, cursive', fontWeight:'bold'  }}>Marah Kn</h2>
+              <p className="lead" style={{fontSize:'20px', fontFamily: 'Patrick Hand, cursive'}}>
                 A web editor with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>

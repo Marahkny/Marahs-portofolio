@@ -11,7 +11,7 @@ const Sektion = () => {
           {/* Left Section */}
           <Col xs={12} md={6} className="text-center">
             <img 
-              src="/Photos/Namnlös design (47).png" 
+              src="/Photos/GIF.gif" 
               alt="Techcity" 
               className="img-fluid mb-3" 
               style={{ borderRadius: '15px', height: 'auto' }} 
