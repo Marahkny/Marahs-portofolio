@@ -49,7 +49,7 @@ const Sektion = () => {
       <Row className="justify-content-center"> {/* Centrera kolumnerna */}
         {/* Discover Column */}
         <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3>Discover</h3>
+          <h3 style={{ fontFamily: 'Dancing Script, cursive' }}>Discover</h3>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
             <li>User Research</li>
             <li>Market and Competitor Analysis</li>
@@ -59,7 +59,7 @@ const Sektion = () => {
 
         {/* Define Column */}
         <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3>Define</h3>
+          <h3 style={{ fontFamily: 'Dancing Script, cursive' }}>Define</h3>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
             <li>User Flows and Scenarios</li>
             <li>Wireframes</li>
@@ -68,7 +68,7 @@ const Sektion = () => {
 
         {/* Develop Column */}
         <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3>Develop</h3>
+          <h3 style={{ fontFamily: 'Dancing Script, cursive' }}>Develop</h3>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
             <li>Prototyping</li>
           </ul>
@@ -76,7 +76,7 @@ const Sektion = () => {
       </Row>
     </Container>
     <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px' }}>
+    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Dancing Script, cursive' }}>
     User Research
           </h2>
     </div>
@@ -104,7 +104,7 @@ const Sektion = () => {
     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
   >
     <div style={{ color: 'white' }}>
-      <h3 className="font-weight-bold text-center p-2">Underlying Thoughts</h3>
+      <h3 className="font-weight-bold text-center p-2" style={{ fontFamily: 'Dancing Script, cursive' }}>Underlying Thoughts</h3>
       
       <p>Purpose of Developing the Product (<strong>Why</strong> build this product?)</p>
       <p>Target Audience (<strong>Who</strong> are the users?)</p>
@@ -119,7 +119,7 @@ const Sektion = () => {
     <Container fluid className="d-flex justify-content-center align-items-center p-4" >
   <Row className="justify-content-center pb-5">
     <Col md={8}>
-      <h2>Why build this product?</h2>
+      <h2 style={{ fontFamily: 'Dancing Script, cursive' }}>Why build this product?</h2>
       
       <p>
       <strong>Problem:</strong> research shows inconsistent user experiences (UX) across major e-commerce platforms like Elgiganten and Power.
@@ -135,7 +135,7 @@ const Sektion = () => {
         <li><strong>Seamless Experience:</strong> Users can easily add and keep track of items without unnecessary logins or re-selections.</li>
       </ul>
       <hr style={{ borderColor: 'black', margin: '40px' }} />
-      <h4 className="pt-2">Who are the users?</h4>
+      <h4 className="pt-2" style={{ fontFamily: 'Dancing Script, cursive' }}>Who are the users?</h4>
       <ul >
         <li>Technology enthusiasts and professionals interested in the latest technology, innovations, and IT trends.</li>
         <li>Students and developers looking to learn more and grow within the tech field.</li>
@@ -143,7 +143,7 @@ const Sektion = () => {
         <li>Startups searching for innovation and digital solutions to scale their businesses.</li>
       </ul>
       <hr style={{ borderColor: 'black', margin: '40px' }} />
-      <h4 className="pt-2">Goals of the Product (For both business & users)</h4>
+      <h4 className="pt-2" style={{ fontFamily: 'Dancing Script, cursive' }}>Goals of the Product (For both business & users)</h4>
       <p> <strong>Business Goals</strong></p>
       <ul >
         <li>Establish TechCity as a leading authority and trusted source of information in technology and innovation.
@@ -163,7 +163,7 @@ const Sektion = () => {
   </Row>
 </Container>
 <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#0B6BA5', color: 'white', padding: '30px' }}>
+    <h2 style={{ backgroundColor: '#0B6BA5', color: 'white', padding: '30px', fontFamily: 'Dancing Script, cursive' }}>
     Market Analysis
           </h2>
     </div>
@@ -254,7 +254,7 @@ To ensure users don’t forget anything, the wish list should be visible at step
     </div>
     <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
     <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px' }}>
+    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Dancing Script, cursive' }}>
     Personas
           </h2>
     </div>
@@ -270,13 +270,13 @@ To ensure users don’t forget anything, the wish list should be visible at step
 <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
 
     <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px' }}>
+    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Dancing Script, cursive' }}>
     MVH & User flow
           </h2>
           <p className="lead">Define phase</p>
     </div>
     <section className="container py-5">
-  <h2 className="text-center mb-4">HMWs to Product Goals</h2>
+  <h2 className="text-center mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>HMWs to Product Goals</h2>
   <div className="row justify-content-center">
     <div className="col-md-4 mb-4">
       <div className="p-4 shadow" style={{ backgroundColor: '#e46698', borderRadius: '8px', color: 'white' }}>
@@ -293,7 +293,7 @@ To ensure users don’t forget anything, the wish list should be visible at step
   </div>
 </section>
 
-    <h2 className="text-center mb-4">User flow</h2>
+    <h2 className="text-center mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>User flow</h2>
     
     <div className="d-flex justify-content-center mt-5">
         
@@ -306,7 +306,7 @@ To ensure users don’t forget anything, the wish list should be visible at step
     </div>
     <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
     <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px' }}>
+    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Dancing Script, cursive'  }}>
     Wireframes
           </h2>
     </div>
@@ -343,7 +343,7 @@ To ensure users don’t forget anything, the wish list should be visible at step
 </div>
 <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
 <div className="justify-content-center text-center mt-4"> 
-    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px' }}>
+    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Dancing Script, cursive' }}>
     Prototyp
           </h2>
 

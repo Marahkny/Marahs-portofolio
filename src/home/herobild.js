@@ -8,7 +8,7 @@ const Herobild = () => {
         <Container fluid className="bg-light text-center py-5" >
           <Row className="justify-content-center">
             <Col md={8}>
-            <h1 className="display-4" style={{ fontFamily: 'Dancing Script, cursive' }}>
+            <h1 className="display-2" style={{ fontFamily: 'Patrick Hand, cursive' }}>
   Hello! I’m
 </h1>
 

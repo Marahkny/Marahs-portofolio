@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #DBDFE7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,5 +47,5 @@ h1, h2, h3 {
 body, p {
   font-family: 'Roboto', sans-serif; /* Regular font for body text */
   line-height: 1.6; /* Öka radavståndet för bättre läsbarhet */
-  color: #343a40; /* Färg för text */
+  color: #000000; /* Färg för text */
 }
