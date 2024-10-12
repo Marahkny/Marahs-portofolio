@@ -22,13 +22,14 @@ const Header = () => {
               <Nav.Link href="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize:'20px'}}>About</Nav.Link>
               <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive',fontSize:'20px' }}>Work</Nav.Link>
               <Nav.Link 
- 
+  href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing" 
   target="_blank" 
   rel="noopener noreferrer" 
   style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}
 >
   Resume
 </Nav.Link>
+
 
             </Nav>
             <Nav className="d-flex align-items-center"> {/* Extra ikonsektion */}
