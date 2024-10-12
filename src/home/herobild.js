@@ -1,5 +1,6 @@
 import React from 'react';
 import {  Container, Row, Col } from 'react-bootstrap';
+import '../FancyText.css'
 const Herobild = () => {
     return (
       <>
@@ -13,8 +14,8 @@ const Herobild = () => {
 </h1>
 
               <h2 className="display-1" style={{color:'#e46698', fontFamily: 'Patrick Hand, cursive', fontWeight:'bold'  }}>Marah Kn</h2>
-              <p className="lead" style={{fontSize:'20px', fontFamily: 'Patrick Hand, cursive'}}>
-                A web editor with an educational background in UI/UX design, frontend development, and graphic design.
+              <p className="lead fancy-text" style={{fontSize:'20px', fontFamily: 'Patrick Hand, cursive'}} >
+                A <span className="fancy-underline">web editor </span> with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>
           </Row>

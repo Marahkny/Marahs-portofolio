@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../FancyText.css'
 // Main Section component
 const Sektion = () => {
   return (
@@ -44,13 +45,13 @@ const Sektion = () => {
       
   </Row>
   </Container>
-  <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
+  <div ></div>
    <Container className="mt-5 mb-5">
       <Row className="justify-content-center"> {/* Centrera kolumnerna */}
         {/* Discover Column */}
         <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3 style={{ fontFamily: 'Patrick Hand, cursive'}}>Discover</h3>
-          <ul style={{ listStyleType: 'none', padding: 0 }}>
+          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive'}}>Discover</h3>
+          <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>User Research</li>
             <li>Market and Competitor Analysis</li>
             <li>Personas</li>
@@ -59,8 +60,8 @@ const Sektion = () => {
 
         {/* Define Column */}
         <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3 style={{ fontFamily: 'Patrick Hand, cursive' }}>Define</h3>
-          <ul style={{ listStyleType: 'none', padding: 0 }}>
+          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Define</h3>
+          <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>User Flows and Scenarios</li>
             <li>Wireframes</li>
           </ul>
@@ -68,8 +69,8 @@ const Sektion = () => {
 
         {/* Develop Column */}
         <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3 style={{ fontFamily: 'Patrick Hand, cursive' }}>Develop</h3>
-          <ul style={{ listStyleType: 'none', padding: 0 }}>
+          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Develop</h3>
+          <ul style={{ listStyleType: 'none', padding: '20px'}}>
             <li>Prototyping</li>
           </ul>
         </Col>
@@ -82,10 +83,10 @@ const Sektion = () => {
     </div>
     <Container fluid className='pb-4'  >
       {/* User Research Header */}
-      <Row className="justify-content-center text-center">
+      <Row className="justify-content-center text-center p-2">
         <Col md={12} >
           
-          <p className="lead">Discover phase</p>
+          <p  className="lead fancy-underline">Discover phase</p>
         </Col>
       </Row>
 
@@ -216,7 +217,7 @@ const Sektion = () => {
             <tr>
               <td><strong>Weaknesses</strong></td>
               <td>
-                <ul>
+                <ul >
                 <li>The user cannot return to the last opened page after logging in to add a product to the wish list.</li>
 <li>The user cannot see the wish list during the checkout process.</li>
 
@@ -273,7 +274,7 @@ To ensure users don’t forget anything, the wish list should be visible at step
     <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     MVH & User flow
           </h2>
-          <p className="lead">Define phase</p>
+          <p className="lead fancy-underline">Define phase</p>
     </div>
     <section className="container py-5">
   <h2 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h2>
@@ -348,7 +349,9 @@ To ensure users don’t forget anything, the wish list should be visible at step
           </h2>
 
     </div>
+    
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', margin:'20px'}}>
+    
   <Button 
     href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&node-type=canvas&t=tpaCGDBPEb2loNS1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" 
     style={{ backgroundColor: '#F5C518', color: 'black', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
