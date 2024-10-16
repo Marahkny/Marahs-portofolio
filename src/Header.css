@@ -16,14 +16,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    padding-left: 40px;
+ 
   }
   
   .menu-icons {
     display: flex;
     align-items: center;
-    padding: 20px;
-    gap: 20px; /* Sätter 20px mellan ikonerna */
+    padding: 10px;
+    gap: 10px; /* Sätter 20px mellan ikonerna */
   }
   
   
