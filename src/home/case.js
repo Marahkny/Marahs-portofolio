@@ -76,13 +76,24 @@ const Case = () => {
           <strong>Role:</strong> User research + UX/UI designer + brand designer + implementation <br />
           <strong>Industry:</strong> Educational, Climate
         </p>
-        <Button 
-          href="/klimat"  
-          className="mt-3 no-border-button" 
-          style={{ backgroundColor: '#0B6BA5', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
-        >
-          View Case Study
-        </Button>
+        
+        <Link 
+  to="/klimat" 
+  className="btn mt-3 no-border-button" 
+  style={{ 
+    backgroundColor: '#0B6BA5',  
+    border: 'none', 
+    padding: '12px 24px', 
+    borderRadius: '50px', 
+    color:'white',
+    
+    
+    textDecoration: 'none', // Prevents default underline styling
+    display: 'inline-block' // Makes sure it behaves like a button
+  }}
+>
+  View Case Study
+</Link>
       </Col>
 
     </Row>

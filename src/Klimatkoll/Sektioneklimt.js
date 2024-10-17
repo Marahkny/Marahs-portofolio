@@ -86,7 +86,7 @@ const Sektionklimt = () => {
     </Container>
     <div className="justify-content-center text-center"> 
     <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
-    User Research
+    Discover phase
           </h2>
     </div>
     <Container fluid className='pb-4'  >
@@ -94,7 +94,7 @@ const Sektionklimt = () => {
       <Row className="justify-content-center text-center p-2">
         <Col md={12} >
           
-          <p  className="lead fancy-underline">Discover phase</p>
+          <p  className="lead fancy-underline">User Research</p>
         </Col>
       </Row>
 
@@ -102,8 +102,19 @@ const Sektionklimt = () => {
     </Container>
 
     <Container fluid className="d-flex justify-content-center align-items-center p-4" >
-  <Row className="justify-content-center pb-5">
+  <Row className="justify-content-center ">
     <Col md={8}>
+    <h2 style={{ fontFamily: 'Patrick Hand, cursive' }}>Why build this product?</h2>
+      
+      <p>
+      <strong>Problem:</strong> A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.
+      </p>
+      <p>Key Issues:</p>
+      <ul >
+        <li><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
+        <li><strong>Engage Diverse Audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
+        <li><strong>Interactive Learning:</strong> To incorporate various educational tools, including quizzes and challanges, to enhance understanding and foster sustainable behaviors.</li>
+      </ul>
       <h2 style={{ fontFamily: 'Patrick Hand, cursive' }}>Target Audience Research</h2>
       
       <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.
@@ -115,59 +126,47 @@ const Sektionklimt = () => {
         <li>Research focused on topics such as climate anxiety, youth involvement in environmental issues, and their understanding of climate change.</li>
         <li>It was discovered that many young people had not received in-depth education on climate issues, affecting their awareness and interest.</li>
       </ul>
-      <p className="pt-4">TechCity’s Solution:</p>
-      <ul >
-        <li><strong>User-Friendly Wish List:</strong> A built-in, intuitive wish list feature designed from the ground up.</li>
-        <li><strong>Seamless Experience:</strong> Users can easily add and keep track of items without unnecessary logins or re-selections.</li>
-      </ul>
-      <hr style={{ borderColor: 'black', margin: '40px' }} />
-      <h4 className="pt-2" style={{ fontFamily: 'Patrick Hand, cursive' }}>Who are the users?</h4>
-      <ul >
-        <li>Technology enthusiasts and professionals interested in the latest technology, innovations, and IT trends.</li>
-        <li>Students and developers looking to learn more and grow within the tech field.</li>
-        <li>Small to medium-sized businesses seeking affordable and tailored tech solutions.</li>
-        <li>Startups searching for innovation and digital solutions to scale their businesses.</li>
-      </ul>
-      <hr style={{ borderColor: 'black', margin: '40px' }} />
-      <h4 className="pt-2" style={{ fontFamily: 'Patrick Hand, cursive' }}>Goals of the Product (For both business & users)</h4>
-      <p> <strong>Business Goals</strong></p>
-      <ul >
-        <li>Establish TechCity as a leading authority and trusted source of information in technology and innovation.
-        </li>
-        <li>Convert website visitors into qualified leads or paying customers by offering valuable, tailored products, services, and resources.
-        </li>
-        <li>Improve the purchase process by enabling users to easily view and manage their wish list throughout their shopping journey.</li>
-      </ul>
-      <p> <strong>User Goals</strong></p>
-      <ul >
-        <li>Provide up-to-date technology news, trends, and innovations to keep users informed and engaged.</li>
-        <li>Allow users to access and view their wish list after logging in and facilitate a smooth purchasing process for wish-listed items.
-        </li>
-        <li>Offer small to medium-sized businesses customized and cost-effective tech solutions that cater to their specific needs.</li>
-      </ul>
+      
+     
+    </Col>
+  </Row>
+  
+</Container>
+
+<Container fluid className="d-flex justify-content-center align-items-center p-4" style={{backgroundColor:'#f8f9fa'}}>
+  <Row className="justify-content-center pb-5">
+    <Col md={8} className=' text-center' >
+      {/* First paragraph centered */}
+      <p className="lead fancy-underline text-center">Personas</p>
+      {/* Second paragraph left-aligned but horizontally centered */}
+      <p className="text-left">
+        Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic. 
+      </p>
+    </Col>
+<p className='p4'></p>
+    <Col xs={12} md={5} className="d-flex justify-content-center pb-3 shadow">
+      <img 
+        src="/Photos/persona 1.png" 
+        alt="Persona Alicia" 
+        className="img-fluid"
+      />
+    </Col>
+    <Col xs={12} md={5} className="d-flex justify-content-center pb-3 shadow">
+      <img 
+        src="/Photos/persona 2.png" 
+        alt="Persona Gabriel" 
+        className="img-fluid"
+      />
     </Col>
   </Row>
 </Container>
-<div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#0B6BA5', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
-    Market Analysis
-          </h2>
-    </div>
-    <div 
-  style={{
-    padding: '20px 40px',
-    
-  }}
->
-  To conduct a market analysis, I have analyzed  <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'underline' }}> Power.se</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'underline' }}> Elgiganten.se</a>.
-</div>
 
 
-    
-    <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
+
+ 
     <div className="justify-content-center text-center"> 
     <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
-    Personas
+    Define phase
           </h2>
     </div>
     <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
