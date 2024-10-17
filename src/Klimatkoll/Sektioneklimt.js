@@ -85,7 +85,7 @@ const Sektionklimt = () => {
       </Row>
     </Container>
     <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
+    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
     User Research
           </h2>
     </div>
@@ -98,45 +98,22 @@ const Sektionklimt = () => {
         </Col>
       </Row>
 
-      {/* Underlying Thoughts Section */}
-      <Row className="justify-content-center pb-5">
-      <Col md={6}>
-  <div
-    className="p-4"
-    style={{
-      backgroundColor: '#0B6BA5',
-      borderRadius: '15px', // Rounded corners
-      boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.15)', // Softer shadow
-      transition: 'transform 0.2s ease', // Hover effect
-    }}
-    onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-    onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
-  >
-    <div style={{ color: 'white' }}>
-      <h3 className="font-weight-bold text-center p-2" style={{ fontFamily: 'Patrick Hand, cursive' }}>Underlying Thoughts</h3>
-      
-      <p>Purpose of Developing the Product (<strong>Why</strong> build this product?)</p>
-      <p>Target Audience (<strong>Who</strong> are the users?)</p>
-      <p>Goals of the Product (For both business & users)</p>
-    </div>
-  </div>
-</Col>
-
-      </Row>
+     
     </Container>
 
     <Container fluid className="d-flex justify-content-center align-items-center p-4" >
   <Row className="justify-content-center pb-5">
     <Col md={8}>
-      <h2 style={{ fontFamily: 'Patrick Hand, cursive' }}>Why build this product?</h2>
+      <h2 style={{ fontFamily: 'Patrick Hand, cursive' }}>Target Audience Research</h2>
       
-      <p>
-      <strong>Problem:</strong> research shows inconsistent user experiences (UX) across major e-commerce platforms like Elgiganten and Power.
+      <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.
       </p>
-      <p>Key Issues:</p>
+      <p>Research Process</p>
       <ul >
-        <li><strong>Wish List Visibility:</strong> Users struggle to access or manage wish lists during purchases.</li>
-        <li><strong>Login Frustration:</strong> Users must log in to save items, often losing selected products afterward.</li>
+        <li>Articles and reports on youth engagement in climate issues were collected and analyzed.</li>
+        <li>The predefined target audience of students aged 13-15 was studied through secondary sources.</li>
+        <li>Research focused on topics such as climate anxiety, youth involvement in environmental issues, and their understanding of climate change.</li>
+        <li>It was discovered that many young people had not received in-depth education on climate issues, affecting their awareness and interest.</li>
       </ul>
       <p className="pt-4">TechCity’s Solution:</p>
       <ul >
@@ -186,81 +163,7 @@ const Sektionklimt = () => {
 </div>
 
 
-    <div className="container mt-4">
-      {/* Ensures the table is responsive on smaller screens */}
-      <div className="table-responsive">
-        <table className="table table-bordered table-striped">
-          <thead className="thead-dark">
-            <tr>
-              <th>Company</th>
-              <th>Elgiganten</th>
-              <th>Power</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-            <td><strong>Focus area</strong></td>
-<td>
-  <ul>
-    <li>Wish List Visibility: When the user purchases a product, the wish list is not visible during the checkout process.</li>
-    <li>Login Frustration: When the user adds a product to the wish list, they are forced to log in, and after logging in, the system should return the user to their wish list or the last opened page.</li>
- 
-                </ul>
-              </td>
-              <td>
-  <ul>
-    <li>Wish List Visibility: The wish list is not visible during the checkout process.</li>
-    <li>Login Frustration: When the user wants to add an item to the wish list, they are required to log in first (login opens as a modal). After logging in, the item they wanted to add should be visible in the wish list, and the system should also return the user to the last opened page.</li>
-  </ul>
-</td>
-
-             
-            </tr>
-            <tr>
-              <td><strong>Strengths</strong></td>
-              <td>Modern</td>
-              <td>Modern and easy to use.</td>
-            
-            </tr>
-            <tr>
-              <td><strong>Weaknesses</strong></td>
-              <td>
-                <ul >
-                <li>The user cannot return to the last opened page after logging in to add a product to the wish list.</li>
-<li>The user cannot see the wish list during the checkout process.</li>
-
-                 
-                </ul>
-              </td>
-              <td>
-
-<li>The user cannot see the wish list during the checkout process.</li>
-
-              </td>
-            
-            </tr>
-            <tr>
-              <td><strong>UI/UX Analysis:</strong></td>
-              <td>
-                <ul>
-                <li>The forced login interrupts the smooth process of adding items to the wish list. A seamless modal login is crucial for reducing frustration, but the current implementation lacks this ease. The user experience would greatly improve if users were returned directly to the item or page they were on before logging in to add products to their wish list. </li>
-<li>Ttheir wish list. 
-To ensure users don’t forget anything, the wish list should be visible at step 2 of the checkout process.</li>
-
-                 
-                </ul>
-              </td>
-              <td>
-<li>A good UX in Power would allow the user to add an item to the wish list by opening a modal on the same page. The user can then log in directly through the modal without being redirected, and after logging in, the product they were viewing should be automatically added to the wish list. This ensures a seamless experience, keeping the user on the same page and minimizing interruptions.</li>
-<li>The wish list is not visible during the checkout process, which negatively impacts the user experience. To improve UX, integrating the wish list into the checkout process is crucial. This ensures that users can easily review and purchase all the items they need without forgetting anything.</li>
-
-              </td>
-            
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+    
     <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
     <div className="justify-content-center text-center"> 
     <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
