@@ -77,7 +77,7 @@ const Case = () => {
           <strong>Industry:</strong> Educational, Climate
         </p>
         <Button 
-          href="#Techcity"  
+          href="/klimat"  
           className="mt-3 no-border-button" 
           style={{ backgroundColor: '#0B6BA5', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
         >
