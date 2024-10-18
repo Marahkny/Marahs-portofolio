@@ -32,7 +32,7 @@ const Develop = () => {
         {/* First paragraph centered */}
         <p className="lead fancy-underline " style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>Design system</p>
         {/* Second paragraph left-aligned but horizontally centered */}
-        <p className="text-left">
+        <p className="text-left py-5">
         After the low-fidelity prototypes were selected, a design system was developed, and the application’s colors were determined. Shades of green and beige were chosen for their earthy tones, and the calming effect of green was deemed suitable for addressing the sensitive topic of climate change.
         </p>
       </Col>
@@ -82,16 +82,17 @@ const Develop = () => {
     <Row className="justify-content-center pb-5">
       <Col xs={12} md={8} className=' text-center ' >
         {/* First paragraph centered */}
-        <p className="lead fancy-underline " style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>Implementation</p>
+        <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>Implementation</p>
         {/* Second paragraph left-aligned but horizontally centered */}
-        <p className="text-left">
-        <p>The website was built using ReactJS, styled with the CSS framework Bootstrap,
-      and powered by Firebase for backend services.
-      You can view the live version of the site <a href="https://klimatkoll.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.</p>
-        </p>
+       
+        <p className="text-left py-5">The website was built using ReactJS, styled with the CSS framework Bootstrap,
+      and powered by Firebase for backend services and componenet tree here </p>
+      <p>You can view the live version of the site <a href="https://klimatkoll.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+      
       </Col>
-  <p className='p4'></p>
+  
       <Col xs={12} md={12} className="d-flex justify-content-center ">
+     
         <img 
           src="/Photos/componentTree.png" 
           alt="Persona Alicia" 
