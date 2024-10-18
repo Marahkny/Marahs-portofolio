@@ -250,7 +250,7 @@ const Sektionklimt = () => {
  
      
     </div>
-    <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
+    
     <div className="justify-content-center text-center"> 
     <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive'  }}>
     Develop phase
