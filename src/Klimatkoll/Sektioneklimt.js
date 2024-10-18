@@ -3,6 +3,8 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../FancyText.css'
+import Develop from './develop';
+
 // Main Section component
 const Sektionklimt = () => {
   return (
@@ -75,7 +77,6 @@ const Sektionklimt = () => {
           <ul style={{ listStyleType: 'none', padding: '20px'}}>
             <li>Lo-fi prototype            </li>
             <li>Design system</li>
-            <li>Wireframes</li>
             <li>Prototyping</li>
             <li>Implementation</li>
             <li>Pros and cons</li>
@@ -255,6 +256,7 @@ const Sektionklimt = () => {
     Develop phase
           </h2>
     </div>
+    <Develop />
     
     
     </>
