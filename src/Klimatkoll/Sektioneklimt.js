@@ -32,12 +32,17 @@ const Sektionklimt = () => {
             <p><strong>Industry:</strong> Educational, Climate</p>
             <p><strong>Tools:</strong> Figma, Canva, Illustrator, ReactJS, Firebase</p>
             <p><strong>Duration:</strong> 2 months, 2024</p>
-            <Button 
-              href="https://www.figma.com/proto/cZxBC4r3YraBsDtpqB4IjC/Prototyp?node-id=55-3&node-type=canvas&t=Sok9u0fcFfz6DrjO-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2" 
-              style={{ backgroundColor: '#0B6BA5', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
-            >
-              View hi-fi prototype
-            </Button>
+           
+  <Button
+    href="https://www.figma.com/proto/cZxBC4r3YraBsDtpqB4IjC/Prototyp?node-id=55-3&node-type=canvas&t=Sok9u0fcFfz6DrjO-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2"
+    target="_blank"
+    rel="noopener noreferrer" style={{ backgroundColor: '#0B6BA5', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
+  >
+    View hi-fi prototype
+  </Button>
+  
+
+
           </Col>
         </Row>
       </Container>
@@ -46,160 +51,180 @@ const Sektionklimt = () => {
       
   </Row>
   </Container>
-  <div ></div>
-   <Container className="mt-5 mb-5">
-      <Row className="justify-content-center"> {/* Centrera kolumnerna */}
-        {/* Discover Column */}
-        <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive'}}>Discover</h3>
-          <ul style={{ listStyleType: 'none', padding: '20px' }}>
-            <li>User Research</li>
-           
-            <li>Personas</li>
-            <li>Scenario</li>
-          
-            
-          </ul>
-        </Col>
+  
+  <Container className='pt-5 pb-5'>
+  <Row className="d-flex justify-content-center text-center">
+    {/* Discover Column */}
+    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>
+        Discover
+      </h3>
+      <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
+        <li>User Research</li>
+        <li>Personas</li>
+        <li>Scenario</li>
+      </ul>
+    </Col>
 
-        {/* Define Column */}
-        <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Define</h3>
-          <ul style={{ listStyleType: 'none', padding: '20px' }}>
-            <li>MoSCoW </li>
-            <li>UML-diagram</li>
-          </ul>
-        </Col>
+    {/* Define Column */}
+    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>
+        Define
+      </h3>
+      <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
+        <li>MoSCoW</li>
+        <li>UML-diagram</li>
+      </ul>
+    </Col>
 
-        {/* Develop Column */}
-        <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Develop</h3>
-          <ul style={{ listStyleType: 'none', padding: '20px'}}>
-            <li>Lo-fi prototype            </li>
-            <li>Design system</li>
-            <li>Prototyping</li>
-            <li>Implementation</li>
-            <li>Pros and cons</li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
-    <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
+    {/* Develop Column */}
+    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>
+        Develop
+      </h3>
+      <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
+        <li>Lo-fi prototype</li>
+        <li>Design system</li>
+        <li>Prototyping</li>
+        <li>Implementation</li>
+      </ul>
+    </Col>
+  </Row>
+</Container>
+
+
+<div className="justify-content-center text-center mb-5" style={{backgroundColor:'white'}}> 
+    <h2 style={{ backgroundColor: '#E46698', color: 'White', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     Discover phase
           </h2>
-    </div>
-    <Container fluid className='pb-4'  >
-      {/* User Research Header */}
-      <Row className="justify-content-center text-center p-2">
-        <Col md={12} >
           
-          <p  className="lead fancy-underline">User Research</p>
-        </Col>
-      </Row>
+    </div>
+    <div className="container-fluid ">
+  {/* User Research Section */}
+  <Container fluid className="mb-5">
+    <Row className="justify-content-center text-center">
+      <Col md={12}>
+        <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>User Research</p>
+      </Col>
+    </Row>
+  </Container>
 
-     
-    </Container>
+  {/* Problem and Key Issues Section */}
+  <Container fluid className="d-flex justify-content-center align-items-center mb-5">
+    <Row className="justify-content-center text-center">
+      <Col md={8}>
+        <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h2>
+        <p><strong>Problem:</strong> A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.</p>
 
-    <Container fluid className="d-flex justify-content-center align-items-center p-4" >
-  <Row className="justify-content-center ">
+        <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
+        <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+          <li><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
+          <li><strong>Engage Diverse Audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
+          <li><strong>Interactive Learning:</strong> To incorporate various educational tools, including quizzes and challenges, to enhance understanding and foster sustainable behaviors.</li>
+        </ul>
+      </Col>
+    </Row>
+  </Container>
+
+  {/* Target Audience Research Section */}
+  <Container fluid className="mb-5">
+    <Row className="justify-content-center text-center">
+      <Col md={8}>
+        <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Target Audience Research</h2>
+        <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.</p>
+        <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Research Process:</p>
+        <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+          <li>Articles and reports on youth engagement in climate issues were collected and analyzed.</li>
+          <li>The predefined target audience of students aged 13-15 was studied through secondary sources.</li>
+          <li>Research focused on topics such as climate anxiety, youth involvement in environmental issues, and their understanding of climate change.</li>
+          <li>It was discovered that many young people had not received in-depth education on climate issues, affecting their awareness and interest.</li>
+        </ul>
+      </Col>
+    </Row>
+  </Container>
+</div>
+
+
+<Container fluid className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
+  <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-    <h2 style={{ fontFamily: 'Patrick Hand, cursive' }}>Why build this product?</h2>
-      
+      <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Personas</p>
       <p>
-      <strong>Problem:</strong> A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.
+        Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic.
       </p>
-      <p>Key Issues:</p>
-      <ul >
-        <li><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
-        <li><strong>Engage Diverse Audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
-        <li><strong>Interactive Learning:</strong> To incorporate various educational tools, including quizzes and challanges, to enhance understanding and foster sustainable behaviors.</li>
-      </ul>
-      <p className='p-4'></p>
-
-      <h2 style={{ fontFamily: 'Patrick Hand, cursive' }}>Target Audience Research</h2>
-      
-      <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.
-      </p>
-      <p>Research Process</p>
-      <ul >
-        <li>Articles and reports on youth engagement in climate issues were collected and analyzed.</li>
-        <li>The predefined target audience of students aged 13-15 was studied through secondary sources.</li>
-        <li>Research focused on topics such as climate anxiety, youth involvement in environmental issues, and their understanding of climate change.</li>
-        <li>It was discovered that many young people had not received in-depth education on climate issues, affecting their awareness and interest.</li>
-      </ul>
-      
-     
     </Col>
   </Row>
-  
-</Container>
 
-<Container fluid className="d-flex justify-content-center align-items-center p-4" style={{backgroundColor:'#f8f9fa'}}>
-  <Row className="justify-content-center pb-5">
-    <Col md={8} className=' text-center' >
-      {/* First paragraph centered */}
-      <p className="lead fancy-underline text-center p-2">Personas</p>
-      {/* Second paragraph left-aligned but horizontally centered */}
-      <p className="text-left">
-        Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic. 
-      </p>
+  {/* Personas Images */}
+  <Row className="justify-content-center mb-5">
+    <Col xs={12} md={6} className="text-center mb-4">
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+        <img 
+          src="/Photos/persona 1.png" 
+          alt="Persona Alicia" 
+          className="img-fluid"
+          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+        />
+        <p className="mt-2" style={{ fontWeight: 'bold' }}>Alicia Perry</p>
+      </div>
     </Col>
-<p className='p4'></p>
-    <Col xs={12} md={6} className="d-flex justify-content-center p-3">
-      <img 
-        src="/Photos/persona 1.png" 
-        alt="Persona Alicia" 
-        className="img-fluid"
-      />
-    </Col>
-    <Col xs={12} md={6} className="d-flex justify-content-center p-3 ">
-      <img 
-        src="/Photos/persona 2.png" 
-        alt="Persona Gabriel" 
-        className="img-fluid"
-      />
+    <Col xs={12} md={6} className="text-center mb-4">
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+        <img 
+          src="/Photos/persona 2.png" 
+          alt="Persona Gabriel" 
+          className="img-fluid"
+          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+        />
+        <p className="mt-2" style={{ fontWeight: 'bold' }}>Gabriel Andersson</p>
+      </div>
     </Col>
   </Row>
 </Container>
 
-<Container fluid className="d-flex justify-content-center align-items-center p-4" style={{backgroundColor:'#f8f9fa'}}>
-  <Row className="justify-content-center pb-5">
-    <Col md={8} className=' text-center' >
-      {/* First paragraph centered */}
-      <p className="lead fancy-underline text-center p-2">Scenario</p>
-      {/* Second paragraph left-aligned but horizontally centered */}
-      <p className="text-left">
-      Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
+{/* Scenario Section */}
+<Container fluid className="py-5" style={{ backgroundColor: '#f0f4f8' }}>
+  <Row className="justify-content-center text-center mb-5">
+    <Col md={8}>
+      <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'  }}>Scenario</p>
+      <p >
+        Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
       </p>
     </Col>
-<p className='p4'></p>
-    <Col xs={12} md={6} className="d-flex justify-content-center p-3">
-      <img 
-        src="/Photos/AlicaSen.png" 
-        alt="Persona Alicia" 
-        className="img-fluid"
-      />
+  </Row>
+
+  {/* Scenario Images */}
+  <Row className="justify-content-center mb-5">
+    <Col xs={12} md={6} className="text-center mb-4">
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+        <img 
+          src="/Photos/AlicaSen.png" 
+          alt="Scenario Alicia" 
+          className="img-fluid"
+          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+        />
+        <p className="mt-2" style={{ fontWeight: 'bold' }}>Alicia's Scenario</p>
+      </div>
     </Col>
-    <Col xs={12} md={6} className="d-flex justify-content-center p-3 ">
-      <img 
-        src="/Photos/gaberilsSen.png" 
-        alt="Persona Gabriel" 
-        className="img-fluid"
-      />
+    <Col xs={12} md={6} className="text-center mb-4">
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+        <img 
+          src="/Photos/gaberilsSen.png" 
+          alt="Scenario Gabriel" 
+          className="img-fluid"
+          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+        />
+        <p className="mt-2" style={{ fontWeight: 'bold' }}>Gabriel's Scenario</p>
+      </div>
     </Col>
   </Row>
 </Container>
 
-    
-
-<div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
-
-    <div className="justify-content-center text-center" style={{backgroundColor:'white'}}> 
+    <div className="justify-content-center text-center " style={{backgroundColor:'white'}}> 
     <h2 style={{ backgroundColor: '#0B6BA5', color: 'White', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     Define phase
           </h2>
-          <p className="lead fancy-underline text-center p-2">MoSCoW</p>
+          <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>MoSCoW</p>
     </div>
     <section className="container py-5">
   <p className="text-center mb-4">The MoSCoW method is a prioritization technique used to manage requirements in a project</p>
@@ -232,11 +257,11 @@ const Sektionklimt = () => {
 
 
     
-    <div className="d-flex justify-content-center mt-5">
+    <div className="d-flex justify-content-center ">
     <section className="container py-5">
   <div className="row justify-content-center">
     <div className="col-md-12 text-center">
-    <p className="lead fancy-underline text-center p-2">UML-diagram</p>
+    <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>UML-diagram</p>
     </div>
     <div className="col-md-8 text-center">
     <img 
@@ -251,11 +276,7 @@ const Sektionklimt = () => {
      
     </div>
     
-    <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive'  }}>
-    Develop phase
-          </h2>
-    </div>
+    
     <Develop />
     
     
