@@ -104,7 +104,7 @@ const Sektionklimt = () => {
   <Container fluid className="mb-5">
     <Row className="justify-content-center text-center">
       <Col md={12}>
-        <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>User Research</p>
+        <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>User Research</h2>
       </Col>
     </Row>
   </Container>
@@ -148,7 +148,7 @@ const Sektionklimt = () => {
 <Container fluid className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-      <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Personas</p>
+      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Personas</h2>
       <p>
         Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic.
       </p>
@@ -186,7 +186,7 @@ const Sektionklimt = () => {
 <Container fluid className="py-5" style={{ backgroundColor: '#f0f4f8' }}>
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-      <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'  }}>Scenario</p>
+      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Scenario</h2>
       <p >
         Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
       </p>
@@ -224,7 +224,7 @@ const Sektionklimt = () => {
     <h2 style={{ backgroundColor: '#0B6BA5', color: 'White', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     Define phase
           </h2>
-          <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>MoSCoW</p>
+          <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>MoSCoW</h2>
     </div>
     <section className="container py-5">
   <p className="text-center mb-4">The MoSCoW method is a prioritization technique used to manage requirements in a project</p>
@@ -254,21 +254,18 @@ const Sektionklimt = () => {
   </div>
 </section>
 
-
-
-    
     <div className="d-flex justify-content-center ">
-    <section className="container py-5">
+    <section className="container ">
   <div className="row justify-content-center">
-    <div className="col-md-12 text-center">
-    <p className="lead fancy-underline" style={{ fontSize: '1.5rem', fontWeight: 'bold'}}>UML-diagram</p>
+    <div className="col-md-12 text-center p-4">
+    <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>UML-diagram</h2>
     </div>
     <div className="col-md-8 text-center">
     <img 
         src="/Photos/Uml.png" // Replace with your image URL
         alt="persona"
-        className="img-fluid shadow" // This class makes the image responsive
-        style={{ maxWidth: '800px', width: '100%', height: 'auto' }} // Optional for additional responsiveness
+        className="img-fluid " // This class makes the image responsive
+        style={{ maxWidth: '800px', width: '100%', height: 'auto',   }} // Optional for additional responsiveness
       />    </div>
   </div>
 </section>
