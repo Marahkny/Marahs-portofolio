@@ -22,7 +22,7 @@ const Servic = () => {
   };
 
   const emailStyle = {
-    color: 'red',
+    color: '#0B6BA5',
     textDecoration: 'none',
     fontWeight: 'bold'
   };
@@ -46,6 +46,7 @@ const Servic = () => {
           <div style={textStyle}>Information Architecture</div>
           <div style={textStyle}>Interactive Prototyping</div>
           <div style={textStyle}>Wireframing</div>
+          <div style={textStyle}>Programming</div>
           <div style={textStyle}>SEO</div>
           <div style={textStyle}>User Testing</div>
           <div style={textStyle}>WCAG</div>

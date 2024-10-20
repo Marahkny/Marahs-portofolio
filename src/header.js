@@ -87,9 +87,9 @@ const Header = () => {
           </div>
 
           <div className="menu-links text-center">
-            <Nav.Link href="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
-              About
-            </Nav.Link>
+          <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+  About
+</Nav.Link>
             <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
               Work
             </Nav.Link>
