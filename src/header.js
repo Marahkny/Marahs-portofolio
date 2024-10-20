@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { FaEnvelope, FaLinkedinIn, FaBars, FaTimes } from 'react-icons/fa';
 import './Header.css'; // Vi använder en separat CSS-fil för stilen
-
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -22,9 +22,9 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
-              About
-            </Nav.Link>
+          <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+  About
+</Nav.Link>
             <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
               Work
             </Nav.Link>
