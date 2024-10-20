@@ -21,7 +21,7 @@ const Case = () => {
 
           {/* Text och knapp på höger sida */}
           <Col lg={6} md={12} className="text-lg-start  mt-4 mt-lg-0">
-          <p style={{ fontSize: '50px', fontWeight: 'bold' }}>TechCity</p>
+          <h2 style={{ fontSize: '50px', fontWeight: 'bold' }}>TechCity</h2>
 
             <p style={{ fontSize: '20px' }}>
               Designing an e-commerce website for selling tech products with careful planning and attention to user experience, aesthetics, and functionality.
@@ -68,7 +68,7 @@ const Case = () => {
 
       {/* Text visas först på stora skärmar, men efter bild på små skärmar */}
       <Col lg={6} md={12} className="text-lg-start mt-4 mt-lg-0 order-2 order-lg-1">
-        <p style={{ fontSize: '50px', fontWeight: 'bold' }}>Klimatkoll</p>
+        <h2 style={{ fontSize: '50px', fontWeight: 'bold' }}>Klimatkoll</h2>
         <p style={{ fontSize: '20px' }}>
           Designing a website for a Swedish school aimed at educating students aged 13-15 about climate change and its impact.
         </p>
@@ -116,7 +116,7 @@ const Case = () => {
 
           {/* Text och knapp på höger sida */}
           <Col lg={6} md={12} className="text-lg-start  mt-4 mt-lg-0">
-            <p style={{ fontSize: '50px', fontWeight: 'bold' }}>noQ</p>
+            <h2 style={{ fontSize: '50px', fontWeight: 'bold' }}>noQ</h2>
             <p style={{ fontSize: '20px' }}>
             Designing a website for the noQ nonprofit organization to help the homeless find a safe place to sleep.       </p>
             <p>

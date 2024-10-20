@@ -104,7 +104,7 @@ const Sektionklimt = () => {
   <Container fluid className="mb-5">
     <Row className="justify-content-center text-center">
       <Col md={12}>
-        <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>User Research</h2>
+        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>User Research</h3>
       </Col>
     </Row>
   </Container>
@@ -116,12 +116,13 @@ const Sektionklimt = () => {
         <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h2>
         <p><strong>Problem:</strong> A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.</p>
 
-        <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
+        <p style={{ fontWeight: 'bold', marginTop: '20px',textAlign: 'left' }}>Key Issues:</p>
         <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
           <li><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
           <li><strong>Engage Diverse Audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
           <li><strong>Interactive Learning:</strong> To incorporate various educational tools, including quizzes and challenges, to enhance understanding and foster sustainable behaviors.</li>
         </ul>
+        <hr style={{ borderColor: 'black', margin: '40px 0' }} />
       </Col>
     </Row>
   </Container>
@@ -132,7 +133,7 @@ const Sektionklimt = () => {
       <Col md={8}>
         <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Target Audience Research</h2>
         <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.</p>
-        <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Research Process:</p>
+        <p style={{ fontWeight: 'bold', marginTop: '20px',textAlign: 'left' }}>Research Process:</p>
         <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
           <li>Articles and reports on youth engagement in climate issues were collected and analyzed.</li>
           <li>The predefined target audience of students aged 13-15 was studied through secondary sources.</li>
@@ -148,7 +149,7 @@ const Sektionklimt = () => {
 <Container fluid className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Personas</h2>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Personas</h3>
       <p>
         Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic.
       </p>
@@ -186,7 +187,7 @@ const Sektionklimt = () => {
 <Container fluid className="py-5" style={{ backgroundColor: '#f0f4f8' }}>
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Scenario</h2>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Scenario</h3>
       <p >
         Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
       </p>
@@ -224,7 +225,7 @@ const Sektionklimt = () => {
     <h2 style={{ backgroundColor: '#0B6BA5', color: 'White', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     Define phase
           </h2>
-          <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>MoSCoW</h2>
+          <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>MoSCoW</h3>
     </div>
     <section className="container py-5">
   <p className="text-center mb-4">The MoSCoW method is a prioritization technique used to manage requirements in a project</p>

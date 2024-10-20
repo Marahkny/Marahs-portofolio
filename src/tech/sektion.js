@@ -46,10 +46,10 @@ const Sektion = () => {
   </Row>
   </Container>
   <div ></div>
-   <Container className="mt-5 mb-5">
-      <Row className="justify-content-center"> {/* Centrera kolumnerna */}
+   <Container className="pt-5 pb-5">
+      <Row className="d-flex justify-content-center text-center">
         {/* Discover Column */}
-        <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
           <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive'}}>Discover</h3>
           <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>User Research</li>
@@ -59,7 +59,7 @@ const Sektion = () => {
         </Col>
 
         {/* Define Column */}
-        <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
           <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Define</h3>
           <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>HMW</li>
@@ -69,7 +69,7 @@ const Sektion = () => {
         </Col>
 
         {/* Develop Column */}
-        <Col xs={12} md={4} className=" text-center"> {/* Lägg till text-center för att centrera texten */}
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
           <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Develop</h3>
           <ul style={{ listStyleType: 'none', padding: '20px'}}>
             <li>Prototyping</li>
@@ -77,17 +77,17 @@ const Sektion = () => {
         </Col>
       </Row>
     </Container>
-    <div className="justify-content-center text-center"> 
+    <div className="justify-content-center text-center mb-5"> 
     <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
      Discover phase
           </h2>
     </div>
-    <Container fluid className='pb-4'  >
+    <Container fluid className="mb-5"  >
       {/* User Research Header */}
       <Row className="justify-content-center text-center p-2">
         <Col md={12} >
           
-          <h2  className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>User Research</h2>
+          <h3  className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>User Research</h3>
         </Col>
       </Row>
 
@@ -100,13 +100,13 @@ const Sektion = () => {
       <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h2>
       <p><strong>Problem:</strong> Research shows inconsistent user experiences (UX) across major e-commerce platforms like Elgiganten and Power.</p>
       
-      <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
+      <p style={{ fontWeight: 'bold', marginTop: '20px',textAlign: 'left' }}>Key Issues:</p>
       <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
         <li><strong>Wish List Visibility:</strong> Users struggle to access or manage wish lists during purchases.</li>
         <li><strong>Login Frustration:</strong> Users must log in to save items, often losing selected products afterward.</li>
       </ul>
       
-      <p style={{ fontWeight: 'bold', marginTop: '40px' }}>TechCity’s Solution:</p>
+      <p style={{ fontWeight: 'bold', marginTop: '40px',textAlign: 'left' }}>TechCity’s Solution:</p>
       <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
         <li><strong>User-Friendly Wish List:</strong> A built-in, intuitive wish list feature designed from the ground up.</li>
         <li><strong>Seamless Experience:</strong> Users can easily add and keep track of items without unnecessary logins or re-selections.</li>
@@ -126,14 +126,14 @@ const Sektion = () => {
       
       <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>Goals of the Product (For both business & users)</h4>
       
-      <p><strong>Business Goals</strong></p>
+      <p style={{textAlign: 'left'}}><strong>Business Goals</strong></p>
       <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
         <li>Establish TechCity as a leading authority and trusted source of information in technology and innovation.</li>
         <li>Convert website visitors into qualified leads or paying customers by offering valuable, tailored products, services, and resources.</li>
         <li>Improve the purchase process by enabling users to easily view and manage their wish list throughout their shopping journey.</li>
       </ul>
 
-      <p><strong>User Goals</strong></p>
+      <p style={{textAlign: 'left'}}><strong>User Goals</strong></p>
       <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
         <li>Provide up-to-date technology news, trends, and innovations to keep users informed and engaged.</li>
         <li>Allow users to access and view their wish list after logging in and facilitate a smooth purchasing process for wish-listed items.</li>
@@ -143,8 +143,8 @@ const Sektion = () => {
   </Row>
 </Container>
 
-<div className="justify-content-center text-center"> 
-<h2 className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Market Analysis</h2>
+<div className="justify-content-center text-center mb-5"> 
+<h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Market Analysis</h3>
 <div >
   To conduct a market analysis, I have analyzed  <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'underline' }}> Power.se</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'underline' }}> Elgiganten.se</a>.
 </div>
@@ -222,10 +222,10 @@ const Sektion = () => {
 
 <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: '#f7f9fc' }}>
   <Row className="justify-content-center text-center">
-    <Col xs={12} md={8} className="mb-4">
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+    <Col xs={12} md={8} className="mb-5">
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
       Personas
-      </h2>
+      </h3>
       
     </Col>
 
@@ -251,10 +251,10 @@ const Sektion = () => {
     <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     Define phase
           </h2>
-          <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>HMW</h2>
+          <h3 className="display-4 fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>HMW</h3>
     </div>
     <section className="container py-5">
-  <h2 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h2>
+  <h3 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h3>
   <div className="row justify-content-center">
     <div className="col-md-4 mb-4 d-flex">
       <div className="p-4 shadow flex-grow-1" style={{ backgroundColor: '#e46698', borderRadius: '8px', color: 'white' }}>
@@ -274,9 +274,9 @@ const Sektion = () => {
     <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-4">
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className="display-4 fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
       User flow
-      </h2>
+      </h3>
       
     </Col>
 
@@ -300,10 +300,10 @@ const Sektion = () => {
 <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-4">
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
       Wireframes
 
-      </h2>
+      </h3>
       
     </Col>
   </Row>
@@ -347,11 +347,11 @@ const Sektion = () => {
 
     </div>
     
-    <Container fluid className="d-flex justify-content-center align-items-center p-5" style={{ backgroundColor: '#f4f6f9' }}>
-  <Row className="justify-content-center text-center pb-5">
+    <Container fluid className="d-flex justify-content-center align-items-center mb-5" style={{ backgroundColor: 'white' }}>
+  <Row className="justify-content-center text-center mb-5">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h2 className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Prototyping</h2>
+      <h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Prototyping</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p className="text-left py-4" >
@@ -388,12 +388,6 @@ const Sektion = () => {
         src="/Photos/Wifi (2).png" 
         alt="Component Tree" 
         className="img-fluid" 
-        style={{ 
-          borderRadius: '15px', 
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', 
-        
-          
-        }}
       
       />
     </Col>

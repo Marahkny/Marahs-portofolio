@@ -10,12 +10,12 @@ const Develop = () => {
     Develop phase
           </h2>
     </div>
-    <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: '#f7f9fc' }}>
+    <Container fluid className="d-flex justify-content-center align-items-center py-5" >
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-4">
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
         Lo-fi Prototype
-      </h2>
+      </h3>
       <p >
         A low-fidelity prototype is a simple and rough sketch of a design used to explore different ideas and features early in the development process. It was utilized to refine concepts and ensure effective decision-making before finalizing the design.
       </p>
@@ -26,14 +26,7 @@ const Develop = () => {
         src="/Photos/lo-fi.png" 
         alt="Lo-fi Prototype"
         className="img-fluid shadow-lg rounded" 
-        style={{ 
-          maxWidth: '90%', 
-          height: 'auto', 
-          borderRadius: '15px', 
-          boxShadow: '0 8px 16px rgba(0, 0, 0, 0.1)', 
-       
-        }}
-        
+      
       />  
     </Col>
   </Row>
@@ -43,7 +36,7 @@ const Develop = () => {
     <Row className="justify-content-center pb-5">
       <Col md={8} className=' text-center' >
         {/* First paragraph centered */}
-        <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Design system</h2>
+        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Design system</h3>
         {/* Second paragraph left-aligned but horizontally centered */}
         <p className="text-left py-5">
         After the low-fidelity prototypes were selected, a design system was developed, and the application’s colors were determined. Shades of green and beige were chosen for their earthy tones, and the calming effect of green was deemed suitable for addressing the sensitive topic of climate change.
@@ -70,40 +63,27 @@ const Develop = () => {
   <Row className="justify-content-center text-center pb-5">
     <Col md={8}>
       {/* Title centered */}
-      <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Prototyping</h2>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Prototyping</h3>
     </Col>
   
-    {/* Spacer for added breathing room */}
-    <div style={{ marginBottom: '2rem' }}></div>
+
 
     {/* Images in responsive layout */}
-    <Col xs={12} md={12} className="d-flex justify-content-center p-3">
+    <Col xs={12} md={12} className="d-flex justify-content-center p-2">
       <img 
         src="/Photos/proto1.png" 
         alt="Prototyping " 
-        className="img-fluid shadow rounded" 
-        style={{ 
-         
-          borderRadius: '15px', 
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', 
-          
-        }}
-     
+        className="img-fluid " 
+       
       />
     </Col>
 
-    <Col xs={12} md={12} className="d-flex justify-content-center p-3">
+    <Col xs={12} md={12} className="d-flex justify-content-center p-2">
       <img 
         src="/Photos/proto2.png" 
         alt="Prototyping " 
-        className="img-fluid shadow rounded" 
-        style={{ 
-         
-          borderRadius: '15px', 
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', 
-        
-        }}
-     
+        className="img-fluid" 
+      
       />
     </Col>
   </Row>
@@ -113,7 +93,7 @@ const Develop = () => {
   <Row className="justify-content-center text-center pb-5">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h2 className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Implementation</h2>
+      <h3 className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Implementation</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p className="text-left py-4" >
@@ -168,12 +148,7 @@ const Develop = () => {
         src="/Photos/componentTree.png" 
         alt="Component Tree" 
         className="img-fluid" 
-        style={{ 
-          borderRadius: '15px', 
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', 
-        
-          
-        }}
+       
       
       />
     </Col>
