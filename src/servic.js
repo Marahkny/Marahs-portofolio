@@ -54,11 +54,14 @@ const Servic = () => {
         <Col xs={12} md={3} className="mb-4">
           <div style={headingStyle}>CONTACT</div>
           <div style={textStyle}>Portfolio</div>
-          <div style={textStyle}>https://studiomk.netlify.app/</div>
-          <div style={textStyle}>Email</div>
-          <a href="mailto:Marahknyfaty@outlook.com" style={emailStyle}>Marahknyfaty@outlook.com</a>
-          <div style={textStyle}>Linkedin</div>
-          <a href="https://www.linkedin.com/in/marah-kn/" style={emailStyle}>linkedin.com/in/marah-kn/</a>
+          <div style={textStyle}>
+  <a href="https://studiomk.netlify.app/" style={emailStyle}>studiomk.netlify.app</a>
+</div>
+<div style={textStyle}>Email</div>
+<a href="mailto:Marahknyfaty@outlook.com" style={emailStyle}>Marahknyfaty@outlook.com</a>
+<div style={textStyle}>Linkedin</div>
+<a href="https://www.linkedin.com/in/marah-kn/" style={emailStyle}>linkedin.com/in/marah-kn</a>
+
         </Col>
       </Row>
     </Container>
