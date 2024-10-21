@@ -9,14 +9,14 @@ const About = () => {
         <>
             <Header />
            
-            <Container className="about-page mt-4 pt-4">
+            <Container className=" mt-4 pt-4">
       <Row className="justify-content-center">
         <Col xs={12} md={8} >
         <h1 className="display-4" style={{ fontFamily: 'Patrick Hand, cursive', textAlign: 'left',color:'#e46698' }}>Hello, I’m Marah</h1>
           <Image src="/Photos/mara.gif"  fluid className="about-image mb-4" style={{width:'30%'}}/>
         </Col>
       </Row>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center p-4">
         <Col xs={12} md={8}>
           
           <p className="about-text">

@@ -57,6 +57,8 @@ const Servic = () => {
           <div style={textStyle}>https://studiomk.netlify.app/</div>
           <div style={textStyle}>Email</div>
           <a href="mailto:Marahknyfaty@outlook.com" style={emailStyle}>Marahknyfaty@outlook.com</a>
+          <div style={textStyle}>Linkedin</div>
+          <a href="https://www.linkedin.com/in/marah-kn/" style={emailStyle}>linkedin.com/in/marah-kn/</a>
         </Col>
       </Row>
     </Container>
