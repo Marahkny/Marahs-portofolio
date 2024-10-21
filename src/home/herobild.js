@@ -9,7 +9,7 @@ const Herobild = () => {
       <section
         className="hero-section"
         style={{
-          backgroundImage: 'url("/Photos/backgrind.gif")', // Ändra till din bilds URL
+          backgroundImage: 'url("/Photos/Back.gif")', // Ändra till din bilds URL
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
