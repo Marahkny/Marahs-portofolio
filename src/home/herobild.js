@@ -7,20 +7,21 @@ const Herobild = () => {
     <>
       {/* Hero Section */}
       <section
-        className="hero-section"
-        style={{
-          backgroundImage: 'url("/Photos/Back.gif")', // Ändra till din bilds URL
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          minHeight: '100vh', // Sektionen täcker hela skärmen
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          position: 'relative',
-          color: '#fff', // Gör texten vit för att synas bättre på mörk bakgrund
-        }}
-      >
+  className="hero-section"
+  style={{
+    backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Photos/Back.jpg")', // Svart overlay med 70% opacitet
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    minHeight: '100vh', // Sektionen täcker hela skärmen
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+    color: '#fff', // Gör texten vit för att synas bättre på mörk bakgrund
+  }}
+>
+
         <Container fluid className="text-center">
           <Row className="justify-content-center">
             <Col md={8}>
