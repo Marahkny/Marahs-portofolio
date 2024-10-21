@@ -16,7 +16,7 @@ const About = () => {
           <Image src="/Photos/mara.gif"  fluid className="about-image mb-4" style={{width:'30%'}}/>
         </Col>
       </Row>
-      <Row className="justify-content-center p-4">
+      <Row className="justify-content-center pt-4 pb-4">
         <Col xs={12} md={8}>
           
           <p className="about-text">
