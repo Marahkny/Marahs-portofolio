@@ -1,51 +1,51 @@
 .fullscreen-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1050; 
-  }
-  
-  .menu-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
- 
-  }
-  
-  .menu-icons {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    gap: 10px; /* Sätter 20px mellan ikonerna */
-  }
-  
-  
-  .menu-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Håller länkarna högst upp */
-    height: 100vh; /* Sätter höjden till hela viewporten */
-    padding-top: 20px; /* Justerar avståndet från toppen */
-    box-sizing: border-box; /* Säkerställer att padding inte påverkar höjden */
-  }
-  
-  .menu-links .nav-link {
-    color: #000000;
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-decoration: none;
-  }
-  
-  .menu-links .nav-link:hover {
-    color: #FF1493;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1050; 
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.menu-icons {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px; /* Sätter 20px mellan ikonerna */
+}
+
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Håller länkarna högst upp */
+  height: 100vh; /* Sätter höjden till hela viewporten */
+  padding-top: 20px; /* Justerar avståndet från toppen */
+  box-sizing: border-box; /* Säkerställer att padding inte påverkar höjden */
+}
+
+.menu-links .nav-link {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.menu-links .nav-link:hover {
+  color: #FF1493;
+}
   
   

@@ -101,47 +101,8 @@ const Case = () => {
 </section>
 
 
-    <section className=" py-5" style={{ backgroundColor: '#0B6BA5', color: '#ffffff' }}>
-      <Container className=" py-5">
-        <Row className=" justify-content-center align-items-center">
-          {/* Bild på vänster sida */}
-          <Col lg={6} md={12} >
-            <img
-              src="/Photos/Namnlös design (48).png"  // Byt ut till korrekt bildväg
-              alt="TechCity"
-              className="img-fluid"
-              
-            />
-          </Col>
-
-          {/* Text och knapp på höger sida */}
-          <Col lg={6} md={12} className="text-lg-start  mt-4 mt-lg-0">
-            <h2 style={{ fontSize: '50px', fontWeight: 'bold' }}>noQ</h2>
-            <p style={{ fontSize: '20px' }}>
-            Designing a website for the noQ nonprofit organization to help the homeless find a safe place to sleep.       </p>
-            <p>
-              <strong>Role:</strong> Web designer  <br />
-              <strong>Industry:</strong> Association, Homeless
-            </p>
-            <Button 
-  href="#case-study"  
-  className="mt-3 no-border-button" 
-  style={{ 
-    backgroundColor: '#E46698', 
-     
-    border: 'none', // Tar bort bordern
-    padding: '12px 24px', // Lägger till padding
-    borderRadius: '50px'
-  }}
->
-  View Case Study
-</Button>
-
-
-          </Col>
-        </Row>
-      </Container>
-    </section>
+ 
+  
     </>
   );
 };
