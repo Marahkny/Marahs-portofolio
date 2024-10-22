@@ -22,17 +22,17 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Nav className="ms-auto">
-          <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+          <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px',color:'black' }}>
   About
 </Nav.Link>
-            <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+            <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px', color:'black', }}>
               Work
             </Nav.Link>
             <Nav.Link
               href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px',color:'black' }}
             >
               Resume
             </Nav.Link>
