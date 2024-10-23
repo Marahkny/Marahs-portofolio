@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-light text-center py-4" style={{ borderTop: '1px solid #dee2e6' }}>
       <div className="container">
-        <p className="mb-2" style={{ fontSize: '20px', color: '#343a40',  fontFamily: 'Patrick Hand, cursive'  }}>
+        <p className="mb-2" style={{ fontSize: '20px', color: 'black',  fontFamily: 'Patrick Hand, cursive'  }}>
           I make your web easy to use.
         </p>
         <Nav className="d-flex justify-content-center align-items-center">

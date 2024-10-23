@@ -57,7 +57,7 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Button variant="link" onClick={handleOpenMenu} className="ms-auto">
-            <FaBars style={{ fontSize: '24px', color: '#000' }} />
+            <FaBars style={{ fontSize: '24px', color: '#E46698' }} />
           </Button>
         </Container>
       </Navbar>
@@ -81,7 +81,7 @@ const Header = () => {
                 <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px',  }} />
               </Nav.Link>
               <Button variant="link" onClick={handleCloseMenu}>
-                <FaTimes style={{ fontSize: '24px', color: '#000' }} />
+                <FaTimes style={{ fontSize: '24px', color: '#E46698' }} />
               </Button>
             </div>
           </div>

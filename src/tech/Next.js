@@ -49,6 +49,7 @@ function Next() {
   const subtitleStyle = {
     fontSize: "1.2rem",
     marginTop: "5px",
+   
   };
 
   const [isHovered, setIsHovered] = React.useState(false);

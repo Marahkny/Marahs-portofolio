@@ -113,7 +113,7 @@ const Develop = () => {
             padding: '12px 36px', 
             borderRadius: '50px', 
             fontSize: '1.1rem',
-            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', 
+          
            
           }}
          
@@ -131,11 +131,9 @@ const Develop = () => {
             padding: '12px 36px', 
             borderRadius: '50px', 
             fontSize: '1.1rem',
-            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', 
-            transition: 'background-color 0.3s ease, transform 0.3s ease'
+          
           }}
-          onMouseEnter={(e) => { e.target.style.backgroundColor = '#ec7ba6'; e.target.style.transform = 'scale(1.05)'; }}
-          onMouseLeave={(e) => { e.target.style.backgroundColor = '#E46698'; e.target.style.transform = 'scale(1)'; }}
+      
         >
           View Code
         </Button>
