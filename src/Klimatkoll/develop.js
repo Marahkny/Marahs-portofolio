@@ -6,17 +6,17 @@ const Develop = () => {
   return (
     < >
     <div className="justify-content-center text-center mt-4 pt-4"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive'  }}>
+    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px'  }}>
     Develop phase
           </h2>
     </div>
     <Container fluid className="d-flex justify-content-center align-items-center py-5" >
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-4">
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' ,fontSize: '45px'}}>
         Lo-fi Prototype
       </h3>
-      <p >
+      <p className='py-5'>
         A low-fidelity prototype is a simple and rough sketch of a design used to explore different ideas and features early in the development process. It was utilized to refine concepts and ensure effective decision-making before finalizing the design.
       </p>
     </Col>
@@ -36,7 +36,7 @@ const Develop = () => {
     <Row className="justify-content-center pb-5">
       <Col md={8} className=' text-center' >
         {/* First paragraph centered */}
-        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Design system</h3>
+        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Design system</h3>
         {/* Second paragraph left-aligned but horizontally centered */}
         <p className="text-left py-5">
         After the low-fidelity prototypes were selected, a design system was developed, and the application’s colors were determined. Shades of green and beige were chosen for their earthy tones, and the calming effect of green was deemed suitable for addressing the sensitive topic of climate change.
@@ -63,7 +63,7 @@ const Develop = () => {
   <Row className="justify-content-center text-center pb-5">
     <Col md={8}>
       {/* Title centered */}
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Prototyping</h3>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Prototyping</h3>
     </Col>
   
 
@@ -93,7 +93,7 @@ const Develop = () => {
   <Row className="justify-content-center text-center pb-5">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h3 className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Implementation</h3>
+      <h3 className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Implementation</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p className="text-left py-4" >

@@ -21,8 +21,8 @@ const Sektion = () => {
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '60px', fontWeight: 'bold' }}>TechCity</h1>
-            <p style={{ fontSize: '20px' }}>
+            <h1 style={{ fontSize: '65px', fontWeight: 'bold' }}>TechCity</h1>
+            <p style={{ fontSize: '22px' }}>
               Designing an e-commerce website for selling tech products with 
               careful planning and attention to user experience, aesthetics, and functionality.
             </p>
@@ -50,7 +50,7 @@ const Sektion = () => {
       <Row className="d-flex justify-content-center text-center">
         {/* Discover Column */}
         <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive'}}>Discover</h3>
+          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive',fontSize: '45px'}}>Discover</h3>
           <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>User Research</li>
             <li>Market Analysis</li>
@@ -60,7 +60,7 @@ const Sektion = () => {
 
         {/* Define Column */}
         <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Define</h3>
+          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Define</h3>
           <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>HMW</li>
             <li>User flow</li>
@@ -70,7 +70,7 @@ const Sektion = () => {
 
         {/* Develop Column */}
         <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive' }}>Develop</h3>
+          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Develop</h3>
           <ul style={{ listStyleType: 'none', padding: '20px'}}>
             <li>Prototyping</li>
           </ul>
@@ -78,7 +78,7 @@ const Sektion = () => {
       </Row>
     </Container>
     <div className="justify-content-center text-center mb-5"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
+    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px',fontSize: '55px', fontFamily: 'Patrick Hand, cursive' }}>
      Discover phase
           </h2>
     </div>
@@ -87,7 +87,7 @@ const Sektion = () => {
       <Row className="justify-content-center text-center p-2">
         <Col md={12} >
           
-          <h3  className="display-4 fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>User Research</h3>
+          <h3  className=" fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>User Research</h3>
         </Col>
       </Row>
 
@@ -144,7 +144,7 @@ const Sektion = () => {
 </Container>
 
 <div className="justify-content-center text-center mb-5"> 
-<h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Market Analysis</h3>
+<h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Market Analysis</h3>
 <div >
   To conduct a market analysis, I have analyzed  <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'underline' }}> Power.se</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff', textDecoration: 'underline' }}> Elgiganten.se</a>.
 </div>
@@ -223,7 +223,7 @@ const Sektion = () => {
 <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: '#f7f9fc' }}>
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-5">
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       Personas
       </h3>
       
@@ -233,12 +233,10 @@ const Sektion = () => {
       <img 
         src="/Photos/Emma (1).png"
         alt="Lo-fi Prototype"
-        className="img-fluid shadow-lg rounded" 
+        className="img-fluid" 
         style={{ 
           maxWidth: '90%', 
           height: 'auto', 
-          borderRadius: '15px', 
-          boxShadow: '0 8px 16px rgba(0, 0, 0, 0.1)', 
        
         }}
         
@@ -248,10 +246,10 @@ const Sektion = () => {
 </Container>
 
     <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
+    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px'}}>
     Define phase
           </h2>
-          <h3 className="display-4 fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>HMW</h3>
+          <h3 className="fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>HMW</h3>
     </div>
     <section className="container py-5">
   <h3 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h3>
@@ -274,7 +272,7 @@ const Sektion = () => {
     <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-4">
-      <h3 className="display-4 fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className=" fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       User flow
       </h3>
       
@@ -284,15 +282,11 @@ const Sektion = () => {
       <img 
         src="/Photos/Green and White Project Phases Flowchart.png"
         alt="Lo-fi Prototype"
-        className="img-fluid shadow-lg rounded" 
+        className="img-fluid " 
         style={{ 
           maxWidth: '90%', 
           height: 'auto', 
-          borderRadius: '15px', 
-          boxShadow: '0 8px 16px rgba(0, 0, 0, 0.1)', 
-       
         }}
-        
       />  
     </Col>
   </Row>
@@ -300,7 +294,7 @@ const Sektion = () => {
 <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8} className="mb-4">
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>
+      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       Wireframes
 
       </h3>
@@ -341,7 +335,7 @@ const Sektion = () => {
 </div>
 <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
 <div className="justify-content-center text-center mt-4"> 
-    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive' }}>
+    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px' }}>
     Develop phase
           </h2>
 
@@ -351,7 +345,7 @@ const Sektion = () => {
   <Row className="justify-content-center text-center mb-5">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive' }}>Prototyping</h3>
+      <h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Prototyping</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p className="text-left py-4" >

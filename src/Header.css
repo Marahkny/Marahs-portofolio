@@ -47,5 +47,15 @@
 .menu-links .nav-link:hover {
   color: #FF1493;
 }
-  
+  /* Header.css */
+
+.nav-link-custom {
+  color: black; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link-custom:hover {
+  color: #E46698; /* Change to your desired hover color */
+}
+
   

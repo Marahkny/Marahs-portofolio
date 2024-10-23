@@ -23,8 +23,8 @@ const Sektionklimt = () => {
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '60px', fontWeight: 'bold' }}>Klimatkoll</h1>
-            <p style={{ fontSize: '20px' }}>
+            <h1 style={{ fontSize: '65px', fontWeight: 'bold' }}>Klimatkoll</h1>
+            <p style={{ fontSize: '22px' }}>
             Designing a website for a Swedish school aimed at educating students aged 13-15 about climate change and its impact.
             </p>
             <p><strong>Project Type:</strong> Design an educating website</p>
@@ -56,7 +56,7 @@ const Sektionklimt = () => {
   <Row className="d-flex justify-content-center text-center">
     {/* Discover Column */}
     <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
-      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '45px', marginBottom: '20px' }}>
         Discover
       </h3>
       <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
@@ -68,7 +68,7 @@ const Sektionklimt = () => {
 
     {/* Define Column */}
     <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
-      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '45px', marginBottom: '20px' }}>
         Define
       </h3>
       <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
@@ -79,7 +79,7 @@ const Sektionklimt = () => {
 
     {/* Develop Column */}
     <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
-      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '45px', marginBottom: '20px' }}>
         Develop
       </h3>
       <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
@@ -94,7 +94,7 @@ const Sektionklimt = () => {
 
 
 <div className="justify-content-center text-center mb-5" style={{backgroundColor:'white'}}> 
-    <h2 style={{ backgroundColor: '#E46698', color: 'White', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
+    <h2 style={{ backgroundColor: '#E46698', color: 'White',fontSize: '55px', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
     Discover phase
           </h2>
           
@@ -104,7 +104,7 @@ const Sektionklimt = () => {
   <Container fluid className="mb-5">
     <Row className="justify-content-center text-center">
       <Col md={12}>
-        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>User Research</h3>
+        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>User Research</h3>
       </Col>
     </Row>
   </Container>
@@ -149,7 +149,7 @@ const Sektionklimt = () => {
 <Container fluid className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Personas</h3>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Personas</h3>
       <p>
         Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic.
       </p>
@@ -159,23 +159,23 @@ const Sektionklimt = () => {
   {/* Personas Images */}
   <Row className="justify-content-center mb-5">
     <Col xs={12} md={6} className="text-center mb-4">
-      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
         <img 
           src="/Photos/persona 1.png" 
           alt="Persona Alicia" 
           className="img-fluid"
-          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+          style={{  maxHeight: '500px' }}
         />
         <p className="mt-2" style={{ fontWeight: 'bold' }}>Alicia Perry</p>
       </div>
     </Col>
     <Col xs={12} md={6} className="text-center mb-4">
-      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
         <img 
           src="/Photos/persona 2.png" 
           alt="Persona Gabriel" 
           className="img-fluid"
-          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+          style={{ maxHeight: '500px' }}
         />
         <p className="mt-2" style={{ fontWeight: 'bold' }}>Gabriel Andersson</p>
       </div>
@@ -187,7 +187,7 @@ const Sektionklimt = () => {
 <Container fluid className="py-5" style={{ backgroundColor: '#f0f4f8' }}>
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>Scenario</h3>
+      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Scenario</h3>
       <p >
         Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
       </p>
@@ -197,23 +197,23 @@ const Sektionklimt = () => {
   {/* Scenario Images */}
   <Row className="justify-content-center mb-5">
     <Col xs={12} md={6} className="text-center mb-4">
-      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
         <img 
           src="/Photos/AlicaSen.png" 
           alt="Scenario Alicia" 
           className="img-fluid"
-          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+          style={{  maxHeight: '500px' }}
         />
         <p className="mt-2" style={{ fontWeight: 'bold' }}>Alicia's Scenario</p>
       </div>
     </Col>
     <Col xs={12} md={6} className="text-center mb-4">
-      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)', borderRadius: '15px', overflow: 'hidden' }}>
+      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
         <img 
           src="/Photos/gaberilsSen.png" 
           alt="Scenario Gabriel" 
           className="img-fluid"
-          style={{ borderRadius: '15px', transition: 'transform 0.3s ease', maxHeight: '500px' }}
+          style={{ maxHeight: '500px' }}
         />
         <p className="mt-2" style={{ fontWeight: 'bold' }}>Gabriel's Scenario</p>
       </div>
@@ -222,7 +222,7 @@ const Sektionklimt = () => {
 </Container>
 
     <div className="justify-content-center text-center " style={{backgroundColor:'white'}}> 
-    <h2 style={{ backgroundColor: '#0B6BA5', color: 'White', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
+    <h2 style={{ backgroundColor: '#0B6BA5', color: 'White', padding: '30px', fontSize: '55px',fontFamily: 'Patrick Hand, cursive'}}>
     Define phase
           </h2>
           <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>MoSCoW</h3>
@@ -259,7 +259,7 @@ const Sektionklimt = () => {
     <section className="container ">
   <div className="row justify-content-center">
     <div className="col-md-12 text-center p-4">
-    <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>UML-diagram</h2>
+    <h2 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' ,fontSize: '45px'}}>UML-diagram</h2>
     </div>
     <div className="col-md-8 text-center">
     <img 
