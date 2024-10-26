@@ -12,7 +12,7 @@ const Sektion = () => {
           {/* Left Section */}
           <Col xs={12} md={6} className="text-center">
             <img 
-              src="/Photos/GIF.gif" 
+              src="/Photos/tech.gif" 
               alt="Techcity" 
               className="img-fluid mb-3" 
               style={{ borderRadius: '15px', height: 'auto' }} 
