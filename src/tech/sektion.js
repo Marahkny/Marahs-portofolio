@@ -93,29 +93,43 @@ const Sektion = () => {
 
      
     </Container>
-
-    <Container fluid className="d-flex justify-content-center align-items-center mb-5">
-  <Row className="justify-content-center text-center">
-    <Col md={8}>
+    <Container fluid className="d-flex flex-column justify-content-center align-items-center mb-5">
+  
+  {/* Section 1: Problem Statement */}
+  <Row className="justify-content-center align-items-center mb-5">
+    <Col md={6} className="text-left">
       <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h2>
       <p><strong>Problem:</strong> Research shows inconsistent user experiences (UX) across major e-commerce platforms like Elgiganten and Power.</p>
-      
-      <p style={{ fontWeight: 'bold', marginTop: '20px',textAlign: 'left' }}>Key Issues:</p>
-      <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+      <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
+      <ul style={{ paddingLeft: '20px' }}>
         <li><strong>Wish List Visibility:</strong> Users struggle to access or manage wish lists during purchases.</li>
         <li><strong>Login Frustration:</strong> Users must log in to save items, often losing selected products afterward.</li>
       </ul>
-      
-      <p style={{ fontWeight: 'bold', marginTop: '40px',textAlign: 'left' }}>TechCity’s Solution:</p>
-      <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+    </Col>
+    <Col md={4} className="d-flex justify-content-center">
+      <img src="/Photos/problem.png" alt="Product Illustration" style={{ maxWidth: '60%', height: 'auto' }} />
+    </Col>
+  </Row>
+
+  {/* Section 2: Solution Statement */}
+  <Row className="justify-content-center align-items-center mb-5">
+    <Col md={4} className="d-flex justify-content-center">
+      <img src="/Photos/thank.png" alt="Product Illustration" style={{ maxWidth: '80%', height: 'auto' }} />
+    </Col>
+    <Col md={6} className="text-left">
+      <p style={{ fontWeight: 'bold', marginTop: '40px' }}>TechCity’s Solution:</p>
+      <ul style={{ paddingLeft: '20px' }}>
         <li><strong>User-Friendly Wish List:</strong> A built-in, intuitive wish list feature designed from the ground up.</li>
         <li><strong>Seamless Experience:</strong> Users can easily add and keep track of items without unnecessary logins or re-selections.</li>
       </ul>
+    </Col>
+  </Row>
 
-      <hr style={{ borderColor: 'black', margin: '40px 0' }} />
-      
+  {/* Section 3: User Profile and Goals */}
+  <Row className="justify-content-center mb-5">
+    <Col md={10} className="text-left">
       <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>Who are the users?</h4>
-      <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+      <ul style={{ paddingLeft: '20px' }}>
         <li>Technology enthusiasts and professionals interested in the latest technology, innovations, and IT trends.</li>
         <li>Students and developers looking to learn more and grow within the tech field.</li>
         <li>Small to medium-sized businesses seeking affordable and tailored tech solutions.</li>
@@ -123,18 +137,18 @@ const Sektion = () => {
       </ul>
 
       <hr style={{ borderColor: 'black', margin: '40px 0' }} />
-      
+
       <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>Goals of the Product (For both business & users)</h4>
       
-      <p style={{textAlign: 'left'}}><strong>Business Goals</strong></p>
-      <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+      <p><strong>Business Goals</strong></p>
+      <ul style={{ paddingLeft: '20px' }}>
         <li>Establish TechCity as a leading authority and trusted source of information in technology and innovation.</li>
         <li>Convert website visitors into qualified leads or paying customers by offering valuable, tailored products, services, and resources.</li>
         <li>Improve the purchase process by enabling users to easily view and manage their wish list throughout their shopping journey.</li>
       </ul>
 
-      <p style={{textAlign: 'left'}}><strong>User Goals</strong></p>
-      <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
+      <p><strong>User Goals</strong></p>
+      <ul style={{ paddingLeft: '20px' }}>
         <li>Provide up-to-date technology news, trends, and innovations to keep users informed and engaged.</li>
         <li>Allow users to access and view their wish list after logging in and facilitate a smooth purchasing process for wish-listed items.</li>
         <li>Offer small to medium-sized businesses customized and cost-effective tech solutions that cater to their specific needs.</li>
@@ -142,6 +156,7 @@ const Sektion = () => {
     </Col>
   </Row>
 </Container>
+
 
 <div className="justify-content-center text-center mb-5"> 
 <h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Market Analysis</h3>
