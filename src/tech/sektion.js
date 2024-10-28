@@ -113,9 +113,9 @@ const Sektion = () => {
     <table className="table table-bordered table-striped">
       <thead className="thead-dark">
         <tr>
-          <th style={{ backgroundColor: '#343a40', color: '#fff', textAlign: 'center', padding: '15px' }}>Company</th>
-          <th style={{ backgroundColor: '#343a40', color: '#fff', textAlign: 'center', padding: '15px' }}>Elgiganten</th>
-          <th style={{ backgroundColor: '#343a40', color: '#fff', textAlign: 'center', padding: '15px' }}>Power</th>
+          <th style={{ backgroundColor: '#0b6ba5', color: '#fff', textAlign: 'center', padding: '15px' }}>Company</th>
+          <th style={{ backgroundColor: '#0b6ba5', color: '#fff', textAlign: 'center', padding: '15px' }}>Elgiganten</th>
+          <th style={{ backgroundColor: '#0b6ba5', color: '#fff', textAlign: 'center', padding: '15px' }}>Power</th>
         </tr>
       </thead>
       <tbody>
@@ -209,13 +209,13 @@ const Sektion = () => {
   <h3 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h3>
   <div className="row justify-content-center">
     <div className="col-md-4 mb-4 d-flex">
-      <div className="p-4 shadow flex-grow-1" style={{ backgroundColor: '#e46698', borderRadius: '8px', color: 'white' }}>
+      <div className="p-4 flex-grow-1" style={{ backgroundColor: '#e46698', borderRadius: '8px', color: 'white',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
         <h5 style={{fontFamily: 'Patrick Hand, cursive'}}>How might we help the user keep their wishlist items after logging in?</h5>
         <p>By implementing persistent storage mechanisms such as local storage or syncing wishlist data with the user's account, we ensure the wishlist is retained after login.</p>
       </div>
     </div>
     <div className="col-md-4 mb-4 d-flex">
-      <div className="p-4 shadow flex-grow-1" style={{ backgroundColor: '#0b6ba5', borderRadius: '8px', color: 'white' }}>
+      <div className="p-4  flex-grow-1" style={{ backgroundColor: '#0b6ba5', borderRadius: '8px', color: 'white',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
         <h5 style={{fontFamily: 'Patrick Hand, cursive'}}>How might we help the user remember their wishlist items during the checkout process?</h5>
         <p>Integrating wishlist reminders within the checkout flow, perhaps by displaying them in the cart, can help users remember and consider adding these items to their purchase.</p>
       </div>
