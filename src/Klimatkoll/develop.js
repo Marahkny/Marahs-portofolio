@@ -6,7 +6,18 @@ const Develop = () => {
   return (
     < >
     <div className="justify-content-center text-center mt-4 pt-4"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px'  }}>
+    <h2 style={{
+        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        color: 'white',
+        padding: '20px 40px',
+        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        fontFamily: 'Patrick Hand, cursive',
+        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
+        display: 'inline-block',
+        maxWidth: '90%', // Makes it fit better on smaller screens
+        margin: '0 auto', // Centers it horizontally
+    }}>
     Develop phase
           </h2>
     </div>
@@ -32,7 +43,7 @@ const Develop = () => {
   </Row>
 </Container>
 
-    <Container fluid className="d-flex justify-content-center align-items-center p-4" style={{backgroundColor:'#f8f9fa'}}>
+    <Container fluid className="d-flex justify-content-center align-items-center p-4">
     <Row className="justify-content-center pb-5">
       <Col md={8} className=' text-center' >
         {/* First paragraph centered */}
@@ -59,7 +70,7 @@ const Develop = () => {
       </Col>
     </Row>
   </Container>
-  <Container fluid className="d-flex justify-content-center align-items-center p-5" style={{ backgroundColor: '#f7f9fc' }}>
+  <Container fluid className="d-flex justify-content-center align-items-center p-5">
   <Row className="justify-content-center text-center pb-5">
     <Col md={8}>
       {/* Title centered */}
@@ -89,7 +100,7 @@ const Develop = () => {
   </Row>
 </Container>
 
-  <Container fluid className="d-flex justify-content-center align-items-center p-5" style={{ backgroundColor: '#f4f6f9' }}>
+  <Container fluid className="d-flex justify-content-center align-items-center p-5">
   <Row className="justify-content-center text-center pb-5">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}

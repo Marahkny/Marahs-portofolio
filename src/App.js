@@ -20,6 +20,8 @@ function App() {
           <Route path="/techcity" element={<Techcity />} />
         </Routes>
       </Router>
+     
+
     </div>
   );
 }

@@ -93,12 +93,22 @@ const Sektionklimt = () => {
 </Container>
 
 
-<div className="justify-content-center text-center mb-5" style={{backgroundColor:'white'}}> 
-    <h2 style={{ backgroundColor: '#E46698', color: 'White',fontSize: '55px', padding: '30px', fontFamily: 'Patrick Hand, cursive'}}>
-    Discover phase
-          </h2>
-          
-    </div>
+<div className="justify-content-center text-center mb-5">
+    <h2 style={{
+        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        color: 'white',
+        padding: '20px 40px',
+        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        fontFamily: 'Patrick Hand, cursive',
+        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
+        display: 'inline-block',
+        maxWidth: '90%', // Makes it fit better on smaller screens
+        margin: '0 auto', // Centers it horizontally
+    }}>
+        Discover phase
+    </h2>
+</div>
     <div className="container-fluid ">
   {/* User Research Section */}
   <Container fluid className="mb-5">
@@ -146,7 +156,7 @@ const Sektionklimt = () => {
 </div>
 
 
-<Container fluid className="py-5" style={{ backgroundColor: '#f8f9fa' }}>
+<Container fluid className="py-5" >
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
       <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Personas</h3>
@@ -184,7 +194,7 @@ const Sektionklimt = () => {
 </Container>
 
 {/* Scenario Section */}
-<Container fluid className="py-5" style={{ backgroundColor: '#f0f4f8' }}>
+<Container fluid className="py-5" >
   <Row className="justify-content-center text-center mb-5">
     <Col md={8}>
       <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Scenario</h3>
@@ -222,11 +232,22 @@ const Sektionklimt = () => {
 </Container>
 
     <div className="justify-content-center text-center " style={{backgroundColor:'white'}}> 
-    <h2 style={{ backgroundColor: '#0B6BA5', color: 'White', padding: '30px', fontSize: '55px',fontFamily: 'Patrick Hand, cursive'}}>
+    <h2 style={{
+        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        color: 'white',
+        padding: '20px 40px',
+        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        fontFamily: 'Patrick Hand, cursive',
+        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
+        display: 'inline-block',
+        maxWidth: '90%', // Makes it fit better on smaller screens
+        margin: '0 auto', // Centers it horizontally
+    }}>
     Define phase
           </h2>
-          <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' }}>MoSCoW</h3>
     </div>
+    
     <section className="container py-5">
   <p className="text-center mb-4">The MoSCoW method is a prioritization technique used to manage requirements in a project</p>
   <div className="row justify-content-center">

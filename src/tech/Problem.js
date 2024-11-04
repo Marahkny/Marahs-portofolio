@@ -27,9 +27,33 @@ const Problem = () => {
   <Col md={5} className="d-flex justify-content-center">
       <img className="img-fluid" src="/Photos/problem.png" alt="Solution Illustration" style={{maxWidth:'60%'}} />
     </Col>
-    <Col md={3} className="text-start" style={{ backgroundColor: '#e46698', color:'white', padding: '20px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-  <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px', color:'white' }}>TechCity’s Solution:</h4>
-  <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
+    <Col md={3} style={{
+    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
+    color: 'white',
+    padding: '40px 20px', // Adds even top and bottom padding
+    borderRadius: '20% 20% 20% 0', // Asymmetric rounded corners
+    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center', // Centers content vertically
+    alignItems: 'center', // Centers content horizontally
+    textAlign: 'left', // Centers text within elements
+    maxWidth: '100%',
+}}>
+  <h4 style={{
+      fontFamily: 'Patrick Hand, cursive',
+      fontSize: 'clamp(1.5rem, 2vw, 2.2rem)', // Responsive font size
+      marginBottom: '20px',
+      color: 'white'
+  }}>
+    TechCity’s Solution:
+  </h4>
+  <ul style={{
+      listStyleType: 'none',
+      paddingLeft: '0',
+      lineHeight: '1.8', // Line height for readability
+      marginBottom: '0' // Removes bottom margin on the last item
+  }}>
     <li style={{ marginBottom: '15px' }}>
       <strong>User-Friendly Wish List:</strong> A built-in, intuitive wish list feature designed from the ground up.
     </li>
@@ -38,8 +62,6 @@ const Problem = () => {
     </li>
   </ul>
 </Col>
-
-    
   </Row>
 
   {/* Section 3: User Profile and Goals */}

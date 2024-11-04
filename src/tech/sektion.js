@@ -46,7 +46,7 @@ const Sektion = () => {
       
   </Row>
   </Container>
-  <div ></div>
+ 
    <Container className="pt-5 pb-5">
       <Row className="d-flex justify-content-center text-center">
         {/* Discover Column */}
@@ -78,12 +78,24 @@ const Sektion = () => {
         </Col>
       </Row>
     </Container>
-    <div className="justify-content-center text-center mb-5"> 
-    <h2 style={{ backgroundColor: '#F5C518', color: 'black', padding: '30px',fontSize: '55px', fontFamily: 'Patrick Hand, cursive' }}>
-     Discover phase
-          </h2>
-    </div>
-    <Container fluid className="mb-5"  >
+    <div className="justify-content-center text-center mb-5">
+    <h2 style={{
+        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        color: 'white',
+        padding: '20px 40px',
+        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        fontFamily: 'Patrick Hand, cursive',
+        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
+        display: 'inline-block',
+        maxWidth: '90%', // Makes it fit better on smaller screens
+        margin: '0 auto', // Centers it horizontally
+    }}>
+        Discover phase
+    </h2>
+</div>
+
+    <Container fluid   >
       {/* User Research Header */}
       <Row className="justify-content-center text-center p-2">
         <Col md={12} >
@@ -145,29 +157,67 @@ const Sektion = () => {
   </Row>
 </Container>
 
-    <div className="justify-content-center text-center"> 
-    <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px'}}>
-    Define phase
-          </h2>
-          <h3 className="fancy-underline " style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>HMW</h3>
-    </div>
+<div className="justify-content-center text-center m-5">
+    <h2 style={{
+        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        color: 'white',
+        padding: '20px 40px',
+        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        fontFamily: 'Patrick Hand, cursive',
+        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
+        display: 'inline-block',
+        maxWidth: '90%', // Makes it fit better on smaller screens
+        margin: '0 auto', // Centers it horizontally
+    }}>
+        Define phase
+    </h2>
+</div>
     <section className="container py-5">
-  <h3 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h3>
   <div className="row justify-content-center">
-    <div className="col-md-4 mb-4 d-flex">
-      <div className="p-4 flex-grow-1" style={{ backgroundColor: '#e46698', borderRadius: '8px', color: 'white',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-        <h5 style={{fontFamily: 'Patrick Hand, cursive'}}>How might we help the user keep their wishlist items after logging in?</h5>
-        <p>By implementing persistent storage mechanisms such as local storage or syncing wishlist data with the user's account, we ensure the wishlist is retained after login.</p>
+  <div className="col-md-10 mb-4 d-flex justify-content-center">
+  <h3 className="text-center mb-4 fancy-underline" style={{fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>HMW</h3>
+
+  </div>
+    <div className="col-md-4 mb-4 d-flex justify-content-center">
+      <div className="p-4 flex-grow-1 text-center" style={{
+    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
+    color: 'white',
+    padding: '40px 20px', // Adds even top and bottom padding
+    borderRadius: '20% 0 20% 20%', // Asymmetric rounded corners
+    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center', // Centers content vertically
+    alignItems: 'center', // Centers content horizontally
+    textAlign: 'left', // Centers text within elements
+    maxWidth: '100%',
+      }}>
+        <h5 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user keep their wishlist items after logging in?</h5>
+        <p style={{ lineHeight: '1.6' }}>By implementing persistent storage mechanisms such as local storage or syncing wishlist data with the user's account, we ensure the wishlist is retained after login.</p>
       </div>
     </div>
-    <div className="col-md-4 mb-4 d-flex">
-      <div className="p-4  flex-grow-1" style={{ backgroundColor: '#0b6ba5', borderRadius: '8px', color: 'white',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-        <h5 style={{fontFamily: 'Patrick Hand, cursive'}}>How might we help the user remember their wishlist items during the checkout process?</h5>
-        <p>Integrating wishlist reminders within the checkout flow, perhaps by displaying them in the cart, can help users remember and consider adding these items to their purchase.</p>
+    <div className="col-md-4 mb-4 d-flex justify-content-center">
+      <div className="p-4 flex-grow-1 text-center " style={{
+    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
+    color: 'white',
+    padding: '40px 20px', // Adds even top and bottom padding
+    borderRadius: '0 20% 20% 20%', // Asymmetric rounded corners
+    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center', // Centers content vertically
+    alignItems: 'center', // Centers content horizontally
+    textAlign: 'left', // Centers text within elements
+    maxWidth: '100%',
+      }}>
+        <h5 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user remember their wishlist items during the checkout process?</h5>
+        <p style={{ lineHeight: '1.6' }}>Integrating wishlist reminders within the checkout flow, perhaps by displaying them in the cart, can help users remember and consider adding these items to their purchase.</p>
       </div>
     </div>
   </div>
 </section>
+
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-center">
@@ -175,8 +225,10 @@ const Sektion = () => {
       <h3 className=" fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       User flow
       </h3>
-      
-    </Col>
+      <p style={{ textAlign: 'left'}}>The user flow illustrates how a user can add a product to their wishlist and access it during the checkout process. After choosing a product and logging in, the user can save it to the wishlist, continue shopping, and later find their wishlist items conveniently available at checkout. </p>
+        <p><a href='https://www.canva.com/design/DAGVgKNW2VY/LJQWUYsL4Q5UJjWpzDxxXA/edit?utm_content=DAGVgKNW2VY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target="_blank" rel="noopener noreferrer">See the user story here</a></p>
+
+</Col>
 
     <Col xs={12} md={8} className="d-flex justify-content-center">
       <img 
@@ -191,28 +243,27 @@ const Sektion = () => {
     </Col>
   </Row>
 </Container>
-<Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
-  <Row className="justify-content-center text-center">
-    <Col xs={12} md={8} className="mb-4">
-      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
-      Wireframes
-
+<Container fluid className="d-flex justify-content-center align-items-center py-5" >
+  <Row className="text-center">
+    <Col xs={12} md={8}>
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>
+        Wireframes
       </h3>
-      
     </Col>
   </Row>
 </Container>
+
     <div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
     <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/Photos/Namnlös design (46).png" className="d-block w-100 img-fluid shadow" alt="First slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
+          <img src="/Photos/Namnlös design (46).png" className="d-block w-100 img-fluid" alt="First slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
         </div>
         <div className="carousel-item">
-          <img src="/Photos/Wifi.png" className="d-block w-100 img-fluid shadow" alt="Second slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
+          <img src="/Photos/Wifi.png" className="d-block w-100 img-fluid" alt="Second slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
         </div>
         <div className="carousel-item">
-          <img src="/Photos/Wifi (1).png" className="d-block w-100 img-fluid shadow" alt="Third slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
+          <img src="/Photos/Wifi (1).png" className="d-block w-100 img-fluid" alt="Third slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
@@ -233,22 +284,32 @@ const Sektion = () => {
   <span className="visually-hidden">Next</span>
 </button>
 </div>
-<div style={{paddingTop:'20px', paddingBottom:'20px'}}></div>
-<div className="justify-content-center text-center mt-4"> 
-    <h2 style={{ backgroundColor: '#E46698', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px' }}>
-    Develop phase
-          </h2>
 
-    </div>
+<div className="justify-content-center text-center m-5 p-4">
+    <h2 style={{
+        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        color: 'white',
+        padding: '20px 40px',
+        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        fontFamily: 'Patrick Hand, cursive',
+        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
+        display: 'inline-block',
+        maxWidth: '90%', // Makes it fit better on smaller screens
+        margin: '0 auto', // Centers it horizontally
+    }}>
+        Develop phase
+    </h2>
+</div>
     
     <Container fluid className="d-flex justify-content-center align-items-center mb-5" style={{ backgroundColor: 'white' }}>
-  <Row className="justify-content-center text-center mb-5">
+  <Row className="justify-content-center text-center">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Prototyping</h3>
+      <h3 className=" fancy-underline m-4" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Prototyping</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
-      <p className="text-left py-4" >
+      <p tyle={{ textAlign: 'left' }}>
       The website's design was created using Figma. You can view the high-fidelity prototype for a detailed representation of the final design.      </p>
 
       {/* Buttons */}
@@ -275,7 +336,7 @@ const Sektion = () => {
     </Col>
 
     {/* Image section */}
-    <Col xs={12} className="d-flex justify-content-center pt-5">
+    <Col xs={10} className="d-flex justify-content-center pt-5">
       <img 
         src="/Photos/Wifi (2).png" 
         alt="Component Tree" 
