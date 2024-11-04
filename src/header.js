@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { FaEnvelope, FaLinkedinIn, FaBars, FaTimes } from 'react-icons/fa';
-import './Header.css'; // Vi använder en separat CSS-fil för stilen
+import './Header.css'; // Ensure this imports your CSS
 import { Link } from 'react-router-dom';
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,8 +12,7 @@ const Header = () => {
 
   return (
     <>
-      {/* Header för stora skärmar */}
-      <Navbar bg="light" expand="lg"  className="d-none d-lg-block">
+      <Navbar bg="light" expand="lg" className="d-none d-lg-block">
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -22,17 +22,18 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Nav className="ms-auto">
-          <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px',color:'black' }}>
-  About
-</Nav.Link>
-            <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px', color:'black', }}>
+            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+              About
+            </Nav.Link>
+            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
               Work
             </Nav.Link>
             <Nav.Link
               href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px',color:'black' }}
+              className="nav-link-custom"
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}
             >
               Resume
             </Nav.Link>
@@ -46,7 +47,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-      {/* Hamburger ikon för små och medelstora skärmar */}
+      {/* Hamburger icon for small and medium screens */}
       <Navbar bg="light" expand="lg" sticky="top" className="d-lg-none">
         <Container>
           <Navbar.Brand href="/">
@@ -62,7 +63,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-      {/* Fullskärmsmeny vid hamburgermeny */}
+      {/* Fullscreen menu when hamburger menu is open */}
       {isMenuOpen && (
         <div className="fullscreen-menu">
           <div className="menu-header">
@@ -73,12 +74,12 @@ const Header = () => {
                 style={{ width: 'auto', height: 'auto', maxWidth: '70px' }}
               />
             </Navbar.Brand>
-            <div className="menu-icons ">
+            <div className="menu-icons">
               <Nav.Link href="mailto:Marahknyfaty@outlook.com">
-                <FaEnvelope style={{ color: '#E46698', fontSize: '24px',  }} />
+                <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/marah-kn/">
-                <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px',  }} />
+                <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }} />
               </Nav.Link>
               <Button variant="link" onClick={handleCloseMenu}>
                 <FaTimes style={{ fontSize: '24px', color: '#E46698' }} />
@@ -87,16 +88,17 @@ const Header = () => {
           </div>
 
           <div className="menu-links text-center">
-          <Nav.Link as={Link} to="/about" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
-  About
-</Nav.Link>
-            <Nav.Link href="/" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+              About
+            </Nav.Link>
+            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
               Work
             </Nav.Link>
             <Nav.Link
               href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
+              className="nav-link-custom"
               style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
             >
               Resume
@@ -109,3 +111,4 @@ const Header = () => {
 };
 
 export default Header;
+
