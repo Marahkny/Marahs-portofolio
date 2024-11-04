@@ -97,90 +97,36 @@ const Sektion = () => {
    
 <Problem />
 
-<div className="justify-content-center text-center mb-5"> 
-<h3 className="display-4 fancy-underline mb-5" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Market Analysis</h3>
-<div >
-  To conduct a market analysis, I have analyzed Power.se and Elgiganten.
-</div>
-    </div>
   
+    <Container fluid className="d-flex justify-content-center align-items-center py-5" >
+  <Row className="justify-content-center text-center">
+    <Col xs={12} md={10}>
+      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
+      Market Analysis
+      </h3>
+      <p className='pt-5' style={{textAlign: 'left'}}>
+  This table compares the UI/UX of Elgiganten and Power. Both face issues with wish list visibility and login frustration during checkout, affecting user experience. Elgiganten has a modern design but lacks smooth login, while Power’s modal makes wish list addition easier.
+</p>
 
+    </Col>
 
-   
-<div className="container mt-4">
-  {/* Table responsiveness for smaller screens */}
-  <div className="table-responsive">
-    <table className="table table-bordered table-striped">
-      <thead className="thead-dark">
-        <tr>
-          <th style={{ backgroundColor: '#0b6ba5', color: '#fff', textAlign: 'center', padding: '15px' }}>Company</th>
-          <th style={{ backgroundColor: '#0b6ba5', color: '#fff', textAlign: 'center', padding: '15px' }}>Elgiganten</th>
-          <th style={{ backgroundColor: '#0b6ba5', color: '#fff', textAlign: 'center', padding: '15px' }}>Power</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Focus area</strong></td>
-          <td>
-            <ul style={{ paddingLeft: '15px', textAlign: 'left' }}>
-              <li>Wish List Visibility: When the user purchases a product, the wish list is not visible during the checkout process.</li>
-              <li>Login Frustration: When the user adds a product to the wish list, they are forced to log in, and after logging in, the system should return the user to their wish list or the last opened page.</li>
-            </ul>
-          </td>
-          <td>
-            <ul style={{ paddingLeft: '15px', textAlign: 'left' }}>
-              <li>Wish List Visibility: The wish list is not visible during the checkout process.</li>
-              <li>Login Frustration: When the user wants to add an item to the wish list, they are required to log in first (login opens as a modal). After logging in, the item they wanted to add should be visible in the wish list, and the system should also return the user to the last opened page.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Strengths</strong></td>
-          <td>Modern</td>
-          <td>Modern and easy to use.</td>
-        </tr>
-        <tr>
-          <td><strong>Weaknesses</strong></td>
-          <td>
-            <ul style={{ paddingLeft: '15px', textAlign: 'left' }}>
-              <li>The user cannot return to the last opened page after logging in to add a product to the wish list.</li>
-              <li>The user cannot see the wish list during the checkout process.</li>
-            </ul>
-          </td>
-          <td>
-            <ul style={{ paddingLeft: '15px', textAlign: 'left' }}>
-              <li>The user cannot see the wish list during the checkout process.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>UI/UX Analysis:</strong></td>
-          <td>
-            <ul style={{ paddingLeft: '15px', textAlign: 'left' }}>
-              <li>The forced login interrupts the smooth process of adding items to the wish list. A seamless modal login is crucial for reducing frustration, but the current implementation lacks this ease.</li>
-              <li>To ensure users don’t forget anything, the wish list should be visible at step 2 of the checkout process.</li>
-            </ul>
-          </td>
-          <td>
-            <ul style={{ paddingLeft: '15px', textAlign: 'left' }}>
-              <li>A good UX in Power would allow the user to add an item to the wish list by opening a modal on the same page.</li>
-              <li>The wish list is not visible during the checkout process, which negatively impacts the user experience.</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
+    <Col xs={12} md={12} className="d-flex justify-content-center">
+      <img 
+        src="/Photos/Company.png"
+        alt="company"
+        className="img-fluid" 
+      />  
+    </Col>
+  </Row>
+</Container>
 
 <Container fluid className="d-flex justify-content-center align-items-center py-5" >
   <Row className="justify-content-center text-center">
-    <Col xs={12} md={8} className="mb-5">
+    <Col xs={12} md={8} >
       <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       Personas
       </h3>
-      
+      <p  className='pt-5' style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
     </Col>
 
     <Col xs={12} md={8} className="d-flex justify-content-center">
@@ -189,7 +135,7 @@ const Sektion = () => {
         alt="Lo-fi Prototype"
         className="img-fluid" 
         style={{ 
-          maxWidth: '90%', 
+        
           height: 'auto', 
        
         }}
@@ -203,7 +149,7 @@ const Sektion = () => {
     <h2 style={{ backgroundColor: '#0b6ba5', color: 'white', padding: '30px', fontFamily: 'Patrick Hand, cursive',fontSize: '55px'}}>
     Define phase
           </h2>
-          <h3 className="fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>HMW</h3>
+          <h3 className="fancy-underline " style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>HMW</h3>
     </div>
     <section className="container py-5">
   <h3 className="text-center mb-4" style={{ fontFamily: 'Patrick Hand, cursive' }}>HMWs to Product Goals</h3>
@@ -238,7 +184,7 @@ const Sektion = () => {
         alt="Lo-fi Prototype"
         className="img-fluid " 
         style={{ 
-          maxWidth: '90%', 
+           
           height: 'auto', 
         }}
       />  
