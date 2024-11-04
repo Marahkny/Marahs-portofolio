@@ -180,7 +180,7 @@ const Sektion = () => {
 
     <Col xs={12} md={8} className="d-flex justify-content-center">
       <img 
-        src="/Photos/Green and White Project Phases Flowchart.png"
+        src="/Photos/USERFLOW.png"
         alt="Lo-fi Prototype"
         className="img-fluid " 
         style={{ 
