@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { FaEnvelope, FaLinkedinIn, FaBars, FaTimes } from 'react-icons/fa';
-import './Header.css'; // Ensure this imports your CSS
-import { Link } from 'react-router-dom';
+import './Header.css';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const handleOpenMenu = () => setIsMenuOpen(true);
   const handleCloseMenu = () => setIsMenuOpen(false);
+
+  const handleNavClick = (path) => {
+    if (location.pathname === path) {
+      window.location.reload();
+    }
+  };
 
   return (
     <>
@@ -22,10 +29,22 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+            <Nav.Link
+              as={Link}
+              to="/about"
+              className="nav-link-custom"
+              onClick={() => handleNavClick('/about')}
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}
+            >
               About
             </Nav.Link>
-            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}>
+            <Nav.Link
+              as={Link}
+              to="/"
+              className="nav-link-custom"
+              onClick={() => handleNavClick('/')}
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px' }}
+            >
               Work
             </Nav.Link>
             <Nav.Link
@@ -88,10 +107,28 @@ const Header = () => {
           </div>
 
           <div className="menu-links text-center">
-            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link
+              as={Link}
+              to="/about"
+              className="nav-link-custom"
+              onClick={() => {
+                handleNavClick('/about');
+                handleCloseMenu();
+              }}
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+            >
               About
             </Nav.Link>
-            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link
+              as={Link}
+              to="/"
+              className="nav-link-custom"
+              onClick={() => {
+                handleNavClick('/');
+                handleCloseMenu();
+              }}
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+            >
               Work
             </Nav.Link>
             <Nav.Link
@@ -111,4 +148,5 @@ const Header = () => {
 };
 
 export default Header;
+
 
