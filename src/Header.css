@@ -1,3 +1,44 @@
+/* Default styles for the header */
+.header {
+  background-color: transparent;
+  transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Background and color when scrolled */
+.header.scrolled {
+  background-color: white;
+}
+
+/* Nav links on the hero page */
+.nav-link-custom {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Change color to black when scrolled on hero page */
+.scrolled-link {
+  color: black;
+}
+
+/* Alternate header for non-hero pages */
+.alt-header {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Alternate links on non-hero pages */
+.alt-link {
+  color: black;
+}
+
+.alt-link:hover {
+  color: #E46698;
+}
+
 .fullscreen-menu {
   position: fixed;
   top: 0;
@@ -47,28 +88,8 @@
 .menu-links .nav-link:hover {
   color: #FF1493;
 }
-  /* Header.css */
 
-.nav-link-custom {
-  color: black; /* Default color */
-  transition: color 0.3s ease; /* Smooth transition for color change */
-}
 
-.nav-link-custom:hover {
-  color: #E46698; /* Change to your desired hover color */
-}
-.header {
-  background-color: rgba(255, 255, 255, 0.5);
-  transition: background-color 0.2s ease;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-}
-
-.header.scrolled {
-  background-color: white;
-}
 
 
 

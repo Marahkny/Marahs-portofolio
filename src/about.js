@@ -9,7 +9,7 @@ const About = () => {
         <>
             <Header />
            
-            <Container className=" mt-4 pt-4">
+            <Container className=" py-5 my-5">
       <Row className="justify-content-center">
         <Col xs={12} md={8} >
         <h1 className="display-4" style={{ fontFamily: 'Patrick Hand, cursive', textAlign: 'left',color:'#e46698' }}>Hello, I’m Marah</h1>

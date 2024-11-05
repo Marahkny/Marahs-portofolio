@@ -24,7 +24,7 @@ const Herobild = () => {
             zIndex: '-1',
           }}
         >
-          <source src="/Photos/back.mp4" />
+          <source src="/Photos/Back.mp4" />
         </video>
         
         {/* Dark Overlay */}
@@ -47,15 +47,12 @@ const Herobild = () => {
           style={{ minHeight: '100vh', position: 'relative', zIndex: '2', color: '#fff' }} // Centered content with white text
         >
           <Row className="justify-content-center">
-            <Col md={8}>
-              <h1 className="display-6" style={{ fontFamily: 'Patrick Hand, cursive' }}>
-                Hello! I’m
-              </h1>
-              <h2 style={{ color: '#e46698', fontSize: '10vw', fontFamily: 'Patrick Hand, cursive', fontWeight: 'bold' }}>
-  Marah Kn
-</h2>
+            <Col md={10}>
+              <h1 style={{  fontSize: '10vw', fontFamily: 'Patrick Hand, cursive', fontWeight: 'bold' }}>
+              Hello! I’m Marah 
+</h1>
 
-              <p className="lead fancy-text" style={{ fontSize: '24px', fontFamily: 'Patrick Hand, cursive' }}>
+              <p className=" fancy-text" style={{ fontSize: '30px', fontFamily: 'Patrick Hand, cursive' }}>
                 A <span className="fancy-underline">web editor </span> with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>
