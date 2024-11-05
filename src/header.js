@@ -34,7 +34,7 @@ const Header = () => {
         <Navbar.Brand href="/">
           <img src="/Photos/Logo.png" alt="Logo" style={{ maxWidth: '15%' }} />
         </Navbar.Brand>
-        <Nav className="ms-auto nav-links">
+        <Nav className="ms-auto">
           <Nav.Link 
             as={Link} 
             to="/about" 

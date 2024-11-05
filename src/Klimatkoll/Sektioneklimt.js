@@ -36,7 +36,7 @@ const Sektionklimt = () => {
   <Button
     href="https://www.figma.com/proto/cZxBC4r3YraBsDtpqB4IjC/Prototyp?node-id=55-3&node-type=canvas&t=Sok9u0fcFfz6DrjO-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2"
     target="_blank"
-    rel="noopener noreferrer" style={{ backgroundColor: '#0B6BA5', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
+    rel="noopener noreferrer" style={{ backgroundColor: '#E46698', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
   >
     View hi-fi prototype
   </Button>

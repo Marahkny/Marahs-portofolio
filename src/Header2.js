@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { FaEnvelope, FaLinkedinIn, FaBars, FaTimes } from 'react-icons/fa';
-import './Header.css'; // Ensure this imports your CSS
+import './Header2.css'; 
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
@@ -12,7 +12,7 @@ const Header2 = () => {
 
   return (
     <>
-      <Navbar bg="light" expand="lg" className="d-none d-lg-block">
+      <Navbar bg="light" expand="lg" className="d-none d-lg-block" >
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -21,11 +21,11 @@ const Header2 = () => {
               style={{ width: 'auto', height: 'auto', maxWidth: '15%' }}
             />
           </Navbar.Brand>
-          <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px', color:'black' }}>
+          <Nav className="ms-auto nav-links">
+            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px', color:'black' }}>
               About
             </Nav.Link>
-            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px', color:'black' }}>
+            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px', color:'black' }}>
               Work
             </Nav.Link>
             <Nav.Link
@@ -33,7 +33,7 @@ const Header2 = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link-custom"
-              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '20px',color:'black' }}
+              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px',color:'black' }}
             >
               Resume
             </Nav.Link>

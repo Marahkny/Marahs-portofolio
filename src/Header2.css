@@ -1,19 +1,22 @@
 
-
-/* Ensuring links and icons are aligned and spaced */
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+.nav-link-custom {
+    margin-right: 25px;
+    color: black; /* Set initial color */
+    font-family: 'Patrick Hand, cursive';
+    font-size: 24px;
+}
+.nav-link-custom:hover {
+    color: #E46698; /* Hover color */
 }
 
+    
 .fullscreen-menu {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,5 +57,5 @@
 }
 
 .menu-links .nav-link:hover {
-  color: #FF1493;
+  color: #E46698;
 }
