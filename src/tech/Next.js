@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'; // Or replace with <a> tag for external
 function Next() {
   const containerStyle = {
     backgroundColor: '#F5C518',
-    height: "50vh", // Changed to 50vh
+    height: "70vh", // Changed to 50vh
     color: 'black',
     display: "flex",
     justifyContent: "center",

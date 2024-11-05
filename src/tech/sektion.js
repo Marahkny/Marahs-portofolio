@@ -85,26 +85,21 @@ const Sektion = () => {
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
         fontFamily: 'Patrick Hand, cursive',
-        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
-        display: 'inline-block',
-        maxWidth: '90%', // Makes it fit better on smaller screens
-        margin: '0 auto', // Centers it horizontally
+       
     }}>
         Discover phase
     </h2>
 </div>
 
-    <Container fluid   >
+    <Container fluid >
       {/* User Research Header */}
       <Row className="justify-content-center text-center p-2">
-        <Col md={12} >
+        <Col md={12} className='pb-3' >
           
-          <h3  className=" fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>User Research</h3>
+          <h3  className=" fancy-underline " style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>User Research</h3>
         </Col>
       </Row>
-
-     
     </Container>
    
 <Problem />
@@ -116,13 +111,14 @@ const Sektion = () => {
       <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       Market Analysis
       </h3>
-      <p className='pt-5' style={{textAlign: 'left'}}>
+      <p className='pt-3' style={{textAlign: 'left'}}>
   This table compares the UI/UX of Elgiganten and Power. Both face issues with wish list visibility and login frustration during checkout, affecting user experience. Elgiganten has a modern design but lacks smooth login, while Power’s modal makes wish list addition easier.
-</p>
+  <a href="https://www.canva.com/design/DAGVf61WhTw/lTfP-FXtbP858n8M9Abd7A/edit?utm_content=DAGVf61WhTw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}> See the table here:</a>
+  </p>
 
     </Col>
 
-    <Col xs={12} md={12} className="d-flex justify-content-center">
+    <Col xs={12} md={10} className="d-flex justify-content-center">
       <img 
         src="/Photos/Company.png"
         alt="company"
@@ -138,7 +134,7 @@ const Sektion = () => {
       <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       Personas
       </h3>
-      <p  className='pt-5' style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
+      <p  className='pt-3' style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
     </Col>
 
     <Col xs={12} md={8} className="d-flex justify-content-center">
@@ -157,18 +153,14 @@ const Sektion = () => {
   </Row>
 </Container>
 
-<div className="justify-content-center text-center m-5">
+<div className="justify-content-center text-center my-5">
     <h2 style={{
         background: 'linear-gradient(135deg, #f5c518, #e46698)',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
         fontFamily: 'Patrick Hand, cursive',
-        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
-        display: 'inline-block',
-        maxWidth: '90%', // Makes it fit better on smaller screens
-        margin: '0 auto', // Centers it horizontally
     }}>
         Define phase
     </h2>
@@ -221,10 +213,10 @@ const Sektion = () => {
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-center">
-    <Col xs={12} md={8} className="mb-4">
-      <h3 className=" fancy-underline mb-5" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
+    <Col xs={12} md={8}>
+      <div className='pb-3'><h3 className=" fancy-underline " style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       User flow
-      </h3>
+      </h3></div>
       <p style={{ textAlign: 'left'}}>The user flow illustrates how a user can add a product to their wishlist and access it during the checkout process. After choosing a product and logging in, the user can save it to the wishlist, continue shopping, and later find their wishlist items conveniently available at checkout. </p>
         <p><a href='https://www.canva.com/design/DAGVgKNW2VY/LJQWUYsL4Q5UJjWpzDxxXA/edit?utm_content=DAGVgKNW2VY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target="_blank" rel="noopener noreferrer">See the user story here</a></p>
 
@@ -243,9 +235,9 @@ const Sektion = () => {
     </Col>
   </Row>
 </Container>
-<Container fluid className="d-flex justify-content-center align-items-center py-5" >
+<Container fluid className="d-flex justify-content-center align-items-center" >
   <Row className="text-center">
-    <Col xs={12} md={8}>
+    <Col xs={12} md={8} className='pb-3'>
       <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>
         Wireframes
       </h3>
@@ -285,24 +277,20 @@ const Sektion = () => {
 </button>
 </div>
 
-<div className="justify-content-center text-center m-5 p-4">
+<div className="justify-content-center text-center py-5">
     <h2 style={{
         background: 'linear-gradient(135deg, #f5c518, #e46698)',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
         fontFamily: 'Patrick Hand, cursive',
-        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
-        display: 'inline-block',
-        maxWidth: '90%', // Makes it fit better on smaller screens
-        margin: '0 auto', // Centers it horizontally
     }}>
         Develop phase
     </h2>
 </div>
     
-    <Container fluid className="d-flex justify-content-center align-items-center mb-5" style={{ backgroundColor: 'white' }}>
+    <Container fluid className="d-flex justify-content-center align-items-center " >
   <Row className="justify-content-center text-center">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
@@ -341,7 +329,7 @@ const Sektion = () => {
         src="/Photos/Wifi (2).png" 
         alt="Component Tree" 
         className="img-fluid" 
-      
+      style={{maxHeight:'70%'}}
       />
     </Col>
   </Row>

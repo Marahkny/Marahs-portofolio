@@ -1,18 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { FaEnvelope, FaLinkedinIn, FaBars, FaTimes } from 'react-icons/fa';
 import './Header.css'; // Ensure this imports your CSS
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleOpenMenu = () => setIsMenuOpen(true);
   const handleCloseMenu = () => setIsMenuOpen(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
-      <Navbar bg="light" expand="lg" className="d-none d-lg-block">
+      {/* Header with dynamic background */}
+      <Navbar
+        
+        expand="lg"
+        className={`header ${isScrolled ? 'scrolled' : ''} d-none d-lg-block`}
+      >
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -111,4 +130,5 @@ const Header = () => {
 };
 
 export default Header;
+
 

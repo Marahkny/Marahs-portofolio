@@ -27,11 +27,11 @@ const Problem = () => {
   <Col md={5} className="d-flex justify-content-center">
       <img className="img-fluid" src="/Photos/problem.png" alt="Solution Illustration" style={{maxWidth:'60%'}} />
     </Col>
-    <Col md={3} style={{
+    <Col md={4} style={{
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
     padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '20% 20% 20% 0', // Asymmetric rounded corners
+    borderRadius: '50% 50% 50% 0', // Asymmetric rounded corners
     boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
     display: 'flex',
     flexDirection: 'column',

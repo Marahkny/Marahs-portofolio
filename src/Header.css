@@ -57,5 +57,19 @@
 .nav-link-custom:hover {
   color: #E46698; /* Change to your desired hover color */
 }
+.header {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.2s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header.scrolled {
+  background-color: white;
+}
+
+
 
   

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../FancyText.css'
 import Develop from './develop';
-
+import Poblemklimat from './poplemklimat';
 // Main Section component
 const Sektionklimt = () => {
   return (
@@ -93,74 +93,37 @@ const Sektionklimt = () => {
 </Container>
 
 
-<div className="justify-content-center text-center mb-5">
+<div className="justify-content-center text-center py-5">
     <h2 style={{
         background: 'linear-gradient(135deg, #f5c518, #e46698)',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
         fontFamily: 'Patrick Hand, cursive',
-        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
+
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
-        display: 'inline-block',
-        maxWidth: '90%', // Makes it fit better on smaller screens
-        margin: '0 auto', // Centers it horizontally
     }}>
         Discover phase
     </h2>
 </div>
-    <div className="container-fluid ">
-  {/* User Research Section */}
-  <Container fluid className="mb-5">
-    <Row className="justify-content-center text-center">
-      <Col md={12}>
-        <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>User Research</h3>
-      </Col>
-    </Row>
-  </Container>
+<Container fluid   >
+      {/* User Research Header */}
+      <Row className="justify-content-center text-center p-2">
+        <Col md={12} className='pb-3' >
+          
+          <h3  className=" fancy-underline " style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>User Research</h3>
+        </Col>
+      </Row>
+    </Container>
+    
+<Poblemklimat />
 
-  {/* Problem and Key Issues Section */}
-  <Container fluid className="d-flex justify-content-center align-items-center mb-5">
-    <Row className="justify-content-center text-center">
-      <Col md={8}>
-        <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h2>
-        <p><strong>Problem:</strong> A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.</p>
-
-        <p style={{ fontWeight: 'bold', marginTop: '20px',textAlign: 'left' }}>Key Issues:</p>
-        <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
-          <li><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
-          <li><strong>Engage Diverse Audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
-          <li><strong>Interactive Learning:</strong> To incorporate various educational tools, including quizzes and challenges, to enhance understanding and foster sustainable behaviors.</li>
-        </ul>
-        <hr style={{ borderColor: 'black', margin: '40px 0' }} />
-      </Col>
-    </Row>
-  </Container>
-
-  {/* Target Audience Research Section */}
-  <Container fluid className="mb-5">
-    <Row className="justify-content-center text-center">
-      <Col md={8}>
-        <h2 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Target Audience Research</h2>
-        <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.</p>
-        <p style={{ fontWeight: 'bold', marginTop: '20px',textAlign: 'left' }}>Research Process:</p>
-        <ul style={{ textAlign: 'left', paddingLeft: '20px' }}>
-          <li>Articles and reports on youth engagement in climate issues were collected and analyzed.</li>
-          <li>The predefined target audience of students aged 13-15 was studied through secondary sources.</li>
-          <li>Research focused on topics such as climate anxiety, youth involvement in environmental issues, and their understanding of climate change.</li>
-          <li>It was discovered that many young people had not received in-depth education on climate issues, affecting their awareness and interest.</li>
-        </ul>
-      </Col>
-    </Row>
-  </Container>
-</div>
-
-
-<Container fluid className="py-5" >
-  <Row className="justify-content-center text-center mb-5">
-    <Col md={8}>
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Personas</h3>
-      <p>
+<Container fluid  >
+  <Row className="justify-content-center text-center">
+    <Col md={10}>
+    <div className='pb-3'>
+      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Personas</h3>
+      </div> <p style={{textAlign: 'left'}}>
         Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic.
       </p>
     </Col>
@@ -168,7 +131,7 @@ const Sektionklimt = () => {
 
   {/* Personas Images */}
   <Row className="justify-content-center mb-5">
-    <Col xs={12} md={6} className="text-center mb-4">
+    <Col xs={12} md={5} className="text-center mb-4">
       <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
         <img 
           src="/Photos/persona 1.png" 
@@ -179,7 +142,7 @@ const Sektionklimt = () => {
         <p className="mt-2" style={{ fontWeight: 'bold' }}>Alicia Perry</p>
       </div>
     </Col>
-    <Col xs={12} md={6} className="text-center mb-4">
+    <Col xs={12} md={5} className="text-center mb-4">
       <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
         <img 
           src="/Photos/persona 2.png" 
@@ -196,9 +159,10 @@ const Sektionklimt = () => {
 {/* Scenario Section */}
 <Container fluid className="py-5" >
   <Row className="justify-content-center text-center mb-5">
-    <Col md={8}>
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Scenario</h3>
-      <p >
+    <Col md={10}>
+    <div className='pb-3'>
+      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Scenario</h3>
+     </div> <p style={{textAlign: 'left'}}>
         Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
       </p>
     </Col>
@@ -207,7 +171,7 @@ const Sektionklimt = () => {
   {/* Scenario Images */}
   <Row className="justify-content-center mb-5">
     <Col xs={12} md={6} className="text-center mb-4">
-      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
+      <div style={{   overflow: 'hidden' }}>
         <img 
           src="/Photos/AlicaSen.png" 
           alt="Scenario Alicia" 
@@ -218,7 +182,7 @@ const Sektionklimt = () => {
       </div>
     </Col>
     <Col xs={12} md={6} className="text-center mb-4">
-      <div style={{ boxShadow: '0 4px 8px rgba(0,0,0,0.1)',  overflow: 'hidden' }}>
+      <div style={{   overflow: 'hidden' }}>
         <img 
           src="/Photos/gaberilsSen.png" 
           alt="Scenario Gabriel" 
@@ -231,46 +195,65 @@ const Sektionklimt = () => {
   </Row>
 </Container>
 
-    <div className="justify-content-center text-center " style={{backgroundColor:'white'}}> 
+    <div className="justify-content-center text-center py-5 " style={{backgroundColor:'white'}}> 
     <h2 style={{
         background: 'linear-gradient(135deg, #f5c518, #e46698)',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
         fontFamily: 'Patrick Hand, cursive',
-        borderRadius: '50px 50px 0 50px', // Curved corners with an asymmetric shape
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
-        display: 'inline-block',
-        maxWidth: '90%', // Makes it fit better on smaller screens
-        margin: '0 auto', // Centers it horizontally
     }}>
     Define phase
           </h2>
     </div>
     
     <section className="container py-5">
-  <p className="text-center mb-4">The MoSCoW method is a prioritization technique used to manage requirements in a project</p>
   <div className="row justify-content-center">
-    <div className="col-md-4 mb-4 d-flex">
-      <div className="p-4 shadow flex-grow-1" style={{ backgroundColor: '#e46698', borderRadius: '8px', color: 'white' }}>
-        <h5 style={{fontFamily: 'Patrick Hand, cursive'}}>Key Requirements for Alicia</h5>
-        <ul>
-          <li>Must have: Easy navigation, clear graphs, minimal text.</li>
-          <li>Should have: Videos, quizzes, challenges, profile picture options.</li>
-          <li>Could have: Log-in page.</li>
-          <li>Want to have: A page where different schools can compete against each other.</li>
-        </ul>
+  <div className="col-md-10 mb-4 d-flex justify-content-center">
+  <h3 className="text-center mb-4 fancy-underline" style={{fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>MoSCoW</h3>
+
+  </div>
+    <div className="col-md-5 mb-4 d-flex justify-content-center">
+      <div className="p-4 flex-grow-1 text-center" style={{
+    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
+    color: 'white',
+    padding: '40px 20px', // Adds even top and bottom padding
+    borderRadius: '20% 0 20% 20%', // Asymmetric rounded corners
+    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center', // Centers content vertically
+
+    textAlign: 'left', // Centers text within elements
+    maxWidth: '100%',
+      }}>
+        <h5 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>Key Requirements for Alicia</h5>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Must have: Easy navigation, clear graphs, minimal text.</p>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Should have: Videos, quizzes, challenges, profile picture options.</p>
+        <p style={{ lineHeight: '1.6', textAlign: 'left' }}>Could have: Log-in page.</p>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Want to have: A page where different schools can compete against each other.</p>
       </div>
     </div>
-    <div className="col-md-4 mb-4 d-flex">
-      <div className="p-4 shadow flex-grow-1" style={{ backgroundColor: '#0b6ba5', borderRadius: '8px',  color: 'white' }}>
-        <h5 style={{fontFamily: 'Patrick Hand, cursive'}}>Key Requirements for Gabriel</h5>
-        <ul>
-          <li>Must have: Basic information, three educational sections.</li>
-          <li>Should have: Quizzes, challenges, images.</li>
-          <li>Could have: Modern design, profile page with picture and collected points.</li>
-          <li>Want to have: Ability to compare scores with others in the app.</li>
-        </ul>
+    <div className="col-md-5 mb-4 d-flex justify-content-center">
+      <div className="p-4 flex-grow-1 text-center " style={{
+    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
+    color: 'white',
+    padding: '40px 20px', // Adds even top and bottom padding
+    borderRadius: '0 20% 20% 20%', // Asymmetric rounded corners
+    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center', // Centers content vertically
+   
+    textAlign: 'left', // Centers text within elements
+    maxWidth: '100%',
+      }}>
+        <h5 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>Key Requirements for Gabriel</h5>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Must have: Basic information, three educational sections.</p>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Should have: Quizzes, challenges, images.</p>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Could have: Modern design, profile page with picture and collected points.</p>
+        <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Want to have: Ability to compare scores with others in the app.</p>
       </div>
     </div>
   </div>
@@ -291,14 +274,9 @@ const Sektionklimt = () => {
       />    </div>
   </div>
 </section>
- 
      
     </div>
-    
-    
     <Develop />
-    
-    
     </>
   );
 };
