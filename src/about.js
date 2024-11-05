@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './header';
+import Header2 from './Header2';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './about.css';
 import Footer from './footer';
@@ -7,9 +7,9 @@ import Servic from './servic';
 const About = () => {
     return (
         <>
-            <Header />
-           
-            <Container className=" py-5 my-5">
+
+           <Header2 />
+            <Container className=" py-5">
       <Row className="justify-content-center">
         <Col xs={12} md={8} >
         <h1 className="display-4" style={{ fontFamily: 'Patrick Hand, cursive', textAlign: 'left',color:'#e46698' }}>Hello, I’m Marah</h1>

@@ -81,7 +81,7 @@ const Case = () => {
   to="/klimat" 
   className="btn mt-3 no-border-button" 
   style={{ 
-    backgroundColor: '#0B6BA5',  
+    backgroundColor: '#E46698',  
     border: 'none', 
     padding: '12px 24px', 
     borderRadius: '50px', 
