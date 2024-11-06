@@ -48,11 +48,11 @@ const Herobild = () => {
         >
           <Row className="justify-content-center">
             <Col md={10}>
-              <h1 style={{  fontSize: '10vw', fontFamily: 'Patrick Hand, cursive', fontWeight: 'bold' }}>
+              <h1 style={{  fontSize: '12vw', fontFamily: 'Patrick Hand, cursive', fontWeight: 'bold' }}>
               Hello! I’m Marah 
 </h1>
 
-              <p className=" fancy-text" style={{ fontSize: '30px', fontFamily: 'Patrick Hand, cursive' }}>
+              <p className=" fancy-text" style={{ fontSize: '30px', fontFamily: 'Patrick Hand, cursive',  }}>
                 A <span className="fancy-underline">web editor </span> with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>
