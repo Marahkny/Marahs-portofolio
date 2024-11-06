@@ -26,15 +26,16 @@ const Header = () => {
 
   return (
     <>
-    <Navbar
-      expand="lg"
-      className={`header ${isHeroPage && isScrolled ? 'scrolled' : ''} ${!isHeroPage ? 'alt-header' : ''} d-none d-lg-block`}
-    >
+  <Navbar
+  expand="lg"
+  className={`header ${isScrolled ? 'scrolled' : ''} ${!isHeroPage ? 'alt-header' : ''} d-none d-lg-block`}
+>
+
       <Container>
         <Navbar.Brand href="/">
           <img src="/Photos/Logo.png" alt="Logo" style={{ maxWidth: '15%' }} />
         </Navbar.Brand>
-        <Nav className="ms-auto">
+        <Nav className="ms-auto nav-links">
           <Nav.Link 
             as={Link} 
             to="/about" 
@@ -104,7 +105,8 @@ const Header = () => {
                 <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/marah-kn/">
-                <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }} />
+                <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }}   target="_blank"
+            rel="noopener noreferrer" />
               </Nav.Link>
               <Button variant="link" onClick={handleCloseMenu}>
                 <FaTimes style={{ fontSize: '24px', color: '#E46698' }} />

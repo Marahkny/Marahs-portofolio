@@ -1,10 +1,10 @@
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { FaEnvelope, FaLinkedinIn, FaBars, FaTimes } from 'react-icons/fa';
-import './Header2.css'; 
+import './Head.css' 
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
-const Header2 = () => {
+const Head = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleOpenMenu = () => setIsMenuOpen(true);
@@ -22,25 +22,27 @@ const Header2 = () => {
             />
           </Navbar.Brand>
           <Nav className="ms-auto nav-links">
-            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px', color:'black' }}>
-              About
-            </Nav.Link>
-            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px', color:'black' }}>
-              Work
-            </Nav.Link>
-            <Nav.Link
-              href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="nav-link-custom"
-              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px',color:'black' }}
-            >
-              Resume
-            </Nav.Link>
+          <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+  About
+</Nav.Link>
+<Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+  Work
+</Nav.Link>
+<Nav.Link
+  href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="nav-link-custom"
+  style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+>
+  Resume
+</Nav.Link>
+
             <Nav.Link href="mailto:Marahknyfaty@outlook.com">
               <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
             </Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/marah-kn/">
+            <Nav.Link href="https://www.linkedin.com/in/marah-kn/"   target="_blank"
+            rel="noopener noreferrer">
               <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }} />
             </Nav.Link>
           </Nav>
@@ -110,4 +112,4 @@ const Header2 = () => {
   );
 };
 
-export default Header2;
+export default Head;

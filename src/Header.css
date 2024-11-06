@@ -1,5 +1,5 @@
 /* Ensure default color and hover */
-.nav-link-custom {
+.header .nav-link-custom {
   color: white; /* Default to white */
   transition: color 0.2s ease;
   font-weight: normal; /* Remove bold styling */
@@ -11,7 +11,8 @@
 }
 
 /* Apply black color when scrolled */
-.scrolled-link {
+.header.scrolled .nav-link-custom,
+.alt-header .nav-link-custom {
   color: black;
 }
 
@@ -50,6 +51,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+
 }
 
 .fullscreen-menu {
@@ -58,7 +60,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -77,7 +79,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  gap: 10px; /* Sätter 20px mellan ikonerna */
+  gap: 15px; /* Sätter 20px mellan ikonerna */
 }
 
 
@@ -94,7 +96,7 @@
 .menu-links .nav-link {
   color: #000000;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-decoration: none;
 }
 

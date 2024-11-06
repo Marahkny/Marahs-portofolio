@@ -1,5 +1,5 @@
 import React from 'react';
-import Header2 from './Header2';
+import Head from './Head';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './about.css';
 import Footer from './footer';
@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
 
-           <Header2 />
+           <Head />
             <Container className=" py-5">
       <Row className="justify-content-center">
         <Col xs={12} md={8} >

@@ -3,11 +3,11 @@ import Sektionklimt from './Sektioneklimt';
 import Footer from '../footer';
 import Nextproject from './Nexproject';
 import BackToTopButton from '../BackToTopButton';
-import Header2 from '../Header2';
+import Head from '../Head';
 const Klimat = () => {
   return (
     <>
-    <Header2 />
+    <Head />
     <Sektionklimt />
     <Nextproject  />
     <BackToTopButton />

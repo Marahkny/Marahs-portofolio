@@ -1,13 +1,14 @@
-
 .nav-link-custom {
-    margin-right: 25px;
-    color: black; /* Set initial color */
-    font-family: 'Patrick Hand, cursive';
-    font-size: 24px;
+  color: black; /* Default to black */
+  font-family: 'Patrick Hand, cursive';
+  font-size: 24px;
+  margin-right: 25px;
 }
+
 .nav-link-custom:hover {
-    color: #E46698; /* Hover color */
+  color: #E46698; /* Hover color */
 }
+
 
     
 .fullscreen-menu {
