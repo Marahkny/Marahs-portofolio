@@ -15,6 +15,10 @@
 .alt-header .nav-link-custom {
   color: black;
 }
+.header.scrolled .nav-link-custom:hover,
+.alt-header .nav-link-custom:hover {
+  color: #E46698;
+}
 
 /* Header background and transition for scrolling */
 .header {

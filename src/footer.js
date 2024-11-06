@@ -14,9 +14,11 @@ const Footer = () => {
             <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
           </Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/marah-kn/" >
-            <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }} />
+            <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }}  target="_blank"
+            rel="noopener noreferrer" />
           </Nav.Link>
         </Nav>
+        <p style={{ fontSize: '16px', color: 'black',  fontFamily: 'Patrick Hand, cursive'  }}>© 2024 Marah kn</p>
       </div>
     </footer>
   );
