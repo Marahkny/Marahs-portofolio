@@ -10,9 +10,17 @@ const Problem = () => {
    <Container fluid className="d-flex flex-column align-items-center mb-5">
   
   {/* Section 1: Problem Statement */}
+  <Row className="justify-content-center align-items-start " style={{ width: '100%', margin: '0' }}>
+  <Col xs={3} md={2} className="d-flex justify-content-end">
+      <img className="img-fluid" src="/Photos/fråga.png" alt="Solution Illustration" style={{maxWidth:'20%'}} />
+    </Col>
+    <Col xs={9} md={10} className="text-start">
+      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4>   </Col>
+     
+  
+  </Row>
   <Row className="justify-content-center align-items-start mb-5" style={{ width: '100%', margin: '0' }}>
     <Col md={8} className="text-start">
-      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4>
       <p>Research shows inconsistent user experiences (UX) across major e-commerce platforms like <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Power</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Elgiganten</a>.</p>
       <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
@@ -21,28 +29,32 @@ const Problem = () => {
       </ul>
     </Col>
   </Row>
+ 
 
   {/* Section 2: Solution Statement */}
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
-  <Col md={5} className="d-flex justify-content-center">
-      <img className="img-fluid" src="/Photos/problem.png" alt="Solution Illustration" style={{maxWidth:'60%'}} />
+  <Col md={2} className="d-flex justify-content-center">
+      <img className="img-fluid" src="/Photos/sök.png" alt="Solution Illustration" style={{maxWidth:'60%'}} />
     </Col>
     <Col md={4} style={{
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
     padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '50% 50% 50% 0', // Asymmetric rounded corners
+    borderRadius: '25px', // Rounded corners for bubble effect
     boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center', // Centers content vertically
+    justifyContent: 'start', // Centers content vertically
     alignItems: 'center', // Centers content horizontally
     textAlign: 'left', // Centers text within elements
     maxWidth: '100%',
+    position: 'relative', // Needed for arrow positioning
 }}>
+
+
   <h4 style={{
       fontFamily: 'Patrick Hand, cursive',
-      fontSize: 'clamp(1.5rem, 2vw, 2.2rem)', // Responsive font size
+      fontSize: 'clamp(2rem, 2vw, 2.2rem)', // Responsive font size
       marginBottom: '20px',
       color: 'white'
   }}>
@@ -62,6 +74,7 @@ const Problem = () => {
     </li>
   </ul>
 </Col>
+
   </Row>
 
   {/* Section 3: User Profile and Goals */}
