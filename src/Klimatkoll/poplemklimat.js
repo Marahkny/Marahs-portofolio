@@ -26,8 +26,12 @@ const Poblemklimat = () => {
     <Col md={8} className="text-start">
       <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>Target Audience Research</h4>
       <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.</p>
-      <p>Research Process:</p>
-      <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
+   
+    </Col>
+    
+    <Col md={5} className="text-start pt-5">
+    <p><strong>Research Process:</strong></p>
+      <ul >
   <li style={{ marginBottom: '15px' }}>
   Articles and reports on youth engagement in climate issues were collected and analyzed.
   </li>
@@ -40,9 +44,9 @@ const Poblemklimat = () => {
   <li style={{ marginBottom: '15px' }}>
   It was discovered that many young people had not received in-depth education on climate issues, affecting their awareness and interest.
   </li>
-</ul>
-
-    </Col>
+</ul></Col>
+<Col md={3} className="d-flex justify-content-center">
+    <img className="img-fluid" src="/Photos/plan.png" alt="Solution Illustration" style={{maxWidth:'60%'}} /></Col>
   </Row>
 </Container>
 

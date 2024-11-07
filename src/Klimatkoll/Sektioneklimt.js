@@ -219,7 +219,7 @@ const Sektionklimt = () => {
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
     padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '20% 0 20% 20%', // Asymmetric rounded corners
+    borderRadius: '25px', // Asymmetric rounded corners
     boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
     display: 'flex',
     flexDirection: 'column',
@@ -240,7 +240,7 @@ const Sektionklimt = () => {
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
     padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '0 20% 20% 20%', // Asymmetric rounded corners
+    borderRadius: '25px', // Asymmetric rounded corners
     boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
     display: 'flex',
     flexDirection: 'column',

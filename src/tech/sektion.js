@@ -107,18 +107,18 @@ const Sektion = () => {
   
     <Container fluid className="d-flex justify-content-center align-items-center py-5" >
   <Row className="justify-content-center text-center">
-    <Col xs={12} md={10}>
+    <Col xs={12} md={8}>
       <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
       Market Analysis
       </h3>
       <p className='pt-3' style={{textAlign: 'left'}}>
-  This table compares the UI/UX of Elgiganten and Power. Both face issues with wish list visibility and login frustration during checkout, affecting user experience. Elgiganten has a modern design but lacks smooth login, while Power’s modal makes wish list addition easier.
-  <a href="https://www.canva.com/design/DAGVf61WhTw/lTfP-FXtbP858n8M9Abd7A/edit?utm_content=DAGVf61WhTw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}> See the table here:</a>
+  This table compares the UI/UX of Elgiganten and Power. Both face issues with wish list visibility and login frustration during checkout, affecting user experience.
+  <a href="https://www.canva.com/design/DAGVf61WhTw/lTfP-FXtbP858n8M9Abd7A/edit?utm_content=DAGVf61WhTw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}> See the table here.</a>
   </p>
 
     </Col>
 
-    <Col xs={12} md={10} className="d-flex justify-content-center">
+    <Col xs={12} md={10} className="d-flex justify-content-center pt-4" >
       <img 
         src="/Photos/Company.png"
         alt="company"
@@ -176,7 +176,7 @@ const Sektion = () => {
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
     padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '20% 0 20% 20%', // Asymmetric rounded corners
+    borderRadius: '25px', // Asymmetric rounded corners
     boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
     display: 'flex',
     flexDirection: 'column',
@@ -194,7 +194,7 @@ const Sektion = () => {
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
     padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '0 20% 20% 20%', // Asymmetric rounded corners
+    borderRadius: '25px', // Asymmetric rounded corners
     boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
     display: 'flex',
     flexDirection: 'column',
@@ -218,7 +218,7 @@ const Sektion = () => {
       User flow
       </h3></div>
       <p style={{ textAlign: 'left'}}>The user flow illustrates how a user can add a product to their wishlist and access it during the checkout process. After choosing a product and logging in, the user can save it to the wishlist, continue shopping, and later find their wishlist items conveniently available at checkout. </p>
-        <p><a href='https://www.canva.com/design/DAGVgKNW2VY/LJQWUYsL4Q5UJjWpzDxxXA/edit?utm_content=DAGVgKNW2VY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target="_blank" rel="noopener noreferrer">See the user story here</a></p>
+        <p><a href='https://www.canva.com/design/DAGVgKNW2VY/LJQWUYsL4Q5UJjWpzDxxXA/edit?utm_content=DAGVgKNW2VY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>See the user story here</a></p>
 
 </Col>
 

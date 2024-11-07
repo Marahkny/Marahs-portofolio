@@ -9,18 +9,9 @@ const Problem = () => {
     <>
    <Container fluid className="d-flex flex-column align-items-center mb-5">
   
-  {/* Section 1: Problem Statement */}
-  <Row className="justify-content-center align-items-start " style={{ width: '100%', margin: '0' }}>
-  <Col xs={3} md={2} className="d-flex justify-content-end">
-      <img className="img-fluid" src="/Photos/fråga.png" alt="Solution Illustration" style={{maxWidth:'20%'}} />
-    </Col>
-    <Col xs={9} md={10} className="text-start">
-      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4>   </Col>
-     
-  
-  </Row>
   <Row className="justify-content-center align-items-start mb-5" style={{ width: '100%', margin: '0' }}>
     <Col md={8} className="text-start">
+    <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4> 
       <p>Research shows inconsistent user experiences (UX) across major e-commerce platforms like <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Power</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Elgiganten</a>.</p>
       <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
@@ -102,21 +93,21 @@ const Problem = () => {
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
     <Col md={5} className="text-start">
       <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '30px' }}>Product goals for business and user needs</h4>
-      <p>Business goals</p>
+      <p><strong>Business goals</strong></p>
       <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.8', fontSize: '1rem' }}>
         <li>Position TechCity as a trusted source in technology and innovation.</li>
         <li>Convert visitors into leads with tailored products and resources.</li>
         <li>Enable users to manage wish lists throughout their journey.</li>
       </ul>
-      <p>User needs</p>
+      <p><strong>User needs</strong></p>
       <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.8', fontSize: '1rem' }}>
         <li>Deliver current tech news and trends to engage users.</li>
         <li>Enable wish list viewing after login for easy purchases.</li>
         <li>Provide tailored tech solutions for small to medium businesses.</li>
       </ul>
     </Col>
-    <Col md={3} className="d-flex justify-content-center">
-      <img className="img-fluid" src="/Photos/Man.gif" alt="Solution Illustration" />
+    <Col md={3} className="d-flex justify-content-center p-4">
+      <img className="img-fluid" src="/Photos/think.png" alt="think Illustration" style={{maxWidth:'60%'}} />
     </Col>
   </Row>
 
