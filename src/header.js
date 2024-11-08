@@ -7,9 +7,10 @@ import './Header.css';
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isHeaderHidden, setIsHeaderHidden] = useState(false); // New state to control header visibility
+  const [lastScrollY, setLastScrollY] = useState(0);
   const location = useLocation();
 
-  // Check if the current path is the hero page (e.g., "/")
   const isHeroPage = location.pathname === '/';
 
   const handleOpenMenu = () => setIsMenuOpen(true);
@@ -17,20 +18,29 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      const currentScrollY = window.scrollY;
+
+      // Show header initially, then hide if scrolled past 100vh and scrolling down
+      if (currentScrollY > 100 && currentScrollY > lastScrollY) {
+        setIsHeaderHidden(true); // Hide header when scrolling down
+      } else if (currentScrollY <= 100 || currentScrollY < lastScrollY) {
+        setIsHeaderHidden(false); // Show header when scrolling up or near the top
+      }
+
+      setLastScrollY(currentScrollY);
+      setIsScrolled(currentScrollY > 50);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   return (
     <>
-  <Navbar
-  expand="lg"
-  className={`header ${isScrolled ? 'scrolled' : ''} ${!isHeroPage ? 'alt-header' : ''} d-none d-lg-block`}
->
-
+    <Navbar
+      expand="lg"
+      className={`header ${isScrolled ? 'scrolled' : ''} ${isHeaderHidden ? 'hidden' : ''} ${!isHeroPage ? 'alt-header' : ''} d-none d-lg-block`}
+    >
       <Container>
         <Navbar.Brand href="/">
           <img src="/Photos/Logo.png" alt="Logo" style={{ maxWidth: '15%' }} />
@@ -39,14 +49,14 @@ const Header = () => {
           <Nav.Link 
             as={Link} 
             to="/about" 
-            className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`} // Apply scrolled-link when scrolled
-            style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }} 
+            className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`} 
+            style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
           >
             About
           </Nav.Link>
           <Nav.Link 
             href="/" 
-            className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`} // Apply scrolled-link when scrolled
+            className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`}
             style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }} 
           >
             Work
@@ -55,7 +65,7 @@ const Header = () => {
             href="https://drive.google.com/file/d/1QDNclcjHPXfaxCqg-uQxOFidRnqGoT-z/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`} // Apply scrolled-link when scrolled
+            className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`}
             style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }} 
           >
             Resume
@@ -64,8 +74,7 @@ const Header = () => {
             <Nav.Link href="mailto:Marahknyfaty@outlook.com">
               <FaEnvelope className="icon" />
             </Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/marah-kn/"       target="_blank"
-            rel="noopener noreferrer">
+            <Nav.Link href="https://www.linkedin.com/in/marah-kn/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn className="icon" />
             </Nav.Link>
           </div>

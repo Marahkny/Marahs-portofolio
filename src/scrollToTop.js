@@ -5,15 +5,14 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Scrolla snabbt till toppen utan animation
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'auto' // Använd "auto" för direkt scrollning
-    });
+    // Instantly scroll to the top without any animation
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0; // For compatibility with older browsers
   }, [pathname]);
 
   return null;
 };
 
 export default ScrollToTop;
+
+

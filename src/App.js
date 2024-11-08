@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Work from './work';
-import About from './about';
+import About from './ABOUT/about';
 import Techcity from './tech/teachcity';
 import Klimat from './Klimatkoll/klimat';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';

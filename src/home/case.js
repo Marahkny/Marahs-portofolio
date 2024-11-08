@@ -15,7 +15,7 @@ const Case = () => {
               src="/Photos/Namnlös design (47).png"  
               alt="TechCity"
               className="img-fluid"
-             
+           
             />
           </Col>
 

@@ -1,0 +1,61 @@
+/* Modern card container */
+.modern-card {
+  padding: 30px;
+  text-align: center;
+  width: 90%;                  /* Gör den mindre än full bredd */
+  max-width: 300px;            /* Maximal bredd för att hålla den kompakt */
+position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Skugga runt hela kortet */
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+/* Text styling for weekday/weekend status */
+.status-text {
+  font-size: 18px;
+  color: #0b6ba5;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Responsive image styling with shadow */
+.responsive-image {
+  width: 80%;
+
+}
+
+/* Toggle button styling */
+.toggle-button {
+  display: flex;
+  width: 100px;
+  border-radius: 30px;
+  background-color: #0b6ba5;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.toggle-option {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.toggle-option.active {
+  background-color: #fff;
+  color: #0b6ba5;
+}
+
+  
+  .about-text {
+   
+    line-height: 1.8;
+    color: #000000;
+    margin-bottom: 1.2rem;
+  }
+  
+  
