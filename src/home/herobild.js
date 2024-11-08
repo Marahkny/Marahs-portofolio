@@ -52,7 +52,7 @@ const Herobild = () => {
               Hello! I’m Marah 
 </h1>
 
-              <p className=" fancy-text" style={{ fontSize: '30px', fontFamily: 'Patrick Hand, cursive',  }}>
+              <p className=" fancy-text" style={{ fontSize: '30px'  }}>
                 A <span className="fancy-underline">web editor </span> with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>

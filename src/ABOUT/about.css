@@ -3,10 +3,10 @@
   padding: 30px;
   text-align: center;
   width: 90%;
-  max-width: 300px;
+
   position: relative;
   margin-top: 20px;
-  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Pseudo-elements for corner borders */
@@ -36,7 +36,7 @@
 /* Text styling for weekday/weekend status */
 .status-text {
   font-size: 18px;
-  color: #0b6ba5;
+  color: black;
   text-align: left;
   margin-bottom: 10px;
 }

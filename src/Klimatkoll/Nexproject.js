@@ -29,16 +29,13 @@ function Nextproject() {
     textTransform: "lowercase",
     
     marginBottom: "10px",
-    transition: "transform 0.3s ease, color 0.3s ease",
+    transition: "transform 0.2s ease, color 0.3s ease",
     display: "inline-block",
   };
 
   const largeTStyle = {
     fontSize: "5rem", // Larger "T"
-  };
-
-  const restOfTextStyle = {
-    fontSize: "4rem", // Regular size for the rest of the word
+    fontFamily: 'Patrick Hand, cursive',
   };
 
   const logoHoverStyle = {
@@ -65,8 +62,8 @@ function Nextproject() {
         style={{ textDecoration: "none", color: "inherit" }} // No underline or color change
       >
         <h2 style={isHovered ? { ...logoStyle, ...logoHoverStyle } : logoStyle}>
-          <span style={largeTStyle}>T</span>
-          <span style={restOfTextStyle}>echCity</span>
+          <p style={largeTStyle}>TechCity</p>
+ 
         </h2>
       </Link>
 

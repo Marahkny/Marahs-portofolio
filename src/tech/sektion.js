@@ -9,20 +9,20 @@ const Sektion = () => {
   return (
     <>
       <Container fluid className="p-4" style={{ backgroundColor: '#E46698', color: '#ffffff' }}>
-        <Row className="justify-content-center align-items-center pt-5 pb-5">
+        <Row className="justify-content-center align-items-center py-5">
           {/* Left Section */}
           <Col xs={12} md={6} className="text-center">
             <img 
               src="/Photos/tech.gif" 
               alt="Techcity" 
               className="img-fluid mb-3" 
-              style={{ borderRadius: '15px', height: 'auto' }} 
+              style={{ height: 'auto' }} 
             />
           </Col>
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '65px', fontWeight: 'bold' }}>TechCity</h1>
+            <h1 style={{ fontSize: '65px',  fontFamily: 'Patrick Hand, cursive', paddingBottom:'20px' }}>TechCity</h1>
             <p >
               Designing an e-commerce website for selling tech products with 
               careful planning and attention to user experience, aesthetics, and functionality.

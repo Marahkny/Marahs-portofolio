@@ -17,13 +17,13 @@ const Sektionklimt = () => {
               src="/Photos/klimat.gif" 
               alt="Techcity" 
               className="img-fluid mb-3" 
-              style={{ borderRadius: '15px', height: 'auto' }} 
+              style={{ height: 'auto' }} 
             />
           </Col>
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '65px', fontWeight: 'bold' }}>Klimatkoll</h1>
+            <h1 style={{ fontSize: '65px', fontWeight: 'bold',fontFamily: 'Patrick Hand, cursive', paddingBottom:'20px' }}>Klimatkoll</h1>
             <p style={{ fontSize: '22px' }}>
             Designing a website for a Swedish school aimed at educating students aged 13-15 about climate change and its impact.
             </p>

@@ -29,21 +29,19 @@ function Next() {
     textTransform: "lowercase",
     
     marginBottom: "10px",
-    transition: "transform 0.3s ease, color 0.3s ease",
+    transition: "transform 0.3s ease, color 0.2s ease",
     display: "inline-block",
   };
 
   const largeTStyle = {
-    fontSize: "5rem", // Larger "T"
+    fontSize: "5rem",
+    fontFamily: 'Patrick Hand, cursive' // Larger "T"
   };
 
-  const restOfTextStyle = {
-    fontSize: "4rem", // Regular size for the rest of the word
-  };
 
   const logoHoverStyle = {
     transform: "scale(1.1)",
-    color: '#0b6ba5',
+    color: '#E46698',
   };
 
   const subtitleStyle = {
@@ -66,8 +64,8 @@ function Next() {
         style={{ textDecoration: "none", color: "inherit" }} // No underline or color change
       >
         <h2 style={isHovered ? { ...logoStyle, ...logoHoverStyle } : logoStyle}>
-          <span style={largeTStyle}>K</span>
-          <span style={restOfTextStyle}>limatkoll</span>
+          <p style={largeTStyle}>Klimatkoll</p>
+        
         </h2>
       </Link>
 

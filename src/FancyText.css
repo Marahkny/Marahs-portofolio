@@ -11,7 +11,7 @@
     left: 0;
     bottom: 0px;
     width: 100%;
-    height: 3px;
+    height: 20px;
     background: linear-gradient(135deg, #e46698, #f48fb1);
     border-radius: 50%;
     transform: skewX(70deg);
