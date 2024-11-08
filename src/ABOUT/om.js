@@ -4,11 +4,11 @@ import { FaSun, FaMoon } from 'react-icons/fa';
 import './about.css';
 
 const Om = () => {
-  const [isWeekend, setIsWeekend] = useState(false);
+  const [Atday, setIsAtday] = useState(false);
 
   // Function to toggle between weekday and weekend
   const toggleImage = () => {
-    setIsWeekend(!isWeekend);
+    setIsAtday(!Atday);
   };
 
   return (
@@ -18,18 +18,18 @@ const Om = () => {
         <Col md={4} className="d-flex flex-column align-items-center">
           <div className="modern-card">
             <p className="status-text">
-              {isWeekend ? 'At day ' : 'At night'}
+              {Atday ? 'At day ' : 'At night'}
             </p>
             <img
-              src={isWeekend ? '/Photos/day.png ' : '/Photos/weekend.png'}
+              src={Atday ? '/Photos/day.png ' : '/Photos/weekend.png'}
               alt="Display"
               className="responsive-image"
             />
             <div onClick={toggleImage} className="toggle-button">
-              <span className={`toggle-option ${!isWeekend ? 'active' : ''}`}>
+              <span className={`toggle-option ${!Atday ? 'active' : ''}`}>
                 <FaSun />
               </span>
-              <span className={`toggle-option ${isWeekend ? 'active' : ''}`}>
+              <span className={`toggle-option ${Atday ? 'active' : ''}`}>
                 <FaMoon />
               </span>
             </div>
@@ -39,7 +39,7 @@ const Om = () => {
 
         {/* Second column (col-md-8) for additional content */}
         <Col xs={12} md={8}>
-        <h1  style={{ fontFamily: 'Patrick Hand, cursive', textAlign: 'left', fontSize: '65px' }}>Hello, I’m Marah</h1>
+        <h1 className="fancy-text p-2" style={{ fontFamily: 'Patrick Hand, cursive', textAlign: 'left', fontSize: '6vw'}}>Hello, I’m Marah</h1>
 
           <p className="about-text">
           A web editor based in Sweden, originally from Syria. My journey began when I moved to Sweden a few years ago and decided to pursue a career in web editing. With passion and determination, I graduated in 2024 and started my career in this field.
