@@ -49,8 +49,8 @@ const Herobild = () => {
         >
           <Row className="justify-content-center">
             <Col md={10}>
-              <h1 style={{  fontSize: '8vw', fontFamily: 'Capriola, sans-serif', padding:'20px'}}>
-              Hello! I’m Marah 
+              <h1 style={{  fontSize: '8vw', fontFamily: 'Capriola, sans-serif', padding:'20px', fontWeight:'bold'}}>
+              Hello!  <span style={{ color:'#e46698', fontWeight:'bold'}}>I’m Marah </span>
 </h1>
 
 

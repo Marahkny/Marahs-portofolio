@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-light text-center py-5" >
       <div className="container">
-        <p className="mb-2" style={{ fontSize: '16px', color: 'black'  }}>
+        <p className="mb-2" style={{ fontSize: '16px', color: '#e46698'  }}>
         Thank you for watching! Feel free to reach out.
         </p>
         <Nav className="d-flex justify-content-center align-items-center">
@@ -18,7 +18,7 @@ const Footer = () => {
             rel="noopener noreferrer" />
           </Nav.Link>
         </Nav>
-        <p style={{ fontSize: '16px', color: 'black'  }}>© 2024 Marah kn</p>
+        <p style={{ fontSize: '16px', color: '#e46698'  }}>© 2024 Marah kn</p>
       </div>
     </footer>
   );

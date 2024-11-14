@@ -17,7 +17,7 @@ function Next() {
 
   const nextProjectStyle = {
     fontSize: "1.5rem",
-    fontWeight: "600",
+   
     letterSpacing: "2px",
     marginBottom: "20px",
     borderBottom: "3px solid black",
@@ -35,7 +35,7 @@ function Next() {
 
   const largeTStyle = {
     fontSize: "5rem",
-    fontFamily: 'Patrick Hand, cursive' // Larger "T"
+
   };
 
 

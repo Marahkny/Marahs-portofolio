@@ -35,7 +35,7 @@ function Nextproject() {
 
   const largeTStyle = {
     fontSize: "5rem", // Larger "T"
-    fontFamily: 'Patrick Hand, cursive',
+ 
   };
 
   const logoHoverStyle = {

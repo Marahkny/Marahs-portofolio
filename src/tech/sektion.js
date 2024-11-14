@@ -162,8 +162,8 @@ const Sektion = () => {
 </div>
     <section className="container py-5">
   <div className="row justify-content-center">
-  <div className="col-md-8 mb-4 d-flex justify-content-left">
-  <h3 className="text-center mb-4 fancy-underline" style={{fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>HMW</h3>
+  <div className="col-md-10 mb-4 d-flex justify-content-left">
+  <h3 className="text-start mb-4 fancy-underline" style={{ fontSize: '45px' }}>HMW</h3>
 
   </div>
     <div className="col-md-5 mb-4 d-flex justify-content-center">
@@ -233,7 +233,7 @@ const Sektion = () => {
 <Container fluid className="d-flex justify-content-center align-items-center" >
   <Row className="text-start">
     <Col xs={12} md={8} className='pb-3'>
-      <h3 className="fancy-underline" style={{  fontSize: '45px' }}>
+      <h3 className="fancy-underline text-start" style={{  fontSize: '45px' }}>
         Wireframes
       </h3>
     </Col>

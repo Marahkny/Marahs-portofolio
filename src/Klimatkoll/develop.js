@@ -96,14 +96,14 @@ const Develop = () => {
   </Row>
 </Container>
 
-  <Container fluid className="d-flex justify-content-center align-items-center py-5">
-  <Row className="justify-content-center text-start pb-5">
-    <Col xs={12} md={8}>
+<Container fluid className="d-flex justify-content-center align-items-center py-5">
+  <Row className="justify-content-center text-start pb-5 w-100">
+    <Col xs={12} md={8} className="text-center text-md-start">
       {/* First paragraph centered */}
-      <h3 className=" fancy-underline" style={{ fontSize: '45px' }}>Implementation</h3>
+      <h3 className="fancy-underline" style={{ fontSize: '2.5rem' }}>Implementation</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
-      <p className=" py-4" style={{textAlign: 'left' }}>
+      <p className="py-4" style={{ textAlign: 'left', fontSize: '1.125rem' }}>
         The website was built using ReactJS, styled with the CSS framework Bootstrap, and powered by Firebase for backend services. You can view the website and the component tree below.
       </p>
 
@@ -120,10 +120,9 @@ const Develop = () => {
             padding: '12px 36px', 
             borderRadius: '50px', 
             fontSize: '1.1rem',
-          
-           
+            width: '100%',  // Makes the button responsive
+            maxWidth: '200px' // Adds a max width
           }}
-         
         >
           View Website
         </Button>
@@ -138,9 +137,9 @@ const Develop = () => {
             padding: '12px 36px', 
             borderRadius: '50px', 
             fontSize: '1.1rem',
-          
+            width: '100%',
+            maxWidth: '200px'
           }}
-      
         >
           View Code
         </Button>
@@ -153,12 +152,12 @@ const Develop = () => {
         src="/Photos/componentTree.png" 
         alt="Component Tree" 
         className="img-fluid" 
-       
-      
+        style={{ maxWidth: '100%', height: 'auto' }}
       />
     </Col>
   </Row>
 </Container>
+
 
   </>
   );
