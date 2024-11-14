@@ -18,14 +18,14 @@ const Head = () => {
             <img
               src="/Photos/Logo.png"
               alt="Logo"
-              style={{ width: 'auto', height: 'auto', maxWidth: '15%' }}
+              style={{  maxWidth: '15%' }}
             />
           </Navbar.Brand>
           <Nav className="ms-auto nav-links">
-          <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+          <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{  fontSize: '16px' }}>
   About
 </Nav.Link>
-<Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+<Nav.Link href="/" className="nav-link-custom" style={{ fontSize: '16px' }}>
   Work
 </Nav.Link>
 <Nav.Link
@@ -33,17 +33,17 @@ const Head = () => {
   target="_blank"
   rel="noopener noreferrer"
   className="nav-link-custom"
-  style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+  style={{  fontSize: '16px' }}
 >
   Resume
 </Nav.Link>
 
             <Nav.Link href="mailto:Marahknyfaty@outlook.com">
-              <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
+              <FaEnvelope style={{ color: '#E46698', fontSize: '20px' }} />
             </Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/marah-kn/"   target="_blank"
             rel="noopener noreferrer">
-              <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }} />
+              <FaLinkedinIn style={{ color: '#E46698', fontSize: '20px' }} />
             </Nav.Link>
           </Nav>
         </Container>
@@ -60,7 +60,7 @@ const Head = () => {
             />
           </Navbar.Brand>
           <Button variant="link" onClick={handleOpenMenu} className="ms-auto">
-            <FaBars style={{ fontSize: '24px', color: '#E46698' }} />
+            <FaBars style={{ fontSize: '20px', color: '#E46698' }} />
           </Button>
         </Container>
       </Navbar>
@@ -78,22 +78,22 @@ const Head = () => {
             </Navbar.Brand>
             <div className="menu-icons">
               <Nav.Link href="mailto:Marahknyfaty@outlook.com">
-                <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
+                <FaEnvelope style={{ color: '#E46698', fontSize: '20px' }} />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/marah-kn/">
-                <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }} />
+                <FaLinkedinIn style={{ color: '#E46698', fontSize: '20px' }} />
               </Nav.Link>
               <Button variant="link" onClick={handleCloseMenu}>
-                <FaTimes style={{ fontSize: '24px', color: '#E46698' }} />
+                <FaTimes style={{ fontSize: '20px', color: '#E46698' }} />
               </Button>
             </div>
           </div>
 
           <div className="menu-links text-center">
-            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontSize: '16px' }}>
               About
             </Nav.Link>
-            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link href="/" className="nav-link-custom" style={{  fontSize: '16px' }}>
               Work
             </Nav.Link>
             <Nav.Link
@@ -101,7 +101,7 @@ const Head = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link-custom"
-              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+              style={{  fontSize: '16px' }}
             >
               Resume
             </Nav.Link>

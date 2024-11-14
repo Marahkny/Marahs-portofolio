@@ -34,12 +34,13 @@
 
 /* App.css */
 h1, h2, h3, h4, h5 {
-  font-family: 'Patrick Hand, cursive';
+  font-family: 'Capriola', sans-serif;
+  font-weight: 700;
 }
 
-body, p {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.6; /* Öka radavståndet för bättre läsbarhet */
- 
+/* För brödtext */
+p, span, body {
+  font-family: 'Capriola', sans-serif;
+  font-weight: 400;
 }
 

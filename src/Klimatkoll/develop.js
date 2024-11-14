@@ -7,21 +7,20 @@ const Develop = () => {
     < >
     <div className="justify-content-center text-center my-5"> 
     <h2 style={{
-        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        background: '#0b6ba5',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
-        fontFamily: 'Patrick Hand, cursive',
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
     Develop phase
           </h2>
     </div>
     <Container fluid className="d-flex justify-content-center align-items-center py-5" >
-  <Row className="justify-content-center text-center">
+  <Row className="justify-content-center text-start">
     <Col xs={12} md={8}>
     <div className='pb-3'>
-      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333' ,fontSize: '45px'}}>
+      <h3 className="fancy-underline" style={{fontSize: '45px'}}>
         Lo-fi Prototype
       </h3></div>
       <p style={{textAlign: 'left' }}>
@@ -42,9 +41,9 @@ const Develop = () => {
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5">
     <Row className="justify-content-center">
-      <Col md={8} className='text-center' >
+      <Col md={8} className='text-start' >
        <div className='pb-3'>
-        <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Design system</h3>
+        <h3 className=" fancy-underline" style={{fontSize: '45px' }}>Design system</h3>
         </div> 
         <p style={{textAlign: 'left' }}>
         After the low-fidelity prototypes were selected, a design system was developed, and the application’s colors were determined. Shades of green and beige were chosen for their earthy tones, and the calming effect of green was deemed suitable for addressing the sensitive topic of climate change.
@@ -68,10 +67,10 @@ const Develop = () => {
     </Row>
   </Container>
   <Container fluid className="d-flex justify-content-center align-items-center py-5">
-  <Row className="justify-content-center text-center">
+  <Row className="justify-content-center text-start">
     <Col md={8} className='pb-3'>
       {/* Title centered */}
-      <h3 className="display-4 fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>Prototyping</h3>
+      <h3 className=" fancy-underline" style={{fontSize: '45px' }}>Prototyping</h3>
     </Col>
   
 
@@ -98,10 +97,10 @@ const Develop = () => {
 </Container>
 
   <Container fluid className="d-flex justify-content-center align-items-center py-5">
-  <Row className="justify-content-center text-center pb-5">
+  <Row className="justify-content-center text-start pb-5">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h3 className=" fancy-underline" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Implementation</h3>
+      <h3 className=" fancy-underline" style={{ fontSize: '45px' }}>Implementation</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p className=" py-4" style={{textAlign: 'left' }}>

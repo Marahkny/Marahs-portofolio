@@ -22,7 +22,7 @@ const Sektion = () => {
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '65px',  fontFamily: 'Patrick Hand, cursive', paddingBottom:'20px' }}>TechCity</h1>
+            <h1 style={{ fontSize: '65px',  paddingBottom:'20px' }}>TechCity</h1>
             <p >
               Designing an e-commerce website for selling tech products with 
               careful planning and attention to user experience, aesthetics, and functionality.
@@ -51,7 +51,7 @@ const Sektion = () => {
       <Row className="d-flex justify-content-center text-center">
         {/* Discover Column */}
         <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive',fontSize: '45px'}}>Discover</h3>
+          <h3 className="fancy-underline" style={{ fontSize: '45px'}}>Discover</h3>
           <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>User Research</li>
             <li>Market Analysis</li>
@@ -61,7 +61,7 @@ const Sektion = () => {
 
         {/* Define Column */}
         <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Define</h3>
+          <h3 className="fancy-underline" style={{ fontSize: '45px' }}>Define</h3>
           <ul style={{ listStyleType: 'none', padding: '20px' }}>
             <li>HMW</li>
             <li>User flow</li>
@@ -71,7 +71,7 @@ const Sektion = () => {
 
         {/* Develop Column */}
         <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Develop</h3>
+          <h3 className="fancy-underline" style={{ fontSize: '45px' }}>Develop</h3>
           <ul style={{ listStyleType: 'none', padding: '20px'}}>
             <li>Prototyping</li>
           </ul>
@@ -80,11 +80,11 @@ const Sektion = () => {
     </Container>
     <div className="justify-content-center text-center mb-5">
     <h2 style={{
-        background: 'linear-gradient(135deg, #f5c518, #e46698)',
-        color: 'white',
+        background: '#F5C518',
+        color: 'Black',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
-        fontFamily: 'Patrick Hand, cursive',
+
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
        
     }}>
@@ -94,10 +94,10 @@ const Sektion = () => {
 
     <Container fluid >
       {/* User Research Header */}
-      <Row className="justify-content-center text-center p-2">
-        <Col md={12} className='pb-3' >
+      <Row className="justify-content-center text-start p-2">
+        <Col md={8} className='pb-3' >
           
-          <h3  className=" fancy-underline " style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>User Research</h3>
+          <h3  className=" fancy-underline " style={{ fontSize: '45px' }}>User Research</h3>
         </Col>
       </Row>
     </Container>
@@ -106,9 +106,9 @@ const Sektion = () => {
 
   
     <Container fluid className="d-flex justify-content-center align-items-center py-5" >
-  <Row className="justify-content-center text-center">
-    <Col xs={12} md={8}>
-      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
+  <Row className="justify-content-center text-start">
+    <Col xs={12} md={10}>
+      <h3 className=" fancy-underline" style={{ fontSize: '45px' }}>
       Market Analysis
       </h3>
       <p className='pt-3' style={{textAlign: 'left'}}>
@@ -124,30 +124,25 @@ const Sektion = () => {
         alt="company"
         className="img-fluid" 
       />  
+      
     </Col>
   </Row>
 </Container>
 
 <Container fluid className="d-flex justify-content-center align-items-center py-5" >
-  <Row className="justify-content-center text-center">
-    <Col xs={12} md={8} >
-      <h3 className=" fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
+  <Row className="justify-content-center text-start">
+    <Col xs={12} md={10} >
+      <h3 className=" fancy-underline" style={{fontSize: '45px' }}>
       Personas
       </h3>
       <p  className='pt-3' style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
     </Col>
 
-    <Col xs={12} md={8} className="d-flex justify-content-center">
+    <Col xs={12} md={8} className="d-flex justify-content-center pt-4">
       <img 
         src="/Photos/Emma (1).png"
         alt="Lo-fi Prototype"
-        className="img-fluid" 
-        style={{ 
-        
-          height: 'auto', 
-       
-        }}
-        
+        className="img-fluid"  
       />  
     </Col>
   </Row>
@@ -155,11 +150,11 @@ const Sektion = () => {
 
 <div className="justify-content-center text-center my-5">
     <h2 style={{
-        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        background: '#E46698',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
-        fontFamily: 'Patrick Hand, cursive',
+
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
         Define phase
@@ -167,11 +162,11 @@ const Sektion = () => {
 </div>
     <section className="container py-5">
   <div className="row justify-content-center">
-  <div className="col-md-10 mb-4 d-flex justify-content-center">
+  <div className="col-md-8 mb-4 d-flex justify-content-left">
   <h3 className="text-center mb-4 fancy-underline" style={{fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>HMW</h3>
 
   </div>
-    <div className="col-md-4 mb-4 d-flex justify-content-center">
+    <div className="col-md-5 mb-4 d-flex justify-content-center">
       <div className="p-4 flex-grow-1 text-center" style={{
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
@@ -185,11 +180,11 @@ const Sektion = () => {
     textAlign: 'left', // Centers text within elements
     maxWidth: '100%',
       }}>
-        <h5 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user keep their wishlist items after logging in?</h5>
+        <h5 style={{  fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user keep their wishlist items after logging in?</h5>
         <p style={{ lineHeight: '1.6' }}>By implementing persistent storage mechanisms such as local storage or syncing wishlist data with the user's account, we ensure the wishlist is retained after login.</p>
       </div>
     </div>
-    <div className="col-md-4 mb-4 d-flex justify-content-center">
+    <div className="col-md-5 mb-4 d-flex justify-content-center">
       <div className="p-4 flex-grow-1 text-center " style={{
     background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
     color: 'white',
@@ -203,7 +198,7 @@ const Sektion = () => {
     textAlign: 'left', // Centers text within elements
     maxWidth: '100%',
       }}>
-        <h5 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user remember their wishlist items during the checkout process?</h5>
+        <h5 style={{  fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user remember their wishlist items during the checkout process?</h5>
         <p style={{ lineHeight: '1.6' }}>Integrating wishlist reminders within the checkout flow, perhaps by displaying them in the cart, can help users remember and consider adding these items to their purchase.</p>
       </div>
     </div>
@@ -212,9 +207,9 @@ const Sektion = () => {
 
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
-  <Row className="justify-content-center text-center">
+  <Row className="justify-content-center text-start">
     <Col xs={12} md={8}>
-      <div className='pb-3'><h3 className=" fancy-underline " style={{ fontFamily: 'Patrick Hand, cursive', color: '#333',fontSize: '45px' }}>
+      <div className='pb-3'><h3 className=" fancy-underline " style={{fontSize: '45px' }}>
       User flow
       </h3></div>
       <p style={{ textAlign: 'left'}}>The user flow illustrates how a user can add a product to their wishlist and access it during the checkout process. After choosing a product and logging in, the user can save it to the wishlist, continue shopping, and later find their wishlist items conveniently available at checkout. </p>
@@ -236,9 +231,9 @@ const Sektion = () => {
   </Row>
 </Container>
 <Container fluid className="d-flex justify-content-center align-items-center" >
-  <Row className="text-center">
+  <Row className="text-start">
     <Col xs={12} md={8} className='pb-3'>
-      <h3 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', color: '#333', fontSize: '45px' }}>
+      <h3 className="fancy-underline" style={{  fontSize: '45px' }}>
         Wireframes
       </h3>
     </Col>
@@ -279,11 +274,11 @@ const Sektion = () => {
 
 <div className="justify-content-center text-center py-5">
     <h2 style={{
-        background: 'linear-gradient(135deg, #f5c518, #e46698)',
+        background: '#0b6ba5',
         color: 'white',
         padding: '20px 40px',
         fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
-        fontFamily: 'Patrick Hand, cursive',
+
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
         Develop phase
@@ -291,17 +286,17 @@ const Sektion = () => {
 </div>
     
     <Container fluid className="d-flex justify-content-center align-items-center " >
-  <Row className="justify-content-center text-center">
+  <Row className="justify-content-center text-start">
     <Col xs={12} md={8}>
       {/* First paragraph centered */}
-      <h3 className=" fancy-underline m-4" style={{ color: '#333', fontFamily: 'Patrick Hand, cursive',fontSize: '45px' }}>Prototyping</h3>
+      <h3 className=" fancy-underline " style={{ fontSize: '45px' }}>Prototyping</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p tyle={{ textAlign: 'left' }}>
       The website's design was created using Figma. You can view the high-fidelity prototype for a detailed representation of the final design.      </p>
 
       {/* Buttons */}
-      <div className="d-flex flex-column flex-md-row justify-content-center">
+      <div className="d-flex flex-column flex-md-row justify-content-start">
         
         <Button 
           href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&node-type=canvas&t=tpaCGDBPEb2loNS1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" 

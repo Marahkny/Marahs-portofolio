@@ -1,7 +1,6 @@
 .nav-link-custom {
   color: black; /* Default to black */
-  font-family: 'Patrick Hand, cursive';
-  font-size: 24px;
+  font-size: 16px;
   margin-right: 25px;
 }
 

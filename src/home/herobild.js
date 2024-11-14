@@ -35,7 +35,8 @@ const Herobild = () => {
             left: '0',
             width: '100%',
             height: '100%',
-           
+            backgroundColor: 'rgba(0, 0, 0, 0.3)',  // Black with 30% opacity
+
             zIndex: '1',
           }}
         ></div>
@@ -44,16 +45,17 @@ const Herobild = () => {
         <Container
           fluid
           className="d-flex justify-content-center align-items-center text-center"
-          style={{ minHeight: '100vh', position: 'relative', zIndex: '2', color: '#fff' }} // Centered content with white text
+          style={{ minHeight: '100vh', position: 'relative', zIndex: '2', color: '#fff' }} 
         >
           <Row className="justify-content-center">
             <Col md={10}>
-              <h1 style={{  fontSize: '12vw', fontFamily: 'Patrick Hand, cursive', fontWeight: 'bold' }}>
+              <h1 style={{  fontSize: '8vw', fontFamily: 'Capriola, sans-serif', padding:'20px'}}>
               Hello! I’m Marah 
 </h1>
 
-              <p className=" fancy-text" style={{ fontSize: '30px'  }}>
-                A <span className="fancy-underline">web editor </span> with an educational background in UI/UX design, frontend development, and graphic design.
+
+              <p className=" fancy-text" style={{ fontSize: '24px' }}>
+                A <span className="fancy-underline">web editor</span> with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>
           </Row>

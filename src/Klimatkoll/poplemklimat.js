@@ -12,7 +12,7 @@ const Poblemklimat = () => {
   {/* Section 1: Problem Statement */}
   <Row className="justify-content-center align-items-start mb-5" style={{ width: '100%', margin: '0' }}>
     <Col md={8} className="text-start">
-      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4>
+      <h4 style={{  fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4>
 <p>A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.</p>      <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
         <li style={{ marginBottom: '15px' }}><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
@@ -24,7 +24,7 @@ const Poblemklimat = () => {
 
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
     <Col md={8} className="text-start">
-      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>Target Audience Research</h4>
+      <h4 style={{  fontSize: '1.8rem', marginBottom: '20px' }}>Target Audience Research</h4>
       <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.</p>
    
     </Col>

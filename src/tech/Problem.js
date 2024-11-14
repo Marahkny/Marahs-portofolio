@@ -11,7 +11,7 @@ const Problem = () => {
   
   <Row className="justify-content-center align-items-start mb-5" style={{ width: '100%', margin: '0' }}>
     <Col md={8} className="text-start">
-    <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4> 
+    <h4 style={{  fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4> 
       <p>Research shows inconsistent user experiences (UX) across major e-commerce platforms like <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Power</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Elgiganten</a>.</p>
       <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
@@ -44,7 +44,7 @@ const Problem = () => {
 
 
   <h4 style={{
-      fontFamily: 'Patrick Hand, cursive',
+
       fontSize: 'clamp(2rem, 2vw, 2.2rem)', // Responsive font size
       marginBottom: '20px',
       color: 'white'
@@ -71,7 +71,7 @@ const Problem = () => {
   {/* Section 3: User Profile and Goals */}
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
     <Col md={8} className="text-start">
-      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '1.8rem', marginBottom: '20px' }}>Who are the users?</h4>
+      <h4 style={{ fontSize: '1.8rem', marginBottom: '20px' }}>Who are the users?</h4>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
   <li style={{ marginBottom: '15px' }}>
     <strong>Technology enthusiasts and professionals</strong> interested in the latest technology, innovations, and IT trends.
@@ -92,7 +92,7 @@ const Problem = () => {
 
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
     <Col md={5} className="text-start">
-      <h4 style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '2rem', marginBottom: '30px' }}>Product goals for business and user needs</h4>
+      <h4 style={{  fontSize: '2rem', marginBottom: '30px' }}>Product goals for business and user needs</h4>
       <p><strong>Business goals</strong></p>
       <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.8', fontSize: '1rem' }}>
         <li>Position TechCity as a trusted source in technology and innovation.</li>

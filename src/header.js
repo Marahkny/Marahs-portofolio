@@ -50,14 +50,14 @@ const Header = () => {
             as={Link} 
             to="/about" 
             className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`} 
-            style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+            style={{  fontSize: '16px' }}
           >
             About
           </Nav.Link>
           <Nav.Link 
             href="/" 
             className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`}
-            style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }} 
+            style={{ fontSize: '16px' }} 
           >
             Work
           </Nav.Link>
@@ -66,7 +66,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             className={`nav-link-custom ${isScrolled ? 'scrolled-link' : ''}`}
-            style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }} 
+            style={{  fontSize: '16px' }} 
           >
             Resume
           </Nav.Link>
@@ -93,7 +93,7 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Button variant="link" onClick={handleOpenMenu} className="ms-auto">
-            <FaBars style={{ fontSize: '24px', color: '#E46698' }} />
+            <FaBars style={{ fontSize: '20px', color: '#E46698' }} />
           </Button>
         </Container>
       </Navbar>
@@ -111,23 +111,23 @@ const Header = () => {
             </Navbar.Brand>
             <div className="menu-icons">
               <Nav.Link href="mailto:Marahknyfaty@outlook.com">
-                <FaEnvelope style={{ color: '#E46698', fontSize: '24px' }} />
+                <FaEnvelope style={{ color: '#E46698', fontSize: '20px' }} />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/marah-kn/">
-                <FaLinkedinIn style={{ color: '#E46698', fontSize: '24px' }}   target="_blank"
+                <FaLinkedinIn style={{ color: '#E46698', fontSize: '20px' }}   target="_blank"
             rel="noopener noreferrer" />
               </Nav.Link>
               <Button variant="link" onClick={handleCloseMenu}>
-                <FaTimes style={{ fontSize: '24px', color: '#E46698' }} />
+                <FaTimes style={{ fontSize: '20px', color: '#E46698' }} />
               </Button>
             </div>
           </div>
 
           <div className="menu-links text-center">
-            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link as={Link} to="/about" className="nav-link-custom" style={{ fontSize: '20px' }}>
               About
             </Nav.Link>
-            <Nav.Link href="/" className="nav-link-custom" style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}>
+            <Nav.Link href="/" className="nav-link-custom" style={{ fontSize: '20px' }}>
               Work
             </Nav.Link>
             <Nav.Link
@@ -135,7 +135,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link-custom"
-              style={{ fontFamily: 'Patrick Hand, cursive', fontSize: '24px' }}
+              style={{  fontSize: '20px' }}
             >
               Resume
             </Nav.Link>

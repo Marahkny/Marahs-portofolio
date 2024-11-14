@@ -39,7 +39,7 @@ const Om = () => {
 
         {/* Second column (col-md-8) for additional content */}
         <Col xs={12} md={8}>
-        <h1 className="fancy-underline" style={{ fontFamily: 'Patrick Hand, cursive', textAlign: 'center', fontSize: '65px'}}>Hello, I’m Marah</h1>
+        <h1 className="fancy-underline" style={{  textAlign: 'center', fontSize: '65px'}}>Hello, I’m Marah</h1>
 
           <p className="about-text pt-4">
           A web editor based in Sweden, originally from Syria. My journey began when I moved to Sweden a few years ago and decided to pursue a career in web editing. With passion and determination, I graduated in 2024 and started my career in this field.
