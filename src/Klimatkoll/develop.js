@@ -1,16 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './knapp.css'
 const Develop = () => {
   return (
     < >
-    <div className="justify-content-center text-center my-5"> 
+    <div className="justify-content-center text-center my-5 pt-5"> 
     <h2 style={{
-        background: '#0b6ba5',
+        background: '#e46698',
         color: 'white',
-        padding: '20px 40px',
-        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        padding: '30px 40px',
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
     Develop phase
@@ -18,21 +17,21 @@ const Develop = () => {
     </div>
     <Container fluid className="d-flex justify-content-center align-items-center py-5" >
   <Row className="justify-content-center text-start">
-    <Col xs={12} md={8}>
-    <div className='pb-3'>
-      <h3 className="fancy-underline" style={{fontSize: '45px'}}>
+    <Col xs={12} md={10}>
+    <div className='pb-2'>
+      <h3 className="fancy-underline" >
         Lo-fi Prototype
       </h3></div>
-      <p style={{textAlign: 'left' }}>
+      <p style={{textAlign: 'left'}}>
         A low-fidelity prototype is a simple and rough sketch of a design used to explore different ideas and features early in the development process. It was utilized to refine concepts and ensure effective decision-making before finalizing the design.
       </p>
     </Col>
 
-    <Col xs={12} md={8} className="d-flex justify-content-center">
+    <Col xs={12} md={10} className="d-flex justify-content-center">
       <img 
         src="/Photos/lo-fi.png" 
         alt="Lo-fi Prototype"
-        className="img-fluid shadow-lg rounded" 
+        className="img-fluid " 
       
       />  
     </Col>
@@ -41,9 +40,9 @@ const Develop = () => {
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5">
     <Row className="justify-content-center">
-      <Col md={8} className='text-start' >
+      <Col md={10} className='text-start' >
        <div className='pb-3'>
-        <h3 className=" fancy-underline" style={{fontSize: '45px' }}>Design system</h3>
+        <h3 className=" fancy-underline pb-2" >Design system</h3>
         </div> 
         <p style={{textAlign: 'left' }}>
         After the low-fidelity prototypes were selected, a design system was developed, and the application’s colors were determined. Shades of green and beige were chosen for their earthy tones, and the calming effect of green was deemed suitable for addressing the sensitive topic of climate change.
@@ -68,15 +67,12 @@ const Develop = () => {
   </Container>
   <Container fluid className="d-flex justify-content-center align-items-center py-5">
   <Row className="justify-content-center text-start">
-    <Col md={8} className='pb-3'>
+    <Col md={10} className='pb-3'>
       {/* Title centered */}
-      <h3 className=" fancy-underline" style={{fontSize: '45px' }}>Prototyping</h3>
+      <h3 className=" fancy-underline" >Prototyping</h3>
     </Col>
-  
-
-
     {/* Images in responsive layout */}
-    <Col xs={12} md={8} className="d-flex justify-content-center p-2">
+    <Col xs={12} md={10} className="d-flex justify-content-center py-5">
       <img 
         src="/Photos/proto1.png" 
         alt="Prototyping " 
@@ -85,7 +81,7 @@ const Develop = () => {
       />
     </Col>
 
-    <Col xs={12} md={8} className="d-flex justify-content-center p-2">
+    <Col xs={12} md={10} className="d-flex justify-content-center py-5">
       <img 
         src="/Photos/proto2.png" 
         alt="Prototyping " 
@@ -98,9 +94,9 @@ const Develop = () => {
 
 <Container fluid className="d-flex justify-content-center align-items-center py-5">
   <Row className="justify-content-center text-start pb-5 w-100">
-    <Col xs={12} md={8} className="text-center text-md-start">
+    <Col xs={12} md={10} className="text-center text-md-start">
       {/* First paragraph centered */}
-      <h3 className="fancy-underline" style={{ fontSize: '2.5rem' }}>Implementation</h3>
+      <h3 className="fancy-underline" >Implementation</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p className="py-4" style={{ textAlign: 'left', fontSize: '1.125rem' }}>
@@ -108,46 +104,33 @@ const Develop = () => {
       </p>
 
       {/* Buttons */}
-      <div className="d-flex flex-column flex-md-row justify-content-center gap-3 mt-4">
-        <Button 
-          href="https://klimatkoll.netlify.app/" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          style={{ 
-            backgroundColor: '#0B6BA5', 
-            color: 'white', 
-            border: 'none', 
-            padding: '12px 36px', 
-            borderRadius: '50px', 
-            fontSize: '1.1rem',
-            width: '100%',  // Makes the button responsive
-            maxWidth: '200px' // Adds a max width
-          }}
-        >
-          View Website
-        </Button>
-        <Button 
-          href="https://github.com/Marohaa/klimatkoll-ClimateCheck-.git" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          style={{ 
-            backgroundColor: '#E46698', 
-            color: 'white', 
-            border: 'none', 
-            padding: '12px 36px', 
-            borderRadius: '50px', 
-            fontSize: '1.1rem',
-            width: '100%',
-            maxWidth: '200px'
-          }}
-        >
-          View Code
-        </Button>
-      </div>
+      <div 
+  className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 mt-4"
+>
+  <Button 
+    href="https://klimatkoll.netlify.app/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="custom-button blue-button"
+  >
+    View demo
+  </Button>
+  <Button 
+    href="https://github.com/Marohaa/klimatkoll-ClimateCheck-.git" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="custom-button pink-button"
+  >
+    View code
+  </Button>
+</div>
+
+
+
     </Col>
 
     {/* Image section */}
-    <Col xs={12} className="d-flex justify-content-center pt-5">
+    <Col xs={10} className="d-flex justify-content-center pt-5">
       <img 
         src="/Photos/componentTree.png" 
         alt="Component Tree" 

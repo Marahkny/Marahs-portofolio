@@ -16,7 +16,7 @@ function Next() {
   };
 
   const nextProjectStyle = {
-    fontSize: "1.5rem",
+   
    
     letterSpacing: "2px",
     marginBottom: "20px",
@@ -34,10 +34,9 @@ function Next() {
   };
 
   const largeTStyle = {
-    fontSize: "5rem",
-
+    fontSize: "clamp(20px, 4vw, 50px)", // Lägg det som en sträng
   };
-
+  
 
   const logoHoverStyle = {
     transform: "scale(1.1)",
@@ -45,7 +44,7 @@ function Next() {
   };
 
   const subtitleStyle = {
-    fontSize: "1.2rem",
+    
     marginTop: "5px",
    
   };
@@ -63,10 +62,10 @@ function Next() {
         onMouseLeave={() => setIsHovered(false)}
         style={{ textDecoration: "none", color: "inherit" }} // No underline or color change
       >
-        <h2 style={isHovered ? { ...logoStyle, ...logoHoverStyle } : logoStyle}>
-          <p style={largeTStyle}>Klimatkoll</p>
+        <p style={isHovered ? { ...logoStyle, ...logoHoverStyle } : logoStyle}>
+          <h2 style={largeTStyle}>Klimatkoll</h2>
         
-        </h2>
+        </p>
       </Link>
 
       <p style={subtitleStyle}>End-to-end responsive website + branding + implementation</p>

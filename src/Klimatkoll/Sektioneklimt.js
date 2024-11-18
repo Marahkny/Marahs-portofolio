@@ -5,11 +5,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../FancyText.css'
 import Develop from './develop';
 import Poblemklimat from './poplemklimat';
+import { TfiLayoutLineSolid } from "react-icons/tfi";
 // Main Section component
 const Sektionklimt = () => {
   return (
     <>
-      <Container fluid className="p-4" style={{ backgroundColor: '#F5C518', color: 'black' }}>
+      <Container fluid className="py-5" style={{ backgroundColor: '#F5C518', color: 'black' }}>
         <Row className="justify-content-center align-items-center pt-5 pb-5">
           {/* Left Section */}
           <Col xs={12} md={6} className="text-center">
@@ -23,24 +24,24 @@ const Sektionklimt = () => {
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '65px', paddingBottom:'20px' }}>Klimatkoll</h1>
+            <h1 style={{  paddingBottom:'20px' }}>Klimatkoll</h1>
             <p >
             Designing a website for a Swedish school aimed at educating students aged 13-15 about climate change and its impact.
             </p>
-            <p><strong>Project Type:</strong> Design an educating website</p>
-            <p><strong>Role:</strong> User research + UX/UI designer + brand designer + implementation</p>
+            <p><strong>Project type:</strong> Design an educating website</p>
+            <p><strong>Role:</strong> User research + UI/UX designer + brand designer + implementation</p>
             <p><strong>Industry:</strong> Educational, Climate</p>
             <p><strong>Tools:</strong> Figma, Canva, Illustrator, ReactJS, Firebase</p>
             <p><strong>Duration:</strong> 2 months, 2024</p>
-           
+            <div className="d-flex flex-column flex-md-row justify-content-start pt-2">
   <Button
     href="https://www.figma.com/proto/cZxBC4r3YraBsDtpqB4IjC/Prototyp?node-id=55-3&node-type=canvas&t=Sok9u0fcFfz6DrjO-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2"
     target="_blank"
-    rel="noopener noreferrer" style={{ backgroundColor: '#E46698', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
+    rel="noopener noreferrer" className='styled-button'
   >
     View hi-fi prototype
   </Button>
-  
+  </div>
 
 
           </Col>
@@ -52,67 +53,76 @@ const Sektionklimt = () => {
   </Row>
   </Container>
   
-  <Container className='pt-5 pb-5'>
-  <Row className="d-flex justify-content-center text-center">
+  <Container className='py-5 my-5'>
+  <Row className="d-flex justify-content-center text-start">
     {/* Discover Column */}
-    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
-      <h3 className="fancy-underline" style={{  fontSize: '45px', marginBottom: '20px' }}>
+    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-1">
+      <h3 className="fancy-underline" style={{  fontSize: 'clamp(18px, 2vw, 24px)' }}>
         Discover
       </h3>
-      <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
-        <li>User Research</li>
-        <li>Personas</li>
-        <li>Scenario</li>
+      <ul style={{ padding: '10px', listStyleType: 'none' }}>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+      <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />User Research</li>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+      <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Personas</li>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+      <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Scenario</li>
       </ul>
     </Col>
 
     {/* Define Column */}
-    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
-      <h3 className="fancy-underline" style={{fontSize: '45px', marginBottom: '20px' }}>
+    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-1">
+      <h3 className="fancy-underline" style={{fontSize: 'clamp(18px, 2vw, 24px)' }}>
         Define
       </h3>
-      <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
-        <li>MoSCoW</li>
-        <li>UML-diagram</li>
+      <ul style={{ padding: '10px', listStyleType: 'none' }}>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
+        MoSCoW</li>
+        <li style={{ display: 'flex', alignItems: 'center' }}>
+        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />UML-diagram</li>
       </ul>
     </Col>
 
     {/* Develop Column */}
-    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2">
-      <h3 className="fancy-underline" style={{ fontSize: '45px', marginBottom: '20px' }}>
+    <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-1">
+      <h3 className="fancy-underline" style={{ fontSize: 'clamp(18px, 2vw, 24px)' }}>
         Develop
       </h3>
-      <ul style={{ listStyleType: 'none', padding: '0', fontSize: '1.2rem' }}>
-        <li>Lo-fi prototype</li>
-        <li>Design system</li>
-        <li>Prototyping</li>
-        <li>Implementation</li>
-      </ul>
+      <ul style={{ padding: '10px', listStyleType: 'none' }}>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
+        Lo-fi prototype
+      </li>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
+        Design system
+      </li>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
+        Prototyping
+      </li>
+      <li style={{ display: 'flex', alignItems: 'center' }}>
+        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
+        Implementation
+      </li>
+    </ul>
     </Col>
   </Row>
 </Container>
 
 
-<div className="justify-content-center text-center py-5">
+<div className="justify-content-center text-center mb-5">
     <h2 style={{
         background: '#E46698',
         color: 'white',
-        padding: '20px 40px',
-        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        padding: '30px 40px',
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
         Discover phase
     </h2>
 </div>
-<Container fluid   >
-      {/* User Research Header */}
-      <Row className="justify-content-center text-start p-2">
-        <Col md={8} className='pb-3' >
-          
-          <h3  className=" fancy-underline " style={{ fontSize: '45px' }}>User Research</h3>
-        </Col>
-      </Row>
-    </Container>
+
     
 <Poblemklimat />
 
@@ -120,7 +130,7 @@ const Sektionklimt = () => {
   <Row className="justify-content-center text-start">
     <Col md={10}>
     <div className='pb-3'>
-      <h3 className="fancy-underline" style={{ fontSize: '45px' }}>Personas</h3>
+      <h3 className="fancy-underline" >Personas</h3>
       </div> <p style={{textAlign: 'left'}}>
         Two personas, Alicia Perry and Gabriel Andersson, were created based on the collected data to represent different segments of the target audience. Alicia, our primary persona, reflects the more engaged segment interested in climate issues, while Gabriel represents those with less knowledge or interest in the topic.
       </p>
@@ -159,7 +169,7 @@ const Sektionklimt = () => {
   <Row className="justify-content-center text-start mb-5">
     <Col md={10}>
     <div className='pb-3'>
-      <h3 className=" fancy-underline" style={{ fontSize: '45px' }}>Scenario</h3>
+      <h3 className=" fancy-underline" >Scenario</h3>
      </div> <p style={{textAlign: 'left'}}>
         Detailed scenarios for each persona were crafted to better represent their expectations and create a more engaging experience.
       </p>
@@ -193,12 +203,12 @@ const Sektionklimt = () => {
   </Row>
 </Container>
 
-    <div className="justify-content-center text-center py-5 "> 
+    <div className="justify-content-center text-center pb-5 "> 
     <h2 style={{
-        background: '#f5c518',
-        color: 'black',
-        padding: '20px 40px',
-        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        background: '#e46698',
+        color: 'white',
+        padding: '30px 40px',
+       
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
     Define phase
@@ -207,25 +217,24 @@ const Sektionklimt = () => {
     
     <section className="container py-5">
   <div className="row justify-content-center">
-  <div className="col-md-10 mb-4 d-flex justify-content-left">
-  <h3 className="text-start mb-4 fancy-underline" style={{ fontSize: '45px' }}>MoSCoW</h3>
+  <div className="col-md-10 mb-4 d-flex flex-column align-items-start">
+  <h3 className="text-start mb-2 fancy-underline">MoSCoW</h3>
+  <p>The MoSCoW method is a prioritization technique used to categorize project requirements into four levels of importance: must have, should have, could have, and won’t have.</p>
+</div>
 
-  </div>
     <div className="col-md-5 mb-4 d-flex justify-content-center">
-      <div className="p-4 flex-grow-1 text-center" style={{
-    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
-    color: 'white',
-    padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '25px', // Asymmetric rounded corners
-    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
+      <div className="p-4 flex-grow-1 text-start" style={{
+    background: '#f5c518', // Pink gradient
+    color: 'black',
+    padding: '50px', // Adds even top and bottom padding
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center', // Centers content vertically
 
     textAlign: 'left', // Centers text within elements
-    maxWidth: '100%',
+   
       }}>
-        <h5 style={{ fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>Key Requirements for Alicia</h5>
+        <p style={{fontWeight:'bold'}} >Key Requirements for Alicia</p>
         <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Must have: Easy navigation, clear graphs, minimal text.</p>
         <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Should have: Videos, quizzes, challenges, profile picture options.</p>
         <p style={{ lineHeight: '1.6', textAlign: 'left' }}>Could have: Log-in page.</p>
@@ -233,20 +242,17 @@ const Sektionklimt = () => {
       </div>
     </div>
     <div className="col-md-5 mb-4 d-flex justify-content-center">
-      <div className="p-4 flex-grow-1 text-center " style={{
-    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
-    color: 'white',
-    padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '25px', // Asymmetric rounded corners
-    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center', // Centers content vertically
-   
-    textAlign: 'left', // Centers text within elements
-    maxWidth: '100%',
+      <div className="p-4 flex-grow-1 text-start " style={{
+      background: '#f5c518', // Pink gradient
+      color: 'black',
+      padding: '50px', // Adds even top and bottom padding
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center', // Centers content vertically
+  
+      textAlign: 'left', // Centers text within elements
       }}>
-        <h5 style={{ fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>Key Requirements for Gabriel</h5>
+        <p style={{fontWeight:'bold'}}>Key Requirements for Gabriel</p>
         <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Must have: Basic information, three educational sections.</p>
         <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Should have: Quizzes, challenges, images.</p>
         <p style={{ lineHeight: '1.6',textAlign: 'left' }}>Could have: Modern design, profile page with picture and collected points.</p>
@@ -259,10 +265,10 @@ const Sektionklimt = () => {
     <div className="d-flex justify-content-center ">
     <section className="container ">
   <div className="row justify-content-center">
-    <div className="col-md-10 text-start p-4">
-    <h2 className=" fancy-underline" style={{fontSize: '45px'}}>UML-diagram</h2>
+    <div className="col-md-10 text-center p-4">
+    <h3 className=" fancy-underline" >UML-diagram</h3>
     </div>
-    <div className="col-md-8 text-center">
+    <div className="col-md-10 text-center">
     <img 
         src="/Photos/Uml.png" // Replace with your image URL
         alt="persona"

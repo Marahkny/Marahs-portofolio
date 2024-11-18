@@ -5,13 +5,14 @@ const Servic = () => {
   const sectionStyle = {
     padding: '50px',
     textAlign: 'center',
-    backgroundColor: '#f8f9fa', // Set your desired background color
-    minHeight: '100vh', // Ensure full height if necessary
+    
+    minHeight: '50vh', // Ensure full height if necessary
     margin: 0, // Remove margin to eliminate white space
+   
   };
 
   const headingStyle = {
-    fontSize: '20px',
+    
     fontWeight: 'bold',
     marginBottom: '20px'
   };
@@ -22,15 +23,15 @@ const Servic = () => {
   };
 
   const emailStyle = {
-    color: '#0B6BA5',
-    textDecoration: 'none',
+    color: 'white',
+    
     fontWeight: 'bold'
   };
 
   return (
     <Container fluid style={sectionStyle}> {/* Use fluid to make it full width */}
-      <Row className="justify-content-center">
-        <Col xs={12} md={3} className="mb-4">
+      <Row className="justify-content-center ">
+        <Col xs={12} md={3} className="p-4 m-2" style={{backgroundColor:'#e46698', color:'white'}}>
           <div style={headingStyle}>TOOLS</div>
           <div style={textStyle}>Figma</div>
           <div style={textStyle}>Sketch</div>
@@ -39,7 +40,7 @@ const Servic = () => {
           <div style={textStyle}>Firebase</div>
           <div style={textStyle}>CMS</div>
         </Col>
-        <Col xs={12} md={3} className="mb-4">
+        <Col xs={12} md={3} className="p-4 m-2" style={{backgroundColor:'#f5c518', color:'black'}}>
           <div style={headingStyle}>SKILLSET</div>
           <div style={textStyle}>User Centered Design</div>
           <div style={textStyle}>User Research</div>
@@ -51,7 +52,7 @@ const Servic = () => {
           <div style={textStyle}>User Testing</div>
           <div style={textStyle}>WCAG</div>
         </Col>
-        <Col xs={12} md={3} className="mb-4">
+        <Col xs={12} md={3} className="p-4 m-2" style={{backgroundColor:'#0B6BA5', color:'white'}}>
           <div style={headingStyle}>CONTACT</div>
           <div style={textStyle}>Portfolio</div>
           <div style={textStyle}>

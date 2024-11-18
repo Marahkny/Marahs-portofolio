@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './header';
+import Head from './Head'
 import Herobild from './home/herobild'
 import Case from './home/case';
 import Footer from './footer';
@@ -7,7 +7,7 @@ import Footer from './footer';
 const Work = () => {
     return (
         <div>
-            <Header />
+            <Head />
             <Herobild />
             <Case />
             <Footer />

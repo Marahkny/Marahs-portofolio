@@ -34,7 +34,7 @@ function Nextproject() {
   };
 
   const largeTStyle = {
-    fontSize: "5rem", // Larger "T"
+    fontSize: "clamp(20px, 4vw, 50px)",
  
   };
 
@@ -44,7 +44,7 @@ function Nextproject() {
   };
 
   const subtitleStyle = {
-    fontSize: "1.2rem",
+    
     marginTop: "5px",
   };
 
@@ -61,10 +61,10 @@ function Nextproject() {
         onMouseLeave={() => setIsHovered(false)}
         style={{ textDecoration: "none", color: "inherit" }} // No underline or color change
       >
-        <h2 style={isHovered ? { ...logoStyle, ...logoHoverStyle } : logoStyle}>
-          <p style={largeTStyle}>TechCity</p>
+        <p style={isHovered ? { ...logoStyle, ...logoHoverStyle } : logoStyle}>
+          <h3 style={largeTStyle}>TechCity</h3>
  
-        </h2>
+        </p>
       </Link>
 
       <p style={subtitleStyle}>End-to-end website + branding</p>

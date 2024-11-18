@@ -24,4 +24,79 @@
 }
 
   
-  
+.styled-button {
+  position: relative;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #E46698; /* Rosa bakgrund */
+  border: none;
+  border-radius: 50px; /* Gör knappen oval */
+  cursor: pointer;
+  z-index: 1;
+  overflow: visible;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smidiga övergångar */
+}
+
+.styled-button:hover {
+  background-color: #0b6ba5; /* Mörkare rosa vid hover */
+}
+
+.styled-button::after {
+  content: '';
+  position: absolute;
+  top: -8px; /* Flytta ramen utåt */
+  left: 5px;
+  right: -5px;
+  bottom: 5px;
+  border: 3px solid #0B6BA5; /* Blå ram */
+  border-radius: 55px; /* Något större radie än knappen */
+  z-index: -1; /* Placera bakom knappen */
+  box-sizing: border-box; /* Gör att kanten blir en del av elementets storlek */
+  transition: border-color 0.3s ease; /* Smidig övergång för kantfärgen */
+}
+
+.styled-button:hover::after {
+  border-color: #0b6ba5; /* Mörkare blå ram vid hover */
+}
+.sty-knapp {
+  position: relative;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: #f5c518; /* Rosa bakgrund */
+  border: none;
+  border-radius: 50px; /* Gör knappen oval */
+  cursor: pointer;
+  z-index: 1;
+  overflow: visible;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smidiga övergångar */
+}
+
+.sty-knapp:hover {
+  background-color: #0b6ba5; /* Mörkare rosa vid hover */
+  color: white;
+}
+
+.sty-knapp::after {
+  content: '';
+  position: absolute;
+  top: -8px; /* Flytta ramen utåt */
+  left: 5px;
+  right: -5px;
+  bottom: 5px;
+  border: 3px solid #0B6BA5; /* Blå ram */
+  border-radius: 55px; /* Något större radie än knappen */
+  z-index: -1; /* Placera bakom knappen */
+  box-sizing: border-box; /* Gör att kanten blir en del av elementets storlek */
+  transition: border-color 0.3s ease; /* Smidig övergång för kantfärgen */
+}
+
+.sty-knapp:hover::after {
+  border-color: #0b6ba5; /* Mörkare blå ram vid hover */
+}
+

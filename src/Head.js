@@ -12,7 +12,7 @@ const Head = () => {
 
   return (
     <>
-      <Navbar bg="light" expand="lg" className="d-none d-lg-block" >
+      <Navbar  expand="lg" className="d-none d-lg-block" >
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -50,7 +50,7 @@ const Head = () => {
       </Navbar>
 
       {/* Hamburger icon for small and medium screens */}
-      <Navbar bg="light" expand="lg" sticky="top" className="d-lg-none">
+      <Navbar  expand="lg" sticky="top" className="d-lg-none">
         <Container>
           <Navbar.Brand href="/">
             <img

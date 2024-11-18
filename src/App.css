@@ -1,41 +1,24 @@
 
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #DBDFE7;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* App.css */
 h1, h2, h3, h4, h5 {
   font-family: 'Capriola', sans-serif;
   font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(35px, 5vw + 1rem, 65px);
+}
+
+h2 {
+  font-size: clamp(24px, 5vw, 52px);
+}
+
+h3 {
+  font-size: clamp(20px, 4vw, 41px);
+}
+
+h4 {
+  font-size: clamp(16px, 3vw, 33px);
 }
 
 /* För brödtext */
@@ -43,4 +26,5 @@ p, span, body {
   font-family: 'Capriola', sans-serif;
   font-weight: 400;
 }
+
 

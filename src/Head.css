@@ -1,11 +1,14 @@
 .nav-link-custom {
-  color: black; /* Default to black */
+  color: #E46698; /* Default to black */
   font-size: 16px;
   margin-right: 25px;
 }
 
 .nav-link-custom:hover {
   color: #E46698; /* Hover color */
+  text-decoration: underline;
+  text-decoration-color: #E46698; /* Gör understrykningen vit */
+  text-underline-offset: 3px; /* Justerar avståndet mellan texten och understrykningen */
 }
 
 
@@ -16,7 +19,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f8f9fa;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -11,26 +11,46 @@ const Poblemklimat = () => {
   
   {/* Section 1: Problem Statement */}
   <Row className="justify-content-center align-items-start mb-5" style={{ width: '100%', margin: '0' }}>
-    <Col md={8} className="text-start">
-      <h4 style={{  fontSize: '2rem', marginBottom: '20px' }}>Why Build This Product?</h4>
-<p>A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.</p>      <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key Issues:</p>
+  <Col md={10} className='pb-3' >
+          
+          <h3  className=" fancy-underline pt-5" >User research</h3>
+        </Col>
+    <Col md={10} className="text-start">
+    <div className="d-flex align-items-center">
+    <img 
+      src="/Photos/pinkpaint.png" 
+      alt="User research icon" 
+      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+    />
+    <h4 >The problem</h4> 
+   
+  </div>
+<p>A middle school in a large Swedish city needs a web application for students aged 13-15 from diverse backgrounds. While they've likely heard of climate change, they struggle to understand its impact and haven't studied it in school. The application aims to fill this gap by providing clear and engaging educational content on climate change.</p>      <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key issues:</p>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
-        <li style={{ marginBottom: '15px' }}><strong>Raise Awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
-        <li style={{ marginBottom: '15px' }}><strong>Engage Diverse Audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
-        <li style={{ marginBottom: '15px' }}><strong>Interactive Learning:</strong> To incorporate various educational tools, including quizzes and challenges, to enhance understanding and foster sustainable behaviors.</li>
+        <li style={{ marginBottom: '15px' }}><strong>Raise awareness:</strong> To educate students about climate change, promoting awareness of its causes and effects.</li>
+        <li style={{ marginBottom: '15px' }}><strong>Engage diverse audiences:</strong> To provide an inclusive platform that caters to students aged 13-15 from various backgrounds, regardless of their prior knowledge.</li>
+        <li style={{ marginBottom: '15px' }}><strong>Interactive learning:</strong> To incorporate various educational tools, including quizzes and challenges, to enhance understanding and foster sustainable behaviors.</li>
    </ul>
     </Col>
   </Row>
 
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
-    <Col md={8} className="text-start">
-      <h4 style={{  fontSize: '1.8rem', marginBottom: '20px' }}>Target Audience Research</h4>
+    <Col md={10} className="text-start">
+    <div className="d-flex align-items-center">
+    <img 
+      src="/Photos/yellowpaint.png" 
+      alt="User research icon" 
+      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+    />
+    <h4 >Target audience research</h4> 
+   
+  </div>
       <p>The target audience for this website is teenagers aged 13-15 in Swedish schools, as defined by the educators.</p>
    
     </Col>
     
-    <Col md={5} className="text-start pt-5">
-    <p><strong>Research Process:</strong></p>
+    <Col md={7} className="text-start pt-5">
+    <p><strong>Research process:</strong></p>
       <ul >
   <li style={{ marginBottom: '15px' }}>
   Articles and reports on youth engagement in climate issues were collected and analyzed.

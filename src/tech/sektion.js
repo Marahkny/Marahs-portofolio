@@ -4,11 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../FancyText.css';
 import Problem from './Problem';
+import { TfiLayoutLineSolid } from "react-icons/tfi";
+import Hmv from './hmv';
 // Main Section component
 const Sektion = () => {
   return (
     <>
-      <Container fluid className="p-4" style={{ backgroundColor: '#E46698', color: '#ffffff' }}>
+      <Container fluid className="py-5" style={{ backgroundColor: '#E46698', color: '#ffffff' }}>
         <Row className="justify-content-center align-items-center py-5">
           {/* Left Section */}
           <Col xs={12} md={6} className="text-center">
@@ -22,22 +24,23 @@ const Sektion = () => {
 
           {/* Right Section */}
           <Col xs={12} md={6}>
-            <h1 style={{ fontSize: '65px',  paddingBottom:'20px' }}>TechCity</h1>
+            <h1 style={{   paddingBottom:'20px' }}>TechCity</h1>
             <p >
               Designing an e-commerce website for selling tech products with 
               careful planning and attention to user experience, aesthetics, and functionality.
             </p>
-            <p><strong>Project Type:</strong> Design an e-commerce website</p>
-            <p><strong>Role:</strong> User research + UX/UI designer + brand designer</p>
+            <p><strong>Project type:</strong> Design an e-commerce website</p>
+            <p><strong>Role:</strong> User research + UI/UX designer + brand designer</p>
             <p><strong>Industry:</strong> E-commerce, Tech</p>
             <p><strong>Tools:</strong> Figma, Canva, Illustrator, Google Docs</p>
             <p><strong>Duration:</strong> 2 months, 2024</p>
+            <div className="d-flex flex-column flex-md-row justify-content-start pt-2">
             <Button 
               href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&node-type=canvas&t=tpaCGDBPEb2loNS1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" 
-              style={{ backgroundColor: '#F5C518', color: 'black', border: 'none', padding: '12px 24px', borderRadius: '50px' }}
+              className='sty-knapp '
             >
               View hi-fi prototype
-            </Button>
+            </Button></div>
           </Col>
         </Row>
       </Container>
@@ -47,44 +50,49 @@ const Sektion = () => {
   </Row>
   </Container>
  
-   <Container className="pt-5 pb-5">
-      <Row className="d-flex justify-content-center text-center">
+   <Container className="py-5 my-4">
+      <Row className="d-flex justify-content-center text-start">
         {/* Discover Column */}
-        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontSize: '45px'}}>Discover</h3>
-          <ul style={{ listStyleType: 'none', padding: '20px' }}>
-            <li>User Research</li>
-            <li>Market Analysis</li>
-            <li>Personas</li>
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-1"> {/* Lägg till text-center för att centrera texten */}
+          <h3 className="fancy-underline" style={{ fontSize: 'clamp(18px, 2vw, 24px)'}}>Discover</h3>
+          <ul style={{ padding: '10px', listStyleType: 'none' }}>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />User research</li>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Market analysis</li>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Personas</li>
           </ul>
         </Col>
 
         {/* Define Column */}
-        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontSize: '45px' }}>Define</h3>
-          <ul style={{ listStyleType: 'none', padding: '20px' }}>
-            <li>HMW</li>
-            <li>User flow</li>
-            <li>Wireframes</li>
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-1"> {/* Lägg till text-center för att centrera texten */}
+          <h3 className="fancy-underline" style={{ fontSize: 'clamp(18px, 2vw, 24px)' }}>Define</h3>
+          <ul style={{ padding: '10px', listStyleType: 'none' }}>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />HMW</li>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />User flow</li>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Wireframes</li>
           </ul>
         </Col>
 
         {/* Develop Column */}
-        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-2"> {/* Lägg till text-center för att centrera texten */}
-          <h3 className="fancy-underline" style={{ fontSize: '45px' }}>Develop</h3>
-          <ul style={{ listStyleType: 'none', padding: '20px'}}>
-            <li>Prototyping</li>
+        <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-1"> {/* Lägg till text-center för att centrera texten */}
+          <h3 className="fancy-underline" style={{ fontSize: 'clamp(18px, 2vw, 24px)' }}>Develop</h3>
+          <ul style={{ padding: '10px', listStyleType: 'none' }}>
+          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Prototyping</li>
           </ul>
         </Col>
       </Row>
     </Container>
     <div className="justify-content-center text-center mb-5">
     <h2 style={{
-        background: '#F5C518',
-        color: 'Black',
-        padding: '20px 40px',
-        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
-
+        background: '#E46698',
+        color: 'white',
+        padding: '30px 40px',
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
        
     }}>
@@ -92,24 +100,16 @@ const Sektion = () => {
     </h2>
 </div>
 
-    <Container fluid >
-      {/* User Research Header */}
-      <Row className="justify-content-center text-start p-2">
-        <Col md={8} className='pb-3' >
-          
-          <h3  className=" fancy-underline " style={{ fontSize: '45px' }}>User Research</h3>
-        </Col>
-      </Row>
-    </Container>
+
    
 <Problem />
 
   
-    <Container fluid className="d-flex justify-content-center align-items-center py-5" >
+    <Container fluid className="d-flex justify-content-center align-items-center py-5"  >
   <Row className="justify-content-center text-start">
     <Col xs={12} md={10}>
-      <h3 className=" fancy-underline" style={{ fontSize: '45px' }}>
-      Market Analysis
+      <h3 className=" fancy-underline pb-2" >
+      Market analysis
       </h3>
       <p className='pt-3' style={{textAlign: 'left'}}>
   This table compares the UI/UX of Elgiganten and Power. Both face issues with wish list visibility and login frustration during checkout, affecting user experience.
@@ -118,7 +118,7 @@ const Sektion = () => {
 
     </Col>
 
-    <Col xs={12} md={10} className="d-flex justify-content-center pt-4" >
+    <Col xs={12} md={10} className="d-flex justify-content-center py-4"  >
       <img 
         src="/Photos/Company.png"
         alt="company"
@@ -132,13 +132,13 @@ const Sektion = () => {
 <Container fluid className="d-flex justify-content-center align-items-center py-5" >
   <Row className="justify-content-center text-start">
     <Col xs={12} md={10} >
-      <h3 className=" fancy-underline" style={{fontSize: '45px' }}>
+      <h3 className=" fancy-underline pb-2" >
       Personas
       </h3>
-      <p  className='pt-3' style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
+      <p  style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
     </Col>
 
-    <Col xs={12} md={8} className="d-flex justify-content-center pt-4">
+    <Col xs={12} md={10} className="d-flex justify-content-center pt-4">
       <img 
         src="/Photos/Emma (1).png"
         alt="Lo-fi Prototype"
@@ -152,64 +152,20 @@ const Sektion = () => {
     <h2 style={{
         background: '#E46698',
         color: 'white',
-        padding: '20px 40px',
-        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        padding: '30px 40px',
 
+margin:'0',
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
         Define phase
     </h2>
 </div>
-    <section className="container py-5">
-  <div className="row justify-content-center">
-  <div className="col-md-10 mb-4 d-flex justify-content-left">
-  <h3 className="text-start mb-4 fancy-underline" style={{ fontSize: '45px' }}>HMW</h3>
-
-  </div>
-    <div className="col-md-5 mb-4 d-flex justify-content-center">
-      <div className="p-4 flex-grow-1 text-center" style={{
-    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
-    color: 'white',
-    padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '25px', // Asymmetric rounded corners
-    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center', // Centers content vertically
-    alignItems: 'center', // Centers content horizontally
-    textAlign: 'left', // Centers text within elements
-    maxWidth: '100%',
-      }}>
-        <h5 style={{  fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user keep their wishlist items after logging in?</h5>
-        <p style={{ lineHeight: '1.6' }}>By implementing persistent storage mechanisms such as local storage or syncing wishlist data with the user's account, we ensure the wishlist is retained after login.</p>
-      </div>
-    </div>
-    <div className="col-md-5 mb-4 d-flex justify-content-center">
-      <div className="p-4 flex-grow-1 text-center " style={{
-    background: 'linear-gradient(135deg, #e46698, #f48fb1)', // Pink gradient
-    color: 'white',
-    padding: '40px 20px', // Adds even top and bottom padding
-    borderRadius: '25px', // Asymmetric rounded corners
-    boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Soft shadow
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center', // Centers content vertically
-    alignItems: 'center', // Centers content horizontally
-    textAlign: 'left', // Centers text within elements
-    maxWidth: '100%',
-      }}>
-        <h5 style={{  fontSize: 'clamp(1.5rem, 2vw, 2rem)' }}>How might we help the user remember their wishlist items during the checkout process?</h5>
-        <p style={{ lineHeight: '1.6' }}>Integrating wishlist reminders within the checkout flow, perhaps by displaying them in the cart, can help users remember and consider adding these items to their purchase.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+    <Hmv />
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5" style={{ backgroundColor: 'white' }}>
   <Row className="justify-content-center text-start">
-    <Col xs={12} md={8}>
-      <div className='pb-3'><h3 className=" fancy-underline " style={{fontSize: '45px' }}>
+    <Col xs={12} md={10}>
+      <div className='pb-3'><h3 className=" fancy-underline ">
       User flow
       </h3></div>
       <p style={{ textAlign: 'left'}}>The user flow illustrates how a user can add a product to their wishlist and access it during the checkout process. After choosing a product and logging in, the user can save it to the wishlist, continue shopping, and later find their wishlist items conveniently available at checkout. </p>
@@ -217,23 +173,20 @@ const Sektion = () => {
 
 </Col>
 
-    <Col xs={12} md={8} className="d-flex justify-content-center">
+    <Col xs={12} md={10} className="d-flex justify-content-center">
       <img 
         src="/Photos/USERFLOW.png"
         alt="Lo-fi Prototype"
         className="img-fluid " 
-        style={{ 
-           
-          height: 'auto', 
-        }}
+
       />  
     </Col>
   </Row>
 </Container>
-<Container fluid className="d-flex justify-content-center align-items-center" >
+<Container fluid className="d-flex justify-content-center align-items-center pt-5" >
   <Row className="text-start">
-    <Col xs={12} md={8} className='pb-3'>
-      <h3 className="fancy-underline text-start" style={{  fontSize: '45px' }}>
+    <Col xs={12} md={10} className='pb-3 text-start'>
+      <h3 className="fancy-underline ">
         Wireframes
       </h3>
     </Col>
@@ -272,12 +225,11 @@ const Sektion = () => {
 </button>
 </div>
 
-<div className="justify-content-center text-center py-5">
+<div className="justify-content-center text-center py-5 my-5">
     <h2 style={{
-        background: '#0b6ba5',
+        background: '#E46698',
         color: 'white',
-        padding: '20px 40px',
-        fontSize: 'clamp(2rem, 5vw, 3.5rem)', // Responsive font size
+        padding: '30px 40px',
 
         boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)', // Softer, larger shadow for depth
     }}>
@@ -285,32 +237,24 @@ const Sektion = () => {
     </h2>
 </div>
     
-    <Container fluid className="d-flex justify-content-center align-items-center " >
+    <Container fluid className="d-flex justify-content-center align-items-center pb-5" >
   <Row className="justify-content-center text-start">
-    <Col xs={12} md={8}>
+    <Col xs={12} md={10}>
       {/* First paragraph centered */}
-      <h3 className=" fancy-underline " style={{ fontSize: '45px' }}>Prototyping</h3>
+      <h3 className=" fancy-underline pb-2 " >Prototyping</h3>
       
       {/* Second paragraph left-aligned but horizontally centered */}
       <p tyle={{ textAlign: 'left' }}>
       The website's design was created using Figma. You can view the high-fidelity prototype for a detailed representation of the final design.      </p>
 
       {/* Buttons */}
-      <div className="d-flex flex-column flex-md-row justify-content-start">
+      <div className="d-flex flex-column flex-md-row justify-content-start py-3">
         
         <Button 
           href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&node-type=canvas&t=tpaCGDBPEb2loNS1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" 
           target="_blank" 
           rel="noopener noreferrer"
-          style={{ 
-            backgroundColor: '#E46698', 
-            color: 'white', 
-            border: 'none', 
-            padding: '12px 36px', 
-            borderRadius: '50px', 
-            fontSize: '1.1rem',
-            
-          }}
+        className='styled-button'
 
         >
           View hi-fi prototype
@@ -319,12 +263,12 @@ const Sektion = () => {
     </Col>
 
     {/* Image section */}
-    <Col xs={10} className="d-flex justify-content-center pt-5">
+    <Col xs={10} className="d-flex justify-content-center py-5">
       <img 
         src="/Photos/Wifi (2).png" 
         alt="Component Tree" 
         className="img-fluid" 
-      style={{maxHeight:'70%'}}
+      style={{maxHeight:'100%'}}
       />
     </Col>
   </Row>

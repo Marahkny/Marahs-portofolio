@@ -4,7 +4,7 @@ import { FaEnvelope, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-light text-center py-5" >
+    <footer className=" text-center py-5" >
       <div className="container">
         <p className="mb-2" style={{ fontSize: '16px', color: '#e46698'  }}>
         Thank you for watching! Feel free to reach out.

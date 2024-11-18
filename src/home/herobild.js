@@ -6,58 +6,43 @@ const Herobild = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh' }}>
+      <section className="hero-section" style={{ minHeight: '80vh' }}>
         
-        {/* Video Background */}
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          style={{
-            position: 'absolute',
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            top: '0',
-            left: '0',
-            zIndex: '-1',
-          }}
-        >
-          <source src="/Photos/Back.mp4" />
-        </video>
-        
-        {/* Dark Overlay */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '0',
-            left: '0',
-            width: '100%',
-            height: '100%',
-            backgroundColor: 'rgba(0, 0, 0, 0.3)',  // Black with 30% opacity
 
-            zIndex: '1',
-          }}
-        ></div>
 
         {/* Content */}
         <Container
           fluid
           className="d-flex justify-content-center align-items-center text-center"
-          style={{ minHeight: '100vh', position: 'relative', zIndex: '2', color: '#fff' }} 
+          style={{ minHeight: '85vh', zIndex: '2', color: '#fff', background:'white' }} 
         >
-          <Row className="justify-content-center">
-            <Col md={10}>
-              <h1 style={{  fontSize: '8vw', fontFamily: 'Capriola, sans-serif', padding:'20px', fontWeight:'bold'}}>
-              Hello!  <span style={{ color:'#e46698', fontWeight:'bold'}}>I’m Marah </span>
+          <Row className="justify-content-center text-start" >
+            <Col md={6} >
+              <h1 style={{  fontSize: '6vw',  color:'#e46698', paddingBottom:'20px'}}>
+              Hello!  <span style={{ fontWeight:'bold'}}>I’m Marah </span>
 </h1>
-
-
-              <p className=" fancy-text" style={{ fontSize: '24px' }}>
+              <p className=" fancy-text" style={{ fontSize: '20px',color:'#e46698' }}>
                 A <span className="fancy-underline">web editor</span> with an educational background in UI/UX design, frontend development, and graphic design.
               </p>
             </Col>
+            <Col 
+  md={4} 
+  className="text-center d-flex justify-content-center align-items-center"
+  style={{
+    minHeight: '300px', // Säkerställer att det är tillräckligt med utrymme runt bilden
+  }}
+>
+  {/* Ny Lottie-spelare */}
+  <dotlottie-player
+    src="https://lottie.host/fc314af5-d10b-4db9-8422-796f6d90e091/zR2mUFJ6GA.json"
+    background="transparent"
+    speed="1"
+    style={{ width: '300px', height: '300px' }}
+    loop
+    autoplay
+  ></dotlottie-player>
+</Col>
+
           </Row>
         </Container>
       </section>

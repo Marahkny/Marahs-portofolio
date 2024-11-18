@@ -1,0 +1,65 @@
+.custom-button {
+    position: relative;
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Ger rundade kanter */
+    max-width: 200px;
+    width: auto;
+    cursor: pointer;
+    z-index: 1;
+    overflow: visible;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smidiga övergångar */
+  }
+  
+  .custom-button::after {
+    content: '';
+    position: absolute;
+    top: -8px; /* Flytta ramen utåt */
+    left: 5px;
+    right: -5px;
+    bottom: 5px;
+    border: 3px solid transparent;
+    border-radius: 60px; /* Gör ramen något större */
+    z-index: -1;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Blue button */
+  .blue-button {
+    background-color: #0b6ba5; /* Ursprunglig blå färg */
+  }
+  
+  .blue-button:hover {
+    background-color: #E46698; /* Mörkare blå vid hover */
+  }
+  
+  .blue-button::after {
+    border-color: #E46698; /* Blå ram */
+  }
+  
+  .blue-button:hover::after {
+    border-color: #E46698; /* Mörkare blå ram vid hover */
+  }
+  
+  /* Pink button */
+  .pink-button {
+    background-color: #E46698; /* Ursprunglig rosa färg */
+  }
+  
+  .pink-button:hover {
+    background-color: #0b6ba5; /* Mörkare rosa vid hover */
+  }
+  
+  .pink-button::after {
+    border-color: #0b6ba5; /* Rosa ram */
+  }
+  
+  .pink-button:hover::after {
+    border-color: #0b6ba5; /* Mörkare rosa ram vid hover */
+  }
+  
