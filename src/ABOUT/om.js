@@ -18,7 +18,7 @@ const Om = () => {
         <Col md={4} className="d-flex flex-column align-items-center pb-4">
           <div className="modern-card">
             <p className="status-text">
-              {Atday ? 'At day ' : 'At night'}
+              {Atday ? 'My at day ' : ' My at night'}
             </p>
             <img
               src={Atday ? '/Photos/day.png ' : '/Photos/weekend.png'}
@@ -38,7 +38,7 @@ const Om = () => {
 
 
         {/* Second column (col-md-8) for additional content */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={8}>
         <h1
   className="fancy-underline"
   style={{
