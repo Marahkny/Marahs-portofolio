@@ -105,7 +105,7 @@ const Develop = () => {
 
       {/* Buttons */}
       <div 
-  className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 mt-4"
+  className="d-flex flex-column flex-sm-row justify-content-start align-items-center gap-3 mt-4"
 >
   <Button 
     href="https://klimatkoll.netlify.app/" 

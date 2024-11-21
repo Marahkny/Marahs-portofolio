@@ -16,11 +16,11 @@ const Poblemklimat = () => {
           <h3  className=" fancy-underline pt-5" >User research</h3>
         </Col>
     <Col md={10} className="text-start">
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center pb-3">
     <img 
       src="/Photos/pinkpaint.png" 
       alt="User research icon" 
-      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+      style={{ width: '30px', height: '30px',marginRight:'10px' }} 
     />
     <h4 >The problem</h4> 
    
@@ -36,11 +36,11 @@ const Poblemklimat = () => {
 
   <Row className="justify-content-center align-items-start mb-5 mt-5" style={{ width: '100%', margin: '0' }}>
     <Col md={10} className="text-start">
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center pb-3">
     <img 
       src="/Photos/yellowpaint.png" 
       alt="User research icon" 
-      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+      style={{ width: '30px', height: '30px',marginRight:'10px' }} 
     />
     <h4 >Target audience research</h4> 
    
