@@ -34,7 +34,7 @@ const Sektion = () => {
             <p><strong>Industry:</strong> E-commerce, Tech</p>
             <p><strong>Tools:</strong> Figma, Canva, Illustrator, Google Docs</p>
             <p><strong>Duration:</strong> 2 months, 2024</p>
-            <div className="d-flex flex-column flex-md-row justify-content-start pt-2">
+            <div className="d-flex flex-column flex-md-row justify-content-start pt-3">
             <Button 
               href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&node-type=canvas&t=tpaCGDBPEb2loNS1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" 
               className='sty-knapp '

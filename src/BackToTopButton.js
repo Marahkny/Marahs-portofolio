@@ -41,8 +41,8 @@ const BackToTopButton = () => {
             color: '#fff',
             border: 'none', 
             borderRadius: '25px', // Curved corners with an asymmetric shape
-            boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.15)',
-            padding: '10px 20px',
+           
+            padding: '12px 24px',
             fontSize: '16px',
             zIndex: 1000,
           }}

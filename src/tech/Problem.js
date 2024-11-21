@@ -10,17 +10,17 @@ const Problem = () => {
    <Container fluid className="d-flex flex-column align-items-center mb-5">
   
   <Row className="justify-content-center align-items-start mb-5" style={{ width: '100%', margin: '0' }}>
-  <Col md={10} className='pt-5 pb-2 text-start' >
+  <Col md={10} className='pt-5 pb-3 text-start' >
           
           <h3  className="fancy-underline">User research</h3>
         </Col>
     <Col md={10} className="text-start">
     
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center pb-3">
     <img 
-      src="/Photos/pinkpaint.png" 
+      src="/Photos/yellowpaint.png" 
       alt="User research icon" 
-      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+      style={{ width: '30px', height: '30px',marginRight:'10px' }} 
     />
     <h4 >The problem</h4> 
    
@@ -28,8 +28,8 @@ const Problem = () => {
       <p>Research shows inconsistent user experiences (UX) across major e-commerce platforms like <a href="https://www.power.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Power</a> and <a href="https://www.elgiganten.se/" target="_blank" rel="noopener noreferrer" style={{ color: '#0b6ba5', textDecoration: 'underline' }}>Elgiganten</a>.</p>
       <p style={{ fontWeight: 'bold', marginTop: '20px' }}>Key issues:</p>
       <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
-        <li style={{ marginBottom: '15px' }}><strong>Wish list visibility:</strong> Users struggle to access or manage wish lists during purchases.</li>
-        <li style={{ marginBottom: '15px' }}><strong>Login frustration:</strong> Users must log in to save items, often losing selected products afterward.</li>
+        <li style={{ marginBottom: '15px' }}><strong>Wish list visibility on Elgiganten & Power:</strong> Users struggle to access or manage wish lists while making purchases.</li>
+        <li style={{ marginBottom: '15px' }}><strong>Login frustration on Elgiganten:</strong> Users are required to log in to save items, often resulting in lost selected products afterward.</li>
       </ul>
     </Col>
   </Row>
@@ -48,11 +48,16 @@ const Problem = () => {
     
   }}
 >
-        <h4 style={{
-        marginBottom: '20px'
-    }}>
-      TechCity’s solution:
-    </h4>
+
+    <div className="d-flex align-items-center pb-3">
+    <img 
+      src="/Photos/pinkpaint.png" 
+      alt="User research icon" 
+      style={{ width: '30px', height: '30px',marginRight:'10px' }} 
+    />
+    <h4 > TechCity’s solution</h4> 
+   
+  </div>
     <ul style={{
         listStyleType: 'none',
         paddingLeft: '0',
@@ -62,7 +67,7 @@ const Problem = () => {
         <strong>User-friendly wish list:</strong> A built-in, intuitive wish list feature designed from the ground up.
       </li>
       <li style={{ marginBottom: '15px' }}>
-        <strong>Seamless experience:</strong> Users can easily add and keep track of items without unnecessary logins or re-selections.
+        <strong>Seamless experience:</strong> Users can easily add and keep track of items without re-selections.
       </li>
     </ul>
 </Col>
@@ -71,11 +76,11 @@ const Problem = () => {
   {/* Section 3: User Profile and Goals */}
   <Row className="justify-content-center align-items-start my-5 pt-5" style={{ width: '100%', margin: '0' }}>
     <Col md={10} className="text-start">
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center pb-3">
     <img 
       src="/Photos/yellowpaint.png" 
       alt="User research icon" 
-      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+      style={{ width: '30px', height: '30px',marginRight:'10px' }} 
     />
     <h4 >The user</h4> 
    
@@ -110,11 +115,11 @@ const Problem = () => {
       ></dotlottie-player>
     </Col>
     <Col md={6} className="text-start">
-    <div className="d-flex align-items-center">
+    <div className="d-flex align-items-center pb-3">
     <img 
       src="/Photos/pinkpaint.png" 
       alt="User research icon" 
-      style={{ width: '40px', height: '40px',marginRight:'10px' }} 
+      style={{ width: '30px', height: '30px',marginRight:'10px' }} 
     />
     <h4 >Product goals</h4> 
    
@@ -125,7 +130,7 @@ const Problem = () => {
         <li>Convert visitors into leads with tailored products and resources.</li>
         <li>Enable users to manage wish lists throughout their journey.</li>
       </ul>
-      <p><strong>User needs</strong></p>
+      <p className='pt-3'><strong>User needs</strong></p>
       <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.8' }}>
         <li>Deliver current tech news and trends to engage users.</li>
         <li>Enable wish list viewing after login for easy purchases.</li>

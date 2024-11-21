@@ -33,7 +33,7 @@ const Sektionklimt = () => {
             <p><strong>Industry:</strong> Educational, Climate</p>
             <p><strong>Tools:</strong> Figma, Canva, Illustrator, ReactJS, Firebase</p>
             <p><strong>Duration:</strong> 2 months, 2024</p>
-            <div className="d-flex flex-column flex-md-row justify-content-start pt-2">
+            <div className="d-flex flex-column flex-md-row justify-content-start pt-3">
   <Button
     href="https://www.figma.com/proto/cZxBC4r3YraBsDtpqB4IjC/Prototyp?node-id=55-3&node-type=canvas&t=Sok9u0fcFfz6DrjO-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A2"
     target="_blank"
