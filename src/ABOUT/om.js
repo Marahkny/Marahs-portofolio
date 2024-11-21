@@ -17,8 +17,8 @@ const Om = () => {
         {/* First column with the image and controls */}
         <Col md={4} className="d-flex flex-column align-items-center pb-4">
           <div className="modern-card">
-            <p className="status-text">
-              {Atday ? 'My at day ' : ' My at night'}
+            <p className="status-text">Me
+              {Atday ? ' at day ' : '  at night'}
             </p>
             <img
               src={Atday ? '/Photos/day.png ' : '/Photos/weekend.png'}
