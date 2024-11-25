@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Servic = () => {
   const sectionStyle = {
-    padding: '50px',
+    padding: '20px',
     textAlign: 'center',
     
     minHeight: '50vh', // Ensure full height if necessary
@@ -31,7 +31,9 @@ const Servic = () => {
   return (
     <Container fluid style={sectionStyle}> {/* Use fluid to make it full width */}
       <Row className="justify-content-center ">
-        <Col xs={12} md={3} className="p-4 m-2" style={{backgroundColor:'#e46698', color:'white'}}>
+        <Col md={12} className='py-3'>
+        <h3>My skills</h3></Col>
+        <Col xs={12} md={3} className=" m-2" style={{backgroundColor:'#e46698', color:'white', padding:'50px'}}>
           <div style={headingStyle}>TOOLS</div>
           <div style={textStyle}>Figma</div>
           <div style={textStyle}>Sketch</div>
@@ -40,7 +42,7 @@ const Servic = () => {
           <div style={textStyle}>Firebase</div>
           <div style={textStyle}>CMS</div>
         </Col>
-        <Col xs={12} md={3} className="p-4 m-2" style={{backgroundColor:'#f5c518', color:'black'}}>
+        <Col xs={12} md={3} className="m-2" style={{backgroundColor:'#f5c518', color:'black',  padding:'50px'}}>
           <div style={headingStyle}>SKILLSET</div>
           <div style={textStyle}>User Centered Design</div>
           <div style={textStyle}>User Research</div>
@@ -52,7 +54,7 @@ const Servic = () => {
           <div style={textStyle}>User Testing</div>
           <div style={textStyle}>WCAG</div>
         </Col>
-        <Col xs={12} md={3} className="p-4 m-2" style={{backgroundColor:'#0B6BA5', color:'white'}}>
+        <Col xs={12} md={3} className=" m-2" style={{backgroundColor:'#0B6BA5', color:'white',  padding:'50px'}}>
           <div style={headingStyle}>CONTACT</div>
           <div style={textStyle}>Portfolio</div>
           <div style={textStyle}>

@@ -14,15 +14,15 @@ const Herobild = () => {
         <Container
           fluid
           className="d-flex justify-content-center align-items-center text-center"
-          style={{ minHeight: '85vh', zIndex: '2', color: '#fff', background:'white' }} 
+          style={{ minHeight: '100vh', zIndex: '2', color: '#fff', background:'white' }} 
         >
           <Row className="justify-content-center text-start" >
-            <Col md={6} >
-              <h1 style={{  fontSize: '6vw',  color:'#e46698', paddingBottom:'20px'}}>
+            <Col md={7} >
+              <h1 style={{  color:'#e46698', paddingBottom:'30px'}}>
               Hello!  <span style={{ fontWeight:'bold'}}>I’m Marah </span>
 </h1>
               <p className=" fancy-text" style={{ fontSize: '20px',color:'#e46698' }}>
-                A <span className="fancy-underline">web editor</span> with an educational background in UI/UX design, frontend development, and graphic design.
+                A <span className="fancy-underline">passionate web editor</span> with a solid foundation in UI/UX design, frontend development, and graphic design, dedicated to creating user-focused digital experiences
               </p>
             </Col>
             <Col 

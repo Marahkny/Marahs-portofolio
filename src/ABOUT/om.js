@@ -1,45 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaSun, FaMoon } from 'react-icons/fa';
+
 import './about.css';
 
 const Om = () => {
-  const [Atday, setIsAtday] = useState(false);
-
-  // Function to toggle between weekday and weekend
-  const toggleImage = () => {
-    setIsAtday(!Atday);
-  };
+ 
 
   return (
     <Container>
-      <Row className="my-5 pb-5">
+      <Row className="my-5 py-5">
         {/* First column with the image and controls */}
-        <Col md={4} className="d-flex flex-column align-items-center pb-4">
-          <div className="modern-card">
-            <p className="status-text">Me
-              {Atday ? ' at day ' : '  at night'}
-            </p>
-            <img
-              src={Atday ? '/Photos/day.png ' : '/Photos/weekend.png'}
-              alt="Display"
-              className="responsive-image"
-            />
-            <div onClick={toggleImage} className="toggle-button">
-              <span className={`toggle-option ${!Atday ? 'active' : ''}`}>
-                <FaSun />
-              </span>
-              <span className={`toggle-option ${Atday ? 'active' : ''}`}>
-                <FaMoon />
-              </span>
-            </div>
-          </div>
-        </Col>
-
-
-        {/* Second column (col-md-8) for additional content */}
-        <Col xs={12} md={8}>
-        <h1
+        <Col  md={10} className='align-items-center pb-4'>      <h1
   className="fancy-underline"
   style={{
     textAlign: 'center',
@@ -47,19 +18,27 @@ const Om = () => {
     margin: '0 auto',
   }}
 >
-  Marah kn
-</h1>
+ Hello! I'm Marah kn
+</h1></Col>
+<Col xs={12} md={10} d-flex justify-content-center align-items-center>
 
-          <p className="about-text pt-4">
-          A web editor based in Sweden, originally from Syria. My journey began when I moved to Sweden a few years ago and decided to pursue a career in web editing. With passion and determination, I graduated in 2024 and started my career in this field.
-          </p>
-          <p className="about-text">
-          With a strong focus on UX design, I specialize in identifying and analyzing needs and requirements to guide projects in the right direction. I provide solution-oriented proposals and enjoy implementing them with attention to both the UX and frontend aspects. My deep interest and skill set in UX design, paired with frontend development, allow me to create user-centered, functional, and aesthetically pleasing digital experiences.
-          </p>
-          <p className="about-text">
-          As a person, I am positive, adaptable, and confident, qualities that help me embrace new challenges and work efficiently both independently and as part of a team. I am deeply committed to personal growth and always open to feedback and new learning opportunities, as I believe in continuous personal and professional development.
-          </p>
-        </Col>
+<p className="about-text py-3">
+Ten years ago, I was a math teacher in Damascus, where I discovered my passion for solving problems and finding creative solutions. I dreamed of learning coding and design to apply that same problem-solving mindset in new ways. After moving to Sweden, I decided to pursue an education that combined these interests.
+</p>
+<h2 style={{fontSize: 'clamp(16px, 2vw, 20px)'}}>Who am I today?</h2>
+<p className="about-text pb-3">Today, I’m a web editor based in Sweden, originally from Syria. My journey has been fueled by determination and a desire to grow. In 2024, I graduated and began my career, blending skills in coding, design, and innovative thinking to create meaningful digital solutions.
+</p>
+<h2 style={{fontSize: 'clamp(16px, 2vw, 20px)'}}>What drives me?</h2>
+<p className="about-text pb-3">
+With a strong focus on UX design, I specialize in identifying and analyzing needs and requirements to guide projects in the right direction. I provide solution-oriented proposals and enjoy implementing them with attention to both the UX and frontend aspects. My deep interest and skill set in UX design, paired with frontend development, allow me to create user-centered, functional, and aesthetically pleasing digital experiences.
+</p>
+<h2 style={{fontSize: 'clamp(16px, 2vw, 20px)'}}>My mindset</h2>
+<p className="about-text">
+As a person, I am positive, adaptable, and confident, qualities that help me embrace new challenges and work efficiently both independently and as part of a team. I am deeply committed to personal growth and always open to feedback and new learning opportunities, as I believe in continuous personal and professional development.
+</p>
+</Col>
+
+
       </Row>
     </Container>
   );
