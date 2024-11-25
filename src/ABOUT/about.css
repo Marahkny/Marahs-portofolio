@@ -7,7 +7,12 @@
     
    
   }
-
+  .center-content {
+ 
+    margin: 0 auto;   /* Centrerar kolumnen horisontellt */
+    
+  }
+  
  /* Modern, sleek underline with animation */
  .fancy-underline {
   position: relative;
