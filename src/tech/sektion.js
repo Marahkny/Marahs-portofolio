@@ -61,7 +61,7 @@ const Sektion = () => {
           <li style={{ display: 'flex', alignItems: 'center' }}>
           <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Market analysis</li>
           <li style={{ display: 'flex', alignItems: 'center' }}>
-          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Personas</li>
+          <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />Persona</li>
           </ul>
         </Col>
 
@@ -133,7 +133,7 @@ const Sektion = () => {
   <Row className="justify-content-center text-start">
     <Col xs={12} md={10} >
       <h3 className=" fancy-underline pb-2" >
-      Personas
+      Persona
       </h3>
       <p  style={{textAlign: 'left'}}>Creating this persona, "Martin," involved analyzing user behaviors, goals, and pain points to better understand the needs of a tech-savvy online shopper. By identifying his motivations—such as a desire for convenience and efficient planning through wish lists—and his frustrations with intrusive login processes, the persona captures key elements for designing a smoother, more intuitive user experience. </p>
     </Col>
@@ -197,13 +197,13 @@ margin:'0',
     <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/Photos/Namnlös design (46).png" className="d-block w-100 img-fluid" alt="First slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
+          <img src="/Photos/Wi.png" className="d-block w-100 img-fluid" alt="First slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
         </div>
         <div className="carousel-item">
-          <img src="/Photos/Wifi.png" className="d-block w-100 img-fluid" alt="Second slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
+          <img src="/Photos/Wi (2).png" className="d-block w-100 img-fluid" alt="Second slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
         </div>
         <div className="carousel-item">
-          <img src="/Photos/Wifi (1).png" className="d-block w-100 img-fluid" alt="Third slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
+          <img src="/Photos/Wi (3).png" className="d-block w-100 img-fluid" alt="Third slide" style={{ maxWidth: '800px', margin: '0 auto' }} />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
@@ -266,7 +266,7 @@ margin:'0',
     <Col xs={10} className="d-flex justify-content-center py-5">
       <img 
         src="/Photos/Wifi (2).png" 
-        alt="Component Tree" 
+        alt="prototyp" 
         className="img-fluid" 
       style={{maxHeight:'100%'}}
       />

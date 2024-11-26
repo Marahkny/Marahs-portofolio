@@ -15,28 +15,7 @@ const Develop = () => {
     Develop phase
           </h2>
     </div>
-    <Container fluid className="d-flex justify-content-center align-items-center py-5" >
-  <Row className="justify-content-center text-start">
-    <Col xs={12} md={10}>
-    <div className='pb-2'>
-      <h3 className="fancy-underline" >
-        Lo-fi Prototype
-      </h3></div>
-      <p style={{textAlign: 'left'}}>
-        A low-fidelity prototype is a simple and rough sketch of a design used to explore different ideas and features early in the development process. It was utilized to refine concepts and ensure effective decision-making before finalizing the design.
-      </p>
-    </Col>
 
-    <Col xs={12} md={10} className="d-flex justify-content-center">
-      <img 
-        src="/Photos/lo-fi.png" 
-        alt="Lo-fi Prototype"
-        className="img-fluid " 
-      
-      />  
-    </Col>
-  </Row>
-</Container>
 
     <Container fluid className="d-flex justify-content-center align-items-center py-5">
     <Row className="justify-content-center">
@@ -72,23 +51,16 @@ const Develop = () => {
       <h3 className=" fancy-underline" >Prototyping</h3>
     </Col>
     {/* Images in responsive layout */}
-    <Col xs={12} md={10} className="d-flex justify-content-center py-5">
+    <Col xs={12} md={10} className="d-flex justify-content-center py-2">
       <img 
-        src="/Photos/proto1.png" 
+        src="/Photos/prototypklimatkoll.png" 
         alt="Prototyping " 
         className="img-fluid " 
        
       />
     </Col>
 
-    <Col xs={12} md={10} className="d-flex justify-content-center py-5">
-      <img 
-        src="/Photos/proto2.png" 
-        alt="Prototyping " 
-        className="img-fluid" 
-      
-      />
-    </Col>
+
   </Row>
 </Container>
 

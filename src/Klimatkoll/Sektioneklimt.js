@@ -90,10 +90,7 @@ const Sektionklimt = () => {
         Develop
       </h3>
       <ul style={{ padding: '10px', listStyleType: 'none' }}>
-      <li style={{ display: 'flex', alignItems: 'center' }}>
-        <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
-        Lo-fi prototype
-      </li>
+
       <li style={{ display: 'flex', alignItems: 'center' }}>
         <TfiLayoutLineSolid style={{ marginRight: '8px', color: '#E46698' }} />
         Design system

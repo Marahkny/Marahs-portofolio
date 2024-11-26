@@ -16,7 +16,7 @@ const Om = () => {
               margin: '0 auto',
             }}
           >
-            Hello! I'm Marah kn
+            Hello! I'm Marah
           </h1>
         </Col>
         
