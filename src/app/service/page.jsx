@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-     <section className=" text-[#F5F5F5] h-full py-40 px-6">
+     <section className=" text-[#F5F5F5] h-full py-20 px-6">
        <div className="max-w-8xl mx-auto text-left">
          <h1 className=" mb-10">Our services</h1>
  

@@ -82,7 +82,7 @@ const services = [
 export default function Services() {
   return (
     <section className="max-w-8xl mx-auto px-6 pb-20 text-left">
-      <div className="container mx-auto">
+      <div className=" mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] shadow-lg hover:shadow-xl transition-shadow">

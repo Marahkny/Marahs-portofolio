@@ -40,16 +40,17 @@ export default function ServicesHem() {
       <h2 className="mb-6">Tools to make your zone shine</h2>
 <p className="mb-6">We work with web approach, delivering user-centered design by making users an integral part of the process.</p>
       <section className="pb-16">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service, index) => (
-              <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] text-left">
-                {service.icon}
-                <h3 className="text-[28px] text-[#121212] mb-4">{service.title}</h3>
-                <p className="text-[#121212] text-lg mb-6">{service.description}</p>
-              </div>
-            ))}
-          </div>
+        <div className=" mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {services.map((service, index) => (
+    <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] text-left">
+      {service.icon}
+      <h3 className="text-[28px] text-[#121212] mb-4">{service.title}</h3>
+      <p className="text-[#121212] text-lg mb-6">{service.description}</p>
+    </div>
+  ))}
+</div>
+
         </div>
       </section>
     </div>
