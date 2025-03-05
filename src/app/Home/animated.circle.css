@@ -1,0 +1,101 @@
+.circleWrapper {
+  position: relative;
+  width: 400px; /* Mindre storlek */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.8), black);
+  box-shadow: inset 0 0 20px 4px rgba(59, 66, 159, 0.7),
+              inset 0 0 20px 2px rgba(245, 245, 245, 0.6),
+              inset 0 0 50px 12px rgba(184, 51, 106, 0.7);
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  animation: animateShadow 2s infinite alternate ease-in-out; /* Lägg till animation */
+}
+
+/* Keyframes för att animera shadow */
+@keyframes animateShadow {
+  0% {
+    box-shadow: inset 0 0 20px 4px rgba(59, 66, 159, 0.7),
+                inset 0 0 20px 2px rgba(245, 245, 245, 0.6),
+                inset 0 0 50px 12px rgba(184, 51, 106, 0.7);
+  }
+  50% {
+    box-shadow: inset 0 0 30px 6px rgba(59, 66, 159, 0.8),
+                inset 0 0 30px 3px rgba(245, 245, 245, 0.7),
+                inset 0 0 70px 15px rgba(184, 51, 106, 0.8);
+  }
+  100% {
+    box-shadow: inset 0 0 20px 4px rgba(59, 66, 159, 0.7),
+                inset 0 0 20px 2px rgba(245, 245, 245, 0.6),
+                inset 0 0 50px 12px rgba(184, 51, 106, 0.7);
+  }
+}
+
+
+/* Interaktiv rörelse vid hover */
+.circleWrapper:hover {
+  transform: translate(20px, -20px) scale(1.1) rotate(10deg);
+}
+
+.circleWrapper:active {
+  transform: translate(-20px, 20px) scale(0.9) rotate(-10deg);
+}
+
+/* Yttre glödande border */
+.borderWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.borderWrapper::before {
+  content: '';
+  position: absolute;
+  width: 130%;
+  height: 130%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 66, 159, 0.7) 15%, transparent 80%);
+  filter: blur(20px);
+  z-index: -1;
+  animation: morphBorder 5s infinite alternate ease-in-out;
+}
+
+@keyframes morphBorder {
+  0% { transform: scale(1.02) skewX(5deg) skewY(5deg); filter: blur(15px); }
+  50% { transform: scale(1.1) skewX(-6deg) skewY(-4deg); filter: blur(30px); }
+  100% { transform: scale(1.02) skewX(3deg) skewY(3deg); filter: blur(15px); }
+}
+
+@keyframes rotateAnimation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes neonGlow {
+  0% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0.7; transform: scale(1.05); }
+}
+
+@keyframes neonPulse {
+  0% { opacity: 0.8; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.1); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
