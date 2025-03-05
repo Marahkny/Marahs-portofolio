@@ -19,36 +19,37 @@ export default function Hero() {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center pt-20 max-w-4xl mx-auto px-6">
-        <h1 className="mb-4 leading-[1.5] text-[90px]">
+        <h1 className="mb-4 leading-[1.5] text-[40px] sm:text-[50px] md:text-[60px] lg:text-[75px] xl:text-[90px]">
   Be in your zone.<br />
   We bring it to life
 </h1>
+
 
           <p className="text-gray-300  max-w-3xl ">
           We provide web & design digital solutions tailored to create seamless, user-centered experiences.
           </p>
 
           {/* Knapp-sektion */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-6">
-            
-              <Link
-                href="/service"
-                className="bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-                           hover:bg-[#2A2F7D] flex items-center gap-2"
-              >
-                <span className="text-[#F5F5F5]">Our services</span>
-                <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
-                                               duration-300 group-hover:translate-x-2" />
-              </Link>
-            
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
+  <Link
+    href="/service"
+    className="w-full sm:w-auto bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
+               hover:bg-[#2A2F7D] flex items-center justify-center gap-2"
+  >
+    <span className="text-[#F5F5F5]">Our services</span>
+    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
+                                   duration-300 group-hover:translate-x-2" />
+  </Link>
 
-            <Link
-              href="/case"
-              className="bg-[#B8336A] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#9D2A56]"
-            >
-              Our case
-            </Link>
-          </div>
+  <Link
+    href="/case"
+    className="w-full sm:w-auto bg-[#B8336A] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
+               hover:bg-[#9D2A56] flex items-center justify-center"
+  >
+    Our case
+  </Link>
+</div>
+
 
         </div>
       </header>

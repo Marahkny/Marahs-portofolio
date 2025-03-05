@@ -35,6 +35,7 @@ export default function About() {
    alt="Zone 90 team working"
    width={800} // Remove fixed width
    height={800} // Remove fixed height
+   
    className=" rounded-[20px] "
  />
  

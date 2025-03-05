@@ -15,11 +15,11 @@ const Head = () => {
     <>
       {/* Navbar för stora skärmar */}
       <nav 
-  className={`absolute top-0 left-0 w-full z-30 flex items-center justify-between  hidden md:flex 
-  ${!isHomePage ? "bg-[#121212] px-8 py-4 " : "px-8 py-8"}`} 
->
+        className={`absolute top-0 left-0 w-full z-30 flex items-center justify-between  hidden md:flex 
+        ${!isHomePage ? "bg-[#121212] px-8 py-4 " : "px-8 py-8"}`} 
+      >
         <Link href="/">
-          <img src="/Photos/Logo.png" alt="Logo" className="w-[30%]" />
+          <img src="/Photos/Logo.png" alt="Logo" className="w-[40%]" />
         </Link>
         <div className="flex items-center space-x-6">
           <Link href="/service" className="hover:underline hover:decoration-[#F5F5F5]">Service</Link>
@@ -63,9 +63,9 @@ const Head = () => {
             </div>
           </div>
           <div className="flex flex-col py-40 items-center space-y-6">
-            <Link href="/case" className="text-[30px] hover:decoration-[#F5F5F5]">Case</Link>
-            <Link href="/service" className="text-[30px] hover:decoration-[#F5F5F5]">Service</Link>
-            <Link href="/about" className="text-[30px] hover:decoration-[#F5F5F5]">About</Link>
+            <Link href="/case" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={handleCloseMenu}>Case</Link>
+            <Link href="/service" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={handleCloseMenu}>Service</Link>
+            <Link href="/about" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={handleCloseMenu}>About Zone 90</Link>
           </div>
         </div>
       )}
@@ -74,6 +74,7 @@ const Head = () => {
 };
 
 export default Head;
+
 
 
 

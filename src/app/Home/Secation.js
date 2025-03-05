@@ -21,8 +21,7 @@ export default function Section() {
       <div className="group pt-6">
         <Link
           href="/about"
-          className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-                     hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
+          className=" w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
         >
           <span className="text-[#F5F5F5]">Want to know more?</span>
         </Link>
@@ -46,6 +45,7 @@ export default function Section() {
       <img
         src="/photos/web-design.jpg"
         alt="working"
+        loading="lazy"
         className="w-full h-auto mx-auto object-contain rounded-r-[50px] rounded-l-none"
       />
     </div>
@@ -63,7 +63,7 @@ export default function Section() {
       <div className="group pt-6">
         <Link
           href="/service"
-          className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
+          className=" w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
         >
           <span className="text-[#F5F5F5]">Our services</span>
         </Link>
