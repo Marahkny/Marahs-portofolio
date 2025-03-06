@@ -1,6 +1,6 @@
-import { LiaArrowRightSolid } from "react-icons/lia";
+
 import AnimatedCircle from "./animatedcircle";
-import Link from "next/link";
+
 
 export default function ZoneSec() {
     return (
