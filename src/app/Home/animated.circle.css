@@ -1,6 +1,6 @@
 .circleWrapper {
   position: relative;
-  width: 400px; /* Mindre storlek */
+  width: 400px; 
   height: 400px;
   display: flex;
   justify-content: center;

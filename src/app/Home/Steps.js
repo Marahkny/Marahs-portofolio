@@ -16,7 +16,7 @@ const Steps = () => {
     "WordPress",
     "Next.js",
     "ReactJS",
-    "Firebase",
+    "Social media",
   ];
 
   return (

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Zone90Section() {
   return (
-    <div className="flex justify-center items-center h-full px-6 xs:py-20 lg:py-20">
+    <div className="flex justify-center items-center h-full px-6 py-20">
       <div className="text-center max-w-4xl w-full">
         <h2 >
         Looking for web and design digital solutions?

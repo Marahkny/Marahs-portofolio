@@ -28,7 +28,25 @@ const AnimatedCircle = () => {
       >
         <img className="image1" src="/photos/90-icon (1).png" alt="Animated 1" />
         <img className="image2" src="/photos/90-icon (1).png" alt="Animated 2" />
-        
+         {/* Content Grid */}
+  <div className="relative max-w-6xl mx-auto grid md:grid-cols-3 gap-8 items-center hidden md:grid py-6 lg:py-10">
+    {/* Left Content - Background Animation */}
+    <div className="flex flex-col justify-center items-center space-y-6">
+      <p className="text-[60px] sm:text-[70px] md:text-[80px] text-center">Create</p>
+      <p className="text-[60px] sm:text-[70px] md:text-[80px] text-center">Achieve</p>
+    </div>
+
+    {/* Center Content - Animation */}
+    <div className="relative flex justify-center">
+      <AnimatedCircle className="absolute inset-0 -z-10" />
+    </div>
+
+    {/* Right Content - Text Section */}
+    <div className="flex flex-col justify-center items-center space-y-6">
+      <p className="text-[60px] sm:text-[70px] md:text-[80px] text-center">Deliver</p>
+      <p className="text-[60px] sm:text-[70px] md:text-[80px] text-center">Grow</p>
+    </div>
+  </div>
         
   
       </div>

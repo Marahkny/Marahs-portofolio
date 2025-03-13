@@ -18,8 +18,8 @@ export default function Hero() {
        
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center pt-20 max-w-4xl mx-auto px-6">
-        <h1 className="mb-4 leading-[1.5] text-[40px] sm:text-[50px] md:text-[60px] lg:text-[75px] xl:text-[90px]">
+        <div className="relative z-10 text-center pt-20 max-w-6xl mx-auto px-6">
+        <h1 className="mb-4 leading-[1.5] text-[40px] sm:text-[40px] md:text-[60px] lg:text-[75px] xl:text-[90px]">
   Be in your zone.<br />
   We bring it to life
 </h1>
