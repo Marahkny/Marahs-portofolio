@@ -15,7 +15,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row  justify-between items-center gap-10">
         <div className="md:w-1/2 text-left item-start">
           <p className=" mb-10 text-gray-300">
-        Zone 90 is a creative agency specializing in web & design digital solutions. We help businesses transform their vision into reality through innovative, user-centric solutions. Our mission is to craft seamless, trendsetting, and impactful digital experiences that captivate and engage your audience.
+        Zone 90 is a creative consulting service specializing in web & design digital solutions. We help businesses transform their vision into reality through innovative, user-centric solutions. Our mission is to craft seamless, trendsetting, and impactful digital experiences that captivate and engage your audience.
         </p>
             <ul className="space-y-6 ">
               <li className="flex items-center">
@@ -58,9 +58,9 @@ export default function About() {
   <div className="max-w-6xl  mx-auto text-left">
 
   <div className=" py-40 ">
-        <h2 className=" mb-4  text-center">Zone 90 stands for</h2>
+        <h2 className=" mb-4  text-center">Zone 90 work by</h2>
         <p className=" text-center text-[24px] ">
-        ”Precision” & ” innovation and excellence”
+        Precision & innovation & excellence
         </p>
       </div>
     <h2 className=" mb-4 ">How we started?</h2>
@@ -78,7 +78,7 @@ export default function About() {
       <div className=" pb-5 ">
         <h3 className=" mb-4 text-[24px] text-left">A full web service</h3>
         <p className=" text-left">
-        Zone 90 is a full-service web agency dedicated to delivering complete digital solutions. From UI/UX design and web development to SEO optimization and content strategy, we provide everything businesses need to establish a strong online presence. Our goal is to create seamless, high-performing, and user-centric digital experiences that drive growth and engagement.
+        Zone 90 is a full-service web &design consulting service dedicated to delivering complete digital solutions. From UI/UX design and web development to SEO optimization and content strategy, we provide everything businesses need to establish a strong online presence. Our goal is to create seamless, high-performing, and user-centric digital experiences that drive growth and engagement.
         </p>
       </div>
 
