@@ -15,8 +15,8 @@ const Head = () => {
     <>
       {/* Navbar för stora skärmar */}
       <nav 
-        className={` top-0 left-0 w-full z-30 flex items-center justify-between hidden lg:flex 
-        ${!isHomePage ? "bg-[#121212] px-8 py-4 " : "px-8 py-8 absolute"}`} 
+        className={` top-0 left-0 w-full z-30 flex items-center justify-between  hidden lg:flex 
+        ${!isHomePage ? "bg-[#121212] px-8 py-4  " : " px-8 py-8 absolute  "}`} 
       >
         <Link href="/">
           <img src="/Photos/Logo.png" alt="Logo" className="w-[40%]" />
