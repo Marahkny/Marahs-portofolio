@@ -44,6 +44,7 @@ export default function About() {
   width={800} // Remove fixed width
   height={800} // Remove fixed height
   className=" rounded-[20px] "
+  objectFit="cover" 
 />
 
           

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
-
+import Info from "./info";
 export default function Techno() {
     return (<>
      <div>
@@ -12,7 +12,7 @@ export default function Techno() {
         objectFit="cover" />
      </div>
 
-    <div className=" py-20 px-6 ">
+    <div className=" py-40 px-6 ">
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
@@ -51,7 +51,8 @@ export default function Techno() {
         </div>
       </div>
     </div>
-    
+    <Info />
     </>
     );
 }
+
