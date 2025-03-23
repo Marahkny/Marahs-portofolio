@@ -3,26 +3,23 @@ import Image from "next/image";
 
 export default function Info() {
   return (<>
-     <section className="bg-[#F5F5F5] pb-20 px-6  rounded-[20px] ">
-
-  <div className="flex flex-col items-center justify-center text-center py-20 max-w-2xl mx-auto">
+     <section className="bg-[#F5F5F5]  pb-10  mx-6 rounded-[20px]">
+     <div className="flex justify-center ">
+            <img
+              src="/photos/technostartpage.jpg"
+              
+              alt="techno start page"
+              className="shadow-lg rounded-[20px] w-[100%]"
+            />
+          </div>
+  <div className=" flex flex-col items-center justify-center text-center py-20 px-6 max-w-2xl mx-auto">
     <h3 className="text-[#121212]">With focus on the user</h3>
-    <p className="mt-5 text-[#121212]">
+    <p className="mt-5 text-[#121212] ">
         Techno is designed with a user-first approach, ensuring an intuitive and seamless interaction with the interface. Our platform caters to students, developers, and small to medium-sized businesses, offering a modern and elegant digital experience. The new website is built to combine sleek design with a hassle-free shopping process, making every step smooth, efficient, and enjoyable.
     </p>
 </div>
-  <div className=" flex justify-center">
-    <Image
-      src="/photos/protoyp.png"
-      width={1200} 
-      height={500} 
-      alt="Prototype"
-      
-    />
-  </div>
 
-
-      <div className="max-w-8xl py-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div className="max-w-8xl py-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-6">
         {/* Left Side: Images Grid */}
        
 
@@ -44,7 +41,7 @@ export default function Info() {
             />
           </div>
       </div>
-      <div className="max-w-8xl py-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div className="max-w-8xl py-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-6">
         {/* Left Side: Images Grid */}
         <div className="flex justify-center ">
             <Image
@@ -65,7 +62,7 @@ export default function Info() {
         </div>
        
       </div>
-      <div className="max-w-8xl py-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <div className="max-w-8xl py-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-6">
         {/* Left Side: Images Grid */}
        
 
@@ -86,6 +83,18 @@ export default function Info() {
             />
           </div>
       </div>
+      <h2 className="text-[#121212] justify-center text-center pb-5">Prodact final design</h2>
+     
+ 
+     <div className=" flex justify-center">
+       
+       <Image
+         src="/photos/protoyp.png"
+         width={1200} 
+         height={500} 
+         alt="Prototype"
+       />
+     </div>
     </section>
     </>
   );

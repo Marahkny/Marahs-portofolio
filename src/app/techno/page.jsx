@@ -1,24 +1,25 @@
-import Image from "next/image";
+
 import { MdArrowOutward } from "react-icons/md";
 import Info from "./info";
 export default function Techno() {
     return (<>
-     <div>
-    
-        <Image
-        src="/photos/techno.png" 
+     
+   <div className="flex justify-center items-center px-6 ">
+    <img
+        src="/photos/project 2.png" 
         alt="Techno Website" 
-        width={1500}
-        height={800}
-        objectFit="cover" />
-     </div>
+       
+        className="w-screen h-auto object-cover rounded-[20px]"
+    />
+</div>
+
 
     <div className=" py-40 px-6 ">
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
         <h1>Techno</h1>
-          <p className="mt-6 w-[80%] ">
+          <p className="mt-6 lg:w-[80%] md:w-[100%]">
           Techno is a cutting-edge e-commerce platform specializing in tech products across Sweden. Techno goal is to provide a seamless and intuitive shopping experience, making it easier than ever for customers to browse and purchase the latest technology.
 
           With a strong focus on user experience (UX) and modern design, Techno ensures that every interaction—from product discovery to checkout—is smooth, fast, and hassle-free.
