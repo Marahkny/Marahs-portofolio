@@ -4,6 +4,7 @@ import Info from "./info";
 export default function Techno() {
     return (<>
      <div>
+    
         <Image
         src="/photos/techno.png" 
         alt="Techno Website" 
@@ -16,7 +17,7 @@ export default function Techno() {
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
-          <h1>Techno</h1>
+        <h1>Techno</h1>
           <p className="mt-6 w-[80%] ">
           Techno is a cutting-edge e-commerce platform specializing in tech products across Sweden. Techno goal is to provide a seamless and intuitive shopping experience, making it easier than ever for customers to browse and purchase the latest technology.
 
