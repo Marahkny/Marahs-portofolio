@@ -32,9 +32,9 @@ const Head = () => {
       </nav>
 
       {/* Navbar för små skärmar */}
-      <nav className={`top-0 left-0 w-full z-30 flex lg:hidden items-center justify-between px-8 py-4 ${!isHomePage ? "bg-[#121212]" : "bg-transparent"}`}>
+      <nav className={`top-0 left-0 w-full z-30 flex lg:hidden items-center justify-between px-8 py-4 ${!isHomePage ? "bg-[#121212]" : "absolute "}`}>
       <Link href="/">
-          <img src="/photos/Logo.png" alt="Logo" className="max-w-[40%]" />
+          <img src="/photos/Logo.png" alt="Logo" className="w-[100px] " />
         </Link>
         <div className="flex gap-2.5">
           <Link href="/contact" className="bg-[#3B429F] text-[#F5F5F5] py-2 px-4 rounded-full hover:bg-[#2A2F7D]">
@@ -75,7 +75,7 @@ const Head = () => {
         >
           <div className="flex items-center justify-between w-full">
             <Link href="/">
-              <img src="/Photos/Logo.png" alt="Logo" className="max-w-[40%]" />
+              <img src="/Photos/Logo.png" alt="Logo" className="w-[100px] " />
             </Link> 
             <div className="flex gap-2.5">
             <Link href="/contact" className="bg-[#3B429F] text-[#F5F5F5] py-2 px-4 rounded-full hover:bg-[#2A2F7D]">
