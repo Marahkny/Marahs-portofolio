@@ -1,20 +1,20 @@
 
 import { MdArrowOutward } from "react-icons/md";
-import Info from "./info";
+import Desc from "./desc";
 import Zone90Section from "../Home/zone90secation";
 
-export default function Techno() {
+export default function Framsteg() {
     return (<>
      <div className=" px-6 pt-20">
-     <h1>Techno</h1>
+     <h1>Framsteg förening</h1>
      <p className=" pt-5 text-[24px] sm:text-[18px] md:text-[20px] lg:text-[24px]">
     An e-commerce tech platform
 </p>
      </div>
    <div className="flex justify-center items-center pt-10 px-6 ">
     <img
-        src="/photos/techno.png" 
-        alt="Techno Website" 
+        src="/photos/project 1.png" 
+        alt="framsteg förening website" 
        
         className="w-full h-auto object-contain rounded-[20px]"
     />
@@ -25,7 +25,7 @@ export default function Techno() {
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
-        <h2>About Techno</h2>
+        <h2>About Framsteg förening</h2>
           <p className="mt-6 lg:w-[80%] md:w-[100%]">
           Techno is a cutting-edge e-commerce platform specializing in tech products across Sweden. Techno goal is to provide a seamless and intuitive shopping experience, making it easier than ever for customers to browse and purchase the latest technology.
 
@@ -36,15 +36,15 @@ export default function Techno() {
         <div className="space-y-6 justify-center">
           <div>
             <h3 className="text-[24px]">Case client</h3>
-            <p>Techno</p>
+            <p>Framsteg förening</p>
           </div>
           <div>
             <h3 className="text-[24px]">When</h3>
-            <p>June - July 2024</p>
+            <p>Jan - Feb 2025</p>
           </div>
           <div>
             <h3 className="text-[24px]">What</h3>
-            <p>Brand & UI/UX design</p>
+            <p>Brand & WordPress website</p>
           </div>
           <div>
             <h3 className="text-[24px]">Visit</h3>
@@ -54,15 +54,14 @@ export default function Techno() {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  Techno
+  Framsteg förening
   <MdArrowOutward className="text-[24px]" />
 </a>          </div>
         </div>
       </div>
     </div>
-    <Info />
+<Desc />
     <Zone90Section />
     </>
     );
 }
-

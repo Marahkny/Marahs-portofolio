@@ -1,14 +1,14 @@
 
 import Image from "next/image";
 
-export default function Info() {
+export default function Desc() {
   return (<>
   
-     <section className="bg-[#3B429F] ">
+     <section className="bg-[#B8336A] ">
         
      <div className="flex justify-center px-6 ">
             <img
-              src="/photos/technostartpage.jpg"
+              src="/photos/framstegföreningstartpage.png"
               
               alt="techno start page"
               className="shadow-lg rounded-[20px] w-[100%] h-auto relative top-[-50px] "
