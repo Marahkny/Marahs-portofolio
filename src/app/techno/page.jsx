@@ -1,15 +1,22 @@
 
 import { MdArrowOutward } from "react-icons/md";
 import Info from "./info";
+import Zone90Section from "../Home/zone90secation";
+
 export default function Techno() {
     return (<>
-     
-   <div className="flex justify-center items-center px-6 ">
+     <div className=" px-6 pt-20">
+     <h1>Techno</h1>
+     <p className="text-[24px] sm:text-[18px] md:text-[20px] lg:text-[24px]">
+    An e-commerce tech platform
+</p>
+     </div>
+   <div className="flex justify-center items-center pt-10 px-6 ">
     <img
         src="/photos/project 2.png" 
         alt="Techno Website" 
        
-        className="w-screen h-auto object-cover rounded-[20px]"
+        className="w-full h-auto object-contain rounded-[20px]"
     />
 </div>
 
@@ -18,7 +25,7 @@ export default function Techno() {
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
-        <h1>Techno</h1>
+        <h2>About Techno</h2>
           <p className="mt-6 lg:w-[80%] md:w-[100%]">
           Techno is a cutting-edge e-commerce platform specializing in tech products across Sweden. Techno goal is to provide a seamless and intuitive shopping experience, making it easier than ever for customers to browse and purchase the latest technology.
 
@@ -28,7 +35,7 @@ export default function Techno() {
         {/* Höger kolumn */}
         <div className="space-y-6 justify-center">
           <div>
-            <h3 className="text-[24px]">Client</h3>
+            <h3 className="text-[24px]">Case client</h3>
             <p>Techno</p>
           </div>
           <div>
@@ -54,6 +61,7 @@ export default function Techno() {
       </div>
     </div>
     <Info />
+    <Zone90Section />
     </>
     );
 }

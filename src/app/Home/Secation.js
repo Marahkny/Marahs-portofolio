@@ -41,7 +41,7 @@ export default function Section() {
   <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between gap-6">
 
     {/* Höger sektion - Bild */}
-    <div className="md:w-[60%] flex justify-center">
+    <div className="md:w-[60%] flex justify-center order-last lg:order-first">
       <img
         src="/photos/web-design.jpg"
         alt="working"
