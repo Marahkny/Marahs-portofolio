@@ -25,11 +25,9 @@ export default function Techno() {
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
-        <h2>About Techno</h2>
+        <h2>Overview</h2>
           <p className="mt-6 lg:w-[80%] md:w-[100%]">
-          Techno is a cutting-edge e-commerce platform specializing in tech products across Sweden. Techno goal is to provide a seamless and intuitive shopping experience, making it easier than ever for customers to browse and purchase the latest technology.
-
-          With a strong focus on user experience (UX) and modern design, Techno ensures that every interaction—from product discovery to checkout—is smooth, fast, and hassle-free.
+          The Techno website is an e-commerce platform built with a strong focus on technology and user experience. The goal of this project was to design a visually appealing, modern, and efficient website that provides an intuitive shopping experience. The aim was to seamlessly integrate clean design principles with a smooth user journey, ensuring that customers could easily navigate through the platform while engaging with its content and products.
           </p>
         </div>
         {/* Höger kolumn */}

@@ -8,7 +8,7 @@ export default function Framsteg() {
      <div className=" px-6 pt-20">
      <h1>Framsteg förening</h1>
      <p className=" pt-5 text-[24px] sm:text-[18px] md:text-[20px] lg:text-[24px]">
-    An e-commerce tech platform
+     A website for connection and integration association
 </p>
      </div>
    <div className="flex justify-center items-center pt-10 px-6 ">
@@ -25,12 +25,9 @@ export default function Framsteg() {
       <div className="grid md:grid-cols-[60%_30%] grid-cols-1 gap-10 max-w-8xl mx-auto">
         {/* Vänster kolumn */}
         <div>
-        <h2>About Framsteg förening</h2>
+        <h2>Overview</h2>
           <p className="mt-6 lg:w-[80%] md:w-[100%]">
-          Techno is a cutting-edge e-commerce platform specializing in tech products across Sweden. Techno goal is to provide a seamless and intuitive shopping experience, making it easier than ever for customers to browse and purchase the latest technology.
-
-          With a strong focus on user experience (UX) and modern design, Techno ensures that every interaction—from product discovery to checkout—is smooth, fast, and hassle-free.
-          </p>
+          Framsteg Förening is a cultural association that supports integration between newcomers and Swedish families by providing essential resources, services, and opportunities for engagement. The goal of the project was to design and develop a website that enhances accessibility, strengthens community connections, and simplifies user interaction.          </p>
         </div>
         {/* Höger kolumn */}
         <div className="space-y-6 justify-center">
@@ -49,7 +46,7 @@ export default function Framsteg() {
           <div>
             <h3 className="text-[24px]">Visit</h3>
             <a 
-  href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&t=7Fp10u7beXkOZA7d-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3" 
+  href="https://webbred2.utb.hb.se/~s2105409/wp/" 
   className=" hover:underline flex items-center gap-2"
   target="_blank" 
   rel="noopener noreferrer"
