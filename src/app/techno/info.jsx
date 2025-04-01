@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Info() {
   return (<>
   
-     <section className="bg-[#3B429F] ">
+     <section className="bg-[#003B7A] ">
         
      <div className="flex justify-center px-6 ">
             <img
@@ -15,7 +15,7 @@ export default function Info() {
             />
           </div>
   <div className=" flex flex-col items-center justify-center text-center py-20 px-6 max-w-3xl mx-auto px-6">
-    <h3 >With focus on the user</h3>
+    <h3 >With focus on seamless user experience</h3>
     <p className="mt-5 ">
         Techno is designed with a user-first approach, ensuring an intuitive and seamless interaction with the interface. Our platform caters to students, developers, and small to medium-sized businesses, offering a modern and elegant digital experience. The new website is built to combine sleek design with a hassle-free shopping process, making every step smooth, efficient, and enjoyable.
     </p>
