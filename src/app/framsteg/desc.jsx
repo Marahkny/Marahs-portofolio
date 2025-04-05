@@ -22,7 +22,7 @@ export default function Desc() {
 <div className="relative flex justify-center items-center w-full h-[500px] overflow-hidden">
     {/* Bilden */}
     <img
-        src="/photos/tech.png"
+        src="/photos/integration.jpg"
         alt="Techno start page"
         className="w-full h-full object-cover"
     />
@@ -40,24 +40,25 @@ export default function Desc() {
 
 </section>
 <section className="bg-[#F5F5F5] px-6 py-20 ">
-      <div className=" max-w-8xl h-screen mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ">
+      <div className=" max-w-8xl h-screen mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 items-center ">
         {/* Left Side: Images Grid */}
        
 
         {/* Right Side: Text & Mobile Mockup */}
         <div className="space-y-6 ">
-          <h3 className="text-[#121212]">The power of the name</h3>
+          <h3 className="text-[#121212]">The logo’s power</h3>
           <p className="text-[#121212]">
-          The name  Techno was carefully crafted to reflect the company’s vision—simple, distinctive, and deeply connected to technology. It blends “Tech” from “technology” with "no" which subtly hints at Nordic influence, embodying the Scandinavian principles of minimalism, innovation, and cutting-edge design. This fusion creates a name that is modern and perfectly aligned with company forward-thinking approach to technology.
-          </p>
+          The logo has been thoughtfully crafted, with careful attention to both color and shape to capture the essence of Framsteg Förening. The flowing, curved line symbolizes progress and connection, illustrating how the organization supports individuals at every level of society. It represents Framsteg Förening’s collective journey towards integration, inclusion, and shared growth.
+
+The chosen colors radiate warmth, openness, and diversity, serving as a reminder that our strength lies in unity and collaboration. The organic shape of the curve reflects movement and energy, embodying the organization mission to drive positive change and build meaningful bridges between people from different backgrounds.     </p>
        
         </div>
         <div className="flex justify-center ">
             <Image
-              src="/photos/technologo.png"
+              src="/photos/Framstegföreninglogo.png"
               width={400}
               height={500}
-              alt="technologo"
+              alt="Framstegföreninglogo"
               
             />
           </div>
@@ -66,10 +67,10 @@ export default function Desc() {
   {/* Left Side: Images Grid */}
   <div className="flex justify-center order-last lg:order-first">
     <Image
-      src="/photos/brandtechno.png"
+      src="/photos/brandframstegförening.png"
       width={600}
       height={500}
-      alt="Mobile Mockup"
+      alt="brandframstegförening"
     />
   </div>
 
@@ -77,8 +78,7 @@ export default function Desc() {
   <div className="space-y-6">
     <h3 className="text-[#121212]">Brand guide</h3>
     <p className="text-[#121212]">
-      Techno brand is built on simplicity, clarity, and a user-first approach. The carefully curated color palette reflects a modern and professional aesthetic, ensuring a clean and visually appealing experience. The typography is not only accessible but also chosen to enhance readability and usability across all devices.
-    </p>
+    Framsteg Förening’s brand identity is built on simplicity, accessibility, energy, and consistency. We focus on clean, functional design to ensure clear communication across all platforms. Accessibility is key, with strong color contrasts and readable typography for all. Consistency in color and design elements reinforces a professional, unified appearance. Our accent color adds energy, symbolizing progress and community engagement. Together, these elements reflect our values of progress, clarity, and connection.    </p>
   </div>
 </div>
 
@@ -89,7 +89,7 @@ export default function Desc() {
 
         {/* Right Side: Text & Mobile Mockup */}
         <div className="space-y-6 ">
-          <h3 className="text-[#121212]" >Icon design</h3>
+          <h3 className="text-[#121212]" >SEO</h3>
           <p className="text-[#121212]">
          Techno icons are meticulously designed to align with our technological vision, ensuring they not only enhance usability but also reinforce our brand identity. Each icon is crafted to be intuitive, visually consistent, and user-friendly, creating a seamless interaction for our audience. By balancing aesthetics with functionality, our icons effectively bridge the gap between technology, user experience, and the company’s core values.         </p>
        
