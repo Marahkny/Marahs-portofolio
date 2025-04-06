@@ -21,6 +21,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <head>
+        <link rel="icon" href="/photos/logo90.png" type="image/png" />
+        <title>Zone 90 — web & design solutions consulting service</title>
+        <meta name="description" content=" Zone 90 your platform for innovation, design, and web development. 
+        " />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         
         <Header />  {/* ✅ Header visas på alla sidor */}
