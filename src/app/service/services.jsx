@@ -98,6 +98,7 @@ export default function Services() {
                 ))}
               </ul>
               <div className="group">
+              {/*
   <Link
     href={`/${service.knapp}`}
     className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
@@ -107,6 +108,7 @@ export default function Services() {
     <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
                                    duration-300 group-hover:translate-x-2" />
   </Link>
+  */}
 </div>
 
             </div>

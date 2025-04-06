@@ -48,9 +48,8 @@ export default function Desc() {
         <div className="space-y-6 ">
           <h3 className="text-[#121212]">The logo’s power</h3>
           <p className="text-[#121212]">
-          The logo has been thoughtfully crafted, with careful attention to both color and shape to capture the essence of Framsteg Förening. The flowing, curved line symbolizes progress and connection, illustrating how the organization supports individuals at every level of society. It represents Framsteg Förening’s collective journey towards integration, inclusion, and shared growth.
-
-The chosen colors radiate warmth, openness, and diversity, serving as a reminder that our strength lies in unity and collaboration. The organic shape of the curve reflects movement and energy, embodying the organization mission to drive positive change and build meaningful bridges between people from different backgrounds.     </p>
+          The logo captures Framsteg Förening’s essence through thoughtful color and shape. The curved line symbolizes progress, connection, and shared growth, while warm, diverse colors reflect unity and openness. Its organic form embodies movement and energy, highlighting the mission to drive change and connect people across communities.
+ </p>
        
         </div>
         <div className="flex justify-center ">
@@ -89,16 +88,16 @@ The chosen colors radiate warmth, openness, and diversity, serving as a reminder
 
         {/* Right Side: Text & Mobile Mockup */}
         <div className="space-y-6 ">
-          <h3 className="text-[#121212]" >SEO</h3>
+          <h3 className="text-[#121212]" >Responsiv design</h3>
           <p className="text-[#121212]">
-         Techno icons are meticulously designed to align with our technological vision, ensuring they not only enhance usability but also reinforce our brand identity. Each icon is crafted to be intuitive, visually consistent, and user-friendly, creating a seamless interaction for our audience. By balancing aesthetics with functionality, our icons effectively bridge the gap between technology, user experience, and the company’s core values.         </p>
+          Framsteg Förening is built with a responsive design that adapts to all screen sizes, ensuring accessibility for everyone and easy navigation throughout the site.   </p>
        
         </div>
         <div className="flex justify-center ">
             <Image
-              src="/photos/uiguide.png"
+              src="/photos/mobilmockup.png"
               width={700}
-              height={500}
+              height={600}
               alt="Mobile Mockup"
               
             />
@@ -111,7 +110,7 @@ The chosen colors radiate warmth, openness, and diversity, serving as a reminder
      <div className="flex justify-start">
        
        <img
-         src="/photos/protoyp.png"
+         src="/photos/finaldesigntoframstegförening.png"
          
          alt="Prototype"
        className="w-[100%] h-auto shadow-md rounded-[20px]"

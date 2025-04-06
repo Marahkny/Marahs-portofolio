@@ -11,12 +11,10 @@ export default function Footer() {
           <p className="text-gray-300">We specialize in all aspects of web development and design, driven by a creative mindset.</p>
           <p className="text-gray-300 mt-4"> <a href="mailto:contact@zone90.com" className=" hover:text-[#F5C518]">Marahknyfaty@outlook.com</a></p>
           <div className="flex gap-6 pt-10 justify-start md:justify-start">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-[24px] hover:text-[#F5C518] transition duration-300" />
+            <a href="https://www.linkedin.com/in/marah-kn/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="text-[24px] hover:text-[#B8336A] transition duration-300" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="text-[24px] hover:text-[#B8336A] transition duration-300" />
-            </a>
+           
           </div>
         </div>
 
@@ -35,9 +33,9 @@ export default function Footer() {
         <div>
           <h5 className="font-normal text-[20px] mb-3">About</h5>
           <ul className="space-y-3">
-            <li><a href="#" className="hover:underline hover:decoration-[#F5F5F5]">Case</a></li>
-            <li><a href="#" className="hover:underline hover:decoration-[#F5F5F5]">About Zone 90</a></li>
-            <li><a href="#" className="hover:underline hover:decoration-[#F5F5F5]">Contact</a></li>
+            <li><a href="/case" className="hover:underline hover:decoration-[#F5F5F5]">Case</a></li>
+            <li><a href="/about" className="hover:underline hover:decoration-[#F5F5F5]">About Zone 90</a></li>
+            <li><a href="/contact" className="hover:underline hover:decoration-[#F5F5F5]">Contact</a></li>
           </ul>
 
         </div>
