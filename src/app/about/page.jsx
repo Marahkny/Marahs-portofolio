@@ -1,7 +1,7 @@
 import Image from 'next/image'; // If you are using Next.js for image optimization, otherwise use a standard <img> tag
 import { FiCheckCircle } from "react-icons/fi";
 import { LiaArrowRightSolid } from "react-icons/lia";
-
+import Zone90Section from '../Home/zone90secation';
 import Link from "next/link";
 export default function About() {
   return (
@@ -110,7 +110,7 @@ export default function About() {
     </div>
   </div>
 </section>
-
+<Zone90Section />
     </>
   );
 }

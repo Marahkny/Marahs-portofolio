@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from 'next/image';
 import { LiaArrowRightSolid } from "react-icons/lia";
+import Zone90Section from "../Home/zone90secation";
 export default function About() {
     const cards = [
         {
@@ -51,6 +52,7 @@ export default function About() {
                     </div>
                 ))}
             </div>
+            <Zone90Section/>
         </>
     );
 }

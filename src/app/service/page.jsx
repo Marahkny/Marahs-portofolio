@@ -2,6 +2,7 @@ import Image from 'next/image'; // If you are using Next.js for image optimizati
 import Services from './services';
 import { LiaArrowRightSolid } from "react-icons/lia";
 import Link from "next/link";
+import Zone90Section from '../Home/zone90secation';
 
 
 export default function About() {
@@ -48,7 +49,7 @@ export default function About() {
        </div>
      </section>
 <Services />
-
+<Zone90Section />
     </>
   );
 }
