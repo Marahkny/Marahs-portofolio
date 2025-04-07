@@ -1,9 +1,13 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import GradientToFooter from "./gradienttofooter";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#121212] text-[#F5F5F5] pt-20 px-6">
-      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+    <footer className=" relative bg-[#121212] text-[#F5F5F5] pt-20 px-6 overflow-hidden">
+      <div className="absolute inset-0">
+          <GradientToFooter />
+        </div>
+      <div className="relative   max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* Logo & Kontakt */}
         <div>

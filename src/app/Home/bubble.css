@@ -5,12 +5,12 @@
     --color-bg2: 18, 18, 18;
     --color1: 59, 66, 159;  /* #3B429F */
     --color2: 184, 51, 106; /* #B8336A */
-    --color3: 18, 18, 18; /* (Behöll RGB-värdena) */
+    --color3: 157, 42, 86;/* (Behöll RGB-värdena) */
     --color4: 255, 107, 107; /* #FF6B6B */
     --color5: 59, 66, 159;  /* #FFB84C */
     --color-interactive: 157, 42, 86; /* #9D2A56 */
   
-    --circle-size: 70%;
+    --circle-size: 90%;
     --blending: hard-light;
   }
   
@@ -30,7 +30,7 @@
   
   @keyframes moveHorizontal {
     0% { transform: translateX(-50%) translateY(-10%); }
-    20% { transform: translateX(50%) translateY(10%); }
+    20% { transform: translateX(50%) translateY(30%); }
     50% { transform: translateX(-50%) translateY(-10%); }
   }
   
@@ -46,14 +46,14 @@
   
   .gradient-bg svg {
     position: fixed;
-    top: 0;
+    top: 30px;
     left: 0;
     width: 0;
     height: 0;
   }
   
   .gradients-container {
-    filter: url(#goo) blur(30px);
+    filter: url(#goo) blur(20px);
     width: 100%;
     height: 100%;
   }
@@ -98,7 +98,7 @@
   
   .interactive {
     position: absolute;
-    background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.8) 0, rgba(var(--color-interactive), 0) 40%);
+    background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.9) 0, rgba(var(--color-interactive), 0) 20%);
     mix-blend-mode: var(--blending);
     width: 100%;
     height: 100%;

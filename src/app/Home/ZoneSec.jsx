@@ -1,7 +1,4 @@
 
-import AnimatedCircle from "./animatedcircle";
-
-
 export default function ZoneSec() {
     return (
 <section className="relative max-w-8xl px-6 flex flex-col items-center justify-center h-full 

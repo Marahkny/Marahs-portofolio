@@ -1,9 +1,9 @@
 "use client"; // Viktigt för att använda useEffect i Next.js
 
 import React, { useEffect, useRef } from "react";
-import "./bubble.css";
+import "./bubbleToFooter.css";
 
-const GradientBackground = () => {
+const GradientToFooter = () => {
   const interactiveRef = useRef(null);
 
   useEffect(() => {
@@ -56,14 +56,14 @@ const GradientBackground = () => {
           <div className="g3"></div>
           <div className="g4"></div>
           <div className="g5"></div>
-          <div className="interactive" ref={interactiveRef}></div>
+          <div className="g6"></div>
+          <div className="g7"></div>
+          <div className="g8"></div>
+          <div className="g9"></div>
         </div>
       </div>
     </>
   );
 };
 
-export default GradientBackground; 
-
-
-
+export default GradientToFooter; 

@@ -6,6 +6,7 @@ import { LiaArrowRightSolid } from "react-icons/lia";
 import GradientBackground from "./GradientBackground";
 import ZoneSec from "./ZoneSec";
 import Projects from "./projekts";
+
 export default function Hero() {
   return (
     <>
