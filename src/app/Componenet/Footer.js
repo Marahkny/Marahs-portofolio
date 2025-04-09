@@ -35,7 +35,7 @@ export default function Footer() {
 
         {/* Navigation */}
         <div>
-          <h4 className="text-xl  mb-5 tracking-wide">More from Zone 90</h4>
+          <h4 className="text-xl  mb-5 ">More from Zone 90</h4>
           <ul className="space-y-3 text-sm text-gray-300">
             <li>
               <a href="/service" className="hover:underline hover:decoration-[#F5F5F5]">

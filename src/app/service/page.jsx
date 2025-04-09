@@ -18,15 +18,21 @@ export default function About() {
            <p className=" mb-10 text-gray-300">
            From intuitive UI/UX design to seamless web development, effective SEO, and compelling content, we ensure that every step of your digital journey is optimized for success. Need a digital service that stands out? Want to attract more customers and improve your online visibility? We help you turn ideas into impactful digital experiences that drive real results.         </p>
          <div className="group">
-      <Link 
-        href="/contact"
-        className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-                   hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
-      >
-        <span className="text-[#F5F5F5]">Contact us</span>
-        <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
-                                       duration-300 group-hover:translate-x-2" />
-      </Link>
+         <Link 
+  href="/contact"
+  role="button"
+  aria-label="Contact us for more information"
+  title="Contact us"
+  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+>
+  <span className="text-[#F5F5F5]">Contact us</span>
+  <LiaArrowRightSolid 
+    className="text-[#F5F5F5] text-[24px] transition-transform 
+               duration-300 group-hover:translate-x-2" 
+    aria-hidden="true" 
+  />
+</Link>
+
     </div>
            </div>
            <div className="md:w-1/2 flex justify-start md:justify-center">

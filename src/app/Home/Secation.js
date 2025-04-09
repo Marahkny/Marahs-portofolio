@@ -18,14 +18,18 @@ export default function Section() {
         We turn your passion and ideas into powerful digital products. We listen closely to your vision and work tirelessly to bring it to life in a way that helps your brand shine and succeed. Our focus is on creating impactful, tailored solutions that not only meet your needs but exceed your expectations.
       </p>
 
-      <div className="group pt-6">
-        <Link
-          href="/about"
-          className=" w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
-        >
-          <span className="text-[#F5F5F5]">Want to know more?</span>
-        </Link>
-      </div>
+      <div className="pt-6 w-full">
+  <Link
+    href="/about"
+    className="block w-full sm:inline-block sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] text-sm text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+    aria-label="Learn more about Zone 90"
+    title="Want to know more?"
+    role="button"
+  >
+    Want to know more?
+  </Link>
+</div>
+
     </div>
 
     {/* Höger sektion */}
@@ -61,12 +65,15 @@ export default function Section() {
       </p>
 
       <div className="group pt-6">
-        <Link
-          href="/service"
-          className=" w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
-        >
-          <span className="text-[#F5F5F5]">Our services</span>
-        </Link>
+      <Link
+  href="/service"
+  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex text-center justify-center items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="Explore our services"
+  title="Our services"
+  role="button"
+>
+  <span className="text-[#F5F5F5]">Our services</span>
+</Link>
       </div>
     </div>
 

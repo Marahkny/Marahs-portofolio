@@ -38,7 +38,8 @@ export default function About() {
                             width={500}
                             height={300}
                             className="w-full h-auto rounded-[20px] group-hover:border group-hover:border-[#3B429F]"
-                        />
+                        /> 
+                        
                         <div className="py-6">
                         <h2 className="text-[24px] pb-2 font-semibold">{card.title}</h2>
                         <div className="flex items-center justify-between w-full  pr-2 group cursor-pointer">

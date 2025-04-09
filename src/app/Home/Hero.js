@@ -32,23 +32,32 @@ export default function Hero() {
 
           {/* Knapp-sektion */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
-  <Link
-    href="/service"
-    className="w-full sm:w-auto bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-               hover:bg-[#2A2F7D] flex items-center justify-center gap-2"
-  >
-    <span className="text-[#F5F5F5]">Our services</span>
-    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
-                                   duration-300 group-hover:translate-x-2" />
-  </Link>
+          <Link
+  href="/service"
+  className="w-full sm:w-auto bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
+             hover:bg-[#2A2F7D] flex items-center justify-center gap-2
+             focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="Learn more about our services"
+  title="Our services"
+  role="button"
+>
+  <span className="text-[#F5F5F5]">Our services</span>
+  <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
+                                 duration-300 group-hover:translate-x-2" />
+</Link>
 
-  <Link
-    href="/case"
-    className="w-full sm:w-auto bg-[#B8336A] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-               hover:bg-[#9D2A56] flex items-center justify-center"
-  >
-    Our case
-  </Link>
+<Link
+  href="/case"
+  className="w-full sm:w-auto bg-[#B8336A] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
+             hover:bg-[#9D2A56] flex items-center justify-center
+             focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="See our case studies"
+  title="Our case"
+  role="button"
+>
+  Our case
+</Link>
+
 </div>
 
 

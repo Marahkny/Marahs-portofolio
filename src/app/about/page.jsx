@@ -89,14 +89,20 @@ export default function About() {
       </div>
       <div className="group">
       <Link 
-        href="/service"
-        className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-                   hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
-      >
-        <span className="text-[#F5F5F5]">Our services</span>
-        <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
-                                       duration-300 group-hover:translate-x-2" />
-      </Link>
+  href="/service"
+  role="button"
+  aria-label="Learn more about our services"
+  title="Our services"
+  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+>
+  <span className="text-[#F5F5F5]">Our services</span>
+  <LiaArrowRightSolid 
+    className="text-[#F5F5F5] text-[24px] transition-transform 
+               duration-300 group-hover:translate-x-2"
+    aria-hidden="true"
+  />
+</Link>
+
     </div>
 
     </div>

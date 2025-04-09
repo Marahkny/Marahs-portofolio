@@ -22,12 +22,44 @@ const Head = () => {
           <img src="/Photos/Logo.png" alt="Logo" className="w-[40%]" />
         </Link>
         <div className="flex items-center space-x-6">
-          <Link href="/service" className="hover:underline hover:decoration-[#F5F5F5]">Service</Link>
-          <Link href="/case" className="hover:underline hover:decoration-[#F5F5F5]">Case</Link>
-          <Link href="/about" className="hover:underline hover:decoration-[#F5F5F5]">About Zone 90</Link>
-          <Link href="/contact" className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full hover:bg-[#2A2F7D]">
-            Contact
-          </Link>
+        <Link 
+  href="/service" 
+  className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="Go to services page"
+  title="Services"
+>
+  Services
+</Link>
+
+<Link 
+  href="/case" 
+  className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="Go to case studies page"
+  title="Case studies"
+>
+  Case
+</Link>
+
+<Link 
+  href="/about" 
+  className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="Learn more about Zone 90"
+  title="About Zone 90"
+>
+  About Zone 90
+</Link>
+
+<Link 
+  href="/contact" 
+  role="button"
+  className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full hover:bg-[#2A2F7D] 
+             focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  aria-label="Contact Zone 90"
+  title="Contact"
+>
+  Contact
+</Link>
+
         </div>
       </nav>
 
@@ -101,8 +133,9 @@ const Head = () => {
             </div>
           </div>
           <div className="flex flex-col py-40 items-center space-y-6">
+          <Link href="/service" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={toggleMenu}>Services</Link>
             <Link href="/case" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={toggleMenu}>Case</Link>
-            <Link href="/service" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={toggleMenu}>Service</Link>
+            
             <Link href="/about" className="text-[30px] hover:decoration-[#F5F5F5]" onClick={toggleMenu}>About Zone 90</Link>
           </div>
         </motion.div>
