@@ -1,4 +1,3 @@
-import Image from 'next/image'; // If you are using Next.js for image optimization, otherwise use a standard <img> tag
 import { FiCheckCircle } from "react-icons/fi";
 import { LiaArrowRightSolid } from "react-icons/lia";
 import Zone90Section from '../Home/zone90secation';
@@ -38,15 +37,13 @@ export default function About() {
             </ul>
           </div>
           <div className="md:w-1/2 flex justify-start md:justify-center">
-          <Image
-  src="/photos/progremering.png" // Replace with your image path
-  alt="Zone 90 team working"
-  width={800} // Remove fixed width
-  height={800} // Remove fixed height
-  className=" rounded-[20px] "
-  objectFit="cover" 
-/>
 
+<img
+  src="/photos/progremering.png"
+  alt="Zone 90 team working"
+  className="rounded-[20px] w-full h-auto max-w-[800px]"
+  loading="lazy"
+/>
           
         </div>
 </div>
@@ -55,15 +52,10 @@ export default function About() {
       </div>
     </section>
 
-    <section className="  pb-20 px-6">
-  <div className="max-w-6xl  mx-auto text-left">
+    <section className="  py-20 px-6">
+  <div className="max-w-8xl  mx-auto  text-left">
 
-  <div className=" py-40 ">
-        <h2 className=" mb-4  text-center">Zone 90 work by</h2>
-        <p className=" text-center text-[24px] ">
-        Precision & innovation & excellence
-        </p>
-      </div>
+ 
     <h2 className=" mb-4 ">How we started?</h2>
     
     <div className="space-y-6">
@@ -97,7 +89,7 @@ export default function About() {
       </div>
       <div className="group">
       <Link 
-        href="/about"
+        href="/service"
         className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
                    hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
       >

@@ -1,4 +1,3 @@
-import Image from 'next/image'; // If you are using Next.js for image optimization, otherwise use a standard <img> tag
 import Services from './services';
 import { LiaArrowRightSolid } from "react-icons/lia";
 import Link from "next/link";
@@ -20,7 +19,7 @@ export default function About() {
            From intuitive UI/UX design to seamless web development, effective SEO, and compelling content, we ensure that every step of your digital journey is optimized for success. Need a digital service that stands out? Want to attract more customers and improve your online visibility? We help you turn ideas into impactful digital experiences that drive real results.         </p>
          <div className="group">
       <Link 
-        href="/about"
+        href="/contact"
         className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
                    hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit"
       >
@@ -31,14 +30,13 @@ export default function About() {
     </div>
            </div>
            <div className="md:w-1/2 flex justify-start md:justify-center">
-           <Image
-   src="/photos/services.jpg" // Replace with your image path
-   alt="Zone 90 team working"
-   width={800} // Remove fixed width
-   height={800} // Remove fixed height
-   
-   className=" rounded-[20px] "
- />
+           <img
+  src="/photos/services.jpg"
+  alt="Zone 90 team working"
+  className="rounded-[20px] w-full h-auto max-w-[800px]"
+  loading="lazy"
+/>
+
  
            
          </div>

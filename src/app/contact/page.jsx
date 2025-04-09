@@ -177,13 +177,8 @@ const Contact = () => {
               required
             />
             <label className="text-gray-300">
-              I have read and accept the{" "}
-              <a
-                href="/privacy-policy"
-                className="underline text-[#F5F5F5] ml-1"
-              >
-                privacy policy
-              </a>
+              I have read and accept the  privacy policy
+             
             </label>
           </div>
 
