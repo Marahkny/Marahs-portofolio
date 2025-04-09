@@ -15,7 +15,7 @@ export default function Footer() {
               href="mailto:contact@zone90.se"
               className="hover:underline hover:decoration-[#F5F5F5]"
             >
-              Marahknyfaty@outlook.com
+              contact@zone90.se
             </a>
           </p>
 
