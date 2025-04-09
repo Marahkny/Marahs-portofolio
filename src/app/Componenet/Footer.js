@@ -12,7 +12,7 @@ export default function Footer() {
           </p>
           <p className="text-gray-300 mt-4 ">
             <a
-              href="mailto:Marahknyfaty@outlook.com"
+              href="mailto:contact@zone90.se"
               className="hover:underline hover:decoration-[#F5F5F5]"
             >
               Marahknyfaty@outlook.com

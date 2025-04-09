@@ -87,7 +87,7 @@ const Contact = () => {
         </p>
         <p className="text-gray-300 mb-1">Contact us via</p>
         <a
-          href="mailto:marahknyfaty@outlook.com"
+          href="mailto:contact@zone90.se"
           className="hover:underline hover:decoration-[#F5F5F5]"
         >
           Marahknyfaty@outlook.com
