@@ -2,9 +2,22 @@ import { FiCheckCircle } from "react-icons/fi";
 import { LiaArrowRightSolid } from "react-icons/lia";
 import Zone90Section from '../Home/zone90secation';
 import Link from "next/link";
+import Head from 'next/head';
+
 export default function About() {
   return (
     <>
+    <Head>
+  <title>Zone 90 » About Zone 90</title>
+  <meta name="description" content="Learn more about Zone 90 – a digital consulting service helping businesses grow through web design, development, and SEO." />
+  <meta property="og:title" content="Zone 90 – About Zone 90" />
+  <meta property="og:description" content="Explore our journey and services. Zone 90 provides creative web development, UI/UX design, SEO and more." />
+  <meta property="og:image" content="/photos/logo90.png" />
+  <meta property="og:type" content="website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/photos/logo90.png" />
+</Head>
+
     <section className=" text-[#F5F5F5] h-full pt-20 px-6">
       <div className="max-w-8xl mx-auto text-left">
         <h1 className=" mb-10">About Zone 90</h1>
@@ -93,7 +106,7 @@ export default function About() {
   role="button"
   aria-label="Learn more about our services"
   title="Our services"
-  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
 >
   <span className="text-[#F5F5F5]">Our services</span>
   <LiaArrowRightSolid 

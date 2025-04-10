@@ -5,7 +5,7 @@ export default function Section() {
 
   return (
   <>
-  <div id="success-section" className="text-[#F5F5F5] py-20 mx-auto">
+  <div  className="text-[#F5F5F5] py-20 mx-auto">
   <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
     
     {/* Vänster sektion */}
@@ -21,7 +21,7 @@ export default function Section() {
       <div className="pt-6 w-full">
   <Link
     href="/about"
-    className="block w-full sm:inline-block sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] text-sm text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+    className="block w-full sm:inline-block sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
     aria-label="Learn more about Zone 90"
     title="Want to know more?"
     role="button"
@@ -34,14 +34,14 @@ export default function Section() {
 
     {/* Höger sektion */}
     <div className="md:w-[60%] flex justify-center">
-      <img src="/photos/Zone.png" alt="working" className="w-full h-auto object-contain rounded-l-[50px] rounded-r-none" />
+      <img src="/photos/Zone.png" alt="Illustration of digital collaboration"  className="w-full h-auto object-contain rounded-l-[50px] rounded-r-none" />
     </div>
 
   </div>
 </div>
 
 
-<div id="success-section" className="text-[#F5F5F5] py-20 mx-auto">
+<div  className="text-[#F5F5F5] py-20 mx-auto">
   <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between gap-6">
 
     {/* Höger sektion - Bild */}
@@ -67,7 +67,7 @@ export default function Section() {
       <div className="group pt-6">
       <Link
   href="/service"
-  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex text-center justify-center items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex text-center justify-center items-center gap-2 w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
   aria-label="Explore our services"
   title="Our services"
   role="button"

@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Grundläggande färginställningar */
+
 :root {
   --background: #121212;
   --foreground: #171717;

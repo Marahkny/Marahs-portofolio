@@ -58,7 +58,7 @@ function ProjectCard({ imgSrc, title, desc, link }) {
           </div>
           <div className="flex items-center gap-2 group cursor-pointer">
             <p className="text-[16px] text-gray-300">View</p>
-            <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" />
+            <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" aria-hidden="true" />
           </div>
         </div>
       </Link>

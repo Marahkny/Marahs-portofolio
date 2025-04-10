@@ -5,32 +5,32 @@ const services = [
   {
     title: "UI/UX design",
     description: "We create user-friendly and visually compelling web experiences",
-    icon: <SiAdobeindesign className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiAdobeindesign className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
   {
     title: "Web development",
     description: "We build responsive and high-performing frontend solutions",
-    icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" aria-hidden="true" />,
   },
   {
     title: "SEO & Analysis",
     description: "We help you rank higher and improve your online visibility",
-    icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
   {
     title: "Copywriting",
     description: "We craft engaging and impactful content that resonates with your audience",
-    icon: <SiContentful className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiContentful className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
   {
     title: "Graphic design",
     description: "We create visually stunning designs that enhance brand identity",
-    icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" aria-hidden="true" />,
   },
   {
     title: "Social media",
-    description: "We create tailored social media strategies and content that boost engagement and strengthen your brand",
-    icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6" />,
+    description: "We help you grow and engage your audience on social media",
+    icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6 " aria-hidden="true" />,
   }
 ];
 
