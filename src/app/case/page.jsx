@@ -33,7 +33,8 @@ export default function About() {
           property="og:description"
           content="Explore our journey and services. Zone 90 provides creative web development, UI/UX design, SEO and more."
         />
-        <meta property="og:image" content="/photos/logo90.png" />
+      <meta property="og:image" content="https://zone90.se/photos/logo90.png" />
+
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/photos/logo90.png" />
