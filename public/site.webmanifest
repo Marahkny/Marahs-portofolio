@@ -1,0 +1,17 @@
+{
+    "name": "Zone 90",
+    "short_name": "Zone90",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "Creative Web Development & Design Consulting by Zone 90",
+    "icons": [
+      {
+        "src": "/photos/logo90.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

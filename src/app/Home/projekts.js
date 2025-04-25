@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { LiaArrowRightSolid } from "react-icons/lia";
 import { useRef } from "react";
 import Steps from "./Steps";
+import Image from "next/image";
 
 export default function Projects() {
   const ref = useRef(null);
@@ -26,12 +27,12 @@ export default function Projects() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* 🟢 Första kolumnen - Oscillerar vid scroll */}
           <motion.div style={{ y: col1Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/project 2.png" title="Techno" desc="UI/UX design & brand" link="/techno" />
+            <ProjectCard imgSrc="/photos/project-2.png" title="Techno" desc="UI/UX design & brand" link="/case/techno" />
           </motion.div>
 
           {/* 🟢 Andra kolumnen - Oscillerar vid scroll */}
           <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/project 1.png" title="Framsteg förening" desc="Brand & website" link="/framsteg" />
+            <ProjectCard imgSrc="/photos/project-1.png" title="Framsteg förening" desc="Brand & website" link="/case/framsteg" />
           </motion.div>
         </div>
       </div>
@@ -45,10 +46,13 @@ function ProjectCard({ imgSrc, title, desc, link }) {
   return (
     <div className="mb-6 ">
       <Link className="group" href={link}> 
-      <img 
-  src={imgSrc} 
-  alt={title} 
-  className="w-full object-contain rounded-[20px] group-hover:border group-hover:border-[#3B429F]" 
+      <Image
+  src={imgSrc}
+  alt={title}
+  width={800} 
+  height={500} 
+
+  className="w-full object-contain rounded-[20px] group-hover:border group-hover:border-[#3B429F]"
 />
       
         <div className="flex justify-between items-center w-full mt-4 ">

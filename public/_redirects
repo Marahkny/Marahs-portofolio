@@ -1,0 +1,13 @@
+# 🔁 Generella redirects från http och utan www till https://www.zone90.se
+http://zone90.se/*       https://www.zone90.se/:splat     301
+https://zone90.se/*      https://www.zone90.se/:splat     301
+http://www.zone90.se/*   https://www.zone90.se/:splat     301
+
+# 🔧 Specifika sidor med problem enligt Search Console
+/case/techno            https://www.zone90.se/case/techno     301
+/case/framsteg          https://www.zone90.se/case/framsteg   301
+/about                  https://www.zone90.se/about           301
+/framsteg               https://www.zone90.se/framsteg        301
+/techno                 https://www.zone90.se/techno          301
+/service                https://www.zone90.se/service         301
+/contact                https://www.zone90.se/contact         301

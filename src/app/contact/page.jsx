@@ -91,6 +91,7 @@ const Contact = () => {
         />
         <meta property="og:title" content="Zone 90 – Contact" />
         <meta property="og:image" content="/photos/logo90.png" />
+        <link rel="canonical" href="https://zone90.se/contact" />
       </Head>
 
       <div className="py-20 px-6 max-w-8xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">

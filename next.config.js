@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Ingen ytterligare konfiguration behövs om du vill använda standardbildhantering
 };
 
 module.exports = nextConfig;
+
+
 
 
   

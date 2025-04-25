@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 export default function Section() {
 
 
@@ -34,7 +35,14 @@ export default function Section() {
 
     {/* Höger sektion */}
     <div className="md:w-[60%] flex justify-center">
-      <img src="/photos/Zone.png" alt="Illustration of digital collaboration"  className="w-full h-auto object-contain rounded-l-[50px] rounded-r-none" />
+    <Image
+  src="/photos/Zone.png"
+  alt="Illustration of digital collaboration"
+  width={800} 
+  height={600} 
+
+  className="w-full h-auto object-contain rounded-l-[50px] rounded-r-none"
+/>
     </div>
 
   </div>
@@ -46,12 +54,18 @@ export default function Section() {
 
     {/* Höger sektion - Bild */}
     <div className="md:w-[60%] flex justify-center order-last lg:order-first">
-      <img
-        src="/photos/web-design.jpg"
-        alt="working"
-        loading="lazy"
-        className="w-full h-auto mx-auto object-contain rounded-r-[50px] rounded-l-none"
-      />
+    import Image from "next/image";
+
+<Image
+  src="/photos/web-design.jpg"
+  alt="working"
+  width={800} 
+  height={600} 
+
+  loading="eager"
+  className="w-full h-auto mx-auto object-contain rounded-r-[50px] rounded-l-none"
+/>
+
     </div>
 
     {/* Vänster sektion - Text */}

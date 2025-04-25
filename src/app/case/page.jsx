@@ -9,14 +9,14 @@ export default function About() {
     {
       title: "Techno",
       category: "Brand & UI/UX Design",
-      image: "/photos/project 2.png",
-      link: "/techno",
+      image: "/photos/project-2.png",
+      link: "/case/techno",
     },
     {
       title: "Framsteg förening",
       category: "WordPress Website & Brand",
-      image: "/photos/project 1.png",
-      link: "/framsteg",
+      image: "/photos/project-1.png",
+      link: "/case/framsteg",
     },
   ];
 
@@ -33,11 +33,11 @@ export default function About() {
           property="og:description"
           content="Explore our journey and services. Zone 90 provides creative web development, UI/UX design, SEO and more."
         />
-      <meta property="og:image" content="https://zone90.se/photos/logo90.png" />
-
+        <meta property="og:image" content="https://zone90.se/photos/logo90.png" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/photos/logo90.png" />
+        <link rel="canonical" href="https://zone90.se/case" />
       </Head>
 
       <section className="text-[#F5F5F5] h-full pt-20 pb-10 px-6">
@@ -59,16 +59,14 @@ export default function About() {
             <Link href={card.link}>
               <img
                 src={card.image}
-                alt={card.title}
+                alt={`Case: ${card.title} – ${card.category}`}
                 width="500"
                 height="300"
                 className="w-full h-auto rounded-[20px] group-hover:border group-hover:border-[#3B429F]"
-                loading="lazy"
+                loading={index === 0 ? "eager" : "lazy"}
               />
               <div className="py-6">
-                <h2 className="text-2xl pb-2 font-semibold">
-                  {card.title}
-                </h2>
+                <h2 className="text-2xl pb-2 font-semibold">{card.title}</h2>
                 <div className="flex items-center justify-between w-full pr-2">
                   <p className="text-[16px] text-gray-300">{card.category}</p>
                   <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" />
@@ -83,6 +81,7 @@ export default function About() {
     </>
   );
 }
+
 
 
 

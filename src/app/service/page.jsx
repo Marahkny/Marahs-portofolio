@@ -4,6 +4,7 @@ import { LiaArrowRightSolid } from "react-icons/lia";
 import Link from "next/link";
 import Zone90Section from "../Home/zone90secation";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -23,6 +24,7 @@ export default function About() {
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/photos/logo90.png" />
+        <link rel="canonical" href="https://zone90.se/service" />
       </Head>
 
       <section className="text-[#F5F5F5] h-full py-20 px-6">
@@ -57,12 +59,14 @@ export default function About() {
             </div>
 
             <div className="md:w-1/2 flex justify-start md:justify-center">
-              <img
-                src="/photos/services.jpg"
-                alt="Zone 90 team working"
-                className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"
-                loading="lazy"
-              />
+            <Image
+  src="/photos/services.jpg"
+  alt="Zone 90 team working"
+  width={800}
+  height={500}
+  className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"
+  loading="eager"
+/>
             </div>
           </div>
         </div>
