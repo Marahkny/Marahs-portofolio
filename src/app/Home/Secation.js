@@ -54,7 +54,7 @@ export default function Section() {
 
     {/* Höger sektion - Bild */}
     <div className="md:w-[60%] flex justify-center order-last lg:order-first">
-    import Image from "next/image";
+   
 
 <Image
   src="/photos/web-design.jpg"
