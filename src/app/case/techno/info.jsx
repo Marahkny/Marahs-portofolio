@@ -34,7 +34,7 @@ export default function Info() {
   alt="Techno full background"
   width={1920}  // Justera bredd vid behov (passande storlek för bakgrund)
   height={1080} // Justera höjd vid behov (passande storlek för bakgrund)
-  unoptimized
+ 
   loading="lazy"
   className="w-full h-full object-cover"
 />

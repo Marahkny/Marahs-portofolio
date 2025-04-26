@@ -32,7 +32,7 @@ export default function Projects() {
 
           {/* 🟢 Andra kolumnen - Oscillerar vid scroll */}
           <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/project-1.png" title="Framsteg förening" desc="Brand & website" link="/case/framsteg" />
+            <ProjectCard imgSrc="/photos/project-1.png" title="Framsteg förening" desc="Wordpress website & brand " link="/case/framsteg" />
           </motion.div>
         </div>
       </div>

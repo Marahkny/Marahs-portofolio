@@ -7,21 +7,22 @@ const Steps = () => {
   const techStack = [
     "User research",
     "User testing",
-    "Information architecture",
+    "UI/UX design",
     "Wireframing",
-    "Interactive prototyping",
-    "Figma",
+    "Prototyping",
+    "Graphic design",
     "Copywriting",
     "SEO",
     "WordPress",
-    "Next.js",
-    "ReactJS",
+    "WooCommerce",
+    "Frontend development",
     "Social media",
   ];
+  
 
   return (
     <>
-    <div className="w-full overflow-hidden py-4">
+    <div className="w-full overflow-hidden pb-20">
       <motion.div
         className="flex space-x-6 w-max"
         animate={{ x: ["0%", "-50%"] }} // Sömlös scroll

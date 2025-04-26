@@ -8,7 +8,7 @@ export default function Framsteg() {
   return (
     <>
       <Head>
-        <title> Zone 90 » Framsteg Förening</title>
+        <title> Zone 90 » Framsteg förening</title>
         <meta
           name="description"
           content="Framsteg Förening is a cultural association website supporting integration between newcomers and Swedish families through community and connection."
@@ -17,7 +17,7 @@ export default function Framsteg() {
       </Head>
 
       <section className="px-6 pt-20">
-        <h1 >Framsteg Förening</h1>
+        <h1 >Framsteg förening</h1>
         <p className="pt-5 text-2xl max-w-2xl">
           A website for connection and integration association
         </p>

@@ -13,7 +13,7 @@ const services = [
     icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" aria-hidden="true" />,
   },
   {
-    title: "SEO & Analysis",
+    title: "SEO & analysis",
     description: "We help you rank higher and improve your online visibility",
     icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
