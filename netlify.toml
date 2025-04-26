@@ -4,3 +4,21 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "http://www.zone90.se/*"
+  to = "https://zone90.se/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://zone90.se/*"
+  to = "https://zone90.se/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.zone90.se/*"
+  to = "https://zone90.se/:splat"
+  status = 301
+  force = true
