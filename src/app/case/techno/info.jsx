@@ -61,7 +61,6 @@ export default function Info() {
   alt="Techno logo"
   width={400}  
   height={500} 
-  loading="lazy"
   className="w-auto h-auto"
 />
           </div>
