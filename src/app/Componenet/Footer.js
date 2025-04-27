@@ -1,6 +1,7 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import { TfiFacebook } from "react-icons/tfi";
+import Image from 'next/image';
 export default function Footer() {
   return (
     <footer className="bg-[#121212] text-[#F5F5F5] px-6 pt-20  overflow-hidden">
@@ -9,15 +10,16 @@ export default function Footer() {
         {/* LOGO & INTRO */}
         <div>
           <Link href="/" aria-label="Go to homepage">
-            <img
-              src="/photos/Logo.png"
-              alt="Zone 90 logo"
-              className="w-[40%] h-auto pb-10"
-              loading="lazy"
-            />
+          <Image
+      src="/photos/Logo.png"
+      alt="Zone 90 logo"
+      width={500}  
+      height={500} 
+      className="w-[30%] h-auto"
+    />
           </Link>
         
-          <p className="text-gray-300 leading-relaxed max-w-md">
+          <p className="text-gray-300 leading-relaxed pt-5 max-w-md">
             We specialize in all aspects of web development and design, driven by a creative mindset.
           </p>
           <p className="text-gray-300 pt-10">

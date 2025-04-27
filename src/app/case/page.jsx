@@ -8,13 +8,13 @@ export default function About() {
   const cards = [
     {
       title: "Techno",
-      category: "Brand & UI/UX Design",
+      category: "UI/UX design & brand ",
       image: "/photos/project-2.png",
       link: "/case/techno",
     },
     {
       title: "Framsteg förening",
-      category: "WordPress Website & Brand",
+      category: "WordPress website & brand",
       image: "/photos/project-1.png",
       link: "/case/framsteg",
     },

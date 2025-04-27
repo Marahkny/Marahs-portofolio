@@ -3,6 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 const Head = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,19 +21,21 @@ const Head = () => {
         }`}
       >
         <Link href="/" aria-label="Go to homepage">
-          <img
-            src="/photos/Logo.png"
-            alt="Zone 90 logo"
-            className="w-[40%] h-auto"
-            loading="lazy"
-          />
+        <Image
+  src="/photos/Logo.png"
+  alt="Zone 90 logo"
+  width={500} 
+  height={500} 
+  className="w-[70%] h-auto"
+/>
+
         </Link>
         <div className="flex items-center space-x-6 text-white">
           <Link
             href="/service"
             aria-label="Go to services page"
             title="Services"
-            className="hover:underline hover:decoration-[#F5F5F5]"
+            className="hover:underline  font-[500] hover:decoration-[#F5F5F5]"
           >
             Services
           </Link>
@@ -40,7 +43,7 @@ const Head = () => {
             href="/case"
             aria-label="Go to case studies page"
             title="Case"
-            className="hover:underline hover:decoration-[#F5F5F5]"
+            className="hover:underline font-[500] hover:decoration-[#F5F5F5]"
           >
             Case
           </Link>
@@ -48,7 +51,7 @@ const Head = () => {
             href="/about"
             aria-label="Learn more about Zone 90"
             title="About"
-            className="hover:underline hover:decoration-[#F5F5F5]"
+            className="hover:underline font-[500] hover:decoration-[#F5F5F5]"
           >
             About Zone 90
           </Link>
@@ -56,7 +59,7 @@ const Head = () => {
             href="/contact"
             aria-label="Contact Zone 90"
             title="Contact"
-            className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full hover:bg-[#2A2F7D] focus:outline-none"
+            className="bg-[#3B429F] text-[#F5F5F5] font-[500] py-3 px-6 rounded-full hover:bg-[#2A2F7D] focus:outline-none"
             role="button"
           >
             Contact
@@ -71,18 +74,19 @@ const Head = () => {
         }`}
       >
         <Link href="/" aria-label="Go to homepage">
-          <img
-            src="/photos/Logo.png"
-            alt="Zone 90 logo"
-            className="w-[100px] h-auto"
-            loading="lazy"
-          />
+        <Image
+      src="/photos/Logo.png"
+      alt="Zone 90 logo"
+      width={600}  
+      height={400} 
+      className="w-[60%] h-auto"
+    />
         </Link>
 
         <div className="flex gap-2.5">
           <Link
             href="/contact"
-            className="bg-[#3B429F] text-[#F5F5F5] py-2 px-4 rounded-full hover:bg-[#2A2F7D]"
+            className="bg-[#3B429F] text-[#F5F5F5] font-[500] py-2 px-4 rounded-full hover:bg-[#2A2F7D]"
             title="Contact"
           >
             Contact
@@ -136,12 +140,13 @@ const Head = () => {
         >
           <div className="flex items-center justify-between w-full">
             <Link href="/" aria-label="Go to homepage">
-              <img
-                src="/photos/Logo.png"
-                alt="Zone 90 logo"
-                className="w-[100px] h-auto"
-                loading="lazy"
-              />
+            <Image
+      src="/photos/Logo.png"
+      alt="Zone 90 logo"
+      width={600}  
+      height={400} 
+      className="w-[60%] h-auto"
+    />
             </Link>
 
             <div className="flex gap-2.5">

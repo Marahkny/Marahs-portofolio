@@ -57,9 +57,9 @@ export default function About() {
   src="/photos/progremering.png"
   alt="Zone 90 team working"
   width={800}
-  height={500} // <-- kan anpassas efter din bild
+  height={500}
   className="rounded-[20px] w-full h-auto max-w-[800px]"
-  priority // = motsvarar loading="eager"
+ 
 />
 
           
@@ -111,12 +111,12 @@ export default function About() {
   role="button"
   aria-label="Learn more about our services"
   title="Our services"
-  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+  className="w-full sm:w-auto bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
 >
-  <span className="text-[#F5F5F5]">Our services</span>
+  <span className="text-[#F5F5F5] ">Our services</span>
   <LiaArrowRightSolid 
     className="text-[#F5F5F5] text-[24px] transition-transform 
-               duration-300 group-hover:translate-x-2"
+               duration-300 group-hover:translate-x-2 "
     aria-hidden="true"
   />
 </Link>

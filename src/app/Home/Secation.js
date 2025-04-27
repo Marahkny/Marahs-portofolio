@@ -22,7 +22,7 @@ export default function Section() {
       <div className="pt-6 w-full">
   <Link
     href="/about"
-    className="block w-full sm:inline-block sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+    className="block w-full font-[500] sm:inline-block sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
     aria-label="Learn more about Zone 90"
     title="Want to know more?"
     role="button"
@@ -86,7 +86,7 @@ export default function Section() {
   title="Our services"
   role="button"
 >
-  <span className="text-[#F5F5F5]">Our services</span>
+  <span className="text-[#F5F5F5] font-[500]">Our services</span>
 </Link>
       </div>
     </div>

@@ -55,7 +55,7 @@ export default function Hero() {
               href="/service"
               className="w-full sm:w-auto bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
                          hover:bg-[#2A2F7D] flex items-center justify-center gap-2
-                         focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                         focus:outline-none focus-visible:ring-2 focus-visible:ring-white font-[500]"
               aria-label="Learn more about our services"
               title="Services"
               role="button"
@@ -72,7 +72,7 @@ export default function Hero() {
               href="/case"
               className="w-full sm:w-auto bg-[#B8336A] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
                          hover:bg-[#9D2A56] flex items-center justify-center
-                         focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                         focus:outline-none focus-visible:ring-2 focus-visible:ring-white font-[500]"
               aria-label="See our case studies"
               title="Case"
               role="button"

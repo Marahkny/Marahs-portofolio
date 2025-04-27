@@ -49,7 +49,7 @@ export default function About() {
                   title="Contact us"
                   className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
-                  <span className="text-[#F5F5F5]">Contact us</span>
+                  <span className="text-[#F5F5F5] font-[500]">Contact us</span>
                   <LiaArrowRightSolid
                     className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2"
                     aria-hidden="true"
@@ -65,7 +65,7 @@ export default function About() {
   width={800}
   height={500}
   className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"
-  loading="eager"
+  
 />
             </div>
           </div>
