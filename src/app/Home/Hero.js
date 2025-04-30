@@ -32,25 +32,27 @@ export default function Hero() {
       </Head>
 
       {/* Hero sektion */}
-      <header className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+      <header className="relative w-full h-screen flex items-center justify-start overflow-hidden px-6 ">
+
         {/* Bakgrund */}
         <div className="absolute inset-0">
           <GradientBackground />
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-10 text-center pt-20 max-w-6xl mx-auto px-6">
-          <h1 className="mb-4 leading-[1.5] text-[40px] sm:text-[40px] md:text-[60px] lg:text-[75px] xl:text-[90px]">
+        <div className="relative z-15 text-left pt-20 max-w-8xl">
+
+          <h1 className="mb-4  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[75px] xl:text-[90px]">
             Be in your zone.<br />
             We bring it to life
           </h1>
 
           <p className="text-gray-300 max-w-3xl mx-auto">
-            We provide web & design digital solutions tailored to create seamless, user-centered experiences.
+          Creative web & design solutions for seamless user experiences.
           </p>
 
           {/* Call to Action */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
+          <div className="flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-6 mt-6 w-full">
             <Link
               href="/service"
               className="w-full sm:w-auto bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
