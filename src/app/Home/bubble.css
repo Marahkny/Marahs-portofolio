@@ -65,13 +65,13 @@
   position: absolute;
   width: var(--circle-size);
   height: var(--circle-size);
-  top: calc(90% - var(--circle-size) / 2);
+  top: calc(60% - var(--circle-size) / 2);
   left: calc(50% - var(--circle-size) / 2);
   mix-blend-mode: var(--blending);
 }
 
 .g1 {
-  background: radial-gradient(circle at center, rgba(var(--color1), 0.8) 0, rgba(var(--color1), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color1), 0.9) 0, rgba(var(--color1), 0) 90%);
   animation: moveVertical 20s ease infinite;
 }
 .g3 {
@@ -83,26 +83,26 @@
 
 
 .g4 {
-  background: radial-gradient(circle at center, rgba(var(--color4), 0.8) 0, rgba(var(--color4), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color4), 0.5) 0, rgba(var(--color4), 0) 50%);
   transform-origin: calc(20% - 600px);
   animation: moveHorizontal 30s ease infinite;
 }
 
 .g5 {
-  background: radial-gradient(circle at center, rgba(var(--color5), 0.8) 0, rgba(var(--color5), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color5), 0.8) 0, rgba(var(--color5), 0) 60%);
   transform-origin: calc(50% - 800px) calc(50% + 200px);
   animation: moveInCircle 20s ease infinite;
 }
 
 .interactive {
   position: absolute;
-  background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.9) 0, rgba(var(--color-interactive), 0) 20%);
+  background: radial-gradient(circle at center, rgba(var(--color-interactive), 2) 0, rgba(var(--color-interactive), 0) 10%);
   mix-blend-mode: var(--blending);
   width: 100%;
   height: 90%;
   top: -50%;
   left: -50%;
-  opacity: 0.8;
+  opacity: 3;
 }
 
   
