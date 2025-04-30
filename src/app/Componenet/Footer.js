@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <footer className="bg-[#121212] text-[#F5F5F5] px-6 pt-20  overflow-hidden">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 pb-20 gap-16">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-16">
         
         {/* LOGO & INTRO */}
         <div>
@@ -15,53 +15,20 @@ export default function Footer() {
       alt="Zone 90 logo"
       width={500}  
       height={500} 
-      className="w-[30%] h-auto"
+      className="w-[50%] h-auto"
     />
           </Link>
         
           <p className="text-gray-300 leading-relaxed pt-5 max-w-md">
-            We specialize in all aspects of web development and design, driven by a creative mindset.
+          Your digital Zone – web development & design with creative impact
           </p>
-          <p className="text-gray-300 pt-10">
-            <a
-              href="mailto:contact@zone90.se"
-              className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-              aria-label="Send an email to contact@zone90.se"
-              title="Send email"
-            >
-              contact@zone90.se
-            </a>
-          </p>
-
-          {/* Social Media Icons */}
-          <div className="flex gap-3 mt-6">
-            <a
-              href="https://www.linkedin.com/company/zone90/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#F5F5F5] p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-              aria-label="Visit our LinkedIn page"
-              title="LinkedIn"
-            >
-              <FaLinkedinIn className="text-[24px] text-[#3B429F]" aria-hidden="true" />
-            </a>
-            <a
-              href="https://www.facebook.com/people/Zone90/61575014166638/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#F5F5F5] p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-              aria-label="Visit our LinkedIn page"
-              title="LinkedIn"
-            >
-              <TfiFacebook className="text-[24px] text-[#3B429F]" aria-hidden="true" />
-            </a>
-          </div>
+          
         </div>
 
         {/* NAVIGATION */}
         <nav aria-label="Footer Navigation">
           <h4 className="text-xl mb-5">More from Zone 90</h4>
-          <ul className="space-y-3 text-sm text-gray-400">
+          <ul className="space-y-1 text-sm text-gray-400">
             <li>
               <Link
                 href="/service"
@@ -104,6 +71,42 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
+        <div>
+        <h4 className="text-xl mb-5">Get in touch</h4>
+          <p className="text-gray-300 ">
+            <a
+              href="mailto:contact@zone90.se"
+              className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              aria-label="Send an email to contact@zone90.se"
+              title="Send email"
+            >
+              contact@zone90.se
+            </a>
+          </p>
+
+          {/* Social Media Icons */}
+          <div className="flex gap-3 mt-6">
+            <a
+              href="https://www.linkedin.com/company/zone90/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#F5F5F5] p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              aria-label="Visit our LinkedIn page"
+              title="LinkedIn"
+            >
+              <FaLinkedinIn className="text-[24px] text-[#3B429F]" aria-hidden="true" />
+            </a>
+            <a
+              href="https://www.facebook.com/people/Zone90/61575014166638/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#F5F5F5] p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              aria-label="Visit our LinkedIn page"
+              title="LinkedIn"
+            >
+              <TfiFacebook className="text-[24px] text-[#3B429F]" aria-hidden="true" />
+            </a>
+          </div></div>
       </div>
 
       {/* FOOTER BOTTOM */}

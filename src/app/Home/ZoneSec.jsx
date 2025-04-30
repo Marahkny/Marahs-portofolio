@@ -5,7 +5,7 @@ export default function ZoneSec() {
                     py-6 xs:py-2 lg:py-20">
   {/* Heading */}
   <div className="max-w-6xl text-center py-6 justify-center lg:py-20">
-    <h2>Zone 90 for your success</h2>
+    <h2>A Zone for your success</h2>
     <p className="text-[18px] sm:text-[18px] md:text-[28px] lg:text-[34px] pt-6 leading-relaxed">
     Zone 90 is a web and design solutions consulting service, delivering innovative digital solutions both locally in Sweden and globally.
 We specialize in modern, high-performing web and design solutions, combining creativity and innovation.
