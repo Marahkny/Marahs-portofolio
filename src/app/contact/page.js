@@ -25,45 +25,34 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+  
     if (!formData.policyAccepted) {
       alert("You must accept the privacy policy.");
       return;
     }
-
+  
     setLoading(true);
     setSuccess(null);
-
-    // ❗ Hårdkodade nycklar för test/demo
-    const brevoAPIKey = "DIN_API_NYCKEL_HÄR"; // OBS! LÄGG EJ UPP LIVE UTAN SKYDD
-    const brevoListId = 123; // ersätt med din lista-ID
-    const brevoEndpoint = "https://api.brevo.com/v3/contacts";
-
-    const contactData = {
-      email: formData.email,
-      attributes: {
-        FIRSTNAME: formData.firstName,
-        LASTNAME: formData.lastName,
-        PHONE: formData.phone,
-        MESSAGE: formData.message,
-      },
-      listIds: [brevoListId],
-      updateEnabled: true,
-    };
-
+  
     try {
-      const response = await fetch(brevoEndpoint, {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
-          "api-key": brevoAPIKey,
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(contactData),
+        body: JSON.stringify({
+          email: formData.email,
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          phone: formData.phone,
+          message: formData.message,
+        }),
       });
-
+  
       if (!response.ok) {
-        throw new Error("API error");
+        throw new Error("Something went wrong");
       }
-
+  
       setSuccess("Message sent successfully!");
       setFormData({
         firstName: "",
@@ -74,12 +63,14 @@ const Contact = () => {
         policyAccepted: false,
       });
     } catch (error) {
-      console.error("Error:", error);
+      console.error(error);
       setSuccess("Failed to send message. Please try again.");
     } finally {
       setLoading(false);
     }
   };
+  
+  
 
   return (
     <>
@@ -215,9 +206,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
-
-
-
-
