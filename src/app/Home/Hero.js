@@ -42,7 +42,7 @@ export default function Hero() {
         {/* Innehåll */}
         <div className="relative z-15 text-left pt-20 max-w-8xl">
 
-          <h1 className="mb-4  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[75px] xl:text-[90px]">
+          <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-[800]">
             Be in your zone.<br />
             We bring it to life
           </h1>
