@@ -6,9 +6,10 @@ import GradintieFooter from "./gradintietfooter";
 export default function Footer() {
   return (
     <footer className=" relative bg-[#F5F5F5]  px-6 pt-[130px] mx-1 overflow-hidden rounded-t-[40px]">
-       <div className="absolute inset-0">
-          <GradintieFooter />
-        </div>
+    <div className="absolute inset-0 hidden sm:block">
+  <GradintieFooter />
+</div>
+
       <div className=" relative z-0 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-16">
         
       
