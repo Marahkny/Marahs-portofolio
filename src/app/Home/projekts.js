@@ -52,7 +52,7 @@ function ProjectCard({ imgSrc, title, desc, link }) {
   width={800} 
   height={500} 
 
-  className="w-full object-contain rounded-[20px] group-hover:border group-hover:border-[#3B429F]"
+  className="w-full object-contain rounded-[20px] "
 />
       
         <div className="flex justify-between items-center w-full mt-4 ">
@@ -60,9 +60,9 @@ function ProjectCard({ imgSrc, title, desc, link }) {
             <h3 className="text-[24px] mb-2 s transition-colors duration-300">{title}</h3>
             <p className="text-gray-300">{desc}</p>
           </div>
-          <div className="flex items-center gap-2 group cursor-pointer">
+          <div className="flex items-center gap-2 group pr-2 cursor-pointer">
             <p className="text-[16px] text-gray-300">View</p>
-            <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" aria-hidden="true" />
+            <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300  group-hover:translate-x-2" aria-hidden="true" />
           </div>
         </div>
       </Link>

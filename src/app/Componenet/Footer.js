@@ -2,24 +2,28 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import { TfiFacebook } from "react-icons/tfi";
 import Image from 'next/image';
+import GradintieFooter from "./gradintietfooter";
 export default function Footer() {
   return (
-    <footer className="bg-[#121212] text-[#F5F5F5] px-6 pt-20  overflow-hidden">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-16">
+    <footer className=" relative bg-[#F5F5F5]  px-6 pt-[130px] mx-1 overflow-hidden rounded-t-[40px]">
+       <div className="absolute inset-0">
+          <GradintieFooter />
+        </div>
+      <div className=" relative z-0 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-16">
         
-        {/* LOGO & INTRO */}
+      
         <div>
           <Link href="/" aria-label="Go to homepage">
           <Image
-      src="/photos/Logo.png"
+      src="/photos/ZONWAY (1).png"
       alt="Zone 90 logo"
       width={500}  
       height={500} 
-      className="w-[50%] h-auto"
+      className="w-[40%] h-auto"
     />
           </Link>
         
-          <p className="text-gray-300 leading-relaxed pt-5 max-w-md">
+          <p className="text-[#121212] leading-relaxed pt-5 max-w-md">
           Your digital Zone – web development & design with creative impact
           </p>
           
@@ -27,12 +31,12 @@ export default function Footer() {
 
         {/* NAVIGATION */}
         <nav aria-label="Footer Navigation">
-          <h4 className="text-xl mb-5">More from Zone 90</h4>
+          <h4 className="text-xl mb-5 text-[#121212]">More from Zone 90</h4>
           <ul className="space-y-1 text-sm text-gray-400">
             <li>
               <Link
                 href="/service"
-                className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="hover:underline text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Go to services page"
                 title="Services"
               >
@@ -42,7 +46,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/case"
-                className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="hover:underline  text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Go to case studies page"
                 title="Case"
               >
@@ -52,7 +56,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/about"
-                className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="hover:underline text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Learn more about Zone 90"
                 title="About"
               >
@@ -62,7 +66,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/contact"
-                className="hover:underline hover:decoration-[#F5F5F5] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="hover:underline text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Contact Zone 90"
                 title="Contact"
               >
@@ -72,11 +76,11 @@ export default function Footer() {
           </ul>
         </nav>
         <div>
-        <h4 className="text-xl mb-5">Get in touch</h4>
-          <p className="text-gray-300 ">
+        <h4 className="text-xl mb-5 text-[#121212]">Get in touch</h4>
+          <p className="text-[#121212]">
             <a
               href="mailto:contact@zone90.se"
-              className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="text-[#121212] hover:decoration-[#121212]  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Send an email to contact@zone90.se"
               title="Send email"
             >
@@ -90,7 +94,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/zone90/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#F5F5F5] p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className=" p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Visit our LinkedIn page"
               title="LinkedIn"
             >
@@ -100,7 +104,7 @@ export default function Footer() {
               href="https://www.facebook.com/people/Zone90/61575014166638/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#F5F5F5] p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className=" p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Visit our LinkedIn page"
               title="LinkedIn"
             >
@@ -110,7 +114,7 @@ export default function Footer() {
       </div>
 
       {/* FOOTER BOTTOM */}
-      <div className="pt-2 text-center text-sm text-gray-300">
+      <div className="pt-2 text-center text-sm text-[#121212]">
         © {new Date().getFullYear()} Zone 90. Made by Marah Kn.
       </div>
     </footer>

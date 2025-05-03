@@ -62,7 +62,7 @@ export default function About() {
                 alt={`Case: ${card.title} – ${card.category}`}
                 width="500"
                 height="300"
-                className="w-full h-auto rounded-[20px] group-hover:border group-hover:border-[#3B429F]"
+                className="w-full h-auto rounded-[20px] "
                 loading={index === 0 ? "eager" : "lazy"}
               />
               <div className="py-6">

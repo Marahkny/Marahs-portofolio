@@ -47,24 +47,7 @@ export default function Info() {
 
       {/* White section */}
       <section className="bg-[#F5F5F5] px-6 py-20 space-y-40">
-        {/* The power of the name */}
-        <div className="max-w-8xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div className="space-y-6">
-            <h3 className=" text-[#121212] ">The power of the name</h3>
-            <p className="text-[#121212] leading-relaxed">
-              The name Techno was carefully crafted to reflect the company’s vision—simple, distinctive, and deeply connected to technology. It blends “Tech” from “technology” with "no", subtly hinting at Nordic influence and embodying Scandinavian principles of minimalism, innovation, and cutting-edge design.
-            </p>
-          </div>
-          <div className="flex justify-center">
-          <Image
-  src="/photos/technologo.png"
-  alt="Techno logo"
-  width={400}  
-  height={500} 
-  className="w-auto h-auto"
-/>
-          </div>
-        </div>
+
 
         {/* Brand Guide */}
         <div className="max-w-8xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
