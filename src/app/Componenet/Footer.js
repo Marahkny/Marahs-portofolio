@@ -5,7 +5,7 @@ import Image from 'next/image';
 import GradintieFooter from "./gradintietfooter";
 export default function Footer() {
   return (
-    <footer className=" relative bg-[#F5F5F5]  px-6 pt-[130px] mx-1 overflow-hidden rounded-t-[40px]">
+    <footer className=" relative bg-[#F5F5F5]  px-6 pt-[130px]  overflow-hidden rounded-t-[40px]">
     <div className="absolute inset-0 hidden sm:block">
   <GradintieFooter />
 </div>
@@ -116,7 +116,7 @@ export default function Footer() {
 
       {/* FOOTER BOTTOM */}
       <div className="pt-2 text-center text-sm text-[#121212]">
-        © {new Date().getFullYear()} Zone 90. Made by Marah Kn.
+        © {new Date().getFullYear()} Zone 90. Created with ♥ by Marah
       </div>
     </footer>
   );
