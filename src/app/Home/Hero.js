@@ -42,7 +42,7 @@ export default function Hero() {
         {/* Innehåll */}
         <div className="relative z-15 text-left pt-20 max-w-8xl">
 
-          <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[75px] xl:text-[90px] font-[800]">
+          <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[80px] xl:text-[95px] font-[800]">
             Be in your zone.<br />
             We bring it to life
           </h1>
@@ -53,22 +53,29 @@ export default function Hero() {
 
           {/* Call to Action */}
           <div className="flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-6 mt-6 w-full">
-            <Link
-              href="/service"
-              className="w-full sm:w-auto bg-[#3B429F] group text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-                         hover:bg-[#2A2F7D] flex items-center justify-center gap-2
-                         focus:outline-none focus-visible:ring-2 focus-visible:ring-white font-[500]"
-              aria-label="Learn more about our services"
-              title="Services"
-              role="button"
-            >
-              <span className="text-[#F5F5F5]">Our services</span>
-              <LiaArrowRightSolid
-                className="text-[#F5F5F5] text-[24px] transition-transform 
-                           duration-300 group-hover:translate-x-2"
-                aria-hidden="true"
-              />
-            </Link>
+          <Link
+  href="/service"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full
+             group font-[500] transition-colors duration-300 overflow-hidden"
+  aria-label="Learn more about our services"
+  title="Services"
+  role="button"
+>
+  <span
+    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+  >
+    Our services
+  </span>
+
+  {/* Arrow - appears on hover */}
+  <span
+    className="absolute right-4 opacity-0 translate-x-2 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-2"
+  >
+    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
+  </span>
+</Link>
+
 
             <Link
               href="/case"

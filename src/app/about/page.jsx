@@ -106,23 +106,32 @@ export default function About() {
 <p className=" pb-4 ">Contact us today to start building a website that not only meets your expectations but exceeds them. Let's create something exceptional together!</p>
 
       </div>
-      <div className="group">
-      <Link 
-  href="/service"
+      
+
+ <Link
+ href="/service"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 px-6 rounded-full
+             group  transition-colors duration-300 overflow-hidden"
+
   role="button"
   aria-label="Learn more about our services"
   title="Our services"
-  className="w-full sm:w-auto bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
 >
-  <span className="text-[#F5F5F5] ">Our services</span>
-  <LiaArrowRightSolid 
-    className="text-[#F5F5F5] text-[24px] transition-transform 
-               duration-300 group-hover:translate-x-2 "
-    aria-hidden="true"
-  />
-</Link>
+  <span
+    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+  >
+  Our services
+  </span>
 
-    </div>
+  {/* Arrow - appears on hover */}
+  <span
+    className="absolute right-4 opacity-0 translate-x-2 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-2"
+  >
+    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
+  </span>
+</Link>
+    
 
     </div>
   </div>

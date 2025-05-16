@@ -41,21 +41,32 @@ export default function About() {
                 improve your online visibility? We help you turn ideas into
                 impactful digital experiences that drive real results.
               </p>
-              <div className="group">
+             
+               
                 <Link
-                  href="/contact"
-                  role="button"
+  href="/contact"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] font-[500]  py-3 px-6 rounded-full
+             group  transition-colors duration-300 overflow-hidden"
+
+ role="button"
                   aria-label="Contact us for more information"
                   title="Contact us"
-                  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 justify-center rounded-full transition-all hover:bg-[#2A2F7D] inline-flex items-center gap-2 text-sm w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                >
-                  <span className="text-[#F5F5F5] font-[500]">Contact us</span>
-                  <LiaArrowRightSolid
-                    className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2"
-                    aria-hidden="true"
-                  />
-                </Link>
-              </div>
+>
+  <span
+    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+  >
+Contact Zone 90
+  </span>
+
+  {/* Arrow - appears on hover */}
+  <span
+    className="absolute right-4 opacity-0 translate-x-2 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-2"
+  >
+    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
+  </span>
+</Link>
+              
             </div>
 
             <div className="md:w-1/2 flex justify-start md:justify-center">
