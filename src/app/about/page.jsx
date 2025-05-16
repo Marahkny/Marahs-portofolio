@@ -88,8 +88,9 @@ export default function About() {
      
       <div className=" pb-5 ">
         <h3 className=" mb-4 text-[24px] text-left">A full web service</h3>
-        <p className=" text-left">
-        Zone 90 is a full-service web &design consulting service dedicated to delivering complete digital solutions. From UI/UX design and web development to SEO optimization and content strategy, we provide everything businesses need to establish a strong online presence. Our goal is to create seamless, high-performing, and user-centric digital experiences that drive growth and engagement.
+        <p className=" text-left  pb-4 ">
+        Zone 90 is a full-service web &design consulting service dedicated to delivering complete digital solutions. From UI/UX design and web development to SEO optimization and content strategy, we provide everything businesses need to establish a strong online presence. Our goal is to create seamless, high-performing, and user-centric digital experiences that drive growth and engagement. </p>
+     <p className=" text-left"> All payments are securely processed through Frilans Finans, ensuring 100% tax compliance and professional invoicing.
         </p>
       </div>
 

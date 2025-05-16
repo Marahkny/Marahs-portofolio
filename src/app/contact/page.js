@@ -85,13 +85,13 @@ const Contact = () => {
         <link rel="canonical" href="https://zone90.se/contact" />
       </Head>
 
-      <div className="py-20 px-6 max-w-8xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">
+      <div className="pt-20 pb-40 px-6 max-w-8xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">
         <div className="md:w-1/3 text-left">
           <h1 className="mb-4">Say hi!</h1>
           <p className="text-gray-300 mb-6">
             Fill out the form, and we will get back to you.
           </p>
-          <p className="text-gray-300 mb-1">Contact us via</p>
+          <p className="text-gray-300 mb-1">Or contact us via</p>
           <a
             href="mailto:contact@zone90.se"
             className="hover:underline hover:decoration-[#F5F5F5]"

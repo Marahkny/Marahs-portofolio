@@ -4,7 +4,7 @@ export default function ZoneSec() {
 <section className=" max-w-8xl px-6 flex flex-col items-center justify-center h-full 
                     py-6 xs:py-2 lg:py-10">
   {/* Heading */}
-  <div className="max-w-5xl text-center py-6 justify-center lg:py-20">
+  <div className="max-w-6xl text-center py-6 justify-center lg:py-20">
 
       <h2 >
       A zone for your success
