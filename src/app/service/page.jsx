@@ -1,6 +1,6 @@
 "use client";
 import Services from "./services";
-import { LiaArrowRightSolid } from "react-icons/lia";
+import { HiArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
 import Zone90Section from "../Home/zone90secation";
 import Head from "next/head";
@@ -42,20 +42,18 @@ export default function About() {
                 impactful digital experiences that drive real results.
               </p>
              
-               
-                <Link
+     <Link
   href="/contact"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] font-[500]  py-3 px-6 rounded-full
-             group  transition-colors duration-300 overflow-hidden"
-
- role="button"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
+             group font-[500] transition-colors duration-300 overflow-hidden"
+  role="button"
                   aria-label="Contact us for more information"
                   title="Contact us"
 >
   <span
     className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-Contact Zone 90
+      Contact Zone 90
   </span>
 
   {/* Arrow - appears on hover */}
@@ -63,10 +61,9 @@ Contact Zone 90
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
-</Link>
-              
+</Link>            
             </div>
 
             <div className="md:w-1/2 flex justify-start md:justify-center">

@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { HiArrowSmallRight } from "react-icons/hi2";
 export default function Section() {
 
 
@@ -20,15 +21,32 @@ export default function Section() {
       </p>
 
       <div className="pt-6 w-full">
+
+
   <Link
-    href="/about"
-    className="block w-full font-[500] sm:inline-block sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-    aria-label="Learn more about Zone 90"
+  href="/about"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
+             group font-[500] transition-colors duration-300 overflow-hidden"
+ aria-label="Learn more about Zone 90"
     title="Want to know more?"
     role="button"
+>
+  <span
+    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-    Want to know more?
-  </Link>
+     Want to know more?
+  </span>
+
+  {/* Arrow - appears on hover */}
+  <span
+    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-0"
+  >
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+  </span>
+</Link>
+
+
 </div>
 
     </div>
@@ -78,15 +96,30 @@ export default function Section() {
         Zone 90 delivers high-quality digital solutions in web development and design. Our expertise spans web development, UI/UX design, SEO, and graphic design—creating impactful, results-driven experiences. Whether it's a sleek website, a complex platform, or a custom  digital solution, we combine creativity and precision to bring your vision to life.
       </p>
 
-      <div className="group pt-6">
-      <Link
+      <div className=" pt-6">
+ 
+
+  <Link
   href="/service"
-  className="w-full sm:w-auto bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all hover:bg-[#2A2F7D] inline-flex text-center justify-center items-center gap-2 w-fit focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-  aria-label="Explore our services"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
+             group font-[500] transition-colors duration-300 overflow-hidden"
+ aria-label="Explore our services"
   title="Our services"
   role="button"
 >
-  <span className="text-[#F5F5F5] font-[500]">Our services</span>
+  <span
+    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+  >
+     Our services
+  </span>
+
+  {/* Arrow - appears on hover */}
+  <span
+    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-0"
+  >
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+  </span>
 </Link>
       </div>
     </div>

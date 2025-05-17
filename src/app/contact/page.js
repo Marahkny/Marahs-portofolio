@@ -189,7 +189,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-[#3B429F] font-[500] hover:bg-[#2A2F7D] text-[#F5F5F5] py-3 rounded-full transition"
+              className="w-full bg-[#3B429F] font-[500]  text-[#F5F5F5] py-3 rounded-full transition"
               disabled={loading}
             >
               {loading ? "Sending..." : "Send"}

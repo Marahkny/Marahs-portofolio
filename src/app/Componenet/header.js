@@ -17,7 +17,7 @@ const Head = () => {
       {/* Desktop Navbar */}
       <nav
         className={`top-0 left-0 w-full z-30 hidden lg:flex items-center justify-between ${
-          !isHomePage ? "bg-[#121212] px-8 py-4" : "absolute px-8 py-8"
+          !isHomePage ? "bg-[#121212] px-8 py-8" : "absolute px-8 py-8"
         }`}
       >
         <Link href="/" aria-label="Go to homepage">
@@ -30,7 +30,7 @@ const Head = () => {
 />
 
         </Link>
-        <div className="flex items-center space-x-6 text-white">
+        <div className="flex items-center space-x-6 ">
           <Link
             href="/service"
             aria-label="Go to services page"
@@ -59,7 +59,7 @@ const Head = () => {
             href="/contact"
             aria-label="Contact Zone 90"
             title="Contact"
-            className="bg-[#3B429F] text-[#F5F5F5] font-[500] py-3 px-6 rounded-full hover:bg-[#2A2F7D] focus:outline-none"
+            className=" text-[#F5F5F5] hover:underline font-[500] hover:decoration-[#F5F5F5]"
             role="button"
           >
             Contact
@@ -86,7 +86,7 @@ const Head = () => {
         <div className="flex gap-2.5">
           <Link
             href="/contact"
-            className="bg-[#3B429F] text-[#F5F5F5] font-[500] py-2 px-4 rounded-full hover:bg-[#2A2F7D]"
+            className="text-[#F5F5F5] hover:underline font-[500] pt-2 hover:decoration-[#F5F5F5]"
             title="Contact"
           >
             Contact
@@ -152,7 +152,7 @@ const Head = () => {
             <div className="flex gap-2.5">
               <Link
                 href="/contact"
-                className="bg-[#3B429F] text-[#F5F5F5] py-2 px-4 rounded-full hover:bg-[#2A2F7D]"
+                className="text-[#F5F5F5] hover:underline pt-2 font-[500] hover:decoration-[#F5F5F5]"
                 title="Contact"
                 onClick={toggleMenu}
               >

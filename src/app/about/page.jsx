@@ -1,5 +1,5 @@
 import { FiCheckCircle } from "react-icons/fi";
-import { LiaArrowRightSolid } from "react-icons/lia";
+import { HiArrowSmallRight } from "react-icons/hi2";
 import Zone90Section from '../Home/zone90secation';
 import Link from "next/link";
 import Head from 'next/head';
@@ -108,19 +108,18 @@ export default function About() {
       </div>
       
 
- <Link
- href="/service"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 px-6 rounded-full
-             group  transition-colors duration-300 overflow-hidden"
-
-  role="button"
+    <Link
+  href="/service"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
+             group font-[500] transition-colors duration-300 overflow-hidden"
+ role="button"
   aria-label="Learn more about our services"
   title="Our services"
 >
   <span
     className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-  Our services
+       Our services
   </span>
 
   {/* Arrow - appears on hover */}
@@ -128,10 +127,9 @@ export default function About() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>
-    
 
     </div>
   </div>

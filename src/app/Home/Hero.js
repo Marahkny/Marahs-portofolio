@@ -3,7 +3,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import ServicesHem from "./serviceshem";
-import { LiaArrowRightSolid } from "react-icons/lia";
+import { HiArrowSmallRight } from "react-icons/hi2";
 import GradientBackground from "./GradientBackground";
 import ZoneSec from "./ZoneSec";
 import Projects from "./projekts";
@@ -55,7 +55,7 @@ export default function Hero() {
           <div className="flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-6 mt-6 w-full">
           <Link
   href="/service"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
   aria-label="Learn more about our services"
   title="Services"
@@ -72,22 +72,34 @@ export default function Hero() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+  </span>
+</Link>
+  <Link
+  href="/case"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#B8336A] text-[#F5F5F5] py-4 px-8 rounded-full
+             group font-[500] transition-colors duration-300 overflow-hidden"
+ aria-label="See our case studies"
+              title="Case"
+              role="button"
+>
+  <span
+    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+  >
+    Our case
+  </span>
+
+  {/* Arrow - appears on hover */}
+  <span
+    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-0"
+  >
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>
 
 
-            <Link
-              href="/case"
-              className="w-full sm:w-auto bg-[#B8336A] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-                         hover:bg-[#9D2A56] flex items-center justify-center
-                         focus:outline-none focus-visible:ring-2 focus-visible:ring-white font-[500]"
-              aria-label="See our case studies"
-              title="Case"
-              role="button"
-            >
-              Our case
-            </Link>
+         
           </div>
         </div>
       </header>
