@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Head from "next/head";
-import { LiaArrowRightSolid } from "react-icons/lia";
+import { HiArrowSmallRight } from "react-icons/hi2";
 import Zone90Section from "../Home/zone90secation";
 
 export default function About() {
@@ -69,7 +69,7 @@ export default function About() {
                 <h2 className="text-2xl pb-2 font-semibold">{card.title}</h2>
                 <div className="flex items-center justify-between w-full pr-2">
                   <p className="text-[16px] text-gray-300">{card.category}</p>
-                  <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" />
+                  <HiArrowSmallRight className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" />
                 </div>
               </div>
             </Link>

@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { LiaArrowRightSolid } from "react-icons/lia";
+import { HiArrowSmallRight } from "react-icons/hi2";
 import { useRef } from "react";
 import Steps from "./Steps";
 import Image from "next/image";
@@ -62,7 +62,7 @@ function ProjectCard({ imgSrc, title, desc, link }) {
           </div>
           <div className="flex items-center gap-2 group pr-2 cursor-pointer">
             <p className="text-[16px] text-gray-300">View</p>
-            <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform duration-300  group-hover:translate-x-2" aria-hidden="true" />
+            <HiArrowSmallRight className="text-[#F5F5F5] text-[24px] transition-transform duration-300  group-hover:translate-x-2" aria-hidden="true" />
           </div>
         </div>
       </Link>
