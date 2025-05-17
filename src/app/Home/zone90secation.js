@@ -28,8 +28,8 @@ export default function Zone90Section() {
 
   {/* Arrow - appears on hover */}
   <span
-    className="absolute right-4 opacity-0 translate-x-2 transition-all duration-300
-               group-hover:opacity-100 group-hover:translate-x-2"
+    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+               group-hover:opacity-100 group-hover:translate-x-0"
   >
     <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px]" />
   </span>
