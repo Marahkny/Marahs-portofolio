@@ -59,7 +59,7 @@ const Head = () => {
             href="/contact"
             aria-label="Contact Zone 90"
             title="Contact"
-            className=" text-[#F5F5F5] hover:underline font-[500] hover:decoration-[#F5F5F5]"
+            className=" hover:underline font-[500] hover:decoration-[#F5F5F5]"
             role="button"
           >
             Contact
@@ -86,7 +86,7 @@ const Head = () => {
         <div className="flex gap-2.5">
           <Link
             href="/contact"
-            className="text-[#F5F5F5] hover:underline font-[500] pt-2 hover:decoration-[#F5F5F5]"
+            className=" hover:underline font-[500] pt-2 hover:decoration-[#F5F5F5]"
             title="Contact"
           >
             Contact
@@ -152,7 +152,7 @@ const Head = () => {
             <div className="flex gap-2.5">
               <Link
                 href="/contact"
-                className="text-[#F5F5F5] hover:underline pt-2 font-[500] hover:decoration-[#F5F5F5]"
+                className=" hover:underline pt-2 font-[500] hover:decoration-[#F5F5F5]"
                 title="Contact"
                 onClick={toggleMenu}
               >

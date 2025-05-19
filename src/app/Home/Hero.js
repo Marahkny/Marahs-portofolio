@@ -52,7 +52,7 @@ export default function Hero() {
           </p>
 
           {/* Call to Action */}
-          <div className="flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-6 mt-6 w-full">
+          <div className="flex flex-col md:flex-row items-center justify-start gap-4 sm:gap-4 mt-6 w-full">
           <Link
   href="/service"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
