@@ -4,10 +4,7 @@
   --color1: 59, 66, 159;  /* #3B429F */
   --color2: 184, 51, 106; /* #B8336A */
   --color3: 157, 42, 86;/* (Behöll RGB-värdena) */
-  --color4: 255, 107, 107; /* #FF6B6B */
   --color5: 59, 66, 159;  /* #FFB84C */
-  --color-interactive: 157, 42, 86; /* #9D2A56 */
-
   --circle-size: 110vw;
  
 }
@@ -77,13 +74,13 @@
 }
 
 .gradients-container {
-  filter: url(#goo) blur(40px);
+  filter: url(#goo) blur(50px);
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  max-height: 105vh; 
+  max-height: 100vh; 
   overflow: hidden;
 }
 
@@ -106,7 +103,7 @@
   height: var(--circle-size);
   top: calc(20% - var(--circle-size) / 2);
   right: calc(100% - var(--circle-size) / 2);
-  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color5), 0.7) 0, rgba(var(--color5), 0) 50%);
   animation: moveElliptical 20s ease-in-out infinite;
 }
 
@@ -119,13 +116,13 @@
 
 
 .g4 {
-  background: radial-gradient(circle at center, rgba(var(--color4), 0.7) 0, rgba(var(--color4), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 50%);
   transform-origin: calc(20% - 600px);
   animation: moveFromTopBalanced 30s ease-in-out infinite;
 }
 
 .g5 {
-  background: radial-gradient(circle at center, rgba(var(--color5), 0.7) 0, rgba(var(--color5), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 50%);
   transform-origin: calc(50% - 800px) calc(50% + 200px);
   animation: moveInCircle 40s ease-in-out infinite;
 }

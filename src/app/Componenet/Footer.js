@@ -81,7 +81,7 @@ export default function Footer() {
           <p className="text-[#121212]">
             <a
               href="mailto:contact@zone90.se"
-              className="text-[#121212] hover:decoration-[#121212]  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="text-[#121212] hover:decoration-[#121212]  hover:underline  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Send an email to contact@zone90.se"
               title="Send email"
             >
@@ -99,7 +99,7 @@ export default function Footer() {
               aria-label="Visit our LinkedIn page"
               title="LinkedIn"
             >
-              <FaLinkedinIn className="text-[24px] text-[#3B429F]" aria-hidden="true" />
+              <FaLinkedinIn className="text-[26px] text-[#3B429F]" aria-hidden="true" />
             </a>
             <a
               href="https://www.facebook.com/people/Zone90/61575014166638/"
@@ -109,7 +109,7 @@ export default function Footer() {
               aria-label="Visit our LinkedIn page"
               title="LinkedIn"
             >
-              <TfiFacebook className="text-[24px] text-[#3B429F]" aria-hidden="true" />
+              <TfiFacebook className="text-[26px] text-[#3B429F]" aria-hidden="true" />
             </a>
           </div></div>
       </div>
