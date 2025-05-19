@@ -30,7 +30,7 @@ export default function Zone90Section() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#d1d5db] text-[26px] items-center" />
   </span>
 </Link>
       </div>

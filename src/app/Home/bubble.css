@@ -60,7 +60,7 @@
 
 .gradient-bg {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   position: relative;
   overflow: hidden;
  
@@ -83,7 +83,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  max-height: 88vh; 
+  max-height: 105vh; 
   overflow: hidden;
 }
 
