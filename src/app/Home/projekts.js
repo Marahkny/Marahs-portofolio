@@ -16,8 +16,8 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="w-full sm:w-[70%] md:w-[50%] lg:w-[50%] ml-0 max-w-8xl mx-auto px-6 z-10">
-        <h2 className="text-left pb-6">Some av our case</h2>
+      <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[60%] ml-0 max-w-8xl mx-auto px-6 z-10">
+        <h2 className="text-left pb-6"> Some of our cases</h2>
         <p className="text-gray-300 max-w-2xl">
           Explore a selection of our standout projects that highlight our expertise in web development, design, and digital innovation.
         </p>

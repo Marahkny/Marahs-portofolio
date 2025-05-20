@@ -34,7 +34,7 @@ const Steps = () => {
             className="relative inline-block p-[2px] rounded-2xl bg-gradient-to-r from-[#B8336A] to-[#3B429F]"
           >
             <div className="bg-[#121212] rounded-2xl px-4 py-2">
-              <span className="text-white whitespace-nowrap">{tech}</span>
+              <span className=" whitespace-nowrap">{tech}</span>
             </div>
           </div>
         ))}

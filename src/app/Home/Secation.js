@@ -13,7 +13,7 @@ export default function Section() {
     {/* Vänster sektion */}
     <div className="md:w-[40%] px-6 flex flex-col items-start">
       <h2 className="text-left">
-        Your zone, our focus
+        From your vision 
       </h2>
 
       <p className="text-left text-gray-300 mt-6 leading-relaxed">
@@ -32,7 +32,7 @@ export default function Section() {
     role="button"
 >
   <span
-    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex  text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
      Want to know more?
   </span>
@@ -42,7 +42,7 @@ export default function Section() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#d1d5db] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>
 
@@ -89,7 +89,7 @@ export default function Section() {
     {/* Vänster sektion - Text */}
     <div className="md:w-[40%] px-6 flex flex-col justify-center">
       <h2 className="text-left ">
-        We bring it
+       Real results
       </h2>
 
       <p className="text-left text-gray-300 pt-6 leading-relaxed">
@@ -108,7 +108,7 @@ export default function Section() {
   role="button"
 >
   <span
-    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
      Our services
   </span>
@@ -118,7 +118,7 @@ export default function Section() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#d1d5db] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>
       </div>

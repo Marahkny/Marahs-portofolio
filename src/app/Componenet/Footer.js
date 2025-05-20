@@ -25,7 +25,7 @@ export default function Footer() {
           </Link>
         
           <p className="text-[#121212] leading-relaxed pt-5 max-w-md">
-          Your digital Zone – web development & design with creative impact
+          Your digital zone for web and design solutions in Sweden and worldwide
           </p>
           
         </div>

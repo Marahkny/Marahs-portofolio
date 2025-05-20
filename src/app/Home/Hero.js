@@ -40,19 +40,18 @@ export default function Hero() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-15 text-center pt-20 max-w-8xl">
+        <div className="relative z-15 text-center pt-20 max-w-6xl">
 
-          <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[80px] xl:text-[95px] font-[800]">
-            Be in your zone.<br />
-            We bring it to life
-          </h1>
+          <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[80px] xl:text-[90px] font-[800]">
+            Your digital zone — 
+tech that converts  </h1>
 
           <p className="text-gray-300 max-w-3xl mx-auto">
-          Creative web & design solutions for seamless user experiences.
+Zone 90 specializes in web and design solutions in Sweden that deliver real results
           </p>
 
           {/* Call to Action */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-4 mt-6 w-full">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
           <Link
   href="/service"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
@@ -62,7 +61,7 @@ export default function Hero() {
   role="button"
 >
   <span
-    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
     Our services
   </span>
@@ -72,7 +71,7 @@ export default function Hero() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#d1d5db] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>
   <Link
@@ -84,9 +83,10 @@ export default function Hero() {
               role="button"
 >
   <span
-    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-    Our case
+    Our cases
+
   </span>
 
   {/* Arrow - appears on hover */}
@@ -94,7 +94,7 @@ export default function Hero() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#d1d5db] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>
 

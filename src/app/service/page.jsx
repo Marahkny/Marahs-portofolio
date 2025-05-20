@@ -51,7 +51,7 @@ export default function About() {
                   title="Contact us"
 >
   <span
-    className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
       Contact Zone 90
   </span>
@@ -61,7 +61,7 @@ export default function About() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#d1d5db] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
   </span>
 </Link>            
             </div>
