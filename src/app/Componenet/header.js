@@ -35,23 +35,24 @@ const Head = () => {
             href="/service"
             aria-label="Go to services page"
             title="Services"
-            className="hover:underline  font-[500] hover:decoration-[#F5F5F5]"
+            className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
           >
             Services
           </Link>
-          <Link
-            href="/case"
-            aria-label="Go to case studies page"
-            title="Case"
-            className="hover:underline font-[500] hover:decoration-[#F5F5F5]"
-          >
-            Case
-          </Link>
+         <Link
+  href="/case"
+  aria-label="Go to case studies page"
+  title="Case"
+  className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
+>
+  Case
+</Link>
+
           <Link
             href="/about"
             aria-label="Learn more about Zone 90"
             title="About"
-            className="hover:underline font-[500] hover:decoration-[#F5F5F5]"
+            className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
           >
             About Zone 90
           </Link>
@@ -59,7 +60,7 @@ const Head = () => {
             href="/contact"
             aria-label="Contact Zone 90"
             title="Contact"
-            className=" hover:underline font-[500] hover:decoration-[#F5F5F5]"
+            className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
             role="button"
           >
             Contact
@@ -86,7 +87,7 @@ const Head = () => {
         <div className="flex gap-2.5">
           <Link
             href="/contact"
-            className=" hover:underline font-[500] pt-2 hover:decoration-[#F5F5F5]"
+            className=" relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
             title="Contact"
           >
             Contact
@@ -102,7 +103,7 @@ const Head = () => {
               className="relative w-6 h-6 flex flex-col justify-between"
             >
               <motion.span
-                className="block w-6 h-0.5 bg-white"
+                className="block w-6 h-0.5 bg-[#d1d5db]"
                 variants={{
                   open: { rotate: 45, y: 6 },
                   closed: { rotate: 0, y: 0 },
@@ -110,7 +111,7 @@ const Head = () => {
                 transition={{ duration: 0.3 }}
               />
               <motion.span
-                className="block w-6 h-0.5 bg-white"
+                className="block w-6 h-0.5 bg-[#d1d5db]"
                 variants={{
                   open: { opacity: 0 },
                   closed: { opacity: 1 },
@@ -118,7 +119,7 @@ const Head = () => {
                 transition={{ duration: 0.3 }}
               />
               <motion.span
-                className="block w-6 h-0.5 bg-white"
+                className="block w-6 h-0.5 bg-[#d1d5db]"
                 variants={{
                   open: { rotate: -45, y: -6 },
                   closed: { rotate: 0, y: 0 },
@@ -138,7 +139,7 @@ const Head = () => {
           exit={{ opacity: 0 }}
           className="fixed inset-0 bg-[#121212] z-50 flex flex-col items-center px-8 py-4"
         >
-          <div className="flex items-center justify-between w-full">
+          <div className="flex items-center justify-between  w-full">
             <Link href="/" aria-label="Go to homepage">
             <Image
       src="/photos/Logo.png"
@@ -152,7 +153,7 @@ const Head = () => {
             <div className="flex gap-2.5">
               <Link
                 href="/contact"
-                className=" hover:underline pt-2 font-[500] hover:decoration-[#F5F5F5]"
+                className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
                 title="Contact"
                 onClick={toggleMenu}
               >
@@ -169,12 +170,12 @@ const Head = () => {
                   className="relative w-6 h-6 flex items-center justify-center"
                 >
                   <motion.span
-                    className="absolute block w-6 h-0.5 bg-white"
+                    className="absolute block w-6 h-0.5 bg-[#d1d5db]"
                     animate={{ rotate: 45 }}
                     transition={{ duration: 0.3 }}
                   />
                   <motion.span
-                    className="absolute block w-6 h-0.5 bg-white"
+                    className="absolute block w-6 h-0.5 bg-[#d1d5db]"
                     animate={{ rotate: -45 }}
                     transition={{ duration: 0.3 }}
                   />
@@ -186,21 +187,21 @@ const Head = () => {
           <div className="flex flex-col py-40 items-center space-y-6 text-white">
             <Link
               href="/service"
-              className="text-[30px] hover:underline"
+              className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
               Services
             </Link>
             <Link
               href="/case"
-              className="text-[30px] hover:underline"
+              className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
               Case
             </Link>
             <Link
               href="/about"
-              className="text-[30px] hover:underline"
+              className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
               About Zone 90

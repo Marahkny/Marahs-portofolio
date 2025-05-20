@@ -37,7 +37,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/service"
-                className="hover:underline text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Go to services page"
                 title="Services"
               >
@@ -47,7 +47,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/case"
-                className="hover:underline  text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+ className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Go to case studies page"
                 title="Case"
               >
@@ -57,7 +57,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/about"
-                className="hover:underline text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+ className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Learn more about Zone 90"
                 title="About"
               >
@@ -67,8 +67,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/contact"
-                className="hover:underline text-[#121212] hover:decoration-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                aria-label="Contact Zone 90"
+ className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"                aria-label="Contact Zone 90"
                 title="Contact"
               >
                 Contact
@@ -81,7 +80,7 @@ export default function Footer() {
           <p className="text-[#121212]">
             <a
               href="mailto:contact@zone90.se"
-              className="text-[#121212] hover:decoration-[#121212]  hover:underline  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="text-[#3B429F] font-[500] hover:decoration-[#3B429F]   hover:underline  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Send an email to contact@zone90.se"
               title="Send email"
             >
