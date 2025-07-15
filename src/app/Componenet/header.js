@@ -32,12 +32,12 @@ const Head = () => {
         </Link>
         <div className="flex items-center space-x-6 ">
           <Link
-            href="/service"
+            href="/tjanster"
             aria-label="Go to services page"
             title="Services"
             className="relative inline-block font-[500] text-[#F5F5F5] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
           >
-            Services
+            Tjänster
           </Link>
          <Link
   href="/case"
@@ -45,25 +45,25 @@ const Head = () => {
   title="Case"
   className="relative inline-block font-[500] text-[#F5F5F5] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
 >
-  Case
+ Kundcase
 </Link>
 
           <Link
-            href="/about"
+            href="/omzone90"
             aria-label="Learn more about Zone 90"
             title="About"
             className="relative inline-block text-[#F5F5F5] font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
           >
-            About Zone 90
+            Om Zone 90
           </Link>
           <Link
-            href="/contact"
+            href="/kontakt"
             aria-label="Contact Zone 90"
             title="Contact"
             className="relative inline-block font-[500] text-[#F5F5F5] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
             role="button"
           >
-            Contact
+            Kontakt
           </Link>
         </div>
       </nav>
@@ -90,7 +90,7 @@ const Head = () => {
             className=" relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
             title="Contact"
           >
-            Contact
+            Kontakt
           </Link>
 
           <button
@@ -157,7 +157,7 @@ const Head = () => {
                 title="Contact"
                 onClick={toggleMenu}
               >
-                Contact
+                Kontakt
               </Link>
 
               <button
@@ -190,21 +190,21 @@ const Head = () => {
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
-              Services
+              Tjänster
             </Link>
             <Link
               href="/case"
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
-              Case
+              Kundcase
             </Link>
             <Link
               href="/about"
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
-              About Zone 90
+              Om Zone 90
             </Link>
           </div>
         </motion.div>

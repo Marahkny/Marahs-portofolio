@@ -25,23 +25,23 @@ export default function Footer() {
           </Link>
         
           <p className="text-[#121212] leading-relaxed pt-5 max-w-md">
-          Your digital zone for web and design solutions in Sweden and worldwide
+          Din Zone för webb- och designlösningar i Stockholm.
           </p>
           
         </div>
 
         {/* NAVIGATION */}
         <nav aria-label="Footer Navigation">
-          <h4 className="text-xl mb-5 text-[#121212]">More from Zone 90</h4>
+          <h4 className="text-xl mb-5 text-[#121212]">Mer från Zone 90</h4>
           <ul className="space-y-1 text-sm text-gray-400">
             <li>
               <Link
-                href="/service"
+                href="/tjanster"
                 className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Go to services page"
                 title="Services"
               >
-                Services
+                Våra tjänster
               </Link>
             </li>
             <li>
@@ -51,32 +51,32 @@ export default function Footer() {
                 aria-label="Go to case studies page"
                 title="Case"
               >
-                Case
+                Kundcase
               </Link>
             </li>
             <li>
               <Link
-                href="/about"
+                href="/omzone90"
  className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 aria-label="Learn more about Zone 90"
                 title="About"
               >
-                About Zone 90
+                Om Zone 90
               </Link>
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/kontakt"
  className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"                aria-label="Contact Zone 90"
                 title="Contact"
               >
-                Contact
+                Kontakt
               </Link>
             </li>
           </ul>
         </nav>
         <div>
-        <h4 className="text-xl mb-5 text-[#121212]">Get in touch</h4>
+        <h4 className="text-xl mb-5 text-[#121212]">Hör av dig </h4>
           <p className="text-[#121212]">
             <a
               href="mailto:contact@zone90.se"
@@ -114,7 +114,7 @@ export default function Footer() {
       </div>
 
       {/* FOOTER BOTTOM */}
-      <div className="pt-2 text-center text-sm text-[#121212]">
+      <div className="py-2 text-center text-[11px] text-[#3B429F]">
         © {new Date().getFullYear()} Zone 90. Created with ♥ by Marah
       </div>
     </footer>

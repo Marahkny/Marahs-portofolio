@@ -17,10 +17,9 @@ export default function Projects() {
   return (
     <div>
       <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[60%] ml-0 max-w-8xl mx-auto px-6 z-10">
-        <h2 className="text-left pb-6"> Some of our cases</h2>
-        <p className="text-gray-300 max-w-2xl">
-          Explore a selection of our standout projects that highlight our expertise in web development, design, and digital innovation.
-        </p>
+        <h2 className="text-left pb-6"> Kundcase</h2>
+        <p className="text-gray-300 max-w-8xl">
+Upptäck ett urval av våra projekt som visar vår expertis inom webbutveckling, design och digital innovation.        </p>
       </div>
 
       <div ref={ref} className="max-w-8xl px-6 mx-auto pb-40 z-10">
@@ -32,7 +31,7 @@ export default function Projects() {
 
           {/* 🟢 Andra kolumnen - Oscillerar vid scroll */}
           <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/project-1.png" title="Framsteg förening" desc="WordPress website & brand" link="/case/framsteg" />
+            <ProjectCard imgSrc="/photos/project-1.png" title="Framsteg förening" desc="WordPress webbplats & brand" link="/case/framsteg" />
           </motion.div>
         </div>
       </div>
@@ -61,7 +60,7 @@ function ProjectCard({ imgSrc, title, desc, link }) {
             <p className="text-gray-300">{desc}</p>
           </div>
           <div className="flex items-center gap-2 group pr-2 cursor-pointer">
-            <p className="text-[16px] text-gray-300">View</p>
+            <p className="text-[16px] text-gray-300">Se mer</p>
             <HiArrowSmallRight className="text-[#F5F5F5] text-[24px] transition-transform duration-300  group-hover:translate-x-2" aria-hidden="true" />
           </div>
         </div>

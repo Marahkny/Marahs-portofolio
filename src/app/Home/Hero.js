@@ -13,10 +13,10 @@ export default function Hero() {
     <>
     
       <Head>
-        <title>Zone 90 » Creative web development & design consulting</title>
+        <title>Zone 90 » Webbdesign i Stockholm</title>
         <meta
           name="description"
-          content="Zone 90 is a web and design solutions consulting service, delivering innovative digital solutions both locally in Sweden and globally. We specialize in modern, high-performing web and design solutions, combining creativity and innovation."
+          content="Zone 90 erbjuder moderna och högpresterande lösningar inom webbdesign och digitala tjänster i Stockholm"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
@@ -43,27 +43,26 @@ export default function Hero() {
         <div className="relative z-15 text-center pt-20 max-w-6xl">
 
           <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[80px] xl:text-[90px] font-[800]">
-            Your digital zone — 
-tech that converts  </h1>
+          Webbdesign som konverterar din zone </h1>
 
           <p className="text-gray-300 max-w-3xl mx-auto">
-Zone 90 specializes in web and design solutions in Sweden that deliver real results
+Zone 90 utvecklar smarta webb- och designlösningar som skapar verkliga affärsresultat i Stockholm
           </p>
 
           {/* Call to Action */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
           <Link
-  href="/service"
+  href="/tjanster"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
-  aria-label="Learn more about our services"
-  title="Services"
+  aria-label="läs mer om våra tjänster"
+  title="tjänster"
   role="button"
 >
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-    Our services
+   Våra tjänster
   </span>
 
   {/* Arrow - appears on hover */}
@@ -71,21 +70,21 @@ Zone 90 specializes in web and design solutions in Sweden that deliver real resu
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
   <Link
   href="/case"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#B8336A] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
- aria-label="See our case studies"
-              title="Case"
+ aria-label="se mer om våra projekt"
+              title="projekt"
               role="button"
 >
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-    Our cases
+     Kundcase
 
   </span>
 
@@ -94,7 +93,7 @@ Zone 90 specializes in web and design solutions in Sweden that deliver real resu
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
 

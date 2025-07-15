@@ -5,11 +5,11 @@ import Link from "next/link";
 import Head from 'next/head';
 import Image from "next/image";
 
-export default function About() {
+export default function OmZone90() {
   return (
     <>
     <Head>
-  <title>Zone 90 » About Zone 90</title>
+  <title>Zone 90 » om Zone 90</title>
   <meta name="description" content="Learn more about Zone 90 – a digital consulting service helping businesses grow through web design, development, and SEO." />
   <meta property="og:title" content="Zone 90 – About Zone 90" />
   <meta property="og:description" content="Explore our journey and services. Zone 90 provides creative web development, UI/UX design, SEO and more." />
@@ -22,28 +22,27 @@ export default function About() {
 
     <section className=" text-[#F5F5F5] h-full pt-20 px-6">
       <div className="max-w-8xl mx-auto text-left">
-        <h1 className=" mb-10">About Zone 90</h1>
+        <h1 className=" mb-10">Om Zone 90</h1>
 
 
         {/* Section with image and text */}
         <div className="flex flex-col md:flex-row  justify-between items-center gap-10">
         <div className="md:w-1/2 text-left item-start">
           <p className=" mb-10 text-gray-300">
-        Zone 90 is a creative consulting service specializing in web & design digital solutions. We help businesses transform their vision into reality through innovative, user-centric solutions. Our mission is to craft seamless, trendsetting, and impactful digital experiences that captivate and engage your audience.
-        </p>
+Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösningar. Vi hjälper företag att förvandla sin vision till verklighet genom innovativa och användarcentrerade lösningar. Vårt uppdrag är att skapa sömlösa, trendiga och effektfulla digitala upplevelser som fångar och engagerar din målgrupp.        </p>
             <ul className="space-y-6 ">
               <li className="flex items-center">
                 <FiCheckCircle className="text-[20px] mr-3" /> 
-                <span className=" font-semibold">UI/UX Design tailored to your brand</span>
+                <span className=" font-semibold">UI/UX design anpassad efter ditt varumärke</span>
 
               </li>
               <li className="flex items-center">
                 <FiCheckCircle className="text-[20px] mr-3" />
-                <span className=" font-semibold">Frontend web development</span>
+                <span className=" font-semibold">Frontend-webbutveckling</span>
               </li>
               <li className="flex items-center">
                 <FiCheckCircle className="text-[20px] mr-3" />
-                <span className=" font-semibold">SEO optimization and market anlaysis </span>
+                <span className=" font-semibold">SEO-optimering och marknadsanalys </span>
               </li>
               <li className="flex items-center">
                 <FiCheckCircle className="text-[20px] mr-3" />
@@ -74,42 +73,42 @@ export default function About() {
   <div className="max-w-8xl  mx-auto  text-left">
 
  
-    <h2 className=" mb-4 ">How we started?</h2>
+    <h2 className=" mb-4 ">Hur allt började</h2>
     
     <div className="space-y-6">
       {/* How We Started */}
       <div >
       
         <p className=" text-left">
-        Zone 90 was founded with the vision of helping businesses thrive in the digital age. Our journey began with a shared passion for technology and design. Established in 2025 by Marah, a trained web editor and freelance web developer, Zone 90 was created with the mission of empowering businesses to grow and achieve their goals through innovative digital solutions.
-        </p>
+Zone 90 grundades med visionen att hjälpa företag att växa i den digitala tidsåldern. Resan började med en gemensam passion för teknik och design. År 2025 startade Marah, utbildad webbredaktör och frilansande webbutvecklare, Zone 90 med målet att stärka företag att nå sina mål genom innovativa digitala lösningar.        </p>
       </div>
 
      
       <div className=" pb-5 ">
-        <h3 className=" mb-4 text-[24px] text-left">A full web service</h3>
+        <h3 className=" mb-4 text-[24px] text-left">En komplett webbtjänst</h3>
         <p className=" text-left  pb-4 ">
-        Zone 90 is a full-service web &design consulting service dedicated to delivering complete digital solutions. From UI/UX design and web development to SEO optimization and content strategy, we provide everything businesses need to establish a strong online presence. Our goal is to create seamless, high-performing, and user-centric digital experiences that drive growth and engagement. </p>
-     <p className=" text-left"> All payments are securely processed through Frilans Finans, ensuring 100% tax compliance and professional invoicing.
+Zone 90 är en fullservice konsulttjänst inom webb och design som levererar kompletta digitala lösningar. Från UI/UX-design och webbutveckling till SEO-optimering och innehållsstrategi – vi erbjuder allt företag behöver för att skapa en stark digital närvaro. Vårt mål är att skapa användarvänliga, högpresterande och sömlösa digitala upplevelser som driver tillväxt och engagemang.         </p>
+     <p className=" text-left"> Alla betalningar hanteras säkert via Frilans Finans, vilket garanterar 100 % skatteefterlevnad och professionell fakturering.
         </p>
       </div>
 
    
       <div className=" pb-5 ">
-        <h3 className=" mb-4 text-[24px]  text-left">A place for your zone</h3>
+        <h3 className=" mb-4 text-[24px]  text-left">En plats för din zon</h3>
         <p className=" text-left pb-4">
-        At Zone 90, we provide more than just digital solutions—we create a space where your brand can thrive. Our mission is to help businesses establish a strong online presence, connect with their audience, and achieve long-term success.
-        </p >
-        <p className=" pb-4 ">You’re not just a client; you’re part of the journey. Through collaboration, we ensure you're involved in every step, from concept to launch. With our user-centered approach, you don’t just get a website—you experience the process, provide input, and see real progress.</p>
-     <p className=" pb-4 ">We prioritize transparency, creativity, and seamless execution, giving you full control while ensuring results you’re proud of.</p>
+På Zone 90 erbjuder vi mer än digitala lösningar – vi skapar en plats där ditt varumärke kan växa. Vårt mål är att hjälpa företag att etablera en stark online-närvaro, bygga relationer med sin målgrupp och nå långsiktig framgång.        </p >
+        <p className=" pb-4 ">Du är inte bara en kund – du är en del av resan. Genom nära samarbete säkerställer vi att du är med i varje steg, från idé till lansering. Med vårt användarcentrerade arbetssätt får du inte bara en webbplats – du upplever processen, ger input och ser verkliga framsteg.
 
-<p className=" pb-4 ">Contact us today to start building a website that not only meets your expectations but exceeds them. Let's create something exceptional together!</p>
+        </p>
+     <p className=" pb-4 ">Vi prioriterar transparens, kreativitet och smidig leverans, vilket ger dig full kontroll och resultat du kan vara stolt över.</p>
+
+<p className=" pb-4 ">Kontakta oss idag för att börja bygga en webbplats som inte bara uppfyller dina förväntningar utan överträffar dem. Låt oss skapa något extraordinärt tillsammans!</p>
 
       </div>
       
 
     <Link
-  href="/service"
+  href="/tjanster"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
  role="button"
@@ -119,7 +118,7 @@ export default function About() {
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-       Our services
+      Våra tjänster
   </span>
 
   {/* Arrow - appears on hover */}
@@ -127,7 +126,7 @@ export default function About() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
 

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zone 90 » Creative Web Development & Design Consulting",
+  title: "Zone 90 » Webbdesigner i Stockholm",
   description:
     "Zone 90 is your creative partner in modern web development, UX/UI design, and digital innovation. Built by Marah Kn to power tomorrow’s digital experiences.",
 };
@@ -25,13 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
      <head>
   {/* Basic Meta Tags */}
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zone 90 » Creative web development & design consulting in Sweden & globally</title>
-  <meta
-    name="description"
-    content="Zone 90 is a Stockholm-based creative web design and development consultancy. We build modern websites, optimize UX/UI, and deliver SEO-ready solutions for businesses in Sweden and worldwide."
-  />
+  
   <link rel="canonical" href="https://zone90.se/" />
 
   {/* Favicons */}

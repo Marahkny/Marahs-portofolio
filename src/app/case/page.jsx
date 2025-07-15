@@ -14,7 +14,7 @@ export default function About() {
     },
     {
       title: "Framsteg förening",
-      category: "WordPress website & brand",
+      category: "WordPress webbplats & brand",
       image: "/photos/project-1.png",
       link: "/case/framsteg",
     },
@@ -42,10 +42,9 @@ export default function About() {
 
       <section className="text-[#F5F5F5] h-full pt-20 pb-10 px-6">
         <div className="max-w-8xl mx-auto text-left">
-          <h1 className="mb-6">Some of our cases</h1>
+          <h1 className="mb-6">Kundcase</h1>
           <p>
-            We continuously update our cases. Reach out for a digital fika to
-            pitch your idea!
+            Vi uppdaterar kontinuerligt våra case. Hör av dig för en digital fika och pitcha din idé!
           </p>
         </div>
       </section>

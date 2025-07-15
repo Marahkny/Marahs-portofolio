@@ -8,15 +8,15 @@ const Steps = () => {
     "User research",
     "User testing",
     "UI/UX design",
-    "Wireframing",
-    "Prototyping",
-    "Graphic design",
+    "Wireframes",
+    "Prototyper",
+    "Grafisk design",
     "Copywriting",
     "SEO",
     "WordPress",
-    "WooCommerce",
-    "Frontend development",
-    "Social media",
+    "E-handel",
+    "Frontendutveckling",
+    "Sociala media",
   ];
   
 

@@ -1,12 +1,12 @@
 "use client";
-import Services from "./services";
+import Services from "./services"
 import { HiArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
 import Zone90Section from "../Home/zone90secation";
 import Head from "next/head";
 import Image from "next/image";
 
-export default function About() {
+export default function tjanster() {
   return (
     <>
       <Head>
@@ -29,21 +29,17 @@ export default function About() {
 
       <section className="text-[#F5F5F5] h-full py-20 px-6">
         <div className="max-w-8xl mx-auto text-left">
-          <h1 className="mb-10">Our services</h1>
+          <h1 className="mb-10">Våra tjänster</h1>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-10">
             <div className="md:w-1/2 text-left item-start">
               <p className="mb-10 text-gray-300">
-                From intuitive UI/UX design to seamless web development,
-                effective SEO, and compelling content, we ensure that every step
-                of your digital journey is optimized for success. Need a digital
-                service that stands out? Want to attract more customers and
-                improve your online visibility? We help you turn ideas into
-                impactful digital experiences that drive real results.
+            Från intuitiv UI/UX-design till sömlös webbutveckling, effektiv SEO och engagerande innehåll – vi ser till att varje steg i din digitala resa är optimerat för framgång.
+Behöver du en digital tjänst som sticker ut? Vill du locka fler kunder och förbättra din synlighet online? Vi hjälper dig att förvandla idéer till digitala upplevelser som ger verkliga resultat.
               </p>
              
      <Link
-  href="/contact"
+  href="/kontakt"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
   role="button"
@@ -53,7 +49,7 @@ export default function About() {
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-      Contact Zone 90
+      Kontakt Zone 90
   </span>
 
   {/* Arrow - appears on hover */}
@@ -61,7 +57,7 @@ export default function About() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>            
             </div>

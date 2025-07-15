@@ -13,18 +13,17 @@ export default function Section() {
     {/* Vänster sektion */}
     <div className="md:w-[40%] px-6 flex flex-col items-start">
       <h2 className="text-left">
-        From your vision 
+        Från vision till verklighet
       </h2>
 
       <p className="text-left text-gray-300 mt-6 leading-relaxed">
-        We turn your passion and ideas into powerful digital products. We listen closely to your vision and work tirelessly to bring it to life in a way that helps your brand shine and succeed. Our focus is on creating impactful, tailored solutions that not only meet your needs but exceed your expectations.
-      </p>
+Vi förvandlar din passion och dina idéer till digitala lösningar som gör skillnad. Genom att lyssna noga på din vision skapar vi skräddarsydd webbdesign som stärker ditt varumärke och driver resultat. Vårt mål är att inte bara möta dina behov – utan att överträffa dina förväntningar.      </p>
 
       <div className="pt-6 w-full">
 
 
   <Link
-  href="/about"
+  href="/omzone90"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
  aria-label="Learn more about Zone 90"
@@ -34,7 +33,7 @@ export default function Section() {
   <span
     className="inline-flex  text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-     Want to know more?
+     Vill du veta mer?
   </span>
 
   {/* Arrow - appears on hover */}
@@ -42,7 +41,7 @@ export default function Section() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
 
@@ -89,18 +88,17 @@ export default function Section() {
     {/* Vänster sektion - Text */}
     <div className="md:w-[40%] px-6 flex flex-col justify-center">
       <h2 className="text-left ">
-       Real results
+       Resultat som syns
       </h2>
 
       <p className="text-left text-gray-300 pt-6 leading-relaxed">
-        Zone 90 delivers high-quality digital solutions in web development and design. Our expertise spans web development, UI/UX design, SEO, and graphic design—creating impactful, results-driven experiences. Whether it's a sleek website, a complex platform, or a custom  digital solution, we combine creativity and precision to bring your vision to life.
-      </p>
+Zone 90 levererar högkvalitativa digitala lösningar inom webbutveckling och design. Med expertis inom webbutveckling, UI/UX-design, SEO och grafisk design skapar vi upplevelser som gör intryck och ger resultat. Oavsett om det handlar om en stilren webbplats, en avancerad plattform eller en skräddarsydd digital lösning.      </p>
 
       <div className=" pt-6">
  
 
   <Link
-  href="/service"
+  href="/tjanster"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
  aria-label="Explore our services"
@@ -110,7 +108,7 @@ export default function Section() {
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-     Our services
+     Våra tjänster
   </span>
 
   {/* Arrow - appears on hover */}
@@ -118,7 +116,7 @@ export default function Section() {
     className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
-    <HiArrowSmallRight  className="text-[#F5F5F5] text-[26px] items-center" />
+    <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
       </div>

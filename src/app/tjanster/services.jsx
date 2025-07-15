@@ -6,72 +6,72 @@ import { FaFacebookF } from "react-icons/fa";
 const services = [
   {
     title: "UI/UX design",
-    description: "We create user-friendly and visually compelling web experiences",
+    description: "Vi skapar användarvänliga och visuellt tilltalande webbupplevelser i Figma",
     icon: <SiAdobeindesign className="text-[40px] text-[#3B429F] mb-6" />,
     features: [
-      "User research and personas",
-      "Wireframing and prototyping",
-      "Interaction Design",
-      "Design system"
+      "User research och personas",
+      "Wireframes & prototyper",
+      "Interaktionsdesign",
+      "Designsystem"
     ],
     knapp: "ui/ux design"
   },
   {
-    title: "Web development",
-    description: "We build responsive and high-performing frontend solutions",
+    title: "Webbutveckling",
+    description: "Vi bygger responsiva och högpresterande frontend-lösningar och Wordpress webbplatser",
     icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" />,
     features: [
-      "Modern frontend frameworks",
-      "Responsive design",
-      "Performance optimization",
-      "Scalability and security"
+      "Moderna frontend-ramverk",
+      "Responsiv design",
+      "Prestandaoptimering",
+      "Skalbarhet & säkerhet"
     ],
     knapp: "web development"
   },
   {
-    title: "SEO & analysis",
-    description: "We help you rank higher and improve your online visibility",
+    title: "SEO & analys",
+    description: "Vi hjälper dig att klättra i sökresultaten och förbättra din digitala synlighet",
     icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6" />,
     features: [
-      "Keyword research",
+      "Sökordsanalys",
       "On-page SEO",
-      "Technical SEO",
-      "Analytics & reporting"
+      "Teknisk SEO",
+      "Analys & rapportering"
     ],
     knapp: "seo & analysis"
   },
   {
     title: "Copywriting",
-    description: "We craft engaging and impactful content that resonates with your audience",
+    description: "Vi skapar innehåll som engagerar och påverkar din målgrupp",
     icon: <SiContentful className="text-[40px] text-[#3B429F] mb-6" />,
     features: [
-      "SEO-friendly content",
-      "Brand storytelling",
-      "Conversion-focused writing",
-      "Editing & proofreading"
+      "SEO-optimerade texter",
+      "Varumärkesberättande",
+      "Säljdrivande copy",
+      "Redigering & korrektur"
     ],
     knapp: "copywriting"
   },
   {
-    title: "Graphic design",
+    title: "Grafisk design",
     description: "We create visually stunning designs that enhance brand identity",
     icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" />,
     features: [
-      "Logos ",
-      "Branding",
-      "Marketing materials",
-      "UI graphics"
+      "Logotyper",
+      "Visuell identitet & branding",
+      "Marknadsföringsmaterial",
+      "UI-grafik"
     ],
-    knapp: "graphic design"
+    knapp: "Grafisk design"
   },
   {
-    title: "Social Media",
-    description: "We help you grow your brand with engaging content and strategic marketing.",
+    title: "Sociala Media",
+    description: "Vi hjälper dig att växa på sociala medier med strategiskt och engagerande innehåll",
     icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6" />, 
     features: [
-      "Content creation & scheduling",
-      "Social media strategy",
-      "Reels",
+      "Innehållsskapande & publiceringsplan",
+      "Strategi för sociala medier",
+      "Reels & videoformat",
       "Community management"
     ],
     knapp: "social media"

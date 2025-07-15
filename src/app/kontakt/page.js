@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 
-const Contact = () => {
+const Kontakt = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -89,9 +89,9 @@ const Contact = () => {
         <div className="md:w-1/3 text-left">
           <h1 className="mb-4">Say hi!</h1>
           <p className="text-gray-300 mb-6">
-            Fill out the form, and we will get back to you.
+           Fyll i formuläret så återkommer vi till dig.
           </p>
-          <p className="text-gray-300 mb-1">Or contact us via</p>
+          <p className="text-gray-300 mb-1">Eller kontakta oss via</p>
           <a
             href="mailto:contact@zone90.se"
             className="hover:underline hover:decoration-[#F5F5F5]"
@@ -101,12 +101,12 @@ const Contact = () => {
         </div>
 
         <div className="md:w-2/3">
-          <p className="text-[20px] pb-10">Contact form</p>
+          <p className="text-[20px] pb-10">Kontaktformulär</p>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-gray-300 mb-1">
-                  First name <span className="text-[#F5F5F5]">*</span>
+                  Förnamn <span className="text-[#F5F5F5]">*</span>
                 </label>
                 <input
                   type="text"
@@ -119,7 +119,7 @@ const Contact = () => {
               </div>
               <div>
                 <label className="block text-gray-300 mb-1">
-                  Last name <span className="text-[#F5F5F5]">*</span>
+                  Efternamn <span className="text-[#F5F5F5]">*</span>
                 </label>
                 <input
                   type="text"
@@ -135,7 +135,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-gray-300 mb-1">
-                  Email <span className="text-[#F5F5F5]">*</span>
+                  E-post <span className="text-[#F5F5F5]">*</span>
                 </label>
                 <input
                   type="email"
@@ -147,7 +147,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="block text-gray-300 mb-1">Phone</label>
+                <label className="block text-gray-300 mb-1">Telefon</label>
                 <input
                   type="tel"
                   name="phone"
@@ -160,7 +160,7 @@ const Contact = () => {
 
             <div>
               <label className="block text-gray-300 mb-1">
-                Describe what you need help with{" "}
+               Beskriv vad du behöver hjälp med{" "}
                 <span className="text-[#F5F5F5]">*</span>
               </label>
               <textarea
@@ -183,7 +183,7 @@ const Contact = () => {
                 required
               />
               <label className="text-gray-300">
-                I have read and accept the privacy policy
+                Jag har läst och accepterar integritetspolicy.
               </label>
             </div>
 
@@ -192,7 +192,7 @@ const Contact = () => {
               className="w-full bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 rounded-full transition"
               disabled={loading}
             >
-              {loading ? "Sending..." : "Send"}
+              {loading ? "Skickar..." : "Skicka"}
             </button>
 
             {success && (
@@ -205,4 +205,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Kontakt;
