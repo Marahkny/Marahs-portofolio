@@ -2,23 +2,22 @@ import { FiCheckCircle } from "react-icons/fi";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import Zone90Section from '../Home/zone90secation';
 import Link from "next/link";
-import Head from 'next/head';
+
 import Image from "next/image";
 
+export const metadata = {
+  title: "Zone 90 » om Zone 90",
+  description: "Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösningar.",
+  openGraph: {
+    title: "Zone 90 – Om Zone 90",
+    description: "Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösningar",
+    images: ["/photos/logo90.png"],
+  },
+};
 export default function OmZone90() {
   return (
     <>
-    <Head>
-  <title>Zone 90 » om Zone 90</title>
-  <meta name="description" content="Learn more about Zone 90 – a digital consulting service helping businesses grow through web design, development, and SEO." />
-  <meta property="og:title" content="Zone 90 – About Zone 90" />
-  <meta property="og:description" content="Explore our journey and services. Zone 90 provides creative web development, UI/UX design, SEO and more." />
-  <meta property="og:image" content="/photos/logo90.png" />
-  <meta property="og:type" content="website" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="/photos/logo90.png" />
-  <link rel="canonical" href="https://zone90.se/about" />
-</Head>
+
 
     <section className=" text-[#F5F5F5] h-full pt-20 px-6">
       <div className="max-w-8xl mx-auto text-left">

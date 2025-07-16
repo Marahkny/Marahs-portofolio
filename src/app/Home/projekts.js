@@ -60,7 +60,7 @@ function ProjectCard({ imgSrc, title, desc, link }) {
             <p className="text-gray-300">{desc}</p>
           </div>
           <div className="flex items-center gap-2 group pr-2 cursor-pointer">
-            <p className="text-[16px] text-gray-300">Se mer</p>
+            <p className="text-[16px] text-gray-300">Visa</p>
             <HiArrowSmallRight className="text-[#F5F5F5] text-[24px] transition-transform duration-300  group-hover:translate-x-2" aria-hidden="true" />
           </div>
         </div>

@@ -20,11 +20,11 @@ export default function Info() {
         {/* Center Text */}
         <div className="flex flex-col items-center justify-center text-center py-20 px-6 max-w-3xl mx-auto">
           <h3 >
-            With focus on seamless user experience
+            Med fokus på en sömlös användarupplevelse
           </h3>
           <p className="mt-5 text-white leading-relaxed">
-            Techno is designed with a user-first approach, ensuring an intuitive and seamless interaction with the interface. Our platform caters to students, developers, and small to medium-sized businesses, offering a modern and elegant digital experience. The new website is built to combine sleek design with a hassle-free shopping process, making every step smooth, efficient, and enjoyable.
-          </p>
+Techno är utvecklad med ett användarcentrerat fokus för att säkerställa en intuitiv och smidig upplevelse. Plattformen riktar sig till studenter, utvecklare samt små och medelstora företag – och erbjuder en modern, elegant och funktionell digital miljö.
+Den nya webbplatsen kombinerar stilren design med en friktionsfri köpprocess där varje steg är enkelt, effektivt och engagerande.          </p>
         </div>
 
         {/* Full-width Hero Section */}
@@ -40,7 +40,7 @@ export default function Info() {
 />
           <div className="absolute inset-0 bg-black/70" />
           <h2 className="absolute  px-6 text-center max-w-3xl">
-            Tech that you'll love
+            Teknik att älska
           </h2>
         </div>
       </section>
@@ -63,17 +63,17 @@ export default function Info() {
           <div className="space-y-6">
             <h3 className="text-[#121212] ">Brand guide</h3>
             <p className="text-[#121212] leading-relaxed">
-              Techno brand is built on simplicity, clarity, and a user-first approach. The carefully curated color palette reflects a modern and professional aesthetic. The typography is chosen to enhance readability and usability across all devices.
-            </p>
+Technos varumärke bygger på enkelhet, tydlighet och ett användarcentrerat tänk. Den noggrant utvalda färgpaletten speglar en modern och professionell känsla, medan typografin är vald för att maximera läsbarhet och användarvänlighet på alla enheter.            </p>
           </div>
         </div>
 
         {/* Icon design */}
         <div className="max-w-8xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
-            <h3 className=" text-[#121212] ">Icon design</h3>
+            <h3 className=" text-[#121212] ">Icondesign</h3>
             <p className="text-[#121212] leading-relaxed">
-              Techno icons are meticulously designed to align with our technological vision. They enhance usability and reinforce our brand identity. Each icon is crafted to be intuitive and visually consistent, bridging the gap between aesthetics and functionality.
+Technos ikoner är noggrant utformade för att spegla vår teknologiska vision. De stärker användarupplevelsen och förtydligar varumärkesidentiteten. Varje ikon är designad för att vara intuitiv, enhetlig och balansera estetik med funktionalitet.
+
             </p>
           </div>
           <div className="flex justify-center">
@@ -89,7 +89,7 @@ export default function Info() {
 
         {/* Final design */}
         <div className="max-w-8xl mx-auto space-y-6">
-          <h3 className=" text-[#121212] ">Product final design</h3>
+          <h3 className=" text-[#121212] ">Färdig produktdesign</h3>
           <div className="flex justify-start">
           <Image
   src="/photos/protoyp.png"

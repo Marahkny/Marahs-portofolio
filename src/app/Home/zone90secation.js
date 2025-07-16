@@ -22,7 +22,7 @@ Låt oss ta en digital fika – och förvandla dina idéer till resultat. </p>
   <span
     className="inline-flex items-center text-[#F5F5F5] transition-all duration-300 group-hover:-translate-x-4 "
   >
-     Kontakta Zone 90
+     Kontakt Zone 90
   </span>
 
   {/* Arrow - appears on hover */}

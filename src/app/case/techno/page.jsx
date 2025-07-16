@@ -23,7 +23,7 @@ export default function Techno() {
       <section className="px-6 pt-20">
         <h1 >Techno</h1>
         <p className="pt-5 text-2xl text-gray-300">
-          An e-commerce tech platform
+          En e-handelsplattform
         </p>
       </section>
 
@@ -45,32 +45,27 @@ export default function Techno() {
           <div>
             <h2 >Overview</h2>
             <p className="mt-6 text-gray-300 lg:w-[80%] md:w-full leading-relaxed">
-              The Techno website is an e-commerce platform built with a strong
-              focus on technology and user experience. The goal of this project
-              was to design a visually appealing, modern, and efficient website
-              that provides an intuitive shopping experience. The aim was to
-              seamlessly integrate clean design principles with a smooth user
-              journey, ensuring that customers could easily navigate through the
-              platform while engaging with its content and products.
+     Techno är en e-handelsplattform utvecklad med starkt fokus på teknik, design och användarvänlighet. Målet med projektet var att skapa en modern, visuellt tilltalande och effektiv webbplats som erbjuder en smidig och intuitiv shoppingupplevelse.
+Designen bygger på tydliga, rena principer som tillsammans med en välstrukturerad användarresa gör det enkelt för kunder att navigera, utforska produkter och interagera med innehållet på plattformen.
             </p>
           </div>
 
           {/* Höger kolumn */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl ">Case client</h3>
+              <h3 className="text-2xl ">Kundcase</h3>
               <p className="text-gray-300">Techno</p>
             </div>
             <div>
-              <h3 className="text-2xl">When</h3>
-              <p className="text-gray-300">June – July 2024</p>
+              <h3 className="text-2xl">När</h3>
+              <p className="text-gray-300">Juni – juli 2024</p>
             </div>
             <div>
-              <h3 className="text-2xl ">What</h3>
+              <h3 className="text-2xl ">Vad</h3>
               <p className="text-gray-300">Brand & UI/UX design</p>
             </div>
             <div>
-              <h3 className="text-2xl ">Visit</h3>
+              <h3 className="text-2xl "> Besök</h3>
               <a
                 href="https://www.figma.com/proto/pOWFMhv3VEgEDve2R6JBAN/Marah?node-id=1-3&t=7Fp10u7beXkOZA7d-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3"
                 target="_blank"

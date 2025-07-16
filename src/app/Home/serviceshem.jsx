@@ -37,7 +37,7 @@ const services = [
 export default function ServicesHem() {
   return (
     <div className="max-w-8xl  mx-auto px-6 py-20 text-left">
-      <h2 className="mb-6">Tools för din tillväxt</h2>
+      <h2 className="mb-6">Tools att växa smart</h2>
 <p className="mb-6">Vi jobbar med ett användarcentrerat webbfokus där användaren är en självklar del av designprocessen</p>
       <section className="pb-16">
         <div className=" mx-auto">
