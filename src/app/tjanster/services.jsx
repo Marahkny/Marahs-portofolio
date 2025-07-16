@@ -1,7 +1,6 @@
 import { FiCheckCircle } from "react-icons/fi";
 import { SiAdobeindesign, SiReact, SiGoogleanalytics, SiContentful, SiAffinitydesigner } from "react-icons/si";
-import Link from "next/link";
-import { LiaArrowRightSolid } from "react-icons/lia";
+
 import { FaFacebookF } from "react-icons/fa";
 const services = [
   {
