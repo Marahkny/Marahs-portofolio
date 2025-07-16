@@ -86,7 +86,7 @@ const Head = () => {
 
         <div className="flex gap-2.5">
           <Link
-            href="/contact"
+            href="/kontakt"
             className=" relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
             title="Contact"
           >
@@ -152,7 +152,7 @@ const Head = () => {
 
             <div className="flex gap-2.5">
               <Link
-                href="/contact"
+                href="/kontakt"
                 className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
                 title="Contact"
                 onClick={toggleMenu}
@@ -186,7 +186,7 @@ const Head = () => {
 
           <div className="flex flex-col py-40 items-center space-y-6 text-white">
             <Link
-              href="/service"
+              href="/tjanster"
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >
@@ -200,7 +200,7 @@ const Head = () => {
               Kundcase
             </Link>
             <Link
-              href="/about"
+              href="/omzone90"
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
               onClick={toggleMenu}
             >

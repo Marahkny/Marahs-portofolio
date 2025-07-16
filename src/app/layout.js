@@ -26,7 +26,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://zone90.se",
-    title: "Zone 90 » Webbdesign och webbutveckling och  i Stockholm",
+    title: "Zone 90 » Webbdesign och webbutveckling i Stockholm",
     description:
       "Kreativa webblösningar för startups och företag. Baserad i Stockholm, arbetar globalt.",
     images: [
@@ -40,7 +40,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zone 90 » Webbdesign och webbutveckling och  i Stockholm",
+    title: "Zone 90 » Webbdesign och webbutveckling i Stockholm",
     description:
       "Kreativa webblösningar för startups och företag. Baserad i Stockholm, arbetar globalt.",
     images: ["https://zone90.se/photos/logo90.png"],

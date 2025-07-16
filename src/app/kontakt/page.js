@@ -1,7 +1,7 @@
 import Kontaktsida from "./kontaktsida.js"
 
 export const metadata = {
-  title: "Zone 90 » Kontakt",
+  title: "Zone 90 » Kontakt zone 90",
   description:
     "Kontakta Zone 90 – vi finns här för att hjälpa ditt företag växa. Hör av dig för webbutveckling, SEO och digital strategi.",
   openGraph: {
