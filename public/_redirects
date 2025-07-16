@@ -6,8 +6,8 @@ https://www.zone90.se/*  https://zone90.se/:splat     301
 # 🔧 Specifika sidor med problem enligt Search Console
 /case/techno            https://www.zone90.se/case/techno     301
 /case/framsteg          https://www.zone90.se/case/framsteg   301
-/about                  https://www.zone90.se/omzone90           301
+/omzone90                  https://www.zone90.se/omzone90           301
 /framsteg               https://www.zone90.se/framsteg        301
 /techno                 https://www.zone90.se/techno          301
-/service                https://www.zone90.se/tjanster         301
-/contact                https://www.zone90.se/kontakt         301
+/tjanster                https://www.zone90.se/tjanster         301
+/kontakt                https://www.zone90.se/kontakt         301
