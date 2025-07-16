@@ -15,6 +15,9 @@ export const metadata = {
   alternates: {
     canonical: "https://zone90.se/kontakt",
   },
+    other: {
+  keywords: "kontakt zone 90 i Stockholm"
+}
 };
 
 export default function Page() {

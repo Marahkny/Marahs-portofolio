@@ -15,7 +15,11 @@ export const metadata = {
   alternates: {
     canonical: "https://zone90.se/",
   },
+    other: {
+  keywords: "webbdesgn, webbutveckling i stockholm"
+}
 };
+
 
 export default function Page() {
   return <Home />;

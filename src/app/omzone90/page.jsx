@@ -13,6 +13,9 @@ export const metadata = {
     description: "Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösningar",
     images: ["/photos/logo90.png"],
   },
+  other: {
+  keywords: "Om zone 90, webbutveckling i stockholm"
+}
 };
 export default function OmZone90() {
   return (

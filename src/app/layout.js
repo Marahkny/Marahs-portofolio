@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zone 90 » Webbdesigner i Stockholm",
+  title: "Zone 90 » Webbdesign och webbutveckling och  i Stockholm",
   description:
-    "Zone 90 är din kreativa partner inom modern webbutveckling, UX/UI-design och digital innovation. Skapad av Marah Kn för att driva framtidens digitala upplevelser.",
+    "Zone 90 är din kreativa partner inom modern webbutveckling, UX/UI-design och digital innovation.",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -26,7 +26,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://zone90.se",
-    title: "Zone 90 » Kreativ webbutveckling & designkonsult",
+    title: "Zone 90 » Webbdesign och webbutveckling och  i Stockholm",
     description:
       "Kreativa webblösningar för startups och företag. Baserad i Stockholm, arbetar globalt.",
     images: [
@@ -40,7 +40,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zone 90 » Kreativ webbutveckling & designkonsult",
+    title: "Zone 90 » Webbdesign och webbutveckling och  i Stockholm",
     description:
       "Kreativa webblösningar för startups och företag. Baserad i Stockholm, arbetar globalt.",
     images: ["https://zone90.se/photos/logo90.png"],
@@ -51,8 +51,8 @@ export const metadata = {
     apple: "/photos/logo90.png",
   },
   other: {
-    // Schema.org kan du lägga som script direkt i layouten om du vill.
-  },
+  keywords: "webbdesign, webbutveckling, UX, UI, Stockholm, digital byrå"
+}
 };
 
 export default function RootLayout({ children }) {

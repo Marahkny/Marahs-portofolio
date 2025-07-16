@@ -23,6 +23,9 @@ export const metadata = {
   alternates: {
     canonical: "https://zone90.se/case",
   },
+    other: {
+  keywords: "zone 90 kundcase, webbutveckling"
+}
 };
 
 export default function Page() {
