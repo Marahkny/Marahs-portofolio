@@ -20,20 +20,19 @@ export default function Footer() {
       alt="Zone 90 logo"
       width={500}  
       height={500} 
-      className="w-[40%] h-auto"
+      className="w-[50%] h-auto"
     />
           </Link>
         
           <p className="text-[#121212] leading-relaxed pt-5 max-w-md">
-          Din Zone för webb- och designlösningar i Stockholm.
+        Din Zone för smarta webb- och designlösningar i Stockholm. Grundat 2025 av Marah med fokus på moderna, optimerade och trygga lösningar.
           </p>
           
         </div>
 
         {/* NAVIGATION */}
         <nav aria-label="Footer Navigation">
-          <h4 className="text-xl mb-5 text-[#121212]">Mer från Zone 90</h4>
-          <ul className="space-y-1 text-sm text-gray-400">
+          <ul className="space-y-1 text-sm text-gray-300">
             <li>
               <Link
                 href="/tjanster"
