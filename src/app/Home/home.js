@@ -20,14 +20,13 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-15 text-center pt-20 max-w-6xl">
+        <div className="relative z-15 text-center pt-20 max-w-4xl">
 
           <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[80px] xl:text-[90px] font-[800]">
-          Webbdesign som konverterar din zone </h1>
+          Webbdesign för företag i Stockholm </h1>
 
           <p className="text-gray-300 max-w-3xl mx-auto">
-Zone 90 utvecklar smarta webb- och designlösningar som skapar affärsresultat i Stockholm
-          </p>
+Vi bygger skräddarsydd hemsidor som syns på Google, konverterar och skapar affärsnytta.          </p>
 
           {/* Call to Action */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
