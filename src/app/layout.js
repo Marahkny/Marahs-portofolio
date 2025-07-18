@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zone 90 » Webbdesign och webbutveckling i Stockholm",
+  title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
   description:
-    "Zone 90 är din kreativa partner inom modern webbutveckling, UX/UI-design och digital innovation.",
+    "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -26,9 +26,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://zone90.se",
-    title: "Zone 90 » Webbdesign och webbutveckling i Stockholm",
+    title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
     description:
-      "Kreativa webblösningar för startups och företag. Baserad i Stockholm, arbetar globalt.",
+      "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
     images: [
       {
         url: "https://zone90.se/photos/logo90.png",
@@ -40,9 +40,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zone 90 » Webbdesign och webbutveckling i Stockholm",
+    title: "Webbdesign & webbutveckling i Stockholm",
     description:
-      "Kreativa webblösningar för startups och företag. Baserad i Stockholm, arbetar globalt.",
+      "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
     images: ["https://zone90.se/photos/logo90.png"],
   },
   icons: {
@@ -51,7 +51,7 @@ export const metadata = {
     apple: "/photos/logo90.png",
   },
   other: {
-  keywords: "webbdesign, webbutveckling, UX, UI, Stockholm, digital byrå"
+keywords: "webbdesign Stockholm, UX design Stockholm, UI design företag, hemsida för företag, skapa hemsida Stockholm, WordPress hemsida, responsiv design, webbutveckling, SEO för småföretag, digital strategi, Zone 90"
 }
 };
 
@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
               logo: "https://zone90.se/photos/logo90.png",
               image: "https://zone90.se/photos/logo90.png",
               description:
-                "Kreativ webbdesign, utveckling och SEO från Stockholm till världen. Zone 90 bygger smarta, responsiva och användarfokuserade digitala lösningar.",
+                "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Stockholm",
