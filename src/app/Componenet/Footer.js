@@ -37,17 +37,17 @@ export default function Footer() {
               <Link
                 href="/tjanster"
                 className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                aria-label="Go to services page"
-                title="Services"
+                aria-label="Läs mer om våra tjanster"
+                title="Våra tjänster"
               >
-                Våra tjänster
+                Tjänster
               </Link>
             </li>
             <li>
               <Link
                 href="/case"
  className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                aria-label="Go to case studies page"
+                aria-label="Se om om kundcase"
                 title="Case"
               >
                 Kundcase
@@ -57,8 +57,8 @@ export default function Footer() {
               <Link
                 href="/omzone90"
  className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                aria-label="Learn more about Zone 90"
-                title="About"
+                aria-label="Läs mer om Zone 90"
+                title="om zone 90"
               >
                 Om Zone 90
               </Link>
@@ -67,7 +67,7 @@ export default function Footer() {
               <Link
                 href="/kontakt"
  className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"                aria-label="Contact Zone 90"
-                title="Contact"
+                title="Kontakt"
               >
                 Kontakt
               </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
               href="mailto:contact@zone90.se"
               className="text-[#3B429F] font-[500] hover:decoration-[#3B429F]   hover:underline  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Send an email to contact@zone90.se"
-              title="Send email"
+              title="Skicka e-post"
             >
               contact@zone90.se
             </a>
@@ -105,7 +105,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className=" p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Visit our LinkedIn page"
-              title="LinkedIn"
+              title="Facebook"
             >
               <TfiFacebook className="text-[26px] text-[#3B429F]" aria-hidden="true" />
             </a>

@@ -33,15 +33,15 @@ const Head = () => {
         <div className="flex items-center space-x-6 ">
           <Link
             href="/tjanster"
-            aria-label="Go to services page"
-            title="Services"
+            aria-label="läs mer om våra tjänster"
+            title="Våra tjänster"
             className="relative inline-block font-[500] text-[#F5F5F5] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
           >
             Tjänster
           </Link>
          <Link
   href="/case"
-  aria-label="Go to case studies page"
+  aria-label="läs mer om kundcase"
   title="Case"
   className="relative inline-block font-[500] text-[#F5F5F5] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
 >
@@ -50,16 +50,16 @@ const Head = () => {
 
           <Link
             href="/omzone90"
-            aria-label="Learn more about Zone 90"
-            title="About"
+            aria-label="läs mer om oss"
+            title="Om zone 90"
             className="relative inline-block text-[#F5F5F5] font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
           >
             Om Zone 90
           </Link>
           <Link
             href="/kontakt"
-            aria-label="Contact Zone 90"
-            title="Contact"
+            aria-label="Kontakt Zone 90"
+            title="Kontakt"
             className="relative inline-block font-[500] text-[#F5F5F5] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#F5F5F5] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
             role="button"
           >
@@ -88,7 +88,7 @@ const Head = () => {
           <Link
             href="/kontakt"
             className=" relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
-            title="Contact"
+            title="Kontakt"
           >
             Kontakt
           </Link>
@@ -154,7 +154,7 @@ const Head = () => {
               <Link
                 href="/kontakt"
                 className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full pt-2 "
-                title="Contact"
+                title="kontakt"
                 onClick={toggleMenu}
               >
                 Kontakt

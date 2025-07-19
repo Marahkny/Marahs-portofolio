@@ -26,8 +26,8 @@ Vi förvandlar din passion och dina idéer till digitala lösningar som gör ski
   href="/omzone90"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
- aria-label="Learn more about Zone 90"
-    title="Want to know more?"
+ aria-label="Läs mer om zone 90"
+    title="vill du veta mer?"
     role="button"
 >
   <span
@@ -101,8 +101,8 @@ Zone 90 levererar högkvalitativa digitala lösningar inom webbutveckling och de
   href="/tjanster"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
- aria-label="Explore our services"
-  title="Our services"
+ aria-label="se våra tjänster"
+  title=" Våra tjänster"
   role="button"
 >
   <span

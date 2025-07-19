@@ -114,8 +114,8 @@ På Zone 90 erbjuder vi mer än digitala lösningar – vi skapar en plats där 
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
  role="button"
-  aria-label="Learn more about our services"
-  title="Our services"
+  aria-label="Läe mer om våra tjänster"
+  title="Våra tjänster"
 >
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "

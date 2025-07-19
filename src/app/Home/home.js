@@ -35,7 +35,7 @@ Vi bygger skräddarsydd hemsidor som syns på Google, konverterar och skapar aff
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
   aria-label="läs mer om våra tjänster"
-  title="tjänster"
+  title="Våra tjänster"
   role="button"
 >
   <span
@@ -57,7 +57,7 @@ Vi bygger skräddarsydd hemsidor som syns på Google, konverterar och skapar aff
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#B8336A] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
  aria-label="se mer om våra projekt"
-              title="projekt"
+              title="Kundcase"
               role="button"
 >
   <span

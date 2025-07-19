@@ -26,12 +26,15 @@ Upptäck ett urval av våra projekt som visar vår expertis inom webbutveckling,
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* 🟢 Första kolumnen - Oscillerar vid scroll */}
           <motion.div style={{ y: col1Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/project-2.png" title="Techno" desc="UI/UX design & brand" link="/case/techno" />
+            <ProjectCard imgSrc="/photos/swefurn.png" title="Swefurn" desc="WordPress webbplats & SEO" link="/case/swefurn"  />
           </motion.div>
 
           {/* 🟢 Andra kolumnen - Oscillerar vid scroll */}
           <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
             <ProjectCard imgSrc="/photos/project-1.png" title="Framsteg förening" desc="WordPress webbplats & brand" link="/case/framsteg" />
+          </motion.div>
+          <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
+            <ProjectCard imgSrc="/photos/project-2.png" title="Techno" desc="UI/UX design & brand" link="/case/techno" />
           </motion.div>
         </div>
       </div>

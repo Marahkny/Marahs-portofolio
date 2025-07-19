@@ -15,8 +15,8 @@ Låt oss ta en digital fika – och förvandla dina idéer till resultat. </p>
   href="/kontakt"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#B8336A] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
-  aria-label="Contact Zone 90"
-  title="Contact Zone 90"
+  aria-label="Kontakt Zone 90"
+  title="Kontakt Zone 90"
   role="button"
 >
   <span

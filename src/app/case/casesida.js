@@ -5,6 +5,12 @@ import Zone90Section from "../Home/zone90secation";
 
 export default function Casesida() {
   const cards = [
+         {
+      title: "Swefurn",
+      category: "WordPress webbplats & SEO",
+      image: "/photos/swefurn.png",
+      link: "/case/swefurn",
+    },
     {
       title: "Techno",
       category: "UI/UX design & brand ",
@@ -17,6 +23,7 @@ export default function Casesida() {
       image: "/photos/project-1.png",
       link: "/case/framsteg",
     },
+
   ];
 
   return (
