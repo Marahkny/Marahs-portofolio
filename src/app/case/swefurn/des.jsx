@@ -8,7 +8,7 @@ export default function Des() {
         <div className="flex justify-center px-6">
         <Image
   src="/photos/startsidaswefurn.png"
-  alt="Techno start page"
+  alt="swfurn wordpress hemsidan "
   width={800}  
   height={500} 
   
@@ -29,7 +29,7 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
         <div className="relative flex justify-center items-center w-full h-[500px] overflow-hidden">
         <Image
   src="/photos/Swefurn_Foxway-1.jpg"
-  alt="Techno full background"
+  alt="swefurn huvusidan"
   width={1920}  // Justera bredd vid behov (passande storlek för bakgrund)
   height={1080} // Justera höjd vid behov (passande storlek för bakgrund)
  
@@ -38,7 +38,7 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
 />
           <div className="absolute inset-0 bg-black/30" />
           <h2 className="absolute  px-6 text-center max-w-5xl">
-         Hållbara kontorsmöbler
+   Miljövänliga kontorsmöbler för moderna arbetsplatser
           </h2>
         </div>
       </section>
@@ -133,7 +133,7 @@ Att vara responsiv och anpassa designen för alla skärmstorlekar var i fokus, o
   <div className="flex-1">
     <Image
       src="/photos/swefurnchange.png"
-      alt="Bild 1"
+      alt="swefurnchange sidan"
      width={600}
       height={500}
       className="w-full h-auto  rounded-[20px] shadow-md"
@@ -144,7 +144,7 @@ Att vara responsiv och anpassa designen för alla skärmstorlekar var i fokus, o
   <div className="flex-1 mt-20">
     <Image
       src="/photos/navigation.png"
-      alt="Bild 2"
+      alt="swefurn meny "
        width={600}
       height={500}
       className="w-full h-auto rounded-[20px]  shadow-md"
@@ -155,7 +155,7 @@ Att vara responsiv och anpassa designen för alla skärmstorlekar var i fokus, o
   <div className="flex-1">
     <Image
       src="/photos/swefurn-pro.png"
-      alt="Bild 3"
+      alt="swefurn jobb"
       width={600}
       height={500}
       className="w-full h-auto rounded-[20px] shadow-md"
