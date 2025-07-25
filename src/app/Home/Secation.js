@@ -54,7 +54,7 @@ Vi förvandlar din passion och dina idéer till digitala lösningar som gör ski
     <div className="md:w-[60%] flex justify-center">
     <Image
   src="/photos/Zone.png"
-  alt="Illustration of digital collaboration"
+  alt="webbdesign Stockholm"
   width={800} 
   height={600} 
 
@@ -75,7 +75,7 @@ Vi förvandlar din passion och dina idéer till digitala lösningar som gör ski
 
 <Image
   src="/photos/web-design.jpg"
-  alt="working"
+  alt="webbdesign Stockholm"
   width={800} 
   height={600} 
 

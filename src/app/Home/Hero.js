@@ -21,7 +21,7 @@ export const metadata = {
     canonical: "https://zone90.se/",
   },
   other: {
-    keywords: "webbdesign, webbutveckling, SEO, Stockholm, digital strategi",
+    keywords: "webbdesign Stockholm, webbdesign, webbutveckling, SEO, Stockholm, digital strategi",
   },
 };
 
