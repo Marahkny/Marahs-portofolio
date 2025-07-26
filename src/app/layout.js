@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import Head from 'next/head';
 import Header from "./Componenet/header";
 import Footer from "./Componenet/Footer";
 import { Analytics } from "@vercel/analytics/react";
@@ -60,9 +59,11 @@ keywords: "webbdesign Stockholm, webbdesign  för företag, UX design Stockholm,
 export default function RootLayout({ children }) {
   return (
     <html lang="sv">
-         <Head>
-        {/* Google Analytics script */}
-        <Script
+
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+          <Script
           src={`https://www.googletagmanager.com/gtag/js?id=G-ME0HPVY5HG`}
           strategy="afterInteractive"
         />
@@ -74,10 +75,6 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-ME0HPVY5HG');
           `}
         </Script>
-      </Head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
         <Header />
         <main>{children}</main>
         <Analytics />
