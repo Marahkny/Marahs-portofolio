@@ -1,5 +1,4 @@
-
-import Casesida from "./casesida"
+import Casesida from "./casesida";
 
 export const metadata = {
   title: "Zone 90 » Kundcase",
@@ -16,16 +15,18 @@ export const metadata = {
   icons: {
     icon: "/photos/logo90.png",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
   alternates: {
     canonical: "https://zone90.se/case",
   },
-    other: {
-  keywords: "zone 90 kundcase, webbutveckling"
-}
+  other: {
+    keywords: "zone 90 kundcase, webbutveckling",
+  },
+};
+
+// Separat viewport-export enligt Next.js krav
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function Page() {
