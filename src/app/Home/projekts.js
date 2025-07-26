@@ -19,7 +19,7 @@ export default function Projects() {
       <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[60%] ml-0 max-w-8xl mx-auto px-6 z-10">
         <h2 className="text-left pb-6"> Kundcase</h2>
         <p className="text-gray-300 max-w-8xl">
-Upptäck ett urval av våra projekt som visar vår expertis inom webbutveckling, design och digital innovation.        </p>
+Upptäck ett urval av våra projekt som visar vår expertis inom webbdesign, webbutveckling och digital innovation.        </p>
       </div>
 
       <div ref={ref} className="max-w-8xl px-6 mx-auto pb-40 z-10">

@@ -22,7 +22,7 @@ export default function Home() {
         {/* Innehåll */}
         <div className="relative z-15 text-center pt-20 max-w-4xl">
 
-          <h1 className="mb-6  text-[40px] sm:text-[40px] md:text-[60px] lg:text-[80px] xl:text-[90px] font-[800]">
+          <h1 className="mb-6  text-[30px] sm:text-[30px] md:text-[60px] lg:text-[80px] xl:text-[90px] font-[800]">
           Webbdesign för företag i Stockholm </h1>
 
           <p className="text-gray-300 max-w-3xl mx-auto">

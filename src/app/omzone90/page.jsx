@@ -7,10 +7,10 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Zone 90 » om Zone 90",
-  description: "Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösningar.",
+  description: "Zone 90 är en kreativ konsulttjänst specialiserad på webbdesign och webbutveckling i Stockholm. Vi bygger detta nya hemsidan med fokus på ui, ux och tillänglighet.",
   openGraph: {
     title: "Zone 90 – Om Zone 90",
-    description: "Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösningar",
+    description: "Zone 90 är en kreativ konsulttjänst specialiserad på webbdesign och webbutveckling i Stockholm. Vi bygger detta nya hemsidan med fokus på ui, ux och tillänglighet.",
     images: ["/photos/logo90.png"],
   },
   other: {
@@ -56,7 +56,7 @@ Zone 90 är en kreativ konsulttjänst specialiserad på webb- och designlösning
 
           <Image
   src="/photos/progremering.png"
-  alt="Zone 90 team working"
+  alt="Zone 90 webbutveckling"
   width={800}
   height={500}
   className="rounded-[20px] w-full h-auto max-w-[800px]"

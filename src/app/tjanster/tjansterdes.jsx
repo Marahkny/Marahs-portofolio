@@ -39,7 +39,7 @@ export default function Tjansterdes() {
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/services.jpg"
-                alt="Zone 90 team working"
+                alt="Zone 90 webbdesign"
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"

@@ -11,7 +11,7 @@ export default function ZoneSec() {
       </h2>
    
     <p className="text-[18px] sm:text-[18px] text-left md:text-[24px] lg:text-[26px] pt-6 leading-relaxed">
-Zone 90 är en digital konsult inom webbdesign som kombinerar strategi, kreativ design och modern teknik för att skapa användarvänliga, snabba och effektiva digitala lösningar. Vi hjälper företag och organisationer att växa genom skräddarsydda webbplatser, stark visuell identitet och innovativ design. Från idé till färdig lansering förverkligar vi din vision med rätt verktyg, teknik och expertis.  </p> 
+Zone 90 är en digital konsult inom webbdesign och webbutveckling som kombinerar strategi, kreativ design och modern teknik för att skapa användarvänliga, snabba och effektiva digitala lösningar. Vi hjälper företag och organisationer i Stockholm att växa genom skräddarsydda webbplatser, stark visuell identitet och innovativ design. Från idé till färdig lansering förverkligar vi din vision med rätt verktyg, teknik och expertis.  </p> 
   </div>
 
  

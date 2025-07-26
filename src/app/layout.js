@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 import Header from "./Componenet/header";
 import Footer from "./Componenet/Footer";
 import { Analytics } from "@vercel/analytics/react";
@@ -18,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
   description:
-    "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
+    "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga och användarvänliga hemsidor med fokus på UX, UI och tillgänglighet.",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -28,7 +29,7 @@ export const metadata = {
     url: "https://zone90.se",
     title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
     description:
-      "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
+      "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga och användarvänliga hemsidor med fokus på UX, UI och tillgänglighet.",
     images: [
       {
         url: "https://zone90.se/photos/logo90.png",
@@ -51,13 +52,28 @@ export const metadata = {
     apple: "/photos/logo90.png",
   },
   other: {
-keywords: "webbdesign Stockholm, UX design Stockholm, UI design företag, hemsida för företag, skapa hemsida Stockholm, WordPress hemsida, responsiv design, webbutveckling, SEO för småföretag, digital strategi, Zone 90"
+keywords: "webbdesign Stockholm, webbdesign  för företag, UX design Stockholm, UI design företag, hemsida för företag, skapa hemsida Stockholm, WordPress hemsida, responsiv design, webbutveckling, SEO för småföretag, digital strategi, Zone 90"
 }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="sv">
+         <head>
+        {/* Google Analytics script */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-ME0HPVY5HG`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ME0HPVY5HG');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

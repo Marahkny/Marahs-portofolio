@@ -92,7 +92,9 @@ Vi förvandlar din passion och dina idéer till digitala lösningar som gör ski
       </h2>
 
       <p className="text-left text-gray-300 pt-6 leading-relaxed">
-Zone 90 levererar högkvalitativa digitala lösningar inom webbutveckling och design. Med expertis inom webbutveckling, UI/UX-design, SEO och grafisk design skapar vi upplevelser som gör intryck och ger resultat. Oavsett om det handlar om en stilren webbplats, en avancerad plattform eller en skräddarsydd digital lösning.      </p>
+Zone 90 levererar skräddarsydda digitala lösningar inom webbutveckling och webbdesign.
+Vi utvecklar moderna och användarvänliga webbplatser som engagerar, presterar och stärker ditt varumärke.
+För företag i Stockholm skapar vi allt från stilrena hemsidor till avancerade plattformar – alltid med fokus på design, funktion och en sömlös användarupplevelse.     </p>
 
       <div className=" pt-6">
  
