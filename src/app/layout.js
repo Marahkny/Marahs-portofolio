@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
   description:
-    "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga och användarvänliga hemsidor med fokus på UX, UI och tillgänglighet.",
+    "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga hemsidor",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -29,7 +29,7 @@ export const metadata = {
     url: "https://zone90.se",
     title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
     description:
-      "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga och användarvänliga hemsidor med fokus på UX, UI och tillgänglighet.",
+      "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga hemsidor",
     images: [
       {
         url: "https://zone90.se/photos/logo90.png",
