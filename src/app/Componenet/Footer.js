@@ -72,6 +72,9 @@ export default function Footer() {
                 Kontakt
               </Link>
             </li>
+                        <li>
+
+            </li>
           </ul>
         </nav>
         <div>

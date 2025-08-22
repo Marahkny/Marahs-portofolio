@@ -103,7 +103,7 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
   </div>
 
   {/* Bilder under varandra */}
-  <div className="flex flex-col justify-center gap-4 ">
+  <div className="flex flex-col justify-center gap-4">
     <Image
       src="/photos/SEO.png"
       alt="Swefurn SEO"

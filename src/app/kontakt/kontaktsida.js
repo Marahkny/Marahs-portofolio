@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Kontaktsida = () => {
   const [formData, setFormData] = useState({
@@ -35,25 +36,32 @@ const Kontaktsida = () => {
     setSuccess(null);
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email: formData.email,
-          firstName: formData.firstName,
-          lastName: formData.lastName,
-          phone: formData.phone,
-          message: formData.message,
-        }),
-      });
+      const response = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    service_id: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+    template_id: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+    user_id: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY, // Public Key här!
+    template_params: {
+      from_name: `${formData.firstName} ${formData.lastName}`,
+      from_email: formData.email,
+      phone: formData.phone,
+      message: formData.message,
+    },
+  }),
+});
 
-      if (!response.ok) {
-        throw new Error("Något gick fel.");
+
+      console.log("EmailJS response:", response);
+
+      if (response.status !== 200) {
+        throw new Error("Något gick fel vid skickande.");
       }
 
-      setSuccess("Meddelandet skickades!");
+      setSuccess("✅ Meddelandet skickades!");
       setFormData({
         firstName: "",
         lastName: "",
@@ -63,8 +71,8 @@ const Kontaktsida = () => {
         policyAccepted: false,
       });
     } catch (error) {
-      console.error(error);
-      setSuccess("Kunde inte skicka meddelandet. Försök igen.");
+      console.error("EmailJS error:", error);
+      setSuccess("❌ Kunde inte skicka meddelandet. Försök igen.");
     } finally {
       setLoading(false);
     }
@@ -72,6 +80,7 @@ const Kontaktsida = () => {
 
   return (
     <div className="pt-20 pb-40 px-6 max-w-8xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">
+      {/* Vänster del */}
       <div className="md:w-1/3 text-left">
         <h1 className="mb-4">Say hi!</h1>
         <p className="text-gray-300 mb-6">
@@ -86,9 +95,11 @@ const Kontaktsida = () => {
         </a>
       </div>
 
+      {/* Höger del - Formuläret */}
       <div className="md:w-2/3">
         <p className="text-[20px] pb-10">Kontaktformulär</p>
         <form onSubmit={handleSubmit} className="space-y-6">
+          {/* Namn */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className="block text-gray-300 mb-1">
@@ -118,6 +129,7 @@ const Kontaktsida = () => {
             </div>
           </div>
 
+          {/* Email + Telefon */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className="block text-gray-300 mb-1">
@@ -144,6 +156,7 @@ const Kontaktsida = () => {
             </div>
           </div>
 
+          {/* Meddelande */}
           <div>
             <label className="block text-gray-300 mb-1">
               Beskriv vad du behöver hjälp med{" "}
@@ -159,6 +172,7 @@ const Kontaktsida = () => {
             />
           </div>
 
+          {/* Policy */}
           <div className="flex items-center space-x-3">
             <input
               type="checkbox"
@@ -173,6 +187,7 @@ const Kontaktsida = () => {
             </label>
           </div>
 
+          {/* Submit */}
           <button
             type="submit"
             className="w-full bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 rounded-full transition"
@@ -182,7 +197,15 @@ const Kontaktsida = () => {
           </button>
 
           {success && (
-            <p className="text-green-500 text-sm mt-2">{success}</p>
+            <p
+              className={`mt-2 text-sm ${
+                success.startsWith("✅")
+                  ? "text-green-500"
+                  : "text-red-500"
+              }`}
+            >
+              {success}
+            </p>
           )}
         </form>
       </div>
@@ -191,4 +214,5 @@ const Kontaktsida = () => {
 };
 
 export default Kontaktsida;
+
 
