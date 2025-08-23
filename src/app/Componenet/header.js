@@ -4,6 +4,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import { FaLinkedinIn } from "react-icons/fa";
+import { TfiFacebook } from "react-icons/tfi";
 
 const Head = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -137,9 +139,9 @@ const Head = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 bg-[#121212] z-50 flex flex-col items-center px-8 py-4"
+          className="fixed inset-0 bg-[#121212] z-50 flex flex-col items-left  pt-4"
         >
-          <div className="flex items-center justify-between  w-full">
+          <div className="flex items-center justify-between px-8  w-full">
             <Link href="/" aria-label="Go to homepage">
             <Image
       src="/photos/Logo.png"
@@ -184,7 +186,7 @@ const Head = () => {
             </div>
           </div>
 
-          <div className="flex flex-col py-40 items-center space-y-6 text-white">
+          <div className="flex flex-col py-40 items-left space-y-6 px-8">
             <Link
               href="/tjanster"
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
@@ -207,6 +209,36 @@ const Head = () => {
               Om Zone 90
             </Link>
           </div>
+         <motion.div
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.3, ease: "easeOut" }}
+  className="mt-auto w-full flex flex-col p-8 items-center bg-[#F5F5F5] rounded-t-3xl space-y-4"
+>
+  <p className="font-[500] text-[24px] text-[#121212]">Vi är sociala</p>
+  <div className="flex gap-3">
+    <a
+      href="https://www.linkedin.com/company/zone90/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-2 rounded-full transition transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+      aria-label="Visit our LinkedIn page"
+      title="LinkedIn"
+    >
+      <FaLinkedinIn className="text-[26px] text-[#3B429F]" aria-hidden="true" />
+    </a>
+    <a
+      href="https://www.facebook.com/people/Zone90/61575014166638/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-2 rounded-full transition transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+      aria-label="Visit our Facebook page"
+      title="Facebook"
+    >
+      <TfiFacebook className="text-[26px] text-[#3B429F]" aria-hidden="true" />
+    </a>
+  </div>
+</motion.div>
         </motion.div>
       )}
     </>
