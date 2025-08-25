@@ -15,7 +15,10 @@ export const metadata = {
   },
   other: {
   keywords: "Om zone 90, webbutveckling i stockholm"
-}
+},
+  alternates: {
+    canonical: "https://zone90.se/omzone90",
+  },
 };
 export default function OmZone90() {
   return (

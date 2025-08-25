@@ -6,7 +6,6 @@ import Zone90Section from "./zone90secation";
 const Steps = () => {
   const techStack = [
     "User research",
-    "User testing",
     "UI/UX design",
     "Wireframes",
     "Prototyper",
@@ -17,6 +16,8 @@ const Steps = () => {
     "E-handel",
     "Frontendutveckling",
     "Sociala media",
+    "Semrush",
+    "Google Analytics",
   ];
   
 

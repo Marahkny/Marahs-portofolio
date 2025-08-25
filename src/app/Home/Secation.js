@@ -17,7 +17,7 @@ export default function Section() {
       </h2>
 
       <p className="text-left text-gray-300 mt-6 leading-relaxed">
-Vi förvandlar din passion och dina idéer till digitala lösningar som gör skillnad. Genom att lyssna noga på din vision skapar vi skräddarsydd webbdesign som stärker ditt varumärke och driver resultat. Vårt mål är att inte bara möta dina behov – utan att överträffa dina förväntningar.      </p>
+Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör skillnad. Vårt mål är inte bara att bygga en hemsida – vi vill skapa en strategisk plattform för tillväxt där design, funktion och SEO samspelar för att maximera din digitala räckvidd.     </p>
 
       <div className="pt-6 w-full">
 
@@ -92,9 +92,7 @@ Vi förvandlar din passion och dina idéer till digitala lösningar som gör ski
       </h2>
 
       <p className="text-left text-gray-300 pt-6 leading-relaxed">
-Zone 90 levererar skräddarsydda digitala lösningar inom webbutveckling och webbdesign.
-Vi utvecklar moderna och användarvänliga webbplatser som engagerar, presterar och stärker ditt varumärke.
-För företag i Stockholm skapar vi allt från stilrena hemsidor till avancerade plattformar – alltid med fokus på design, funktion och en sömlös användarupplevelse.     </p>
+Zone 90 levererar webbdesign i Stockholm med fokus på affärsnytta. Vi utvecklar allt från stilrena företagshemsidor till avancerade digitala plattformar. Med digital strategi, SEO och responsiv design skapar vi långsiktiga lösningar som gör ditt företag starkare på nätet.    </p>
 
       <div className=" pt-6">
  

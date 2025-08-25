@@ -9,12 +9,12 @@ const services = [
   },
   {
     title: "Webbutveckling",
-    description: "Vi bygger responsiva och snabba frontend-lösningar och wordpress webbplatser",
+    description: "Responsiva, snabba och säkra webbplatser – från WordPress och e-handel till skräddarsydd frontend",
     icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" aria-hidden="true" />,
   },
   {
     title: "SEO & analys",
-    description: "Vi hjälper dig att synas bättre på Google och öka din digitala räckvidd",
+    description: "Vi ökar din synlighet på Google genom smart SEO med Semrush och Google Analytics.",
     icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
   {
@@ -38,7 +38,7 @@ export default function ServicesHem() {
   return (
     <div className="max-w-8xl  mx-auto px-6 py-20 text-left">
       <h2 className="mb-6">Tools att växa smart</h2>
-<p className="mb-6">Vi jobbar med ett användarcentrerat webbfokus där användaren är en självklar del av designprocessen</p>
+<p className="mb-6">Vi arbetar med ett användarcentrerat perspektiv där din målgrupp alltid är i fokus. Med rätt balans mellan design, teknik och kommunikation hjälper vi ditt företag att växa digitalt</p>
       <section className="pb-16">
         <div className=" mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

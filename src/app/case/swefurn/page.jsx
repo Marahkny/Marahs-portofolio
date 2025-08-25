@@ -10,10 +10,10 @@ export const metadata = {
       "Kontakta Zone 90 – vi finns här för att hjälpa ditt företag växa. Hör av dig för webbutveckling, SEO och digital strategi.",
     images: ["/photos/logo90.png"],
     type: "website",
-    url: "https://zone90.se/kontakt",
+    url: "https://zone90.se/swefurn",
   },
   alternates: {
-    canonical: "https://zone90.se/kontakt",
+    canonical: "https://zone90.se/swefurn",
   },
     other: {
   keywords: "kontakt zone 90 i Stockholm"
