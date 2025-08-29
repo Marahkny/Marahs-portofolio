@@ -16,7 +16,7 @@ export const metadata = {
     canonical: "https://zone90.se/swefurn",
   },
     other: {
-  keywords: "kontakt zone 90 i Stockholm"
+  keywords: "kontakt zone 90 i Kalmar, Swefurn, webbyrå i Kalmar, webbdesign"
 }
 };
 

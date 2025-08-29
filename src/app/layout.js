@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
+  title: "Zone 90 » Webbdesign & webbutveckling i Kalmar",
   description:
-    "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga hemsidor",
+    "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Kalmar. Vi bygger snabba, snygga hemsidor",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -27,9 +27,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://zone90.se",
-    title: "Zone 90 » Webbdesign & webbutveckling i Stockholm",
+    title: "Zone 90 » Webbdesign & webbutveckling i Kalmar",
     description:
-      "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Stockholm. Vi bygger snabba, snygga hemsidor",
+      "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Kalmar. Vi bygger snabba, snygga hemsidor",
     images: [
       {
         url: "https://zone90.se/photos/logo90.png",
@@ -41,7 +41,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Webbdesign & webbutveckling i Stockholm",
+    title: "Webbdesign & webbutveckling i Kalmar",
     description:
       "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
     images: ["https://zone90.se/photos/logo90.png"],
@@ -52,7 +52,7 @@ export const metadata = {
     apple: "/photos/logo90.png",
   },
   other: {
-keywords: "webbdesign Stockholm, webbdesign  för företag, UX design Stockholm, UI design företag, hemsida för företag, skapa hemsida Stockholm, WordPress hemsida, responsiv design, webbutveckling, SEO för småföretag, digital strategi, Zone 90"
+keywords: "webbdesign Kalmar, webbdesign för företag, UX design Kalmar, UI design företag, hemsida för företag, skapa hemsida Kalmar, WordPress hemsida, responsiv design, webbutveckling, SEO för småföretag, digital strategi, Zone 90, Webbyrå"
 }
 };
 
@@ -96,7 +96,7 @@ export default function RootLayout({ children }) {
                 "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Stockholm",
+                addressLocality: "Kalmar",
                 addressCountry: "SE",
               },
               areaServed: ["SE", "Global"],

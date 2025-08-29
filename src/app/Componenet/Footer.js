@@ -25,8 +25,7 @@ export default function Footer() {
           </Link>
         
           <p className="text-[#121212] leading-relaxed pt-5 max-w-md">
-        Din Zone för smarta webb- och designlösningar i Stockholm. Grundat 2025 av Marah med fokus på moderna, optimerade och trygga lösningar.
-          </p>
+Din kreativa zone för smarta webb- och designlösningar i Kalmar. Grundat 2025 av Marah, med fokus på moderna, optimerade och pålitliga digitala lösningar.          </p>
           
         </div>
 

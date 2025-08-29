@@ -6,7 +6,7 @@ export default function Zone90Section() {
     <div className="flex justify-center items-center h-full px-6 py-20">
       <div className="text-center max-w-4xl w-full">
         <h2 >
-     Letar du efter webdesigner i Stockholm?
+     Letar du efter webdesigner i Kalmar?
         </h2>
         <p className="text-gray-300 leading-relaxed py-6 text-2xl">
 Låt oss ta en digital fika – och förvandla dina idéer till resultat. </p>

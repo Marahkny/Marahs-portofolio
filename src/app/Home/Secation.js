@@ -92,7 +92,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
       </h2>
 
       <p className="text-left text-gray-300 pt-6 leading-relaxed">
-Zone 90 levererar webbdesign i Stockholm med fokus på affärsnytta. Vi utvecklar allt från stilrena företagshemsidor till avancerade digitala plattformar. Med digital strategi, SEO och responsiv design skapar vi långsiktiga lösningar som gör ditt företag starkare på nätet.    </p>
+Zone 90 levererar webbdesign i Kalmar med fokus på affärsnytta. Vi utvecklar allt från stilrena företagshemsidor till avancerade digitala plattformar. Med digital strategi, SEO och responsiv design skapar vi långsiktiga lösningar som gör ditt företag starkare på nätet.    </p>
 
       <div className=" pt-6">
  

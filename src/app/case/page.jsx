@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Se våra kundcase och projekt – upptäck hur Zone 90 hjälper företag växa med webbdesign, SEO och digital strategi.",
   openGraph: {
-    title: "Zone 90 – Våra tjänster",
+    title: "Zone 90 » Kundcaser",
     description:
       "Se våra kundcase och projekt – upptäck hur Zone 90 hjälper företag växa med webbdesign, SEO och digital strategi.",
     images: ["/photos/logo90.png"],
@@ -19,7 +19,7 @@ export const metadata = {
     canonical: "https://zone90.se/case",
   },
   other: {
-    keywords: "zone 90 kundcase, webbutveckling",
+    keywords: "zone 90 kundcase, webbutveckling, webbdesign, SEO, digital strategi ",
   },
 };
 

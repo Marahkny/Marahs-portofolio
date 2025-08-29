@@ -1,9 +1,9 @@
 import Tjansterdes from "./tjansterdes"
 
 export const metadata = {
-  title: "Zone 90 » Våra tjänster inom webbutveckling, SEO & design",
+  title: "Zone 90 » Våra tjänster inom webbutveckling, SEO & design i Kalmar",
   description:
-    "Zone 90 erbjuder professionella digitala tjänster: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
+    "Zone 90 erbjuder professionella digitala tjänster i Kalmar: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
   keywords: [
     "webbutveckling",
     "WordPress",

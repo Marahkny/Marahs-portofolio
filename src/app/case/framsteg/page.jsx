@@ -14,6 +14,7 @@ export default function Framsteg() {
           content="Framsteg Förening is a cultural association website supporting integration between newcomers and Swedish families through community and connection."
         />
          <link rel="canonical" href="https://zone90.se/case/framsteg" />
+         
       </Head>
 
       <section className="px-6 pt-20">
