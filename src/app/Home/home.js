@@ -20,19 +20,19 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-15 text-center pt-20 max-w-4xl">
+        <div className="relative z-15 text-left pt-20 max-w-6xl">
 
-          <h1 className="mb-6  text-[30px] sm:text-[30px] md:text-[60px] lg:text-[80px] xl:text-[90px] font-[800]">
+          <h1 className="mb-4 text-[30px] sm:text-[30px] md:text-[60px] lg:text-[90px] xl:text-[100px] font-[800]">
           Webbdesign för företag i Kalmar </h1>
 
-          <p className="text-gray-300 max-w-4xl mx-auto">
+          <p className="text-gray-300 max-w-6xl mx-auto">
 Zone 90 hjälper företag i Kalmar att växa digitalt genom webbdesign, webbutveckling och digital strategi.          </p>
 
           {/* Call to Action */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 mt-6 w-full">
+          <div className="flex flex-col md:flex-row justify-start gap-4 sm:gap-6 mt-6 w-full">
           <Link
   href="/tjanster"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
+  className=" w-full sm:w-auto relative inline-flex items-start justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
   aria-label="läs mer om våra tjänster"
   title="Våra tjänster"

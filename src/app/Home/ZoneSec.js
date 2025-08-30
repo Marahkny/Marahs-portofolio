@@ -6,14 +6,17 @@ export default function ZoneSec() {
   {/* Heading */}
   <div className="max-w-8xl text-left py-6 justify-center lg:pb-20">
 
-      <h2>
-Din vision, vår expertis
-      </h2>
+<h2 >
+  Din digitala partner
+  <span className="block text-[20px] md:text-[28px] lg:text-[36px] font-normal mt-2">
+    – från idé till resultat
+  </span>
+</h2>
+
    
     <p className="text-[18px] sm:text-[18px] text-left md:text-[24px] lg:text-[26px] pt-6 leading-relaxed">
-Zone 90 är din digitala partner i Kalmar inom webbdesign, webbutveckling och digital strategi. Från idé och koncept till färdig lansering – vi levererar med rätt verktyg, teknik och expertis.  </p>
-    <p className="text-[18px] sm:text-[18px] text-left md:text-[24px] lg:text-[26px] pt-6 leading-relaxed">
-Vi tror på att varje företag har en unik berättelse. Därför kombinerar vi strategi, kreativ design och modern teknik för att förvandla din vision till digitala lösningar som gör skillnad. Vårt fokus ligger på att skapa snabba, användarvänliga och visuellt starka webbplatser som stärker ditt varumärke och ger mätbara resultat.  </p>  
+På Zone 90 skapar vi webbplatser och digitala lösningar  i Kalmar som stärker ditt varumärke och driver affärer. Vi kombinerar design, teknik och strategi för att leverera hemsidor som är snabba, tydliga och anpassade efter dina mål.
+Varje projekt är unikt. Därför bygger vi inte bara hemsidor – vi bygger lösningar som gör ditt företag mer synligt, mer relevant och mer framgångsrikt online.  </p>  
   </div>
 
  
