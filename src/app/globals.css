@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -19,7 +19,7 @@
 
 /* Body och brödtext */
 body {
-  font-family: 'Spline Sans', sans-serif;
+  font-family:'Fira Sans', sans-serif;
   color: var(--foreground);
   background: var(--background);
   line-height: 1.6;
@@ -27,10 +27,10 @@ body {
 
 /* Rubriker */
 h1, h2, h3, h4, h5 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Syne', sans-serif;
   color: #F5F5F5;
-  
 }
+
 
 /* Typografi-hierarki */
 h1 {
@@ -71,7 +71,7 @@ h6 {
 
 /* Övrig text (brödtext, länkar, knappar) */
 p, span, a, button {
-  font-family: 'Spline Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   color: rgb(209, 213, 219);
     line-height: 1.5;

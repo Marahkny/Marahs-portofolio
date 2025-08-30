@@ -22,7 +22,7 @@ export default function Home() {
         {/* Innehåll */}
         <div className="relative z-15 text-left pt-20 max-w-6xl">
 
-          <h1 className="mb-4 text-[30px] sm:text-[30px] md:text-[60px] lg:text-[90px] xl:text-[100px] font-[800]">
+          <h1 className="mb-4 text-[30px] sm:text-[30px] md:text-[60px] lg:text-[80px] xl:text-[100px] ">
           Webbdesign för företag i Kalmar </h1>
 
           <p className="text-gray-300 max-w-6xl mx-auto">
