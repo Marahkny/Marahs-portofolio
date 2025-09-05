@@ -92,7 +92,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
       </h2>
 
       <p className="text-left text-gray-300 pt-6 leading-relaxed">
-  Vi hjälper företag i Kalmar att nå sina mål genom webbdesign och digitala lösningar som är anpassade efter marknaden, aktuella trender och målgruppen. Våra lösningar är alltid skräddarsydda för att ge resultat och uppfylla kundens önskemål.  </p>
+För oss på Zone 90 handlar webbdesign om mer än kod och grafik – det handlar om människor. Vi lär känna ditt företag, din marknad och din målgrupp för att bygga lösningar som verkligen fungerar i Kalmar. Genom att kombinera trender, användarvänlighet och affärsmål skapar vi skräddarsydda resultat som håller över tid  </p>
 
       <div className=" pt-6">
  
@@ -133,7 +133,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
        Resultat som syns 
       </h2>
 
-      <p className="text-left text-gray-300 mt-6 leading-relaxed">Zone 90 levererar webbdesign i Kalmar med fokus på affärsnytta. Vi utvecklar allt från stilrena företagshemsidor till avancerade digitala plattformar. Med digital strategi, SEO och responsiv design skapar vi långsiktiga lösningar som gör ditt företag starkare på nätet.
+      <p className="text-left text-gray-300 mt-6 leading-relaxed">När vi levererar webbdesign i Kalmar är målet alltid mätbar effekt. Med SEO, responsiv design och tydlig digital strategi bygger vi hemsidor som inte bara ser bra ut, utan också lockar fler kunder och stärker din konkurrenskraft. Våra projekt ger långsiktiga resultat – inte bara fina pixlar.
  </p>
 
       <div className="pt-6 w-full">

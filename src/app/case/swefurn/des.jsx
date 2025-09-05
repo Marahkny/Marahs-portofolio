@@ -7,7 +7,7 @@ export default function Des() {
         {/* Hero Image */}
         <div className="flex justify-center px-6">
         <Image
-  src="/photos/startsidaswefurn.png"
+  src="/photos/swefurn-startsida.png"
   alt="swfurn wordpress hemsidan "
   width={800}  
   height={500} 
@@ -20,7 +20,7 @@ export default function Des() {
         {/* Center Text */}
         <div className="flex flex-col items-center justify-center text-center py-20 px-6 max-w-4xl mx-auto">
           <h3 >
-            Enkel, snygg och optimerad – precis som Swefurns varumärke
+           Optimerat för stil och enkelhet
           </h3>
           <p className="mt-5 text-white leading-relaxed">
 Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att kombinera stilren estetik, användarvänlighet och teknisk prestanda. Designen är enkel men genomtänkt – med tydlig struktur, luftig layout och ett visuellt uttryck som speglar företagets värderingar och professionella intryck. </p>        </div>
@@ -65,7 +65,7 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
       </div>
       <div className="relative z-10">
         <Image
-          src="/photos/swefurn.se_hallbarhet_.png"
+          src="/photos/Swefurnchange.png"
           alt="Swefurn projektbild 1"
           width={600}
           height={500}
@@ -112,7 +112,7 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
       className="w-auto h-auto shadow-xl rounded-l-[20px]"
     />
     <Image
-      src="/photos/SEO2.png" // Ändra till rätt andra bild
+      src="/photos/SEO2.png" 
       alt="Swefurn google reslutat"
       width={600}
       height={500}
@@ -132,7 +132,7 @@ Att vara responsiv och anpassa designen för alla skärmstorlekar var i fokus, o
   {/* Bild 1 */}
   <div className="flex-1">
     <Image
-      src="/photos/swefurnchange.png"
+      src="/photos/swefurn hållbarhet.png"
       alt="swefurnchange sidan"
      width={600}
       height={500}
@@ -154,7 +154,7 @@ Att vara responsiv och anpassa designen för alla skärmstorlekar var i fokus, o
   {/* Bild 3 */}
   <div className="flex-1">
     <Image
-      src="/photos/swefurn-pro.png"
+      src="/photos/swefurn-inredning.png"
       alt="swefurn jobb"
       width={600}
       height={500}
