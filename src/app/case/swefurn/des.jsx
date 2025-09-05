@@ -48,7 +48,7 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
 
 
 {/* Brand Guide */}
-<div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[55%_40%] items-center px-4 lg:px-0 py-12 gap-5">
+<div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[55%_40%] items-center  lg:px-0 py-12 gap-5">
   {/* Vänster sektion (bilder, 55%) */}
   <div className="relative h-full flex items-center justify-center">
     <div className="w-full grid grid-cols-2 gap-4">
@@ -65,8 +65,8 @@ Swefurns nya webbplats är designad och utvecklad i WordPress, med fokus på att
       </div>
       <div className="relative z-10">
         <Image
-          src="/photos/Swefurnchange.png"
-          alt="Swefurn projektbild 1"
+          src="/photos/swefurnchnage-sida.png"
+          alt="swefurnchange-sida"
           width={600}
           height={500}
           className="rounded-[20px] shadow-xl w-full h-auto"
