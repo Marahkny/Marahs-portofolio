@@ -21,7 +21,7 @@ export const metadata = {
     canonical: "https://zone90.se/",
   },
   other: {
-    keywords: "webbdesign Kalmar, webbdesign för företag, webbutveckling, SEO, hemsidor, wordpress",
+    keywords: "webbdesign Kalmar, webbdesign för företag, webbyrå i kalmar, webbutveckling, SEO, hemsidor, wordpress",
   },
 };
 

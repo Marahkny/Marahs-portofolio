@@ -5,7 +5,7 @@
   --color2: 184, 51, 106; /* #B8336A */
   --color3: 157, 42, 86;/* (Behöll RGB-värdena) */
   --color5: 59, 66, 159;  /* #FFB84C */
-  --circle-size: 110vw;
+  --circle-size: 90vw;
  
 }
 
@@ -74,7 +74,7 @@
 }
 
 .gradients-container {
-  filter: url(#goo) blur(50px);
+  filter: url(#goo) blur(20px);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -90,7 +90,7 @@
   height: var(--circle-size);
   top: calc(10% - var(--circle-size) / 2);
 
-  right: calc(10% - var(--circle-size) / 2);
+  right: calc(50% - var(--circle-size) / 2);
 }
 
 .g1 {

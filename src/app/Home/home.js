@@ -8,6 +8,8 @@ import GradientBackground from "./GradientBackground";
 import ZoneSec from "./ZoneSec";
 import Projects from "./projekts";
 
+import Section from "./Secation";
+import Zone90Section from "./zone90secation";
 export default function Home() {
   return (
     <>
@@ -20,16 +22,16 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-15 text-left pt-20 max-w-6xl">
+        <div className="relative z-15 text-center pt-20 max-w-6xl">
 
-          <h1 className="mb-4 text-[30px] sm:text-[30px] md:text-[60px] lg:text-[80px] xl:text-[100px] ">
+          <h1 className="mb-4 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[600] ">
           Webbdesign för företag i Kalmar </h1>
 
           <p className="text-gray-300 max-w-6xl mx-auto">
 Zone 90 hjälper företag i Kalmar att växa digitalt genom webbdesign, webbutveckling och digital strategi.          </p>
 
           {/* Call to Action */}
-          <div className="flex flex-col md:flex-row justify-start gap-4 sm:gap-6 mt-6 w-full">
+          <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 mt-6 w-full">
           <Link
   href="/tjanster"
   className=" w-full sm:w-auto relative inline-flex items-start justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
@@ -86,6 +88,8 @@ Zone 90 hjälper företag i Kalmar att växa digitalt genom webbdesign, webbutve
       <ZoneSec />
       <ServicesHem />
       <Projects />
+      <Section />
+      <Zone90Section />
     </>
   );
 }

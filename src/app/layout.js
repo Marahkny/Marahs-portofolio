@@ -52,7 +52,7 @@ export const metadata = {
     apple: "/photos/logo90.png",
   },
   other: {
-keywords: "webbdesign Kalmar, webbdesign för företag, UX design Kalmar, UI design företag, hemsida för företag, skapa hemsida Kalmar, WordPress hemsida, responsiv design, webbutveckling, SEO för småföretag, digital strategi, Zone 90, Webbyrå"
+keywords: "webbdesign Kalmar, webbdesign för företag, webbyår i kalmar, skapa hemsidan Kalmar, Wordpress hemsida , hemsida för företag, skapa hemsida Kalmar, webbutveckling, SEO för småföretag, Zone 90"
 }
 };
 
