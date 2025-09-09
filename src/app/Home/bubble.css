@@ -5,7 +5,7 @@
   --color2: 184, 51, 106; /* #B8336A */
   --color3: 157, 42, 86;/* (Behöll RGB-värdena) */
   --color5: 59, 66, 159;  /* #FFB84C */
-  --circle-size: 90vw;
+  --circle-size: 80vw;
  
 }
 
@@ -31,9 +31,9 @@
 
 
 @keyframes moveVertical {
-  0% { transform: translateY(20%); }
+  0% { transform: translateY(10%); }
   40% { transform: translateY(30%); }
-  30% { transform: translateY(80%); }
+  30% { transform: translateY(60%); }
 }
 
 @keyframes moveFromTopBalanced {
@@ -57,7 +57,7 @@
 
 .gradient-bg {
   width: 100vw;
-  height: 120vh;
+  height: 130vh;
   position: relative;
   overflow: hidden;
  
@@ -78,9 +78,9 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
+  top: -50px;
   left: 0;
-  max-height: 100vh; 
+  max-height: 110vh; 
   overflow: hidden;
 }
 
@@ -94,8 +94,8 @@
 }
 
 .g1 {
-  background: radial-gradient(circle at center, rgba(var(--color1), 0.7) 0, rgba(var(--color1), 0) 50%);
-  animation: moveVertical 30s ease infinite;
+  background: radial-gradient(circle at center, rgba(var(--color1), 0.7) 0, rgba(var(--color1), 0) 90%);
+  animation: moveVertical 10s ease infinite;
 }
 .g2 {
   position: absolute;
@@ -108,9 +108,9 @@
 }
 
 .g3 {
-  background: radial-gradient(circle at center, rgba(var(--color3), 0.7) 0, rgba(var(--color3), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color3), 0.7) 0, rgba(var(--color3), 0) 80%);
   transform-origin: calc(70% - 400px);
-  animation: moveFromTopBalanced 40s ease-in-out infinite;
+  animation: moveFromTopBalanced 20s ease-in-out infinite;
 }
 
 
@@ -122,9 +122,9 @@
 }
 
 .g5 {
-  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 50%);
+  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 60%);
   transform-origin: calc(50% - 800px) calc(50% + 200px);
-  animation: moveInCircle 40s ease-in-out infinite;
+  animation: moveInCircle 20s ease infinite;
 }
 
 

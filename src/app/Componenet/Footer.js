@@ -10,7 +10,7 @@ export default function Footer() {
   <GradintieFooter />
 </div>
 
-      <div className=" relative z-0 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-16">
+      <div className=" relative z-0 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-20">
         
       
         <div>
@@ -24,7 +24,7 @@ export default function Footer() {
     />
           </Link>
         
-          <p className="text-[#121212] leading-relaxed pt-5 max-w-md">
+          <p className="text-[#121212] leading-relaxed font-[500] pt-5 max-w-md">
 Din kreativa zone för smarta webb- och designlösningar i Kalmar. Grundat 2025 av Marah, med fokus på moderna, optimerade och pålitliga digitala lösningar.          </p>
           
         </div>
@@ -70,8 +70,16 @@ Din kreativa zone för smarta webb- och designlösningar i Kalmar. Grundat 2025 
               >
                 Kontakt
               </Link>
+
             </li>
                         <li>
+                                                      <Link
+                href="/privacy"
+ className="relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-[#121212] before:transition-all before:duration-200 before:ease-in-out hover:before:w-full text-[#121212] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"                aria-label="Contact Zone 90"
+                title="Integritetspolicy"
+              >
+               Integritetspolicy
+              </Link>
 
             </li>
           </ul>

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
+import Link from "next/link";
 
 const Kontaktsida = () => {
   const [formData, setFormData] = useState({
@@ -182,9 +182,15 @@ const Kontaktsida = () => {
               className="w-5 h-5 text-[#3B429F] border-[#3B429F] rounded focus:ring-[#3B429F]"
               required
             />
-            <label className="text-gray-300">
-              Jag har läst och accepterar integritetspolicy.
-            </label>
+      
+
+<label className="text-gray-300" >
+  Jag har läst och accepterar{" "}
+  <Link href="/privacy" className=" underline ">
+    integritetspolicy
+  </Link>. <span className="text-[#F5F5F5]">*</span>
+</ label>
+
           </div>
 
           {/* Submit */}
