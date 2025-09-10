@@ -31,12 +31,12 @@ export default function Steg() {
           {steps.map((step, index) => (
             <li
               key={index}
-              className="bg-[#F5F5F5] p-6 rounded-xl shadow-md"
+              className="bg-[#3B429F] p-6 rounded-xl shadow-md"
             >
               <h3 className=" mb-2">
                 {index + 1}. {step.title}
               </h3>
-              <p className="text-[#121212]">{step.description}</p>
+              <p className="text-[#F5F5F5]">{step.description}</p>
             </li>
           ))}
         </ol>

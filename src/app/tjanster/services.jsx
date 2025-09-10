@@ -1,9 +1,9 @@
 import { FiCheckCircle } from "react-icons/fi";
-import { SiAdobeindesign, SiReact, SiGoogleanalytics, SiContentful, SiAffinitydesigner } from "react-icons/si";
+import { SiAdobeindesign, SiReact, SiGoogleanalytics,  SiAffinitydesigner } from "react-icons/si";
 import Link from "next/link";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import { FaFacebookF } from "react-icons/fa";
-
+import { RiMetaLine } from "react-icons/ri";
 const services = [
   {
     title: "UI/UX design",
@@ -32,7 +32,7 @@ const services = [
   {
     title: "Meta Ads",
     description: "Vi marknadsför ditt företag på sociala medier med Meta Ads för att nå din specifika målgrupp.",
-    icon: <SiContentful className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <RiMetaLine className="text-[40px] text-[#3B429F] mb-6" />,
     features: ["Målgruppsinriktad annonsering", "Optimering i realtid", "Kreativt annonsinnehåll", "Resultatdriven strategi"],
     knapp: "Meta Ads",
     link: "tjanster/meta-ads",
@@ -50,7 +50,7 @@ const services = [
     description: "Vi hjälper dig att växa och skapa engagemang på rätt plattformar",
     icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6" />, 
     features: ["Innehållsskapande & publiceringsplan", "Strategi för sociala medier", "Reels & videoformat"],
-    knapp: "Sociala medier & content",
+    knapp: "SoMe & content",
     link: "tjanster/sociala-medier-content",
   },
 ];
