@@ -13,22 +13,22 @@ const services = [
     icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" aria-hidden="true" />,
   },
   {
-    title: "SEO & analys",
+    title: "SEO & webbanalys",
     description: "Vi ökar din synlighet på Google genom smart SEO med Semrush och Google Analytics.",
     icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
   {
-    title: "Copywriting",
-    description: "Vi skriver engagerande och träffsäker text som talar till din målgrupp",
+    title: "Meta Ads",
+    description: "Vi marknadsför ditt företag på sociala medier med Meta Ads för att nå din specifika målgrupp.",
     icon: <SiContentful className="text-[40px] text-[#3B429F] mb-6"  aria-hidden="true" />,
   },
   {
-    title: "Grafisk design",
+    title: "Logotyp & design",
     description: "Vi formger visuellt starka uttryck som stärker ditt varumärke",
     icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" aria-hidden="true" />,
   },
   {
-    title: "Sociala media",
+    title: "Sociala medier & content",
     description: "Vi hjälper dig att växa och skapa engagemang på rätt plattformar",
     icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6 " aria-hidden="true" />,
   }
@@ -46,7 +46,7 @@ export default function ServicesHem() {
     <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] text-left">
       {service.icon}
       <h3 className="text-[28px] text-[#121212] mb-4">{service.title}</h3>
-      <p className="text-[#121212] text-lg mb-6">{service.description}</p>
+      <p className="text-[#121212] text-lg ">{service.description}</p>
     </div>
   ))}
 </div>

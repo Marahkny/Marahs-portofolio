@@ -5,20 +5,20 @@ export const metadata = {
   description:
     "Zone 90 erbjuder professionella digitala tjänster i Kalmar: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
   keywords: [
-    "webbutveckling",
-    "WordPress",
+    "webbutveckling i Kalmar",
+    "WordPress i Kalmar",
     "UI/UX design",
-    "SEO optimering",
+    "SEO i Kalmar",
     "e-handel",
     "digital marknadsföring",
-    "hemsida företag",
-    "webbyrå",
+    "hemsida i Kalmar",
+    "webbyrå i Kalmar",
     "Zone 90",
   ],
   openGraph: {
-    title: "Zone 90 – Digitala tjänster inom webbutveckling, SEO och design",
+    title: "Zone 90 – Digitala tjänster inom webbutveckling, SEO och design i Kalmar",
     description:
-      "Professionella tjänster inom webbutveckling, WordPress, UI/UX-design och SEO-optimering. Zone 90 hjälper företag att skapa starka digitala lösningar.",
+    "Zone 90 erbjuder professionella digitala tjänster i Kalmar: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
     images: ["/photos/logo90.png"],
     type: "website",
     url: "https://zone90.se/tjanster",

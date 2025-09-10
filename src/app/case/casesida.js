@@ -31,7 +31,7 @@ export default function Casesida() {
 
       <section className="text-[#F5F5F5] h-full pt-20 pb-10 px-6">
         <div className="max-w-8xl mx-auto text-left">
-          <h1 className="mb-6">Kundcase</h1>
+          <h1 className="mb-6">Titta på våra tidigare projekt</h1>
           <p>
             Vi uppdaterar kontinuerligt våra case. Hör av dig för en digital fika och pitcha din idé!
           </p>

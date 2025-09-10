@@ -1,81 +1,58 @@
 import { FiCheckCircle } from "react-icons/fi";
 import { SiAdobeindesign, SiReact, SiGoogleanalytics, SiContentful, SiAffinitydesigner } from "react-icons/si";
-
+import Link from "next/link";
+import { HiArrowSmallRight } from "react-icons/hi2";
 import { FaFacebookF } from "react-icons/fa";
+
 const services = [
   {
     title: "UI/UX design",
     description: "Vi skapar användarvänliga och visuellt tilltalande webbupplevelser i Figma",
     icon: <SiAdobeindesign className="text-[40px] text-[#3B429F] mb-6" />,
-    features: [
-      "User research och personas",
-      "Wireframes & prototyper",
-      "Interaktionsdesign",
-      "Designsystem"
-    ],
-    knapp: "ui/ux design"
+    features: ["User research och personas", "Wireframes & prototyper", "Interaktionsdesign", "Designsystem"],
+    knapp: "UI/UX design",
+    link: "tjanster/ui-ux-design",
   },
   {
     title: "Webbutveckling",
-    description: "Vi bygger responsiva och högpresterande frontend-lösningar och Wordpress webbplatser",
+    description: "Responsiva, snabba och säkra webbplatser – från WordPress och e-handel till skräddarsydd frontend",
     icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" />,
-    features: [
-      "Moderna frontend-ramverk",
-      "Responsiv design",
-      "Prestandaoptimering",
-      "Skalbarhet & säkerhet"
-    ],
-    knapp: "web development"
+    features: ["Moderna frontend-ramverk", "Optimerade Wordpress hemsida", "E-handel med Shopify & WooCommerce", "Skalbarhet & säkerhet"],
+    knapp: "Webbutveckling",
+    link: "tjanster/webbutveckling",
   },
   {
-    title: "SEO & analys",
-    description: "Vi hjälper dig att klättra i sökresultaten och förbättra din digitala synlighet",
+    title: "SEO & wbbanalys",
+    description: "Vi ökar din synlighet på Google genom smart SEO med Semrush och Google Analytics.",
     icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6" />,
-    features: [
-      "Sökordsanalys",
-      "On-page SEO",
-      "Teknisk SEO",
-      "Analys & rapportering"
-    ],
-    knapp: "seo & analysis"
+    features: ["Sökordsanalys med Semrush", "On-page & off-page SEO", "Teknisk SEO", "Analys; Google Analytics"],
+    knapp: "SEO & webbanalys",
+    link: "tjanster/seo-webbanalys",
   },
   {
-    title: "Copywriting",
-    description: "Vi skapar innehåll som engagerar och påverkar din målgrupp",
+    title: "Meta Ads",
+    description: "Vi marknadsför ditt företag på sociala medier med Meta Ads för att nå din specifika målgrupp.",
     icon: <SiContentful className="text-[40px] text-[#3B429F] mb-6" />,
-    features: [
-      "SEO-optimerade texter",
-      "Varumärkesberättande",
-      "Säljdrivande copy",
-      "Redigering & korrektur"
-    ],
-    knapp: "copywriting"
+    features: ["Målgruppsinriktad annonsering", "Optimering i realtid", "Kreativt annonsinnehåll", "Resultatdriven strategi"],
+    knapp: "Meta Ads",
+    link: "tjanster/meta-ads",
   },
   {
-    title: "Grafisk design",
-    description: "We create visually stunning designs that enhance brand identity",
+    title: "Logotyp & design",
+    description: "Vi formger visuellt starka uttryck som stärker ditt varumärke",
     icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" />,
-    features: [
-      "Logotyper",
-      "Visuell identitet & branding",
-      "Marknadsföringsmaterial",
-      "UI-grafik"
-    ],
-    knapp: "Grafisk design"
+    features: ["Logotyper", "Visuell identitet & branding", "Marknadsföringsmaterial"],
+    knapp: "Logotyp & design",
+    link: "tjanster/logotyp-och-design",
   },
   {
-    title: "Sociala Media",
-    description: "Vi hjälper dig att växa på sociala medier med strategiskt och engagerande innehåll",
+    title: "Sociala medier & content",
+    description: "Vi hjälper dig att växa och skapa engagemang på rätt plattformar",
     icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6" />, 
-    features: [
-      "Innehållsskapande & publiceringsplan",
-      "Strategi för sociala medier",
-      "Reels & videoformat",
-      "Community management"
-    ],
-    knapp: "social media"
-  }
-  
+    features: ["Innehållsskapande & publiceringsplan", "Strategi för sociala medier", "Reels & videoformat"],
+    knapp: "Sociala medier & content",
+    link: "tjanster/sociala-medier-content",
+  },
 ];
 
 export default function Services() {
@@ -84,7 +61,7 @@ export default function Services() {
       <div className=" mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] shadow-lg hover:shadow-xl transition-shadow">
+            <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] shadow-lg hover:shadow-xl transition-shadow flex flex-col justify-between">
               {service.icon}
               <h3 className="text-[28px] text-[#121212] mb-4 font-semibold">{service.title}</h3>
               <p className="text-[#121212] text-lg mb-6">{service.description}</p>
@@ -96,20 +73,17 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-              <div className="group">
-              {/*
-  <Link
-    href={`/${service.knapp}`}
-    className="bg-[#3B429F] text-[#F5F5F5] py-3 px-6 rounded-full transition-all 
-             group-hover:bg-[#2A2F7D] flex items-center justify-between w-full"
-  >
-    <span className="text-[#F5F5F5]">More about {service.knapp}</span>
-    <LiaArrowRightSolid className="text-[#F5F5F5] text-[24px] transition-transform 
-                                   duration-300 group-hover:translate-x-2" />
-  </Link>
-  */}
-</div>
-
+              <Link
+                href={service.link}
+                className="w-full inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 rounded-full font-[500] transition-colors duration-300 group relative overflow-hidden"
+              >
+                <span className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4">
+                 Läs mer om {service.knapp}
+                </span>
+                <span className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                  <HiArrowSmallRight className="text-[#F5F5F5] text-[24px]" />
+                </span>
+              </Link>
             </div>
           ))}
         </div>
@@ -117,4 +91,5 @@ export default function Services() {
     </section>
   );
 }
+
 

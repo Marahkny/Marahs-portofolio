@@ -1,0 +1,75 @@
+"use client";
+import Frågor from "./frågor";
+import { FiCheckCircle } from "react-icons/fi";
+import Image from "next/image";
+import Stegs from "./Stegs";
+import { HiArrowSmallRight } from "react-icons/hi2";
+import Link from "next/link";
+import Designare from "./designare";
+
+export default function UXdesign() {
+  return (
+    <>
+      <section className="text-[#F5F5F5] bg-[#F5F5F5] h-full py-20 px-6">
+        <div className="max-w-8xl mx-auto text-left">
+          <h1 className="mb-10 text-[#121212]">UI/UX-design för en användarvänlig upplevelse</h1>
+
+          <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+            <div className="md:w-1/2 text-left">
+        
+              <p className="mb-10 text-[#121212] ">
+Vi arbetar med UI/UX-design i Figma för att skapa användarvänliga och visuellt tilltalande upplevelser. Genom användarforskning, wireframes, prototyper och ett konsekvent designsystem säkerställer vi smidiga flöden och engagerande interaktioner som lyfter din digitala produkt. </p>
+               <ul className="space-y-4 ">
+              <li className="flex items-center">
+                <FiCheckCircle className="text-[20px] text-[#3B429F] mr-3" /> 
+                <span className="text-[#121212] ">User research och personas</span>
+
+              </li>
+              <li className="flex items-center">
+                <FiCheckCircle className="text-[20px] text-[#3B429F] mr-3" />
+                <span className="text-[#121212] ">Wireframes & prototyper</span>
+              </li>
+              <li className="flex items-center">
+                <FiCheckCircle className="text-[20px] text-[#3B429F] mr-3" />
+                <span className="text-[#121212] ">Interaktionsdesign </span>
+              </li>
+              <li className="flex items-center">
+                <FiCheckCircle className="text-[20px] text-[#3B429F] mr-3" />
+                <span className=" text-[#121212] ">Designsystem</span>
+              </li>
+            </ul>
+             <Link
+                href="/kontakt"
+                className="w-full mt-10 sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full group font-[500] transition-colors duration-300 overflow-hidden"
+                role="button"
+                aria-label="Kontakta oss för mer information"
+                title="Kontakta oss"
+              >
+                <span className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4">
+                  Kontakt Zone 90
+                </span>
+
+                <span className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                  <HiArrowSmallRight className="text-[#F5F5F5] text-[24px]" />
+                </span>
+              </Link>
+            </div>
+
+            <div className="md:w-1/2 flex justify-start md:justify-center">
+              <Image
+                src="/photos/uiux design.png"
+                alt="UI/Ux design "
+                width={800}
+                height={500}
+                className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <Stegs />
+<Frågor  />
+<Designare />
+    </>
+  );
+}
