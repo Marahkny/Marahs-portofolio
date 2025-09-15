@@ -4,6 +4,7 @@ import Link from "next/link";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import { FaFacebookF } from "react-icons/fa";
 import { RiMetaLine } from "react-icons/ri";
+import Script from "next/script";
 const services = [
   {
     title: "UI/UX design",
@@ -57,6 +58,34 @@ const services = [
 
 export default function Services() {
   return (
+    <>{/* Meta Pixel Script */}
+      <Script
+        id="meta-pixel"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '3256787997805806');
+            fbq('track', 'PageView');
+          `,
+        }}
+      />
+      {/* Noscript för Pixel */}
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style={{ display: "none" }}
+          src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
+        />
+      </noscript>
     <section className="max-w-8xl mx-auto px-6 pb-20 text-left">
       <div className=" mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -88,7 +117,7 @@ export default function Services() {
           ))}
         </div>
       </div>
-    </section>
+    </section></>
   );
 }
 
