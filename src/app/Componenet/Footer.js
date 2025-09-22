@@ -18,14 +18,14 @@ export default function Footer() {
           <Image
       src="/photos/ZONWAY (1).png"
       alt="Zone 90 logo"
-      width={500}  
-      height={500} 
-      className="w-[50%] h-auto"
+      width={600}  
+      height={600} 
+      className="w-[60%] h-auto"
     />
           </Link>
         
-          <p className="text-[#121212] leading-relaxed font-[500] pt-5 max-w-md">
-Din kreativa zone för smarta webb- och designlösningar i Kalmar. Grundat 2025 av Marah, med fokus på moderna, optimerade och pålitliga digitala lösningar.          </p>
+          <p className="text-[#121212] leading-relaxed  pt-5 max-w-md">
+Zone 90 är en webbyrå i Norrköping & Linköping som skapar smarta webb- och designlösningar. Grundad 2025 med fokus på moderna, optimerade och pålitliga digitala lösningar som hjälper företag att växa online.         </p>
           
         </div>
 

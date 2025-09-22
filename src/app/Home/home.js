@@ -49,13 +49,13 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-15 text-center pt-20 max-w-6xl">
+        <div className="relative z-15 text-center pt-20 max-w-5xl">
 
-          <h1 className="mb-4 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[600] ">
-          Webbdesign för företag i Kalmar </h1>
+          <h1 className="mb-4 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
+        Vill du synas & växa digitalt?</h1>
 
-          <p className="text-gray-300 max-w-6xl mx-auto">
-Zone 90 hjälper företag i Kalmar att växa digitalt genom webbdesign, webbutveckling och digital strategi.          </p>
+          <p className="text-[#F5F5F5] max-w-3xl mx-auto">
+Zone 90 är din webbyrå i Norrköping & Linköping som hjälper ditt företag med  webbdesign, webbutveckling och digital marknadsföring.        </p>
 
           {/* Call to Action */}
           <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 mt-6 w-full">

@@ -19,7 +19,7 @@ export const metadata = {
     canonical: "https://zone90.se/case",
   },
   other: {
-    keywords: "zone 90 kundcase, webbutveckling, webbdesign, SEO, digital strategi ",
+    keywords: "zone 90 kundcase, Swefurn, framstegförening ",
   },
 };
 

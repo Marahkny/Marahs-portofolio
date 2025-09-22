@@ -46,7 +46,7 @@ export default function OmZone90() {
         <div className="flex flex-col md:flex-row  justify-between items-center gap-10">
         <div className="md:w-1/2 text-left item-start">
           <p className=" mb-10 text-gray-300">
-Zone 90 är en kreativ konsulttjänst i Kalmar specialiserad på webb- och designlösningar. Vi hjälper företag att förvandla sin vision till verklighet genom innovativa och användarcentrerade lösningar. Vårt uppdrag är att skapa sömlösa, trendiga och effektfulla digitala upplevelser som fångar och engagerar din målgrupp.        </p>
+Zone 90 är en digital webbyrå i Norrköping & Linköping specialiserad på webbdesign, webbutveckling och marknadsföring. Vi hjälper företag att förvandla sin vision till verklighet genom innovativa och användarcentrerade lösningar. Vårt uppdrag är att skapa sömlösa, trendiga och effektfulla digitala upplevelser som fångar och engagerar din målgrupp.        </p>
             <ul className="space-y-6 ">
               <li className="flex items-center">
                 <FiCheckCircle className="text-[20px] mr-3" /> 
@@ -97,14 +97,14 @@ Zone 90 är en kreativ konsulttjänst i Kalmar specialiserad på webb- och desig
       <div >
       
         <p className=" text-left">
-Zone 90 grundades med visionen att hjälpa företag att växa i den digitala tidsåldern. Resan började med en gemensam passion för teknik och design. År 2025 startade Marah, utbildad webbredaktör och frilansande webbutvecklare, Zone 90 med målet att stärka företag att nå sina mål genom innovativa digitala lösningar.        </p>
+Zone 90 grundades med visionen att hjälpa företag att växa i den digitala tidsåldern. Resan började med en gemensam passion för teknik och design. År 2025 startade Marah Knefaty, utbildad webbredaktör och frilansande webbutvecklare, Zone 90 med målet att stärka företag att nå sina mål genom innovativa digitala lösningar.        </p>
       </div>
 
      
       <div className=" pb-5 ">
-        <h3 className=" mb-4 text-[24px] text-left">En komplett webbtjänst</h3>
+        <h3 className=" mb-4 text-[24px] text-left">En komplett webbyrå</h3>
         <p className=" text-left  pb-4 ">
-Zone 90 är en fullservice konsulttjänst inom webb och design som levererar kompletta digitala lösningar. Från UI/UX-design och webbutveckling till SEO-optimering och innehållsstrategi – vi erbjuder allt företag behöver för att skapa en stark digital närvaro. Vårt mål är att skapa användarvänliga, högpresterande och sömlösa digitala upplevelser som driver tillväxt och engagemang.         </p>
+Zone 90 är en fullservice webbyrå inom webb och design som levererar kompletta digitala lösningar. Från UI/UX-design och webbutveckling till SEO-optimering och innehållsstrategi – vi erbjuder allt företag behöver för att skapa en stark digital närvaro. Vårt mål är att skapa användarvänliga, högpresterande och sömlösa digitala upplevelser som driver tillväxt och engagemang.         </p>
      <p className=" text-left"> Alla betalningar hanteras säkert via Frilans Finans, vilket garanterar 100 % skatteefterlevnad och professionell fakturering.
         </p>
       </div>

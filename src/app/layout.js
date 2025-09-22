@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zone 90 » Webbdesign & webbutveckling i Kalmar",
+  title: "Zone 90 » Din digitala webbyrå i Norrköping & Linköping",
   description:
-    "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Kalmar. Vi bygger snabba, snygga hemsidor",
+    "Zone 90 är en resultatorienterad webbyrå i Norrköping & Linköping som bygger snabba, snygga och SEO-optimerade hemsidor. Vi erbjuder webbdesign, webbutveckling, e-handel, SEO och digital marknadsföring för företag som vill växa online.",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -27,23 +27,23 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://zone90.se",
-    title: "Zone 90 » Webbdesign & webbutveckling i Kalmar",
+    title: "Zone 90 » Din digitala webbyrå i Norrköping & Linköping",
     description:
-      "Zone 90 är en kreativ konsult inom webbdesign och webbutveckling i Kalmar. Vi bygger snabba, snygga hemsidor",
+      "Vi bygger användarvänliga, snabba och optimerade hemsidor som stärker ditt varumärke. Zone 90 är din webbyrå för webbdesign, SEO och e-handel i Norrköping & Linköping.",
     images: [
       {
         url: "https://zone90.se/photos/logo90.png",
         width: 1200,
         height: 630,
-        alt: "Zone 90 Logo",
+        alt: "Zone 90 Webbyrå",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Webbdesign & webbutveckling i Kalmar",
+    title: "Din digitala webbyrå i Norrköping & Linköping",
     description:
-      "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
+      "Zone 90 hjälper företag att växa online med snygga hemsidor, UX/UI-design, e-handel och SEO. Baserade i Norrköping & Linköping.",
     images: ["https://zone90.se/photos/logo90.png"],
   },
   icons: {
@@ -52,9 +52,11 @@ export const metadata = {
     apple: "/photos/logo90.png",
   },
   other: {
-keywords: "webbdesign Kalmar, webbdesign för företag, webbyår i kalmar, skapa hemsidan Kalmar, Wordpress hemsida , hemsida för företag, skapa hemsida Kalmar, webbutveckling, SEO för småföretag, Zone 90"
-}
+    keywords:
+      "webbyrå Norrköping, webbyrå Linköping, webbdesign Norrköping, webbdesign Linköping, hemsida Norrköping, skapa hemsida Norrköping, e-handel Norrköping, WordPress webbyrå, webbutveckling, SEO Norrköping, digital marknadsföring, UX design, Zone 90",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -93,10 +95,10 @@ export default function RootLayout({ children }) {
               logo: "https://zone90.se/photos/logo90.png",
               image: "https://zone90.se/photos/logo90.png",
               description:
-                "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet. För startups och företag.",
+                "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet i Nörrköping och Linköping. För startups och företag.",
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Kalmar",
+                addressLocality: "Nörrköping & Linköping",
                 addressCountry: "SE",
               },
               areaServed: ["SE", "Global"],

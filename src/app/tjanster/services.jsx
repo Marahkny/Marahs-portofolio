@@ -19,11 +19,11 @@ const services = [
     description: "Responsiva, snabba och säkra webbplatser – från WordPress och e-handel till skräddarsydd frontend",
     icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" />,
     features: ["Moderna frontend-ramverk", "Optimerade Wordpress hemsida", "E-handel med Shopify & WooCommerce", "Skalbarhet & säkerhet"],
-    knapp: "Webbutveckling",
+    knapp: "webbutveckling",
     link: "tjanster/webbutveckling",
   },
   {
-    title: "SEO & wbbanalys",
+    title: "SEO & webbanalys",
     description: "Vi ökar din synlighet på Google genom smart SEO med Semrush och Google Analytics.",
     icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6" />,
     features: ["Sökordsanalys med Semrush", "On-page & off-page SEO", "Teknisk SEO", "Analys; Google Analytics"],
@@ -35,7 +35,7 @@ const services = [
     description: "Vi marknadsför ditt företag på sociala medier med Meta Ads för att nå din specifika målgrupp.",
     icon: <RiMetaLine className="text-[40px] text-[#3B429F] mb-6" />,
     features: ["Målgruppsinriktad annonsering", "Optimering i realtid", "Kreativt annonsinnehåll", "Resultatdriven strategi"],
-    knapp: "Meta Ads",
+    knapp: "meta ads",
     link: "tjanster/meta-ads",
   },
   {
@@ -43,7 +43,7 @@ const services = [
     description: "Vi formger visuellt starka uttryck som stärker ditt varumärke",
     icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" />,
     features: ["Logotyper", "Visuell identitet & branding", "Marknadsföringsmaterial"],
-    knapp: "Logotyp & design",
+    knapp: "logotyp & design",
     link: "tjanster/logotyp-och-design",
   },
   {
@@ -106,7 +106,7 @@ export default function Services() {
                 href={service.link}
                 className="w-full inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 rounded-full font-[500] transition-colors duration-300 group relative overflow-hidden"
               >
-                <span className="inline-flex items-center transition-all duration-300 group-hover:-translate-x-4">
+                <span className="inline-flex items-center text-[#F5F5F5] transition-all duration-300 group-hover:-translate-x-4">
                  Läs mer om {service.knapp}
                 </span>
                 <span className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">

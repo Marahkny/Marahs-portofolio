@@ -3,23 +3,15 @@ import OmZone90 from "./omzone90"
 export const metadata = {
   title: "Zone 90 » Om Zone 90 ",
   description:
-    "Zone 90 i Kalmar – din digitala partner för webbutveckling, WordPress, SEO-optimering, e-handel och digital marknadsföring. Vi hjälper företag att växa online.",
+    "Zone 90 i Norrköping & Linköping – din digitala partner för webbutveckling, WordPress, SEO-optimering, e-handel och digital marknadsföring. ",
   keywords: [
-  "Om Zone 90 Zone 90",
-    "webbyrå Kalmar",
-    "SEO Kalmar",
-    "webbutveckling Kalmar",
-    "digital strategi Kalmar",
-    "WordPress utveckling Kalmar",
-    "hemsida företag Kalmar",
-    "Zone 90 kontakt",
-    "SEO optimering Kalmar",
-    "e-handel Kalmar"
+  "Om Zone 90 ",
+  
   ],
   openGraph: {
-    title: "Kontakta Zone 90 ",
+    title: "Om Zone 90 ",
     description:
-      "Behöver du hjälp med webbutveckling, WordPress, SEO eller digital strategi? Kontakta Zone 90 i Kalmar – vi hjälper företag att lyckas online.",
+      "Behöver du hjälp med webbutveckling, WordPress, SEO eller digital strategi? Kontakta Zone 90 i Norrköping & Linköping",
     images: ["/photos/logo90.png"],
     type: "website",
     url: "https://zone90.se/omzone90",

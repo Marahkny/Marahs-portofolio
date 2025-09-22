@@ -1,24 +1,23 @@
 import Tjansterdes from "./tjansterdes"
 
 export const metadata = {
-  title: "Zone 90 » Våra tjänster inom webbutveckling, SEO & design i Kalmar",
+  title: "Zone 90 » Webbutveckling, SEO & design i Norrköping & Linköping",
   description:
-    "Zone 90 erbjuder professionella digitala tjänster i Kalmar: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
+    "Zone 90 erbjuder professionella digitala tjänster i Norrköping & Linköping: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
   keywords: [
-    "webbutveckling i Kalmar",
-    "WordPress i Kalmar",
+    "webbutveckling i Norrköping ","webbutveckling i Linköping",
+    "WordPress i Norrköping & Linköping",
     "UI/UX design",
-    "SEO i Kalmar",
+    "SEO i Norrköping & Linköping",
     "e-handel",
     "digital marknadsföring",
-    "hemsida i Kalmar",
-    "webbyrå i Kalmar",
+    "hemsida i Norrköping & Linköping",
     "Zone 90",
   ],
   openGraph: {
-    title: "Zone 90 – Digitala tjänster inom webbutveckling, SEO och design i Kalmar",
+    title: "Zone 90 » Webbutveckling, SEO & design i Norrköping & Linköping",
     description:
-    "Zone 90 erbjuder professionella digitala tjänster i Kalmar: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
+    "Zone 90 erbjuder professionella digitala tjänster i Norrköping & Linköping: webbutveckling, WordPress, UI/UX-design, SEO-optimering, e-handel & digital marknadsföring. Vi hjälper företag att växa online.",
     images: ["/photos/logo90.png"],
     type: "website",
     url: "https://zone90.se/tjanster",
