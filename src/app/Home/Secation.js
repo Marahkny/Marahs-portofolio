@@ -54,7 +54,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
     <div className="md:w-[60%] flex justify-center">
     <Image
   src="/photos/web-design.jpg"
-  alt="webbdesign Stockholm"
+  alt="Webbyrå i Norrköping & Linköping"
   width={800} 
   height={600} 
 
@@ -75,7 +75,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
 
 <Image
   src="/photos/Seo och webbdesign.jpg"
-  alt="seo och webbdesign i kalmar"
+  alt="webbdesign Norrköping"
   width={800} 
   height={600} 
 
@@ -171,7 +171,7 @@ För oss på Zone 90 handlar webbdesign om mer än kod och grafik – det handla
     <div className="md:w-[60%] flex justify-center">
     <Image
   src="/photos/Zone.png"
-  alt="webbdesign kalmar"
+  alt="webbdesign Linköping"
   width={800} 
   height={600} 
 

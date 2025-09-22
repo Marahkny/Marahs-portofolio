@@ -82,7 +82,7 @@ Vi ger ditt varumärke en kraftfull, elegant och modern känsla. Vi skapar logot
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/logotyp och design.png"
-                alt="Logotyp och design i Kalmar "
+                alt="Logotyp och design i Norrköping & Linköping "
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"

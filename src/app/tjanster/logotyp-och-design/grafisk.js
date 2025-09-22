@@ -5,7 +5,7 @@ export default function Grafisk() {
   return (
     <div className="flex justify-center items-center h-full px-6 py-20">
       <div className="text-center max-w-4xl w-full">
-        <h2>Logotyp och design i Kalmar</h2>
+        <h2>Logotyp och design i Norrköping & Linköping</h2>
 
         <p className="text-gray-300 leading-relaxed py-6 text-2xl">
 Vi skapar digital design för dina sociala medier och din webb. </p>

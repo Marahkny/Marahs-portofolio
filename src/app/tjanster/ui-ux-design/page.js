@@ -1,16 +1,16 @@
 import UXdesign from "./uxdesign";
 
 export const metadata = {
-  title: "Zone 90 » UI/UX design i Kalmar",
+  title: "Zone 90 » UI/UX design i Norrköping & Linköping",
   description:
-    "Zone 90 erbjuder professionell UI/UX-design i Kalmar. Vi skapar användarvänliga, visuellt tilltalande och konverterande digitala upplevelser för webb och appar.",
+    "Zone 90 erbjuder professionell UI/UX-design i Norrköping & Linköping. Vi skapar användarvänliga, visuellt tilltalande och konverterande digitala upplevelser för webb och appar.",
   keywords: [
-    "UI/UX design i Kalmar","användarvänlig upplevelse", "Vad betyder UI/UX design?", "interaktionsdesign", "figma"
+    "UI/UX design i Norrköping", "UI/UX design i  Linköping", "användarvänlig upplevelse", "Vad betyder UI/UX design?", "interaktionsdesign", "figma"
   ],
   openGraph: {
-    title: "Zone 90 – UI/UX design i Kalmar",
+    title: "Zone 90 – UI/UX design i Norrköping & Linköping",
     description:
-      "Zone 90 erbjuder professionell UI/UX-design i Kalmar. Vi skapar användarvänliga, visuellt tilltalande och konverterande digitala upplevelser för webb och appar.",
+      "Zone 90 erbjuder professionell UI/UX-design i Norrköping & Linköping. Vi skapar användarvänliga, visuellt tilltalande och konverterande digitala upplevelser för webb och appar.",
     images: ["/photos/logo90.png"],
     type: "website",
     url: "https://zone90.se/tjanster/ui-ux-design",

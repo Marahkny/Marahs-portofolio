@@ -71,7 +71,7 @@ Zone 90 är en digital webbyrå i Norrköping & Linköping specialiserad på web
 
           <Image
   src="/photos/progremering.png"
-  alt="Zone 90 webbutveckling"
+  alt="Zone 90 Webbyrå"
   width={800}
   height={500}
   className="rounded-[20px] w-full h-auto max-w-[800px]"

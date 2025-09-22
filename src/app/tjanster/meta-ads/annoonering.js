@@ -5,7 +5,7 @@ export default function Annonsering() {
   return (
     <div className="flex justify-center items-center h-full px-6 py-20">
       <div className="text-center max-w-4xl w-full">
-        <h2>Låt dina kunder hitta dig med Meta Ads.</h2>
+        <h2>Marknadsföringsbyrå i Norrköping & Linköping</h2>
 
         <p className="text-gray-300 leading-relaxed py-6 text-2xl">
 Vi gör det möjligt för ditt företag i Kalmar att växa snabbt och öka försäljningen genom vår expertis inom Meta Ads</p>

@@ -5,7 +5,7 @@ export default function Utvecklare() {
   return (
     <div className="flex justify-center items-center h-full px-6 py-20">
       <div className="text-center max-w-4xl w-full">
-        <h2>Behöver ni hjälp med hemsidor och e-handel i Kalmar</h2>
+        <h2>Behöver ni hjälp med hemsidor och e-handel i Norrköping & Linköping</h2>
 
         <p className="text-gray-300 leading-relaxed py-6 text-2xl">
 Vi skapar en användarvänlig hemsida med layout och design som får ditt företag att se professionellt och attraktivt ut.       </p>

@@ -86,7 +86,7 @@ SEO är en avgörande del av en hemsida eftersom det hjälper dina kunder att hi
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/SEO&analys.png"
-                alt="räckna högre på google "
+                alt="SEO byrå i Norrköping & Linköping "
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"

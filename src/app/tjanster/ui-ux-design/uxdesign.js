@@ -87,7 +87,7 @@ Vi arbetar med UI/UX-design i Figma för att skapa användarvänliga och visuell
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/uiux design.png"
-                alt="UI/Ux design "
+                alt="UI/UX design i Norrköping "
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"

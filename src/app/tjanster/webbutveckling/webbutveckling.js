@@ -40,7 +40,7 @@ export default function Webbutveckling() {
       </noscript>
       <section className="text-[#F5F5F5] bg-[#F5F5F5] h-full py-20 px-6">
         <div className="max-w-8xl mx-auto text-left">
-          <h1 className="mb-10 text-[#121212]">Hemisdor & e-handel i Kalmar för ditt förtag</h1>
+          <h1 className="mb-10 text-[#121212]">Hemsidor & e-handel från din webbyrå i Norrköping & Linköping</h1>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-10">
             <div className="md:w-1/2 text-left">
@@ -86,7 +86,7 @@ Vi arbetar med UI/UX-design i Figma för att skapa användarvänliga och visuell
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/hemsidor & e-hanel.png"
-                alt="wordpress hemsidor i kalmar"
+                alt="Hemsidor i Norrköping"
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"

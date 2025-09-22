@@ -88,7 +88,7 @@ Med Meta Ads kan du nå både nya kunder och personer som tidigare visat intress
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/meta-ads.png"
-                alt="Meta-ads i kalmar "
+                alt="Marknadsföringsbyrå i Norrköping & Linköping"
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"

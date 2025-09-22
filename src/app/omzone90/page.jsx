@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Zone 90 i Norrköping & Linköping – din digitala partner för webbutveckling, WordPress, SEO-optimering, e-handel och digital marknadsföring. ",
   keywords: [
-  "Om Zone 90 ",
+  "Om Zone 90 ", "Webbyrå zone 90"
   
   ],
   openGraph: {

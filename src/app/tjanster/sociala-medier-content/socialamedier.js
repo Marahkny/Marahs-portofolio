@@ -83,7 +83,7 @@ Vi hjälper dig att skapa engagerande och professionellt innehåll för sociala 
             <div className="md:w-1/2 flex justify-start md:justify-center">
               <Image
                 src="/photos/Soicala medier.png"
-                alt="Sociala medier & content i Kalmar "
+                alt="Sociala medier & content i Norrköping & Linköping"
                 width={800}
                 height={500}
                 className="rounded-[20px] w-full object-cover h-auto max-w-[800px]"
