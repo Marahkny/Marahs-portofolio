@@ -49,16 +49,16 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-15 text-center pt-20 max-w-5xl">
+        <div className="relative z-10 text-center pt-15 max-w-5xl">
 
-          <h1 className="mb-4 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
+          <h1 className="mb-3 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
         Vill du synas & växa digitalt?</h1>
 
           <p className="text-[#F5F5F5] max-w-3xl mx-auto">
 Zone 90 är din webbyrå i Norrköping & Linköping som hjälper ditt företag med  webbdesign, webbutveckling och digital marknadsföring.        </p>
 
           {/* Call to Action */}
-          <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 mt-6 w-full">
+          <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 mt-3 w-full">
           <Link
   href="/tjanster"
   className=" w-full sm:w-auto relative inline-flex items-start justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full

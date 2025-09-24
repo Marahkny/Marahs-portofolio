@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Zone 90 » Din digitala webbyrå i Norrköping & Linköping",
   description:
-    "Zone 90 är en resultatorienterad webbyrå i Norrköping & Linköping som bygger snabba, snygga och SEO-optimerade hemsidor. Vi erbjuder webbdesign, webbutveckling, e-handel, SEO och digital marknadsföring för företag som vill växa online.",
+    "Zone 90 är en webbyrå i Norrköping & Linköping. Vi skapar snabba, snygga, SEO-optimerade hemsidor, e-handel & digital marknadsföring.",
   metadataBase: new URL("https://zone90.se"),
   alternates: {
     canonical: "/",
@@ -29,13 +29,13 @@ export const metadata = {
     url: "https://zone90.se",
     title: "Zone 90 » Din digitala webbyrå i Norrköping & Linköping",
     description:
-      "Vi bygger användarvänliga, snabba och optimerade hemsidor som stärker ditt varumärke. Zone 90 är din webbyrå för webbdesign, SEO och e-handel i Norrköping & Linköping.",
+      "Zone 90 är en webbyrå i Norrköping & Linköping. Vi skapar snabba, snygga, SEO-optimerade hemsidor, e-handel & digital marknadsföring.",
     images: [
       {
         url: "https://zone90.se/photos/logo90.png",
         width: 1200,
         height: 630,
-        alt: "Zone 90 Webbyrå",
+        alt: "Zone 90 Webbyrå i Norrköping & Linköping",
       },
     ],
   },

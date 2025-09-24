@@ -3,11 +3,11 @@ import Home from "./home";
 export const metadata = {
   title: "Zone 90 » Din digitala webbyrå i Norrköping & Linköping",
   description:
-    "Zone 90 är en resultatorienterad webbyrå i Norrköping & Linköping som bygger snabba, snygga och SEO-optimerade hemsidor. Vi erbjuder webbdesign, webbutveckling, e-handel, SEO och digital marknadsföring för företag.",
+    "Zone 90 är en webbyrå i Norrköping & Linköping. Vi skapar snabba, snygga, SEO-optimerade hemsidor, e-handel & digital marknadsföring.",
   openGraph: {
     title: "Zone 90 » Din digitala webbyrå i Norrköping & Linköping",
     description:
-      "Zone 90 är en resultatorienterad webbyrå i Norrköping & Linköping som bygger snabba, snygga och SEO-optimerade hemsidor. Vi erbjuder webbdesign, webbutveckling, e-handel, SEO och digital marknadsföring för företag.",
+      "Zone 90 är en webbyrå i Norrköping & Linköping. Vi skapar snabba, snygga, SEO-optimerade hemsidor, e-handel & digital marknadsföring.",
     images: [
       {
         url: "/photos/logo90.png",
