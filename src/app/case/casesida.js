@@ -8,7 +8,7 @@ export default function Casesida() {
          {
       title: "Swefurn",
       category: "WordPress webbplats & SEO",
-      image: "/photos/swefurn.png",
+      image: "/photos/swefurn-hemsida.png",
       link: "/case/swefurn",
     },
     {
@@ -20,7 +20,7 @@ export default function Casesida() {
     {
       title: "Framsteg förening",
       category: "WordPress webbplats & brand",
-      image: "/photos/project-1.png",
+      image: "/photos/framstegförening.png",
       link: "/case/framsteg",
     },
 

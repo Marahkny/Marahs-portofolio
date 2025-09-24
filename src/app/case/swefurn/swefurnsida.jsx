@@ -17,7 +17,7 @@ En inredningsbyrå för företag i Stockholm </p>
       {/* Hero Image */}
       <div className="flex justify-center items-center pt-10 px-6">
       <Image
-  src="/photos/swefurn (2).png"
+  src="/photos/swefurn-hemsida1.png"
   alt="swefurn website preview"
   width={800}  
   height={500}

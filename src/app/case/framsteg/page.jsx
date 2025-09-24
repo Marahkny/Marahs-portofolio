@@ -26,7 +26,7 @@ En webbplats för kulturföreningen      </p>
       {/* Hero Image */}
       <div className="flex justify-center items-center pt-10 px-6">
       <Image
-  src="/photos/project-1.png"
+  src="/photos/framstegförening.png"
   alt="Framsteg förening website preview"
   width={800}  
   height={500}
