@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { HiArrowSmallRight } from "react-icons/hi2";
@@ -8,34 +9,67 @@ import Image from "next/image";
 
 export default function Projects() {
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
 
-  // Gör så att kolumnerna oscillerar upp och ner vid scroll
-  const col1Translate = useTransform(scrollYProgress, [0, 1], ["5%", "-5%"]);
-  const col2Translate = useTransform(scrollYProgress, [0, 1], ["-5%", "5%"]);
+  // Scroll animation
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+
+  // Oscillation offsets för mer levande rörelse
+  const col1Translate = useTransform(scrollYProgress, [0, 1], ["8%", "-8%"]);
+  const col2Translate = useTransform(scrollYProgress, [0, 1], ["-8%", "8%"]);
 
   return (
     <div>
       <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[60%] ml-0 max-w-8xl mx-auto px-6 z-10">
         <h2 className="text-left pb-6">Kundcase</h2>
         <p className="text-gray-300 max-w-8xl">
-Vi är stolta över att ha hjälpt företag och organisationer att växa digitalt.       </p>
+          Vi är stolta över att ha hjälpt företag och organisationer att växa digitalt.
+        </p>
       </div>
 
       <div ref={ref} className="max-w-8xl px-6 mx-auto pb-40 z-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* 🟢 Första kolumnen - Oscillerar vid scroll */}
-          <motion.div style={{ y: col1Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/swefurn-hemsida.png" title="Swefurn" desc="WordPress webbplats & SEO" link="/case/swefurn"  />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+          {/* 🟢 Kolumn 1 */}
+          <motion.div style={{ y: col1Translate }} className="flex flex-col gap-10">
+            <ProjectCard 
+              imgSrc="/photos/swefurn-hemsida.png"
+              title="Swefurn"
+              desc="WordPress webbplats & SEO"
+              link="/case/swefurn"
+              height={420}
+            />
+
+            <ProjectCard 
+              imgSrc="/photos/framstegförening.png"
+              title="Framsteg förening"
+              desc="WordPress webbplats & brand"
+              link="/case/framsteg"
+              height={380}
+            />
           </motion.div>
 
-          {/* 🟢 Andra kolumnen - Oscillerar vid scroll */}
-          <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/framstegförening.png" title="Framsteg förening" desc="WordPress webbplats & brand" link="/case/framsteg" />
+          {/* 🟢 Kolumn 2 */}
+          <motion.div style={{ y: col2Translate }} className="flex flex-col gap-10">
+            <ProjectCard 
+              imgSrc="/photos/Hyra minigrävaren webbdesign.png"
+              title="Hyr minigrävaren"
+              desc="WordPress webbplats"
+              link="/case/hyraminigravaren"
+              height={350}
+            />
+
+            <ProjectCard 
+              imgSrc="/photos/project-2.png"
+              title="Techno"
+              desc="UI/UX design & brand"
+              link="/case/techno"
+              height={420}
+            />
           </motion.div>
-          <motion.div style={{ y: col2Translate }} className="flex flex-col gap-6">
-            <ProjectCard imgSrc="/photos/project-2.png" title="Techno" desc="UI/UX design & brand" link="/case/techno" />
-          </motion.div>
+
         </div>
       </div>
 
@@ -44,33 +78,46 @@ Vi är stolta över att ha hjälpt företag och organisationer att växa digital
   );
 }
 
-function ProjectCard({ imgSrc, title, desc, link }) {
+function ProjectCard({ imgSrc, title, desc, link, height = 400 }) {
   return (
-    <div className="mb-6 ">
-      <Link className="group" href={link}> 
-      <Image
-  src={imgSrc}
-  alt={title}
-  width={800} 
-  height={500} 
+    <div className="mb-6">
+      <Link className="group" href={link}>
+        
+        {/* Fixad höjd + snyggare bild */}
+        <div
+          className="relative w-full overflow-hidden rounded-[20px]"
+          style={{ height: `${height}px` }}
+        >
+          <Image
+            src={imgSrc}
+            alt={title}
+            fill
+            className="object-cover rounded-[20px] transition-transform duration-500 group-hover:scale-[1.03]"
+          />
+        </div>
 
-  className="w-full object-contain rounded-[20px] "
-/>
-      
-        <div className="flex justify-between items-center w-full mt-4 ">
+        <div className="flex justify-between items-center w-full mt-4">
           <div>
-            <h3 className="text-[24px] mb-2 s transition-colors duration-300">{title}</h3>
+            <h3 className="text-[24px] mb-1 transition-colors duration-300">
+              {title}
+            </h3>
             <p className="text-gray-300">{desc}</p>
           </div>
-          <div className="flex items-center gap-2 group pr-2 cursor-pointer">
+
+          <div className="flex items-center gap-1 group pr-2 cursor-pointer">
             <p className="text-[16px] text-gray-300">Visa</p>
-            <HiArrowSmallRight className="text-[#F5F5F5] text-[24px] transition-transform duration-300  group-hover:translate-x-2" aria-hidden="true" />
+            <HiArrowSmallRight
+              className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2"
+              aria-hidden="true"
+            />
           </div>
         </div>
+
       </Link>
     </div>
   );
 }
+
 
 
 

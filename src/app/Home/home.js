@@ -55,7 +55,7 @@ export default function Home() {
         Vill du synas & växa digitalt?</h1>
 
           <p className="text-[#F5F5F5] max-w-3xl mx-auto">
-Zone 90 är din webbyrå i Norrköping & Linköping som hjälper ditt företag med  webbdesign, webbutveckling och digital marknadsföring.        </p>
+Zone 90 – webbyrå i Norrköping och Linköping för webb, design och digital marknadsföring.      </p>
 
           {/* Call to Action */}
           <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 mt-3 w-full">

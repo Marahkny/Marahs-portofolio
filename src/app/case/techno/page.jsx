@@ -58,7 +58,7 @@ Designen bygger på tydliga, rena principer som tillsammans med en välstrukture
             </div>
             <div>
               <h3 className="text-2xl">När</h3>
-              <p className="text-gray-300">Juni – juli 2024</p>
+              <p className="text-gray-300">Juni – Juli 2024</p>
             </div>
             <div>
               <h3 className="text-2xl ">Vad</h3>

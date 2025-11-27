@@ -3,32 +3,46 @@ import Link from "next/link";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import Zone90Section from "../Home/zone90secation";
 import Script from "next/script";
+
 export default function Casesida() {
   const cards = [
-         {
+    {
+      title: "Hyra minigrävaren",
+      category: "WordPress webbplats & grund SEO",
+      image: "/photos/Hyra minigrävaren webbdesign.png",
+      link: "/case/hyraminigravaren",
+      imgWidth: 550,
+      imgHeight: 320,
+    },
+    {
       title: "Swefurn",
       category: "WordPress webbplats & SEO",
       image: "/photos/swefurn-hemsida.png",
       link: "/case/swefurn",
+      imgWidth: 600,
+      imgHeight: 350,
     },
     {
       title: "Techno",
-      category: "UI/UX design & brand ",
+      category: "UI/UX design & brand",
       image: "/photos/project-2.png",
       link: "/case/techno",
+      imgWidth: 500,
+      imgHeight: 300,
     },
     {
       title: "Framsteg förening",
       category: "WordPress webbplats & brand",
       image: "/photos/framstegförening.png",
       link: "/case/framsteg",
-    },
-
+      imgWidth: 600,
+      imgHeight: 380,
+    }
   ];
 
   return (
     <>
-{/* Meta Pixel Script */}
+      {/* Meta Pixel Script */}
       <Script
         id="meta-pixel"
         strategy="afterInteractive"
@@ -47,7 +61,6 @@ export default function Casesida() {
           `,
         }}
       />
-      {/* Noscript för Pixel */}
       <noscript>
         <img
           height="1"
@@ -56,6 +69,8 @@ export default function Casesida() {
           src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
         />
       </noscript>
+
+      {/* Header Section */}
       <section className="text-[#F5F5F5] h-full pt-20 pb-10 px-6">
         <div className="max-w-8xl mx-auto text-left">
           <h1 className="mb-6">Titta på våra tidigare projekt</h1>
@@ -65,6 +80,7 @@ export default function Casesida() {
         </div>
       </section>
 
+      {/* Cards Grid */}
       <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 p-6">
         {cards.map((card, index) => (
           <div
@@ -72,14 +88,17 @@ export default function Casesida() {
             className="rounded-[20px] overflow-hidden py-4 group cursor-pointer"
           >
             <Link href={card.link}>
-              <img
-                src={card.image}
-                alt={`Case: ${card.title} – ${card.category}`}
-                width="500"
-                height="300"
-                className="w-full h-auto rounded-[20px] "
-                loading={index === 0 ? "eager" : "lazy"}
-              />
+              <div className="overflow-hidden rounded-[20px]">
+                <img
+                  src={card.image}
+                  alt={`Case: ${card.title} – ${card.category}`}
+                  width={card.imgWidth}
+                  height={card.imgHeight}
+                  className="w-full h-auto rounded-[20px] transition-transform duration-500 group-hover:scale-[1.05]"
+                  loading={index === 0 ? "eager" : "lazy"}
+                />
+              </div>
+
               <div className="py-6">
                 <h2 className="text-2xl pb-2 font-semibold">{card.title}</h2>
                 <div className="flex items-center justify-between w-full pr-2">
@@ -96,3 +115,4 @@ export default function Casesida() {
     </>
   );
 }
+

@@ -37,7 +37,7 @@ export default function Des() {
         <div className="flex justify-center px-6">
         <Image
   src="/photos/swefurn-startsida.png"
-  alt="swfurn wordpress hemsidan "
+  alt="swefurn wordpress hemsidan "
   width={800}  
   height={500} 
   

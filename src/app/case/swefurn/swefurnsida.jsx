@@ -46,7 +46,7 @@ Hemsidan är byggd utifrån kundens önskemål, med fokus på struktur, använda
             </div>
             <div>
               <h3 className="text-2xl ">När</h3>
-              <p >juni 2025</p>
+              <p >Juni 2025</p>
             </div>
             <div>
               <h3 className="text-2xl">Vad</h3>
