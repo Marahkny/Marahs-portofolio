@@ -41,7 +41,7 @@ export default function Home() {
         />
       </noscript>
       {/* Hero sektion */}
-<header className="relative w-full min-h-screen flex items-center justify-center overflow-hidden  mx-auto">
+<header className="relative w-full min-h-screen flex  items-center justify-center overflow-hidden  mx-auto">
 
         {/* Bakgrund */}
         <div className="absolute inset-0">
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-10 text-center py-20 max-w-5xl">
+        <div className="relative z-10 text-center items-center mt-20 py-20 max-w-5xl px-6">
 
           <h1 className="mb-3 pt-8 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
         Din digitala kreativa webbyrå </h1>
@@ -113,8 +113,10 @@ Få fler kunder, öka din försäljning och väx tryggt online med oss.      </p
 
       {/* Sektioner */}
 
-      <ZoneSec />
+      
       <ServicesHem />
+      <ZoneSec />
+      
       <Projects />
       <Section />
       <Zone90Section />

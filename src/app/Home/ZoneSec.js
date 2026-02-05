@@ -14,7 +14,7 @@ Zone 90 – mer än en partner
 </h2>
 
    
-    <p className="text-[18px] sm:text-[18px] text-left md:text-[24px] lg:text-[26px] pt-6 leading-relaxed">
+    <p className="text-[18px] sm:text-[18px] text-left md:text-[22px] lg:text-[24px] pt-6 leading-relaxed">
 Vi skapar webbplatser och digitala lösningar i Norrköping och Linköping som stärker ditt varumärke och driver affärer. Med en kombination av design, teknik och strategi levererar vi hemsidor som är snabba, användarvänliga och helt anpassade efter dina mål. Varje projekt är unikt – därför bygger vi inte bara hemsidor, vi skapar digitala lösningar som gör ditt företag mer synligt, relevant och framgångsrikt online.  </p>  
   </div>
 
