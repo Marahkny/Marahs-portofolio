@@ -8,6 +8,7 @@
 :root {
   --background: #121212;
   --foreground: #171717;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,12 +18,14 @@
   }
 }
 
+
 /* Body och brödtext */
 body {
   font-family:'Fira Sans', sans-serif;
   color: var(--foreground);
   background: var(--background);
   line-height: 1.6;
+
 }
 
 /* Rubriker */

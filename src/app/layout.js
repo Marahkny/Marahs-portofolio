@@ -43,7 +43,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Din digitala webbyrå i Norrköping & Linköping",
     description:
-      "Zone 90 hjälper företag att växa online med snygga hemsidor, UX/UI-design, e-handel och SEO. Baserade i Norrköping & Linköping.",
+      "Zone 90 hjälper företag att växa online med snygga hemsidor, UX/UI-design, e-handel och SEO.",
     images: ["https://zone90.se/photos/logo90.png"],
   },
   icons: {
@@ -53,20 +53,18 @@ export const metadata = {
   },
   other: {
     keywords:
-      "webbyrå Norrköping, webbyrå Linköping, webbdesign Norrköping, webbdesign Linköping, hemsida Norrköping, skapa hemsida Norrköping, e-handel Norrköping, WordPress webbyrå, webbutveckling, SEO Norrköping, digital marknadsföring, UX design, Zone 90",
+      "webbyrå Norrköping, webbyrå Linköping, webbdesign Norrköping, webbdesign Linköping, hemsida Norrköping, e-handel, SEO, digital marknadsföring, Zone 90",
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="sv">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-          <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-ME0HPVY5HG`}
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ME0HPVY5HG"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -77,13 +75,47 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-ME0HPVY5HG');
           `}
         </Script>
+
+        {/* Meta Pixel */}
+        <Script
+          id="meta-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '3256787997805806');
+              fbq('track', 'PageView');
+            `,
+          }}
+        />
+
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
+
+        {/* Layout */}
         <Header />
         <main>{children}</main>
-        <Analytics />
-        <SpeedInsights />
         <Footer />
 
-        {/* Schema.org Structured Data */}
+        {/* Vercel */}
+        <Analytics />
+        <SpeedInsights />
+
+        {/* Schema.org */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -95,10 +127,10 @@ export default function RootLayout({ children }) {
               logo: "https://zone90.se/photos/logo90.png",
               image: "https://zone90.se/photos/logo90.png",
               description:
-                "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet i Nörrköping och Linköping. För startups och företag.",
+                "Zone 90 bygger användarvänliga, snabba och snygga hemsidor med fokus på UX, UI och tillgänglighet i Norrköping och Linköping.",
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Nörrköping & Linköping",
+                addressLocality: "Norrköping & Linköping",
                 addressCountry: "SE",
               },
               areaServed: ["SE", "Global"],
@@ -109,58 +141,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-  {/* Google Analytics */}
-  <Script
-    src={`https://www.googletagmanager.com/gtag/js?id=G-ME0HPVY5HG`}
-    strategy="afterInteractive"
-  />
-  <Script id="google-analytics" strategy="afterInteractive">
-    {`window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ME0HPVY5HG');`}
-  </Script>
-
-  {/* Meta Pixel */}
-  <Script
-    id="meta-pixel"
-    strategy="afterInteractive"
-    dangerouslySetInnerHTML={{
-      __html: `
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '3256787997805806');
-        fbq('track', 'PageView');
-      `,
-    }}
-  />
-  <noscript>
-    <img
-      height="1"
-      width="1"
-      style={{ display: "none" }}
-      src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
-    />
-  </noscript>
-
-  <Header />
-  <main>{children}</main>
-  <Analytics />
-  <SpeedInsights />
-  <Footer />
-</body>
-
       </body>
     </html>
   );
 }
-
-
-

@@ -1,131 +1,142 @@
 :root {
-  --color-bg1: 18, 18, 18; /* #121212 */
+  --color-bg1: 18, 18, 18;
   --color-bg2: 18, 18, 18;
-  --color1: 59, 66, 159;  /* #3B429F */
-  --color2: 184, 51, 106; /* #B8336A */
-  --color3: 157, 42, 86;/* (Behöll RGB-värdena) */
-  --color5: 59, 66, 159;  /* #FFB84C */
+
+  --color1: 59, 66, 159;   /* blå */
+  --color2: 184, 51, 106;  /* rosa */
+  --color3: 157, 42, 86;   /* mörk rosa */
+
   --circle-size: 80vw;
- 
 }
 
+/* =========================
+   ANIMATIONER
+   ========================= */
 
-
-@keyframes moveElliptical {
+/* Långsam flytande rörelse */
+@keyframes floatSlow {
   0% {
-    transform: translateX(0%) translateY(0%);
-  }
-  25% {
-    transform: translateX(10%) translateY(30%);
+    transform: translate(0%, 0%) scale(1);
   }
   50% {
-    transform: translateX(20%) translateY(10%);
-  }
-  75% {
-    transform: translateX(5%) translateY(40%);
+    transform: translate(15%, 20%) scale(1.05);
   }
   100% {
-    transform: translateX(0%) translateY(0%);
+    transform: translate(0%, 0%) scale(1);
   }
 }
 
-
-@keyframes moveVertical {
-  0% { transform: translateY(10%); }
-  40% { transform: translateY(30%); }
-  30% { transform: translateY(60%); }
-}
-
-@keyframes moveFromTopBalanced {
+/* Mjuk ljus/mörk-puls */
+@keyframes pulseLight {
   0% {
-    transform: translateX(-30%) translateY(-20%);
-  }
-  25% {
-    transform: translateX(10%) translateY(20%);
+    opacity: 0.6;
   }
   50% {
-    transform: translateX(30%) translateY(50%);
-  }
-  75% {
-    transform: translateX(0%) translateY(75%);
+    opacity: 0.8;
   }
   100% {
-    transform: translateX(-30%) translateY(100%);
+    opacity: 0.6;
   }
 }
 
+/* =========================
+   GRADIENT BACKGROUND
+   ========================= */
 
 .gradient-bg {
   width: 100vw;
-  height: 130vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
- 
-  top: 0;
-  left: 0;
+  background: rgb(var(--color-bg1));
 }
 
+/* SVG-filter (goo) */
 .gradient-bg svg {
   position: fixed;
-  top: 0px;
-  left: 0;
   width: 0;
   height: 0;
 }
 
 .gradients-container {
-  filter: url(#goo) blur(20px);
-  width: 100%;
-  height: 100%;
   position: absolute;
-  top: -50px;
-  left: 0;
-  max-height: 110vh; 
+  inset: 0;
+  filter: url(#goo) blur(40px);
   overflow: hidden;
 }
 
-.g1,  .g3, .g4, .g5 {
-  position: absolute;
-  width: var(--circle-size);
-  height: var(--circle-size);
-  top: calc(10% - var(--circle-size) / 2);
+/* =========================
+   GEMENSAMMA CIRKLAR
+   ========================= */
 
-  right: calc(50% - var(--circle-size) / 2);
-}
-
-.g1 {
-  background: radial-gradient(circle at center, rgba(var(--color1), 0.7) 0, rgba(var(--color1), 0) 90%);
-  animation: moveVertical 10s ease infinite;
-}
-.g2 {
-  position: absolute;
-  width: var(--circle-size);
-  height: var(--circle-size);
-  top: calc(20% - var(--circle-size) / 2);
-  right: calc(100% - var(--circle-size) / 2);
-  background: radial-gradient(circle at center, rgba(var(--color5), 0.7) 0, rgba(var(--color5), 0) 50%);
-  animation: moveElliptical 20s ease-in-out infinite;
-}
-
+.g1,
+.g2,
 .g3 {
-  background: radial-gradient(circle at center, rgba(var(--color3), 0.7) 0, rgba(var(--color3), 0) 80%);
-  transform-origin: calc(70% - 400px);
-  animation: moveFromTopBalanced 20s ease-in-out infinite;
+  position: absolute;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  opacity: 0.8; /* 80% transparens */
 }
 
+/* =========================
+   INDIVIDUELLA GRADIENTS
+   ========================= */
 
-
-.g4 {
-  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 50%);
-  transform-origin: calc(20% - 600px);
-  animation: moveFromTopBalanced 30s ease-in-out infinite;
+/* Blå – lugn */
+.g1 {
+  top: 10%;
+  left: 15%;
+  background: radial-gradient(
+    circle,
+    rgba(var(--color1), 0.8) 0%,
+    rgba(var(--color1), 0) 70%
+  );
+  animation:
+    floatSlow 60s ease-in-out infinite,
+    pulseLight 14s ease-in-out infinite;
 }
 
-.g5 {
-  background: radial-gradient(circle at center, rgba(var(--color2), 0.7) 0, rgba(var(--color2), 0) 60%);
-  transform-origin: calc(50% - 800px) calc(50% + 200px);
-  animation: moveInCircle 20s ease infinite;
+/* Rosa – långsammare */
+.g2 {
+  top: 40%;
+  right: 10%;
+  background: radial-gradient(
+    circle,
+    rgba(var(--color2), 0.8) 0%,
+    rgba(var(--color2), 0) 70%
+  );
+  animation:
+    floatSlow 80s ease-in-out infinite,
+    pulseLight 18s ease-in-out infinite;
 }
 
+/* Mörk accent */
+.g3 {
+  bottom: 5%;
+  left: 30%;
+  background: radial-gradient(
+    circle,
+    rgba(var(--color3), 0.7) 0%,
+    rgba(var(--color3), 0) 75%
+  );
+  animation:
+    floatSlow 100s ease-in-out infinite,
+    pulseLight 22s ease-in-out infinite;
+}
 
-  
+/* =========================
+   MOBILOPTIMERING
+   ========================= */
+
+@media (max-width: 768px) {
+  .gradients-container {
+    filter: blur(12px);
+  }
+
+  .g1,
+  .g2,
+  .g3 {
+    width: 120vw;
+    height: 120vw;
+  }
+}

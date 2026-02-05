@@ -41,7 +41,7 @@ export default function Home() {
         />
       </noscript>
       {/* Hero sektion */}
-      <header className="relative w-full h-[700px] flex items-center justify-center overflow-hidden px-6 ">
+<header className="relative w-full min-h-screen flex items-center justify-center overflow-hidden  mx-auto">
 
         {/* Bakgrund */}
         <div className="absolute inset-0">
@@ -49,13 +49,13 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-10 text-center pt-15 max-w-5xl">
+        <div className="relative z-10 text-center py-20 max-w-5xl">
 
-          <h1 className="mb-3 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
-        Vill du synas & växa digitalt?</h1>
+          <h1 className="mb-3 pt-8 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
+        Din digitala kreativa webbyrå </h1>
 
           <p className="text-[#F5F5F5] max-w-3xl mx-auto">
-Zone 90 – webbyrå i Norrköping och Linköping för webb, design och digital marknadsföring.      </p>
+Få fler kunder, öka din försäljning och väx tryggt online med oss.      </p>
 
           {/* Call to Action */}
           <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 mt-3 w-full">
@@ -82,17 +82,17 @@ Zone 90 – webbyrå i Norrköping och Linköping för webb, design och digital 
   </span>
 </Link>
   <Link
-  href="/case"
+  href="/kontakt"
   className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#B8336A] text-[#F5F5F5] py-4 px-8 rounded-full
              group font-[500] transition-colors duration-300 overflow-hidden"
  aria-label="se mer om våra projekt"
-              title="Kundcase"
+              title="Kontakta oss"
               role="button"
 >
   <span
     className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-     Kundcase
+     Kontakta oss
 
   </span>
 

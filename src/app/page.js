@@ -2,7 +2,7 @@ import Hero from './Home/Hero'
 
 export default function Home() {
   return (
-    <div>
+    <div className="container-1500">
 
 <Hero />
 

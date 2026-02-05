@@ -7,19 +7,23 @@ const nextConfig = {
         source: '/contact',
         destination: '/kontakt',
         permanent: true,
+      
       },
       {
         source: '/about',
         destination: '/omzone90',
         permanent: true,
+      
       },
       {
         source: '/service',
         destination: '/tjanster',
         permanent: true,
+    
       },
     ];
   },
+
 };
 
 module.exports = nextConfig;
