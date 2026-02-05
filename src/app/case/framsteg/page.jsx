@@ -54,23 +54,13 @@ En webbplats för kulturföreningen      </p>
             </div>
             <div>
               <h3 className="text-2xl ">När</h3>
-              <p >Jan – Feb 2025</p>
+              <p >Jan – Feb 2024</p>
             </div>
             <div>
               <h3 className="text-2xl">Vad</h3>
               <p >Brand & WordPress webbplats</p>
             </div>
-            <div>
-              <h3 className="text-2xl">Besök</h3>
-              <a
-                href="https://webbred2.utb.hb.se/~s2105409/wp/"
-                className="hover:underline flex items-center gap-2 "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Framsteg förening <MdArrowOutward className="text-[24px]" />
-              </a>
-            </div>
+            
           </div>
         </div>
       </section>
