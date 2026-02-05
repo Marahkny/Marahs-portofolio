@@ -1,25 +1,28 @@
 :root {
   --color-bg1: 18, 18, 18;
   --color-bg2: 18, 18, 18;
-
-  --color1: 59, 66, 159;   /* blå */
-  --color2: 184, 51, 106;  /* rosa */
-  --color3: 157, 42, 86;   /* mörk rosa */
-
-  --circle-size: 80vw;
+  --color1: 59, 66, 159;   
+  --color2: 184, 51, 106;  
+  --color3: 157, 42, 86;   
+  --circle-size: 90vh;
 }
 
-/* =========================
-   ANIMATIONER
-   ========================= */
-
-/* Långsam flytande rörelse */
+/* Långsam, luftig rörelse med upp/ner */
 @keyframes floatSlow {
   0% {
     transform: translate(0%, 0%) scale(1);
   }
-  50% {
-    transform: translate(15%, 20%) scale(1.05);
+  20% {
+    transform: translate(5%, -5%) scale(1.02);
+  }
+  40% {
+    transform: translate(-3%, 8%) scale(1.03);
+  }
+  60% {
+    transform: translate(6%, -6%) scale(1.04);
+  }
+  80% {
+    transform: translate(-4%, 5%) scale(1.03);
   }
   100% {
     transform: translate(0%, 0%) scale(1);
@@ -28,15 +31,9 @@
 
 /* Mjuk ljus/mörk-puls */
 @keyframes pulseLight {
-  0% {
-    opacity: 0.6;
-  }
-  50% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 0.6;
-  }
+  0% { opacity: 0.7; }
+  50% { opacity: 0.9; }
+  100% { opacity: 0.7; }
 }
 
 /* =========================
@@ -51,7 +48,6 @@
   background: rgb(var(--color-bg1));
 }
 
-/* SVG-filter (goo) */
 .gradient-bg svg {
   position: fixed;
   width: 0;
@@ -75,62 +71,65 @@
   position: absolute;
   width: var(--circle-size);
   height: var(--circle-size);
-  opacity: 0.8; /* 80% transparens */
+  border-radius: 50%;
+  opacity: 0.4; 
 }
 
 /* =========================
-   INDIVIDUELLA GRADIENTS
+   INDIVIDUELLA CIRKLAR
    ========================= */
 
-/* Blå – lugn */
+/* G1 – högre upp i mitten, luftig rörelse */
 .g1 {
   top: 10%;
-  left: 15%;
+  left: 30%;
+  transform: translateX(-50%);
   background: radial-gradient(
     circle,
     rgba(var(--color1), 0.8) 0%,
     rgba(var(--color1), 0) 70%
   );
   animation:
-    floatSlow 60s ease-in-out infinite,
-    pulseLight 14s ease-in-out infinite;
+    floatSlow 90s ease-in-out infinite,
+    pulseLight 16s ease-in-out infinite;
 }
 
-/* Rosa – långsammare */
+/* G2 – centrerad lite mer ned, luftig rörelse */
 .g2 {
-  top: 40%;
-  right: 10%;
+  top: 12%;
+  left: 45%;
+  transform: translateX(-50%);
   background: radial-gradient(
     circle,
     rgba(var(--color2), 0.8) 0%,
     rgba(var(--color2), 0) 70%
   );
   animation:
-    floatSlow 80s ease-in-out infinite,
+    floatSlow 120s ease-in-out infinite,
     pulseLight 18s ease-in-out infinite;
 }
 
-/* Mörk accent */
+/* G3 – accent mörkare, långsam rörelse */
 .g3 {
-  bottom: 5%;
-  left: 30%;
+  top: 10%;
+  left: 15%;
   background: radial-gradient(
     circle,
     rgba(var(--color3), 0.7) 0%,
     rgba(var(--color3), 0) 75%
   );
   animation:
-    floatSlow 100s ease-in-out infinite,
+    floatSlow 150s ease-in-out infinite,
     pulseLight 22s ease-in-out infinite;
 }
+
 
 /* =========================
    MOBILOPTIMERING
    ========================= */
-
 @media (max-width: 768px) {
   .gradients-container {
-    filter: blur(12px);
+    filter: blur(20px);
   }
 
   .g1,

@@ -44,7 +44,7 @@ const services = [
 
 export default function ServicesHem() {
   return (
-    <div className="max-w-8xl mx-auto px-6 py-20 text-left">
+    <div className="max-w-8xl max-width:-[1500px] mx-auto px-6 py-20 text-left">
       <h2 className="mb-6">Tools att växa smart</h2>
       <p className="mb-6">
         Vi arbetar med ett användarcentrerat perspektiv där din målgrupp alltid är i fokus. Med rätt balans mellan design, teknik och kommunikation hjälper vi ditt företag att växa digitalt

@@ -7,7 +7,7 @@ export default function ZoneSec() {
   <div className="max-w-8xl text-left py-6 justify-center lg:pb-20">
 
 <h2 >
-Zone 90 – mer än en partner
+Zone 90
   <span className=" text-[#F5F5F5] block text-[18px] md:text-[24px] lg:text-[26px] font-normal ">
      Vi är din digitala drivkraft
   </span>
