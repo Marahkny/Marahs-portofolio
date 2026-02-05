@@ -8,7 +8,7 @@ export default function Zone90Section() {
         <h2 >
      Letar du efter Webbyrå i Nörrköping & Linköping?
         </h2>
-        <p className="text-gray-300 leading-relaxed py-6 text-2xl">
+        <p className="text-gray-300 leading-relaxed py-6 text-[22px]">
 Låt oss ta en digital fika – och förvandla dina idéer till resultat. </p>
        
 <Link
