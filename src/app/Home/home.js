@@ -49,12 +49,12 @@ export default function Home() {
         </div>
 
         {/* Innehåll */}
-        <div className="relative z-10 text-center items-center  mt-20 py-20 max-w-5xl px-6">
+<div className="relative z-10 text-center mt-20 py-20 max-w-5xl px-6 md:max-w-6xl mx-auto">
 
-          <h1 className="mb-3 pt-8 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[700] ">
+          <h1 className="mb-4 pt-8 text-[36px] sm:text-[36px] md:text-[60px] lg:text-[80px] xl:text-[100px] font-[500] ">
         Din digitala kreativa webbyrå </h1>
 
-          <p className="text-[#F5F5F5] max-w-3xl mx-auto">
+          <p className="text-[#F5F5F5] text-[22px] max-w-3xl mb-4 mx-auto">
 Få fler kunder, öka din försäljning och väx tryggt online med oss.      </p>
 
           {/* Call to Action */}

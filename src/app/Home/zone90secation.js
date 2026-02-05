@@ -3,8 +3,8 @@ import Link from "next/link";
 import { HiArrowSmallRight } from "react-icons/hi2";
 export default function Zone90Section() {
   return (
-    <div className="flex justify-center items-center h-full px-6 py-20">
-      <div className="text-center max-w-4xl w-full">
+    <div className="flex justify-center items-center h-full px-6 py-20 ">
+      <div className="text-center max-w-4xl w-full ">
         <h2 >
      Letar du efter Webbyrå i Nörrköping & Linköping?
         </h2>
