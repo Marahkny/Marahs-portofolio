@@ -2,9 +2,9 @@
 export default function ZoneSec() {
     return (
 <section className=" max-w-8xl px-6 flex flex-col items-center justify-center h-full 
-                    py-6 xs:py-2 ">
+                    pb-20 xs:pb-8 ">
   {/* Heading */}
-  <div className="max-w-8xl text-left py-6 justify-center lg:pb-20">
+  <div className="max-w-8xl text-left  justify-center lg:pb-20">
 
 <h2 >
 Zone 90
