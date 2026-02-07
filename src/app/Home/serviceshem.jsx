@@ -43,10 +43,10 @@ export default function ServicesHem() {
   </div>
       <section >
         <div className="mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 sm:gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 sm:gap-4">
             {services.map((service, index) => (
               <Link href={`/${service.link}`} key={index}>
-                <div className="relative flex flex-col justify-between  text-left  text-[#F5F5F5] transition-transform cursor-pointer  h-full min-h-[300px] overflow-hidden group hover:scale-105">
+                <div className="relative flex flex-col justify-between  text-left  text-[#F5F5F5] transition-transform cursor-pointer  h-full min-h-[250px] overflow-hidden group hover:scale-105">
                   <div className="relative z-10">
                     {service.icon}
                     <h3 className="text-[28px] text-[#F5F5F5] mb-4">{service.title}</h3>

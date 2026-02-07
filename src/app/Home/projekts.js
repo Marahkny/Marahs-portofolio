@@ -84,10 +84,8 @@ function ProjectCard({ imgSrc, title, desc, link, height = 400 }) {
       <Link className="group" href={link}>
         
         {/* Fixad höjd + snyggare bild */}
-        <div
-          className="relative w-full overflow-hidden rounded-[20px]"
-          style={{ height: `${height}px` }}
-        >
+      <div className="relative w-full h-[220px] sm:h-[300px] md:h-[380px] lg:h-[420px] overflow-hidden rounded-[20px]">
+
           <Image
             src={imgSrc}
             alt={title}
