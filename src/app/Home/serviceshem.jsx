@@ -33,7 +33,7 @@ const services = [
 
 export default function ServicesHem() {
   return (
-   <div className="max-w-8xl mx-auto px-6 py-20 text-center">
+   <div className="max-w-8xl mx-auto px-6 sm:py-16 lg:py-20 text-center">
   <div className="max-w-4xl mx-auto">
     <h2 className="mb-6">Tools att växa smart</h2>
     <p className="mb-20">
@@ -41,9 +41,9 @@ export default function ServicesHem() {
       Med rätt balans mellan design, teknik och kommunikation hjälper vi ditt företag att växa digitalt
     </p>
   </div>
-      <section className="pb-16">
+      <section >
         <div className="mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 sm:gap-2">
             {services.map((service, index) => (
               <Link href={`/${service.link}`} key={index}>
                 <div className="relative flex flex-col justify-between  text-left  text-[#F5F5F5] transition-transform cursor-pointer  h-full min-h-[300px] overflow-hidden group hover:scale-105">

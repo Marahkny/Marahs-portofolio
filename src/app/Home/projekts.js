@@ -92,6 +92,7 @@ function ProjectCard({ imgSrc, title, desc, link, height = 400 }) {
             src={imgSrc}
             alt={title}
             fill
+            
             className="object-cover rounded-[20px] transition-transform duration-500 group-hover:scale-[1.03]"
           />
         </div>
