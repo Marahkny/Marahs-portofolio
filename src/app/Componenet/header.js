@@ -78,7 +78,7 @@ const Head = () => {
       </nav>
       {/* Mobile Navbar */}
     <nav
-  className={`fixed top-0 left-0 w-full z-30 flex lg:hidden items-center justify-between px-8 py-4 transition-colors duration-300 ${
+  className={`fixed top-0 left-0 w-full z-30 flex lg:hidden items-center justify-between m-2 px-6 py-2 transition-colors duration-300 ${
     scrolled || !isHomePage ? "bg-[#121212] border border-[#393E46] rounded-[15px]" : "bg-transparent"
   }`}
 
