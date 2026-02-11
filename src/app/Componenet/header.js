@@ -78,7 +78,7 @@ const Head = () => {
       </nav>
       {/* Mobile Navbar */}
     <nav
-  className={`fixed top-0 left-0 w-full z-30 flex lg:hidden items-center justify-between m-2 px-6 py-2 transition-colors duration-300 ${
+  className={`fixed top-0 left-0 w-full z-30 flex lg:hidden items-center justify-between mt-2 px-6 py-2 transition-colors duration-300 ${
     scrolled || !isHomePage ? "bg-[#121212] border border-[#393E46] rounded-[15px]" : "bg-transparent"
   }`}
 
@@ -148,7 +148,7 @@ const Head = () => {
           exit={{ opacity: 0 }}
           className="fixed inset-0 bg-[#121212] z-50 flex flex-col items-left  pt-4"
         >
-          <div className="flex items-center justify-between px-8  w-full">
+          <div className="flex items-center justify-between px-6  w-full">
             <Link href="/" aria-label="Go to homepage">
             <Image
       src="/photos/Logo.png"
