@@ -193,7 +193,7 @@ const Head = () => {
             </div>
           </div>
 
-          <div className="flex flex-col py-60 items-left space-y-6 px-8">
+          <div className="flex flex-col py-40 items-left space-y-6 px-8">
             <Link
               href="/tjanster"
               className="text-[24px] relative inline-block font-[500] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-gray-300 before:transition-all before:duration-200 before:ease-in-out hover:before:w-full"
