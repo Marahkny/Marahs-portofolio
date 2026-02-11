@@ -107,7 +107,7 @@ const Kontaktsida = () => {
           src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
         />
       </noscript>
-    <div className="pt-20 pb-40 px-6 max-w-8xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">
+    <div className="pt-20 mt-20 pb-40 px-6 max-w-7xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">
       {/* Vänster del */}
       <div className="md:w-1/3 text-left">
         <h1 className="mb-4">Say hi!</h1>
@@ -224,7 +224,7 @@ const Kontaktsida = () => {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full bg-[#3B429F] font-[500] text-[#F5F5F5] py-3 rounded-full transition"
+            className="w-full bg-[#E95D0F] font-[500] text-[#F5F5F5] py-3 rounded-full transition"
             disabled={loading}
           >
             {loading ? "Skickar..." : "Skicka"}

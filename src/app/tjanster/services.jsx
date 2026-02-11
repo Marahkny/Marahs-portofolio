@@ -9,7 +9,7 @@ const services = [
   {
     title: "UI/UX design",
     description: "Vi skapar användarvänliga och visuellt tilltalande webbupplevelser i Figma",
-    icon: <SiAdobeindesign className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiAdobeindesign className="text-[50px] text-[#E95D0F] mb-6" />,
     features: ["User research och personas", "Wireframes & prototyper", "Interaktionsdesign", "Designsystem"],
     knapp: "UI/UX design",
     link: "tjanster/ui-ux-design",
@@ -17,7 +17,7 @@ const services = [
   {
     title: "Webbutveckling",
     description: "Responsiva, snabba och säkra webbplatser – från WordPress och e-handel till skräddarsydd frontend",
-    icon: <SiReact className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiReact className="text-[50px] text-[#E95D0F] mb-6" />,
     features: ["Moderna frontend-ramverk", "Optimerade Wordpress hemsida", "E-handel med Shopify & WooCommerce", "Skalbarhet & säkerhet"],
     knapp: "webbutveckling",
     link: "tjanster/webbutveckling",
@@ -25,7 +25,7 @@ const services = [
   {
     title: "SEO & webbanalys",
     description: "Vi ökar din synlighet på Google genom smart SEO med Semrush och Google Analytics.",
-    icon: <SiGoogleanalytics className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <SiGoogleanalytics className="text-[50px] text-[#E95D0F] mb-6" />,
     features: ["Sökordsanalys med Semrush", "On-page & off-page SEO", "Teknisk SEO", "Analys; Google Analytics"],
     knapp: "SEO & webbanalys",
     link: "tjanster/seo-webbanalys",
@@ -33,23 +33,16 @@ const services = [
   {
     title: "Meta Ads",
     description: "Vi marknadsför ditt företag på sociala medier med Meta Ads för att nå din specifika målgrupp.",
-    icon: <RiMetaLine className="text-[40px] text-[#3B429F] mb-6" />,
+    icon: <RiMetaLine className="text-[50px] text-[#E95D0F] mb-6" />,
     features: ["Målgruppsinriktad annonsering", "Optimering i realtid", "Kreativt annonsinnehåll", "Resultatdriven strategi"],
     knapp: "meta ads",
     link: "tjanster/meta-ads",
   },
-  {
-    title: "Logotyp & design",
-    description: "Vi formger visuellt starka uttryck som stärker ditt varumärke",
-    icon: <SiAffinitydesigner className="text-[40px] text-[#3B429F] mb-6" />,
-    features: ["Logotyper", "Visuell identitet & branding", "Marknadsföringsmaterial"],
-    knapp: "logotyp & design",
-    link: "tjanster/logotyp-och-design",
-  },
+  
   {
     title: "Sociala medier & content",
     description: "Vi hjälper dig att växa och skapa engagemang på rätt plattformar",
-    icon: <FaFacebookF className="text-[40px] text-[#3B429F] mb-6" />, 
+    icon: <FaFacebookF className="text-[50px] text-[#E95D0F] mb-6" />, 
     features: ["Innehållsskapande & publiceringsplan", "Strategi för sociala medier", "Reels & videoformat"],
     knapp: "SoMe & content",
     link: "tjanster/sociala-medier-content",
@@ -86,25 +79,25 @@ export default function Services() {
           src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
         />
       </noscript>
-    <section className="max-w-8xl mx-auto px-6 pb-20 text-left">
+    <section className="max-w-7xl mx-auto px-6 pb-20 text-left">
       <div className=" mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <div key={index} className="bg-[#F5F5F5] p-5 rounded-[20px] shadow-lg hover:shadow-xl transition-shadow flex flex-col justify-between">
+            <div key={index} className=" border border-[#393E46] rounded-[15px] p-6  text-left  text-[#F5F5F5] shadow-lg hover:shadow-xl transition-shadow flex flex-col justify-between">
               {service.icon}
-              <h3 className="text-[28px] text-[#121212] mb-4 font-semibold">{service.title}</h3>
-              <p className="text-[#121212] text-lg mb-6">{service.description}</p>
+              <h3 className="text-[28px] text-text-[#F5F5F5] mb-4 font-semibold">{service.title}</h3>
+              <p className="text-text-[#F5F5F5] text-lg mb-6">{service.description}</p>
               <ul className="space-y-3 mb-6">
                 {service.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center space-x-3">
-                    <FiCheckCircle className="text-[20px] text-[#3B429F]" />
-                    <span className="text-[#121212] font-semibold">{feature}</span>
+                    <FiCheckCircle className="text-[20px] text-[#E95D0F]" />
+                    <span className="text-text-[#F5F5F5] font-semibold">{feature}</span>
                   </li>
                 ))}
               </ul>
               <Link
                 href={service.link}
-                className="w-full inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 rounded-full font-[500] transition-colors duration-300 group relative overflow-hidden"
+                className="w-full inline-flex items-center justify-center bg-[#E95D0F] text-[#F5F5F5] py-4 rounded-full font-[500] transition-colors duration-300 group relative overflow-hidden"
               >
                 <span className="inline-flex items-center text-[#F5F5F5] transition-all duration-300 group-hover:-translate-x-4">
                  Läs mer om {service.knapp}

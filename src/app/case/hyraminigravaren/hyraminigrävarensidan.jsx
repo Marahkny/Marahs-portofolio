@@ -1,6 +1,5 @@
 
 import { MdArrowOutward } from "react-icons/md";
-import Zone90Section from "../../Home/zone90secation";
 import Image from "next/image";
 import Des from "./des";
 
@@ -8,7 +7,7 @@ export default function Hyraminigrävarensidan() {
   return (
     <>
 
-      <section className="px-6 pt-20">
+      <section className="px-6 pt-20 mt-20">
         <h1 >Hyra minigrävaren</h1>
         <p className="pt-5 text-2xl max-w-2xl">
 Bokningssida för uthyrning av grävmaskiner i Stockholm </p>
@@ -66,7 +65,7 @@ En bokningshemsida byggd med WooCommerce och ett bokningssystem som gör det mö
       </section>
 
     <Des />
-      <Zone90Section />
+     
     </>
   );
 }

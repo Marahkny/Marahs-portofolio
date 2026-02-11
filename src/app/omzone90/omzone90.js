@@ -1,6 +1,5 @@
 import { FiCheckCircle } from "react-icons/fi";
 import { HiArrowSmallRight } from "react-icons/hi2";
-import Zone90Section from '../Home/zone90secation';
 import Link from "next/link";
 import Script from "next/script";
 import Image from "next/image";
@@ -37,8 +36,8 @@ export default function OmZone90() {
         />
       </noscript>
 
-    <section className=" text-[#F5F5F5] h-full pt-20 px-6">
-      <div className="max-w-8xl mx-auto text-left">
+    <section className=" text-[#F5F5F5] h-full pt-20 px-6 mt-20">
+      <div className="max-w-7xl mx-auto text-left">
         <h1 className=" mb-10">Om Zone 90</h1>
 
 
@@ -49,20 +48,20 @@ export default function OmZone90() {
 Zone 90 är en digital webbyrå i Norrköping & Linköping specialiserad på webbdesign, webbutveckling och marknadsföring. Vi hjälper företag att förvandla sin vision till verklighet genom innovativa och användarcentrerade lösningar. Vårt uppdrag är att skapa sömlösa, trendiga och effektfulla digitala upplevelser som fångar och engagerar din målgrupp.        </p>
             <ul className="space-y-6 ">
               <li className="flex items-center">
-                <FiCheckCircle className="text-[20px] mr-3" /> 
+                <FiCheckCircle className="text-[20px] mr-3 text-[#E95D0F]" /> 
                 <span className=" font-semibold">UI/UX design anpassad efter ditt varumärke</span>
 
               </li>
               <li className="flex items-center">
-                <FiCheckCircle className="text-[20px] mr-3" />
+                <FiCheckCircle className="text-[20px] mr-3 text-[#E95D0F]" />
                 <span className=" font-semibold">Frontend-webbutveckling</span>
               </li>
               <li className="flex items-center">
-                <FiCheckCircle className="text-[20px] mr-3" />
+                <FiCheckCircle className="text-[20px] mr-3 text-[#E95D0F]" />
                 <span className=" font-semibold">SEO-optimering och marknadsanalys </span>
               </li>
               <li className="flex items-center">
-                <FiCheckCircle className="text-[20px] mr-3" />
+                <FiCheckCircle className="text-[20px] mr-3 text-[#E95D0F]" />
                 <span className=" font-semibold">Copywriting</span>
               </li>
             </ul>
@@ -87,7 +86,7 @@ Zone 90 är en digital webbyrå i Norrköping & Linköping specialiserad på web
     </section>
 
     <section className="  py-20 px-6">
-  <div className="max-w-8xl  mx-auto  text-left">
+  <div className="max-w-7xl  mx-auto  text-left">
 
  
     <h2 className=" mb-4 ">Hur allt började</h2>
@@ -126,31 +125,30 @@ På Zone 90 erbjuder vi mer än digitala lösningar – vi skapar en plats där 
 
     <Link
   href="/tjanster"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
-             group font-[500] transition-colors duration-300 overflow-hidden"
- role="button"
-  aria-label="Läe mer om våra tjänster"
+  className=" w-full sm:w-auto relative inline-flex items-start justify-center bg-[#E95D0F] text-[#F5F5F5] py-4 px-10 rounded-full
+             group  transition-colors duration-300 overflow-hidden"
+  aria-label="läs mer om våra tjänster"
   title="Våra tjänster"
+  role="button"
 >
   <span
-    className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex font-[600] text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-      Våra tjänster
+   Våra tjänster
   </span>
 
   {/* Arrow - appears on hover */}
   <span
-    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+    className="absolute right-5 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
     <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
-</Link>
-
+</Link> 
     </div>
   </div>
 </section>
-<Zone90Section />
+
     </>
   );
 }

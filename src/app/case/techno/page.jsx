@@ -1,7 +1,6 @@
 "use client";
 import { MdArrowOutward } from "react-icons/md";
 import Info from "./info";
-import Zone90Section from "../../Home/zone90secation";
 import Head from "next/head";
 import Image from "next/image";
 export default function Techno() {
@@ -20,7 +19,7 @@ export default function Techno() {
 
       </Head>
 
-      <section className="px-6 pt-20">
+      <section className="px-6 pt-20 mt-20">
         <h1 >Techno</h1>
         <p className="pt-5 text-2xl text-gray-300">
           En e-handelsplattform
@@ -81,7 +80,7 @@ Designen bygger på tydliga, rena principer som tillsammans med en välstrukture
       </section>
 
       <Info />
-      <Zone90Section />
+    
     </>
   );
 }

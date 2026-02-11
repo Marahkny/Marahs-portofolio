@@ -31,10 +31,10 @@ const Steps = () => {
         {[...techStack, ...techStack].map((tech, index) => ( 
           <div
             key={index}
-            className="relative inline-block p-[2px] rounded-2xl bg-gradient-to-r from-[#B8336A] to-[#3B429F]"
+            className="relative inline-block rounded-[15px] "
           >
-            <div className="bg-[#121212]  rounded-2xl px-4 py-2">
-              <span className=" whitespace-nowrap text-[22px] font-['Space Grotesk']">{tech}</span>
+            <div className="bg-[#E95D0F] rounded-[15px] px-3 py-3">
+              <span className=" whitespace-nowrap text-[18px] text-[#F5F5F5] font-['Space Grotesk']">{tech}</span>
             </div>
           </div>
         ))}

@@ -2,15 +2,15 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import { TfiFacebook } from "react-icons/tfi";
 import Image from 'next/image';
-import GradintieFooter from "./gradintietfooter";
+import Zone90Section from "../Home/zone90secation";
 export default function Footer() {
   return (
-    <footer className=" relative bg-[#F5F5F5]  px-6 pt-[130px]  overflow-hidden rounded-t-[40px]">
-    <div className="absolute inset-0 hidden sm:block">
-  <GradintieFooter />
-</div>
+    <footer className=" relative mt-20  overflow-hidden">
+      <Zone90Section  />
+      <div className="bg-[#F5F5F5] ">
 
-      <div className=" relative z-0 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 pb-20 gap-20">
+
+      <div className=" px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 pt-[130px] gap-10">
         
       
         <div>
@@ -20,7 +20,7 @@ export default function Footer() {
       alt="Zone 90 logo"
       width={600}  
       height={600} 
-      className="w-[60%] h-auto"
+      className="w-[50%] h-auto"
     />
           </Link>
         
@@ -31,7 +31,7 @@ Zone 90 är en webbyrå i Norrköping & Linköping som skapar smarta webb- och d
 
         {/* NAVIGATION */}
         <nav aria-label="Footer Navigation">
-          <ul className="space-y-1 text-sm text-gray-300">
+          <ul className="space-y-1 text-sm text-gray-300 ">
             <li>
               <Link
                 href="/tjanster"
@@ -85,11 +85,11 @@ Zone 90 är en webbyrå i Norrköping & Linköping som skapar smarta webb- och d
           </ul>
         </nav>
         <div>
-        <h4 className="text-xl mb-5 text-[#121212]">Hör av dig </h4>
+        <h4 className="text-xl mb-4 text-[#121212]">Hör av dig </h4>
           <p className="text-[#121212]">
             <a
               href="mailto:contact@zone90.se"
-              className="text-[#3B429F] font-[500] hover:decoration-[#3B429F]   hover:underline  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className="text-[#E95D0F] font-[500] hover:decoration-[#E95D0F]   hover:underline  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Send an email to contact@zone90.se"
               title="Skicka e-post"
             >
@@ -103,28 +103,29 @@ Zone 90 är en webbyrå i Norrköping & Linköping som skapar smarta webb- och d
               href="https://www.linkedin.com/company/zone90/"
               target="_blank"
               rel="noopener noreferrer"
-              className=" p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className=" rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Visit our LinkedIn page"
               title="LinkedIn"
             >
-              <FaLinkedinIn className="text-[26px] text-[#3B429F]" aria-hidden="true" />
+              <FaLinkedinIn className="text-[40px] bg-[#E95D0F] p-2 rounded-[10px] text-[#F5F5F5]" aria-hidden="true" />
             </a>
             <a
               href="https://www.facebook.com/people/Zone90/61575014166638/"
               target="_blank"
               rel="noopener noreferrer"
-              className=" p-2 rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              className=" rounded-full transition transform  focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
               aria-label="Visit our LinkedIn page"
               title="Facebook"
             >
-              <TfiFacebook className="text-[26px] text-[#3B429F]" aria-hidden="true" />
+              <TfiFacebook className="text-[40px] bg-[#E95D0F] p-2 rounded-[10px] text-[#F5F5F5]" aria-hidden="true" />
             </a>
           </div></div>
       </div>
 
       {/* FOOTER BOTTOM */}
-      <div className="py-2 text-center text-[11px] text-[#3B429F]">
+      <div className="py-2 pt-5 text-center text-[12px] text-[#393E46]">
         © {new Date().getFullYear()} Zone 90. Created with ♥ by Marah
+      </div>
       </div>
     </footer>
   );

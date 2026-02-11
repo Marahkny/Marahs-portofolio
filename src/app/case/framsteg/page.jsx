@@ -1,7 +1,5 @@
 import Head from "next/head";
-import { MdArrowOutward } from "react-icons/md";
 import Desc from "./desc";
-import Zone90Section from "../../Home/zone90secation";
 import Image from "next/image";
 
 export default function Framsteg() {
@@ -17,7 +15,7 @@ export default function Framsteg() {
          
       </Head>
 
-      <section className="px-6 pt-20">
+      <section className="px-6 pt-20 mt-20">
         <h1 >Framsteg förening</h1>
         <p className="pt-5 text-2xl max-w-2xl">
 En webbplats för kulturföreningen      </p>
@@ -66,7 +64,7 @@ En webbplats för kulturföreningen      </p>
       </section>
 
       <Desc />
-      <Zone90Section />
+      
     </>
   );
 }

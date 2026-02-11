@@ -75,7 +75,7 @@ h6 {
 /* Övrig text (brödtext, länkar, knappar) */
 p, span, a, button {
   font-family: 'Manrope', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   color: rgb(209, 213, 219);
     line-height: 1.5;
 }

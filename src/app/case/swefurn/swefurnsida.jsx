@@ -1,6 +1,5 @@
 
 import { MdArrowOutward } from "react-icons/md";
-import Zone90Section from "../../Home/zone90secation";
 import Image from "next/image";
 import Des from "./des";
 
@@ -8,7 +7,7 @@ export default function Swefurnsida() {
   return (
     <>
 
-      <section className="px-6 pt-20">
+      <section className="px-6 pt-20 mt-20">
         <h1 >Swefurn</h1>
         <p className="pt-5 text-2xl max-w-2xl">
 En inredningsbyrå för företag i Stockholm </p>
@@ -68,7 +67,7 @@ Hemsidan är byggd utifrån kundens önskemål, med fokus på struktur, använda
       </section>
 
     <Des />
-      <Zone90Section />
+     
     </>
   );
 }

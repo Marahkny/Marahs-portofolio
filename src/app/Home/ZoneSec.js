@@ -1,10 +1,10 @@
 
 export default function ZoneSec() {
     return (
-<section className=" max-w-8xl px-6 flex flex-col items-center justify-center h-full 
-                    pb-20 xs:pb-8 ">
+<section className=" max-w-8xl px-6 py-20 flex flex-col items-center justify-center h-full 
+                    ">
   {/* Heading */}
-  <div className="max-w-8xl text-left  justify-center lg:pb-20">
+  <div className="max-w-7xl text-left  justify-center lg:pb-20">
 
 <h2 >
 Zone 90

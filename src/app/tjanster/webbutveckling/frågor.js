@@ -27,24 +27,24 @@ export default function Frågor() {
 
   return (
     <div className="bg-[#F5F5F5]">
-    <section className="max-w-4xl  mx-auto px-6 py-20">
+    <section className="max-w-4xl  mx-auto px-6 pb-20">
       <h2 className=" text-center text-[#121212] mb-12">Vanliga frågor </h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="bg-[#F5F5F5] p-5 rounded-xl shadow hover:shadow-lg transition-shadow cursor-pointer"
+            className="bg-[#393E46] p-5 rounded-xl shadow hover:shadow-lg transition-shadow cursor-pointer"
             onClick={() => toggleIndex(index)}
           >
             <div className="flex justify-between items-center">
-              <h3 className="text-[24px] text-[#3B429F]">{faq.question}</h3>
+              <h3 className="text-[24px] ">{faq.question}</h3>
               {openIndex === index ? (
-                <MdOutlineKeyboardDoubleArrowUp className="text-2xl text-[#3B429F]" />
+                <MdOutlineKeyboardDoubleArrowUp className="text-2xl text-[#E95D0F]" />
               ) : (
-                <MdOutlineKeyboardDoubleArrowDown className="text-2xl text-[#3B429F]" />
+                <MdOutlineKeyboardDoubleArrowDown className="text-2xl text-[#E95D0F]" />
               )}
             </div>
-            {openIndex === index && <p className="mt-4 text-[#121212]">{faq.answer}</p>}
+            {openIndex === index && <p className="mt-4">{faq.answer}</p>}
           </div>
         ))}
       </div>

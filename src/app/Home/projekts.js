@@ -4,7 +4,6 @@ import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import { useRef } from "react";
-import Steps from "./Steps";
 import Image from "next/image";
 
 export default function Projects() {
@@ -21,15 +20,15 @@ export default function Projects() {
   const col2Translate = useTransform(scrollYProgress, [0, 1], ["-8%", "8%"]);
 
   return (
-    <div>
-      <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[60%] ml-0 max-w-8xl mx-auto px-6 z-10">
+    <div className=" max-w-8xl">
+      <div className=" max-w-7xl mx-auto px-6 ">
         <h2 className="text-left pb-6">Kundcase</h2>
-        <p className="text-gray-300 max-w-8xl">
+        <p className="text-gray-300">
           Vi är stolta över att ha hjälpt företag och organisationer att växa digitalt.
         </p>
       </div>
 
-      <div ref={ref} className="max-w-8xl px-6 mx-auto pb-40 z-10">
+      <div ref={ref} className="max-w-7xl px-6 mx-auto pb-40 z-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
           {/* 🟢 Kolumn 1 */}
@@ -80,11 +79,11 @@ export default function Projects() {
 
 function ProjectCard({ imgSrc, title, desc, link, height = 400 }) {
   return (
-    <div className="mb-6">
+    <div className="mb-6 ">
       <Link className="group" href={link}>
         
-        {/* Fixad höjd + snyggare bild */}
-      <div className="relative w-full h-[220px] sm:h-[300px] md:h-[380px] lg:h-[420px] overflow-hidden rounded-[20px]">
+ 
+      <div className="relative w-full h-[220px] sm:h-[300px] md:h-[380px] lg:h-[420px] overflow-hidden rounded-[15px]">
 
           <Image
             src={imgSrc}

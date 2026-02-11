@@ -33,7 +33,7 @@ export default function Integritetspolicy() {
           src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
         />
       </noscript>
-    <main className="max-w-8xl mx-auto px-6 py-12 ">
+    <main className="max-w-7xl mx-auto px-6 py-12 mt-20  ">
       {/* Header */}
       <header className="mb-12 text-left">
         <h1 className=" mb-4 ">
@@ -99,26 +99,28 @@ export default function Integritetspolicy() {
       <div className="mt-12 text-left">
 <Link
   href="/kontakt"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#B8336A] text-[#F5F5F5] py-4 px-8 rounded-full
-             group font-[500] transition-colors duration-300 overflow-hidden"
-  aria-label="Kontakt Zone 90"
-  title="Kontakt Zone 90"
-  role="button"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#E95D0F] py-4 px-10 rounded-full
+             group transition-colors duration-300 overflow-hidden"
+ aria-label="kom i kontkakt med oss"
+              title="Kontakta oss"
+              role="button"
 >
   <span
-    className="inline-flex items-center text-[#F5F5F5] transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] font-[600] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-     Kontakt Zone 90
+     Kontakta oss
+
   </span>
 
   {/* Arrow - appears on hover */}
   <span
-    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+    className="absolute right-5 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
     <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
+
       </div>
     </main></>
   );

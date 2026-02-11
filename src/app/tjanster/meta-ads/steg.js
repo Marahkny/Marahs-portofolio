@@ -21,7 +21,7 @@ const steps = [
 export default function Steg() {
   return (
     <section className="py-20 bg-[#F5F5F5]">
-      <div className="max-w-8xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-left text-[#121212] mb-12">
        Vår process steg för steg
         </h2>
@@ -31,7 +31,7 @@ export default function Steg() {
           {steps.map((step, index) => (
             <li
               key={index}
-              className="bg-[#3B429F] p-6 rounded-xl shadow-md"
+              className="bg-[#393E46] p-6 rounded-xl shadow-md"
             >
               <h3 className="text-[24px] text-[#F5F5F5] mb-2">
              {index + 1}.   {step.title}
@@ -46,7 +46,7 @@ export default function Steg() {
           {steps.map((step, index) => (
             <li
               key={index}
-              className="relative flex flex-col bg-[#3B429F] p-6 rounded-xl shadow-md"
+              className="relative flex flex-col bg-[#393E46] p-6 rounded-xl shadow-md"
             >
               <h3 className="text-[24px] text-[#F5F5F5]  mb-2">
              {index + 1}.  {step.title}
@@ -55,7 +55,7 @@ export default function Steg() {
 
               {/* Pilar mellan boxarna */}
               {index < steps.length - 1 && (
-                <span className="hidden md:block absolute top-1/2 right-[-25px] transform -translate-y-1/2 text-[#3B429F] text-[24px]">
+                <span className="hidden md:block absolute top-1/2 right-[-25px] transform -translate-y-1/2 text-[#E95D0F] text-[24px]">
                   <MdOutlineKeyboardDoubleArrowRight className="text-[24px]"/>
                 </span>
               )}

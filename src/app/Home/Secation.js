@@ -8,7 +8,7 @@ export default function Section() {
   return (
   <>
   <div  className="text-[#F5F5F5] py-20 mx-auto">
-  <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
     
     {/* Vänster sektion */}
     <div className="md:w-[40%] px-6 flex flex-col items-start">
@@ -21,29 +21,30 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
 
       <div className="pt-6 w-full">
 
-
-  <Link
+<Link
   href="/omzone90"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
-             group font-[500] transition-colors duration-300 overflow-hidden"
- aria-label="Läs mer om zone 90"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#E95D0F] py-4 px-10 rounded-full
+             group transition-colors duration-300 overflow-hidden"
+aria-label="Läs mer om zone 90"
     title="vill du veta mer?"
     role="button"
 >
   <span
-    className="inline-flex  text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] font-[600] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-     Vill du veta mer?
+ Vill du veta mer?
+
   </span>
 
   {/* Arrow - appears on hover */}
   <span
-    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+    className="absolute right-5 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
     <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
+  
 
 
 </div>
@@ -58,7 +59,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
   width={800} 
   height={600} 
 
-  className="w-full h-auto object-contain rounded-l-[50px] rounded-r-none"
+  className="w-full h-auto object-contain rounded-l-[15px] rounded-r-none"
 />
     </div>
 
@@ -67,7 +68,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
 
 
 <div  className="text-[#F5F5F5] py-20 mx-auto">
-  <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between gap-6">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6">
 
     {/* Höger sektion - Bild */}
     <div className="md:w-[60%] flex justify-center order-last lg:order-first">
@@ -80,7 +81,7 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
   height={600} 
 
   loading="eager"
-  className="w-full h-auto mx-auto object-contain rounded-r-[50px] rounded-l-none"
+  className="w-full h-auto mx-auto object-contain rounded-r-[15px] rounded-l-none"
 />
 
     </div>
@@ -95,37 +96,38 @@ Vi lyssnar på dina idéer och förvandlar dem till digitala lösningar som gör
 För oss på Zone 90 handlar webbdesign om mer än kod och grafik – det handlar om människor. Vi lär känna ditt företag, din marknad och din målgrupp för att bygga lösningar som verkligen fungerar i Norrköping & Linköping. Genom att kombinera trender, användarvänlighet och affärsmål skapar vi skräddarsydda resultat som håller över tid  </p>
 
       <div className=" pt-6">
- 
-
-  <Link
+ <Link
   href="/case"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
-             group font-[500] transition-colors duration-300 overflow-hidden"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#E95D0F] py-4 px-10 rounded-full
+             group transition-colors duration-300 overflow-hidden"
  aria-label="se våra kundcase"
   title="   Våra kundcase"
   role="button"
 >
   <span
-    className="inline-flex text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] font-[600] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-       Våra kundcase
+ Kundcase
+
   </span>
 
   {/* Arrow - appears on hover */}
   <span
-    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+    className="absolute right-5 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
     <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
+
+ 
       </div>
     </div>
 
   </div>
 </div>
   <div  className="text-[#F5F5F5] py-20 mx-auto">
-  <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
     
     {/* Vänster sektion */}
     <div className="md:w-[40%] px-6 flex flex-col items-start">
@@ -138,31 +140,31 @@ För oss på Zone 90 handlar webbdesign om mer än kod och grafik – det handla
 
       <div className="pt-6 w-full">
 
-
-  <Link
+<Link
   href="/tjanster"
-  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#3B429F] text-[#F5F5F5] py-4 px-8 rounded-full
-             group font-[500] transition-colors duration-300 overflow-hidden"
+  className=" w-full sm:w-auto relative inline-flex items-center justify-center bg-[#E95D0F] py-4 px-10 rounded-full
+             group transition-colors duration-300 overflow-hidden"
  aria-label="Läs mer om  våra tjänster "
     title=" Våra tjänster "
     role="button"
 >
   <span
-    className="inline-flex  text-[#F5F5F5] items-center transition-all duration-300 group-hover:-translate-x-4 "
+    className="inline-flex text-[#F5F5F5] font-[600] items-center transition-all duration-300 group-hover:-translate-x-4 "
   >
-    Våra tjänster 
+Våra tjänster 
+
   </span>
 
   {/* Arrow - appears on hover */}
   <span
-    className="absolute right-3 opacity-0 translate-x-6 transition-all duration-300
+    className="absolute right-5 opacity-0 translate-x-6 transition-all duration-300
                group-hover:opacity-100 group-hover:translate-x-0"
   >
     <HiArrowSmallRight  className="text-[#F5F5F5] text-[24px] items-center" />
   </span>
 </Link>
 
-
+ 
 </div>
 
     </div>
@@ -175,7 +177,7 @@ För oss på Zone 90 handlar webbdesign om mer än kod och grafik – det handla
   width={800} 
   height={600} 
 
-  className="w-full h-auto object-contain rounded-l-[50px] rounded-r-none"
+  className="w-full h-auto object-contain rounded-l-[15px] rounded-r-none"
 />
     </div>
 

@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { HiArrowSmallRight } from "react-icons/hi2";
-import Zone90Section from "../Home/zone90secation";
+
 import Script from "next/script";
 
 export default function Casesida() {
@@ -71,24 +71,24 @@ export default function Casesida() {
       </noscript>
 
       {/* Header Section */}
-      <section className="text-[#F5F5F5] h-full pt-20 pb-10 px-6">
-        <div className="max-w-8xl mx-auto text-left">
-          <h1 className="mb-6">Titta på våra tidigare projekt</h1>
-          <p>
-            Vi uppdaterar kontinuerligt våra case. Hör av dig för en digital fika och pitcha din idé!
-          </p>
-        </div>
-      </section>
+<section className="text-[#F5F5F5] pt-20 pb-10 px-6 mt-20 flex flex-col ">
+  <div className="max-w-7xl mx-auto lg:mx-0 text-left pb-10 items-left">
+    <h1 className="mb-6">Titta på våra tidigare projekt</h1>
+    <p>
+      Vi uppdaterar kontinuerligt våra case. Hör av dig för en digital fika och pitcha din idé!
+    </p>
+  </div>
+
 
       {/* Cards Grid */}
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 p-6">
+<div className="grid max-w-7xl mx-auto sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6">
         {cards.map((card, index) => (
           <div
             key={index}
             className="rounded-[20px] overflow-hidden py-4 group cursor-pointer"
           >
             <Link href={card.link}>
-              <div className="overflow-hidden rounded-[20px]">
+              <div className="overflow-hidden rounded-[15px]">
                 <img
                   src={card.image}
                   alt={`Case: ${card.title} – ${card.category}`}
@@ -111,7 +111,7 @@ export default function Casesida() {
         ))}
       </div>
 
-      <Zone90Section />
+        </section>
     </>
   );
 }
