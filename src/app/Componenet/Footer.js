@@ -14,7 +14,7 @@ export default function Footer() {
   
   {/* Kolumn 1 */}
   <div className="flex flex-col items-start">
-    <div className="w-2/3">
+    <div className="w-full sm:w-2/3">
       <Link href="/" aria-label="Go to homepage">
         <Image
           src="/photos/ZONWAY (1).png"
@@ -81,8 +81,8 @@ export default function Footer() {
     </nav>
 
     {/* Kontakt & Social */}
-    <div >
-      <h4 className="text-xl mb-4 text-[#121212]">Hör av dig</h4>
+    <div className="pt-8 sm:pt-0" >
+      <h4 className="text-xl mb-2 text-[#121212]">Hör av dig</h4>
       <p className="text-[#121212]">
         <a
           href="mailto:contact@zone90.se"
