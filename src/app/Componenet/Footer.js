@@ -27,7 +27,7 @@ export default function Footer() {
 
       <p className="text-[#121212] leading-relaxed pt-5">
         Zone 90 är en webbyrå i Norrköping & Linköping som skapar smarta webb- och designlösningar. 
-        Grundad 2025 med fokus pås digitala lösningar som hjälper företag att växa online.
+        Grundad 2025 med fokus på digitala lösningar som hjälper företag att växa online.
       </p>
     </div>
   </div>
