@@ -2,6 +2,7 @@
 import Script from "next/script";
 import React, { useState } from "react";
 import Link from "next/link";
+import { FiMail } from "react-icons/fi";
 
 const Kontaktsida = () => {
   const [formData, setFormData] = useState({
@@ -109,23 +110,11 @@ const Kontaktsida = () => {
       </noscript>
     <div className="pt-20 mt-20 pb-40 px-6 max-w-7xl w-full mx-auto flex flex-col md:flex-row justify-center items-start gap-10">
       {/* Vänster del */}
-      <div className="md:w-1/3 text-left">
-        <h1 className="mb-4">Say hi!</h1>
-        <p className="text-gray-300 mb-6">
-          Fyll i formuläret så återkommer vi till dig.
-        </p>
-        <p className="text-gray-300 mb-1">Eller kontakta oss via</p>
-        <a
-          href="mailto:contact@zone90.se"
-          className="hover:underline hover:decoration-[#F5F5F5]"
-        >
-          contact@zone90.se
-        </a>
-      </div>
+      
 
       {/* Höger del - Formuläret */}
       <div className="md:w-2/3">
-        <p className="text-[20px] pb-10">Kontaktformulär</p>
+        <h2 className="mb-10">Låt oss skapa något fantaskia tillsammns</h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Namn */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -242,6 +231,23 @@ const Kontaktsida = () => {
             </p>
           )}
         </form>
+      </div>
+      <div className="md:w-1/3 text-left sm:pt-[220px] pt-2">
+        <h2 className="mb-4 text-[32px]">kul att du kommit hit</h2>
+        <p className="text-gray-300 mb-2">
+Skriv gärna till oss några rader och berätta vad du önskar.
+Vi vill gärna veta mer om dina idéer och behov, så vi kan hjälpa dig på bästa sätt.     </p>
+<p className="text-gray-300 mb-6">När vi har läst ditt meddelande återkommer vi så snart vi kan.
+</p>
+     <p>Marah Knefaty</p>  
+ <a
+  href="mailto:contact@zone90.se"
+  className="flex items-center gap-2 hover:underline hover:decoration-[#F5F5F5]"
+>
+  <FiMail className="text-[20px] text-[#E95D0F]" />
+  contact@zone90.se
+</a>
+
       </div>
     </div> </>
   );
