@@ -36,8 +36,13 @@ const Head = () => {
       {/* Desktop Navbar */}
       <nav className="fixed top-0 left-0 w-full z-30 hidden lg:flex">
         <header className="w-full m-4 ">
-          <div className={`max-w-7xl rounded-[15px] mx-auto flex items-center justify-between px-8 py-4 border border-[#393E46] transition-colors duration-300 ${scrolled ? "bg-[#121212]" : "bg-transparent"}`}>
-            <Link href="/" aria-label="Go to homepage">
+<div
+  className={`max-w-7xl mx-auto flex items-center justify-between  py-4 transition-all duration-300 ${
+    scrolled
+      ? "bg-[#121212] border border-[#393E46] rounded-[15px] px-6"
+      : "bg-transparent border-none rounded-none px-4"
+  }`}
+>            <Link href="/" aria-label="Go to homepage">
               <Image
                 src="/photos/Logo.png"
                 alt="Zone 90 logo"
