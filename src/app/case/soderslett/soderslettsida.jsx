@@ -1,23 +1,23 @@
 
 import { MdArrowOutward } from "react-icons/md";
 import Image from "next/image";
-import Des from "./des";
+import Des from "./front";
 
-export default function Swefurnsida() {
+export default function Soderslettsida() {
   return (
     <>
 
       <section className="px-6 pt-20 mt-20">
-        <h1 >Swefurn</h1>
+        <h1 >Söderslätts Byggnadsplåt</h1>
         <p className="pt-5 text-2xl max-w-2xl">
-En inredningsbyrå för företag i Stockholm </p>
+Plåtslagare – tak- och fasadlösningar i Vellinge </p>
       </section>
 
       {/* Hero Image */}
       <div className="flex justify-center items-center pt-10 px-6">
       <Image
-  src="/photos/swefurn-hemsida1.png"
-  alt="swefurn website preview"
+  src="/photos/söderslätt hemsidan.png"
+  alt="Söderslätts Byggnadsplåt website preview"
   width={800}  
   height={500}
   loading="eager"
@@ -32,34 +32,32 @@ En inredningsbyrå för företag i Stockholm </p>
           <div>
             <h2>Overview</h2>
             <p className="mt-6 text-gray-300 lg:w-[80%] md:w-full leading-relaxed">
-Swefurn är en inredningsbyrå och totalleverantör för företag.
-För att stärka sin digitala närvaro valde Swefurn att förnya sin webbplats, flytta den till WordPress och sökordsoptimera innehållet för att synas bättre på Google.
-Hemsidan är byggd utifrån kundens önskemål, med fokus på struktur, användarvänlighet och strategiska nyckelord som hjälper dem att ranka högre i sökresultaten.            </p>
+Söderslätts Byggnadsplåt är ett plåtslageri i Vellinge, Sverige, specialiserat på byggnadsplåt för hus och fastigheter. Kunden hade en gammal webbplats och valde att förnya den, med fokus på deras tjänster samt konvertering genom tydliga CTA:er och optimering i Vellinge.          </p>
           </div>
 
           {/* Right Column - Project Details */}
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl ">Kundcase</h3>
-              <p >Swefurn AB</p>
+              <p >Söderslätts Byggnadsplåt</p>
             </div>
             <div>
               <h3 className="text-2xl ">När</h3>
-              <p >Juni 2025</p>
+              <p >November 2025</p>
             </div>
             <div>
               <h3 className="text-2xl">Vad</h3>
-              <p >Hemsida, SEO & marknadföring</p>
+              <p >Hemsida & SEO</p>
             </div>
             <div>
               <h3 className="text-2xl">Besök</h3>
               <a
-                href="https://swefurn.se/"
+                href="https://soderslattsplat.se/"
                 className="hover:underline flex items-center gap-2 "
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Swefurn <MdArrowOutward className="text-[24px]" />
+                Söderslätts Byggnadsplåt <MdArrowOutward className="text-[24px]" />
               </a>
             </div>
           </div>

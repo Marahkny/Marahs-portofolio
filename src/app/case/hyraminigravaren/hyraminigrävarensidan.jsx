@@ -47,7 +47,7 @@ En bokningshemsida byggd med WooCommerce och ett bokningssystem som gör det mö
             </div>
             <div>
               <h3 className="text-2xl">Vad</h3>
-              <p >WordPress webbplats & grund SEO</p>
+              <p >Hemsida & grund SEO</p>
             </div>
             <div>
               <h3 className="text-2xl">Besök</h3>

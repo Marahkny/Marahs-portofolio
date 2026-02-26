@@ -1,7 +1,7 @@
 "use client"
 import Script from "next/script";
 import Image from "next/image";
-export default function Des() {
+export default function Front() {
   return (
     <>
     {/* Meta Pixel Script */}
@@ -32,12 +32,12 @@ export default function Des() {
           src="https://www.facebook.com/tr?id=3256787997805806&ev=PageView&noscript=1"
         />
       </noscript>
-      <section className="bg-[#EF662F] ">
+      <section className="bg-[#E95D0F] ">
         {/* Hero Image */}
         <div className="flex justify-center px-6">
         <Image
-  src="/photos/hyraminigravren-huvudsidan-webbdesign-för-boking.png"
-  alt="Boking hemsidan med woocomers och betallningfunktion i wordpress "
+  src="/photos/soderslattsplat.se_.png"
+  alt="soderslattsplat wordpress hemsidan "
   width={800}  
   height={500} 
   
@@ -46,56 +46,59 @@ export default function Des() {
 />
         </div>
 
-       {/* 2 kolumner med totalt 4 bilder */}
+        {/* Center Text */}
+        <div className="flex flex-col items-center justify-center text-center py-20 px-6 max-w-4xl mx-auto">
+          <h3 >
+Tillgänglig, enkel och modern
+          </h3>
+          <p className="mt-5 text-white leading-relaxed">
+Webbplatsen för Söderslätts Byggnadsplåt är byggd i WordPress med Elementor Pro, med särskilt fokus på tillgänglighet, hög prestanda och optimerad laddningshastighet för bästa möjliga användarupplevelse. Optimeringen har även haft fokus på att lyfta fram tjänster i Vellinge, använda korrekt H-taggstruktur samt arbeta strategiskt med intern länkar.</p>        </div>
 <div className="px-6 pb-16 mt-[-30px]">
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
     {/* Kolumn 1 */}
     <div className="flex flex-col gap-6">
       <Image
-        src="/photos/Bokning system i woocomers.png"
-        alt="Bokning system i woocomers"
+        src="/photos/soderslattsplat.se_tjanster_.png"
+        alt="soderslattsplat tjänster"
         width={800}
         height={600}
         className="rounded-[20px] shadow-lg w-full  object-contain"
       />
-     
-          <Image
-        src="/photos/Kontakta-oss-sidan-i-wordpress.png"
+      <Image
+        src="/photos/soderslattsplat.se_fasadarbeten_.png"
+        alt="soderslattsplat fasad"
+        width={800}
+        height={600}
+        className="rounded-[20px] shadow-lg w-full object-contain"
+      />
+      
+    </div>
+
+    {/* Kolumn 2 */}
+    <div className="flex flex-col gap-6">
+        <Image
+        src="/photos/soderslatts kontakt.png"
         alt="Kontakta-oss-sidan-i-wordpress"
         width={800}
         height={600}
         className="rounded-[20px] shadow-lg w-full object-contain"
       />
-    </div>
-
-    {/* Kolumn 2 */}
-    <div className="flex flex-col gap-6">
-       <Image
-        src="/photos/Varkorgen-i-wordpress-woocomers-system.png"
-        alt="Varkorgen-i-wordpress-woocomers-system"
-        width={800}
-        height={600}
-        className="rounded-[20px] shadow-lg w-full object-contain"
+    <Image
+        src="/photos/soderslatts responsvitet.png"
+        alt="Söderslätt-responsvitet-i-wordpress"
+        width={400}
+        height={300}
+        className="rounded-[20px] shadow-lg w-[250px] object-contain"
       />
-      <Image
-        src="/photos/Kassa-system-i-woocomers-wordpress.png"
-        alt="Kassa-system-i-woocomers-wordpress"
-        width={800}
-        height={600}
-        className="rounded-[20px] shadow-lg w-full object-contain"
-      />
-  
     </div>
 
   </div>
 </div>
 
-
-
       </section>
 
-    
+      
     </>
   );
 }

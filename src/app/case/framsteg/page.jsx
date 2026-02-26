@@ -56,7 +56,7 @@ En webbplats för kulturföreningen      </p>
             </div>
             <div>
               <h3 className="text-2xl">Vad</h3>
-              <p >Brand & WordPress webbplats</p>
+              <p >Hemsida & brand</p>
             </div>
             
           </div>

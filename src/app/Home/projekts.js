@@ -36,16 +36,16 @@ export default function Projects() {
             <ProjectCard 
               imgSrc="/photos/swefurn-hemsida.png"
               title="Swefurn"
-              desc="WordPress webbplats & SEO"
+              desc="Hemsida, SEO & marknadföring"
               link="/case/swefurn"
               height={420}
             />
 
             <ProjectCard 
-              imgSrc="/photos/framstegförening.png"
-              title="Framsteg förening"
-              desc="WordPress webbplats & brand"
-              link="/case/framsteg"
+              imgSrc="/photos/söderslätt hemsidan 1.png"
+              title="Söderslätts Byggnadsplåt "
+              desc="Hemsida & grund SEO"
+              link="/case/soderslett"
               height={380}
             />
           </motion.div>
@@ -55,7 +55,7 @@ export default function Projects() {
             <ProjectCard 
               imgSrc="/photos/Hyra minigrävaren webbdesign.png"
               title="Hyr minigrävaren"
-              desc="WordPress webbplats"
+              desc="Hemsida"
               link="/case/hyraminigravaren"
               height={350}
             />

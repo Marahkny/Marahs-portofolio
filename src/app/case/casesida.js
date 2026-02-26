@@ -6,9 +6,17 @@ import Script from "next/script";
 
 export default function Casesida() {
   const cards = [
+     {
+      title: "Söderslätts Byggnadsplåt",
+      category: "Hemsida & grund SEO",
+      image: "/photos/soderslett startsidan.png",
+      link: "/case/soderslett",
+      imgWidth: 550,
+      imgHeight: 320,
+    },
     {
       title: "Hyra minigrävaren",
-      category: "WordPress webbplats & grund SEO",
+      category: "Hemsida & grund SEO",
       image: "/photos/Hyra minigrävaren webbdesign.png",
       link: "/case/hyraminigravaren",
       imgWidth: 550,
@@ -16,7 +24,7 @@ export default function Casesida() {
     },
     {
       title: "Swefurn",
-      category: "WordPress webbplats & SEO",
+      category: "Hemsida, SEO & marknadföring",
       image: "/photos/swefurn-hemsida.png",
       link: "/case/swefurn",
       imgWidth: 600,
@@ -32,7 +40,7 @@ export default function Casesida() {
     },
     {
       title: "Framsteg förening",
-      category: "WordPress webbplats & brand",
+      category: "Hemsida & brand",
       image: "/photos/framstegförening.png",
       link: "/case/framsteg",
       imgWidth: 600,
