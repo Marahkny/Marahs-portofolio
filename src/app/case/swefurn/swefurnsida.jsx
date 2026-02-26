@@ -49,7 +49,7 @@ Hemsidan är byggd utifrån kundens önskemål, med fokus på struktur, använda
             </div>
             <div>
               <h3 className="text-2xl">Vad</h3>
-              <p >Hemsida, SEO & marknadföring</p>
+              <p >Hemsida, e-handel, SEO & marknadföring</p>
             </div>
             <div>
               <h3 className="text-2xl">Besök</h3>

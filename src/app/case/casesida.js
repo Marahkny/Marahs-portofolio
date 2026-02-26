@@ -16,7 +16,7 @@ export default function Casesida() {
     },
     {
       title: "Hyra minigrävaren",
-      category: "Hemsida & grund SEO",
+      category: "E-handel",
       image: "/photos/Hyra minigrävaren webbdesign.png",
       link: "/case/hyraminigravaren",
       imgWidth: 550,
@@ -24,7 +24,7 @@ export default function Casesida() {
     },
     {
       title: "Swefurn",
-      category: "Hemsida, SEO & marknadföring",
+      category: "Hemsida, e-handel, SEO & marknadföring",
       image: "/photos/swefurn-hemsida.png",
       link: "/case/swefurn",
       imgWidth: 600,

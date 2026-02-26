@@ -36,7 +36,7 @@ export default function Projects() {
             <ProjectCard 
               imgSrc="/photos/swefurn-hemsida.png"
               title="Swefurn"
-              desc="Hemsida, SEO & marknadföring"
+              desc="Hemsida, e-handel, SEO & marknadföring"
               link="/case/swefurn"
               height={420}
             />
@@ -55,7 +55,7 @@ export default function Projects() {
             <ProjectCard 
               imgSrc="/photos/Hyra minigrävaren webbdesign.png"
               title="Hyr minigrävaren"
-              desc="Hemsida"
+              desc="E-handel"
               link="/case/hyraminigravaren"
               height={350}
             />
