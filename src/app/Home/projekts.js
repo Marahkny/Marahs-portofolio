@@ -61,10 +61,10 @@ export default function Projects() {
             />
 
             <ProjectCard 
-              imgSrc="/photos/project-2.png"
-              title="Techno"
-              desc="UI/UX design & brand"
-              link="/case/techno"
+              imgSrc="/photos/social hemsidan.png"
+              title="Social Prevent"
+              desc="Hemsidan & designsystem"
+              link="/case/social-prevent"
               height={420}
             />
           </motion.div>

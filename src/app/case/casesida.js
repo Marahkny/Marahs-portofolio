@@ -6,6 +6,14 @@ import Script from "next/script";
 
 export default function Casesida() {
   const cards = [
+    {
+      title: "Social Prevent",
+      category: "Hemsida & designsystem",
+      image: "/photos/social hemsidan.png",
+      link: "/case/social-prevent",
+      imgWidth: 550,
+      imgHeight: 320,
+    },
      {
       title: "Söderslätts Byggnadsplåt",
       category: "Hemsida & grund SEO",
@@ -89,7 +97,7 @@ export default function Casesida() {
 
 
       {/* Cards Grid */}
-<div className="grid max-w-7xl mx-auto sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6">
+<div className="grid max-w-7xl mx-auto sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -108,7 +116,7 @@ export default function Casesida() {
               </div>
 
               <div className="py-6">
-                <h2 className="text-2xl pb-2 font-semibold">{card.title}</h2>
+                <h2 className="text-[20px] pb-2 font-semibold">{card.title}</h2>
                 <div className="flex items-center justify-between w-full pr-2">
                   <p className="text-[16px] text-gray-300">{card.category}</p>
                   <HiArrowSmallRight className="text-[#F5F5F5] text-[24px] transition-transform duration-300 group-hover:translate-x-2" />

@@ -1,4 +1,4 @@
-import Soderslettsida from "./soderslettsida";
+import Social from "./social";
 
 export const metadata = {
   title: "Zone 90 » Söderslätts Byggnadsplåt kundcase",
@@ -21,5 +21,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <Soderslettsida />;
+  return <Social />;
 }
